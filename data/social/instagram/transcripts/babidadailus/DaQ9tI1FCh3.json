@@ -1,0 +1,20 @@
+{
+  "handle": "babidadailus",
+  "shortcode": "DaQ9tI1FCh3",
+  "video_file": "data/social/instagram/media/babidadailus/DaQ9tI1FCh3.mp4",
+  "duracao_seg": 2.5,
+  "duracao_mmss": "00:02",
+  "idioma": null,
+  "idioma_prob": null,
+  "n_segmentos_fala": 0,
+  "n_textos_na_tela": 1,
+  "transcricao": "",
+  "segmentos": [],
+  "texto_na_tela": [
+    {
+      "t": 0.0,
+      "texto": "XoTxiT",
+      "conf": 0.51
+    }
+  ]
+}

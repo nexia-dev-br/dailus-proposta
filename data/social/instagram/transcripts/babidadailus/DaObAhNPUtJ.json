@@ -1,0 +1,141 @@
+{
+  "handle": "babidadailus",
+  "shortcode": "DaObAhNPUtJ",
+  "video_file": "data/social/instagram/media/babidadailus/DaObAhNPUtJ.mp4",
+  "duracao_seg": 94.1,
+  "duracao_mmss": "01:34",
+  "idioma": "pt",
+  "idioma_prob": 1,
+  "n_segmentos_fala": 20,
+  "n_textos_na_tela": 5,
+  "transcricao": "Eu resolvi mostrar um lançamento da DAILUS para vocês. Ele está incrível, é super diferente de tudo que vocês vão ver no mercado em relação a essa categoria de produtos e é o nosso novo gel de sombrancelhas, o nosso gel fixe tudo. O que ele tem de diferencial do gel que a gente já tem no mercado? A fixação dele. O nosso gel, ele já fixa super bem, mas esse novo gel, além da fixação, ele vai dar essa fixação por mais horas e permite com que você desenhe mais a sua sombrancelha, então ela vai ficar muito mais modelada. Quando você abre ele, ele tem duas partes a mais grossinha que você vai passar para jogar os fios para cima e depois a mais fininha que você vai alinhar os fios da forma que você quer. Você já consegue ver a diferença de um lado para o outro, aqui a sombrancelha super de pezinha, bem alinhada, até aquele up no olhar, e esse daqui a sombrancelha fala mais chocha, capenda, sem graça, normalzinha. Eu gosto da sombrancelha assim, mas se você prefere ela bem naquele estilo Brown Amination que ela fica super para cima, não tem problema e esse é um produto perfeito porque ele vai fixar a sua sombrancelha no lugar. Quando eu falo que ela fixa bem, é que ela fixa bem mesmo. É assim que ela fica, esse nosso novo gel de sombrancelha fixe tudo. Espero que vocês gostem, vão nas lojas, conheçam, é um produto incrível.",
+  "segmentos": [
+    {
+      "inicio": 0.0,
+      "fim": 3.4,
+      "texto": "Eu resolvi mostrar um lançamento da DAILUS para vocês."
+    },
+    {
+      "inicio": 3.4,
+      "fim": 8.3,
+      "texto": "Ele está incrível, é super diferente de tudo que vocês vão ver no mercado em relação"
+    },
+    {
+      "inicio": 8.3,
+      "fim": 14.9,
+      "texto": "a essa categoria de produtos e é o nosso novo gel de sombrancelhas, o nosso gel fixe tudo."
+    },
+    {
+      "inicio": 14.9,
+      "fim": 19.0,
+      "texto": "O que ele tem de diferencial do gel que a gente já tem no mercado?"
+    },
+    {
+      "inicio": 19.0,
+      "fim": 20.5,
+      "texto": "A fixação dele."
+    },
+    {
+      "inicio": 20.5,
+      "fim": 26.5,
+      "texto": "O nosso gel, ele já fixa super bem, mas esse novo gel, além da fixação, ele"
+    },
+    {
+      "inicio": 26.5,
+      "fim": 31.6,
+      "texto": "vai dar essa fixação por mais horas e permite com que você desenhe mais a sua sombrancelha,"
+    },
+    {
+      "inicio": 31.6,
+      "fim": 33.8,
+      "texto": "então ela vai ficar muito mais modelada."
+    },
+    {
+      "inicio": 33.8,
+      "fim": 43.9,
+      "texto": "Quando você abre ele, ele tem duas partes a mais grossinha que você vai passar para"
+    },
+    {
+      "inicio": 43.9,
+      "fim": 49.5,
+      "texto": "jogar os fios para cima e depois a mais fininha que você vai alinhar os fios da forma que"
+    },
+    {
+      "inicio": 49.5,
+      "fim": 55.0,
+      "texto": "você quer."
+    },
+    {
+      "inicio": 55.0,
+      "fim": 59.0,
+      "texto": "Você já consegue ver a diferença de um lado para o outro, aqui a sombrancelha"
+    },
+    {
+      "inicio": 59.0,
+      "fim": 64.3,
+      "texto": "super de pezinha, bem alinhada, até aquele up no olhar, e esse daqui a sombrancelha fala"
+    },
+    {
+      "inicio": 64.3,
+      "fim": 68.2,
+      "texto": "mais chocha, capenda, sem graça, normalzinha."
+    },
+    {
+      "inicio": 68.2,
+      "fim": 72.0,
+      "texto": "Eu gosto da sombrancelha assim, mas se você prefere ela bem naquele estilo Brown Amination"
+    },
+    {
+      "inicio": 72.0,
+      "fim": 76.9,
+      "texto": "que ela fica super para cima, não tem problema e esse é um produto perfeito porque ele vai"
+    },
+    {
+      "inicio": 76.9,
+      "fim": 79.2,
+      "texto": "fixar a sua sombrancelha no lugar."
+    },
+    {
+      "inicio": 79.2,
+      "fim": 83.8,
+      "texto": "Quando eu falo que ela fixa bem, é que ela fixa bem mesmo."
+    },
+    {
+      "inicio": 83.8,
+      "fim": 88.0,
+      "texto": "É assim que ela fica, esse nosso novo gel de sombrancelha fixe tudo."
+    },
+    {
+      "inicio": 88.0,
+      "fim": 92.8,
+      "texto": "Espero que vocês gostem, vão nas lojas, conheçam, é um produto incrível."
+    }
+  ],
+  "texto_na_tela": [
+    {
+      "t": 11.8,
+      "texto": "Dailus",
+      "conf": 1.0
+    },
+    {
+      "t": 11.8,
+      "texto": "TUDO",
+      "conf": 0.65
+    },
+    {
+      "t": 11.8,
+      "texto": "orou",
+      "conf": 0.45
+    },
+    {
+      "t": 11.8,
+      "texto": "Uncolor",
+      "conf": 0.48
+    },
+    {
+      "t": 58.8,
+      "texto": "COCJ CEL",
+      "conf": 0.51
+    }
+  ]
+}

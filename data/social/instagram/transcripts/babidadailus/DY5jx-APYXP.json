@@ -1,0 +1,130 @@
+{
+  "handle": "babidadailus",
+  "shortcode": "DY5jx-APYXP",
+  "video_file": "data/social/instagram/media/babidadailus/DY5jx-APYXP.mp4",
+  "duracao_seg": 29.4,
+  "duracao_mmss": "00:29",
+  "idioma": "pt",
+  "idioma_prob": 1,
+  "n_segmentos_fala": 0,
+  "n_textos_na_tela": 23,
+  "transcricao": "",
+  "segmentos": [],
+  "texto_na_tela": [
+    {
+      "t": 0.0,
+      "texto": "Coisas queeuamo",
+      "conf": 0.95
+    },
+    {
+      "t": 0.0,
+      "texto": "noescritório",
+      "conf": 0.91
+    },
+    {
+      "t": 2.9,
+      "texto": "Nossa",
+      "conf": 1.0
+    },
+    {
+      "t": 2.9,
+      "texto": "recepçãoicom",
+      "conf": 0.76
+    },
+    {
+      "t": 2.9,
+      "texto": "vitrine de lançamentos",
+      "conf": 0.97
+    },
+    {
+      "t": 2.9,
+      "texto": "BEM-VIN",
+      "conf": 1.0
+    },
+    {
+      "t": 2.9,
+      "texto": "CHEGOU",
+      "conf": 1.0
+    },
+    {
+      "t": 2.9,
+      "texto": "HORA",
+      "conf": 1.0
+    },
+    {
+      "t": 5.9,
+      "texto": "Nossa recepção com",
+      "conf": 0.99
+    },
+    {
+      "t": 5.9,
+      "texto": "BEM-VINDE!",
+      "conf": 0.53
+    },
+    {
+      "t": 5.9,
+      "texto": "DIVERSÃO `",
+      "conf": 0.43
+    },
+    {
+      "t": 8.8,
+      "texto": "@ paredão de",
+      "conf": 0.85
+    },
+    {
+      "t": 8.8,
+      "texto": "esmaltes",
+      "conf": 0.99
+    },
+    {
+      "t": 11.8,
+      "texto": "Quadro da 20 identidade",
+      "conf": 0.6
+    },
+    {
+      "t": 11.8,
+      "texto": "all",
+      "conf": 0.92
+    },
+    {
+      "t": 11.8,
+      "texto": "visual damarca",
+      "conf": 0.9
+    },
+    {
+      "t": 11.8,
+      "texto": "vida",
+      "conf": 0.96
+    },
+    {
+      "t": 14.7,
+      "texto": "avida",
+      "conf": 0.96
+    },
+    {
+      "t": 17.6,
+      "texto": "Nosso cantinho",
+      "conf": 0.88
+    },
+    {
+      "t": 17.6,
+      "texto": "Dailus",
+      "conf": 0.66
+    },
+    {
+      "t": 20.6,
+      "texto": "do café",
+      "conf": 0.82
+    },
+    {
+      "t": 23.5,
+      "texto": "Vários produtinhos",
+      "conf": 1.0
+    },
+    {
+      "t": 23.5,
+      "texto": "que temosnasaladeP&D",
+      "conf": 0.94
+    }
+  ]
+}

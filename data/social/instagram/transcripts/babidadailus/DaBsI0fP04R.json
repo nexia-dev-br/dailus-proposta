@@ -1,0 +1,716 @@
+{
+  "handle": "babidadailus",
+  "shortcode": "DaBsI0fP04R",
+  "video_file": "data/social/instagram/media/babidadailus/DaBsI0fP04R.mp4",
+  "duracao_seg": 158.1,
+  "duracao_mmss": "02:38",
+  "idioma": "pt",
+  "idioma_prob": 1,
+  "n_segmentos_fala": 31,
+  "n_textos_na_tela": 109,
+  "transcricao": "Quando vocês recebem um produto, quando vocês compram um produto, vocês imaginam toda cadeia que tem envolvida atrás disso pra ele chegar perfeitinho pra vocês? Pois é, posso dizer a gente que é muita coisa que acontece e um dos processos que eu tenho mais orgulho de falar aqui da Dailuz é todo nosso processo de qualidade envolvido pra que esse produto chegue perfeito nas lojas. E queria até chamar uma das pessoas responsáveis por isso que é Agi, que tá aqui com a gente, que é responsável por parte do processo e ela vai explicar pra vocês um pouquinho de tudo que a gente faz aqui na Dailuz. Depois que o produto chega, ele recebe a conferência do pessoal da logística que vai conferir quantidade, lote, todas as informações da nota fiscal. A logística liberando pra gente, a gente vai até o produto, faz conferência, dilote, validade, data de fabricação, vê se todas as informações bate de acordo com a nota fiscal. Passado essa arte da conferência, a gente retira peças pra fazer a conferência dentro do laboratório. Então a gente dentro do laboratório tem as análises que são organolépticas e fisicoaquínicas. Então a gente faz análise de cor, faz análise de textura, análise de odor, análise de aspecto. E na carga a gente também faz a conferência, a gente tem padrões que são pré definidos pela equipe de pesquisa e desenvolvimento, que esses padrões são pré aprovados e passados para o time de qualidade. A gente também faz a análise da embalagem, tanto dos cartuchos, dos produtos que vêm em volta de cartuchos. A análise de cor, de zeres legais, a arte, se não tem algum defeito. E também a análise da embalagem. Depois que a equipe de pesquisa e desenvolvimento aprova uma fórmula, eles mandam peças, o fornecedor manda algumas peças pra gente dar continuidade aos testes, que seria o teste de estabilidade. No teste de estabilidade a gente vai avaliar como que esse produto, essa fórmula que foi aprovada, se comporta em diferentes temperaturas, que seria na temperatura ambiente, na estufa, que é a temperatura mais elevada e na geladeira. Então, a gente avalia durante um período pra ver se a fórmula mantém as suas características até o fim dos testes. Então, passa por toda essa cadeia. E depois que a gente faz essas análises, a gente libera o produto pra ser comercializado. Vai pro time comercial e esse produto chega no cliente final.",
+  "segmentos": [
+    {
+      "inicio": 0.0,
+      "fim": 3.0,
+      "texto": "Quando vocês recebem um produto, quando vocês compram um produto,"
+    },
+    {
+      "inicio": 3.0,
+      "fim": 9.0,
+      "texto": "vocês imaginam toda cadeia que tem envolvida atrás disso pra ele chegar perfeitinho pra vocês?"
+    },
+    {
+      "inicio": 9.0,
+      "fim": 12.5,
+      "texto": "Pois é, posso dizer a gente que é muita coisa que acontece"
+    },
+    {
+      "inicio": 12.5,
+      "fim": 15.9,
+      "texto": "e um dos processos que eu tenho mais orgulho de falar aqui da Dailuz"
+    },
+    {
+      "inicio": 15.9,
+      "fim": 21.7,
+      "texto": "é todo nosso processo de qualidade envolvido pra que esse produto chegue perfeito nas lojas."
+    },
+    {
+      "inicio": 21.7,
+      "fim": 25.4,
+      "texto": "E queria até chamar uma das pessoas responsáveis por isso que é Agi,"
+    },
+    {
+      "inicio": 25.4,
+      "fim": 28.5,
+      "texto": "que tá aqui com a gente, que é responsável por parte do processo"
+    },
+    {
+      "inicio": 28.5,
+      "fim": 32.5,
+      "texto": "e ela vai explicar pra vocês um pouquinho de tudo que a gente faz aqui na Dailuz."
+    },
+    {
+      "inicio": 32.5,
+      "fim": 37.0,
+      "texto": "Depois que o produto chega, ele recebe a conferência do pessoal da logística"
+    },
+    {
+      "inicio": 37.0,
+      "fim": 41.5,
+      "texto": "que vai conferir quantidade, lote, todas as informações da nota fiscal."
+    },
+    {
+      "inicio": 41.5,
+      "fim": 47.0,
+      "texto": "A logística liberando pra gente, a gente vai até o produto, faz conferência,"
+    },
+    {
+      "inicio": 47.0,
+      "fim": 55.0,
+      "texto": "dilote, validade, data de fabricação, vê se todas as informações bate de acordo com a nota fiscal."
+    },
+    {
+      "inicio": 55.0,
+      "fim": 62.5,
+      "texto": "Passado essa arte da conferência, a gente retira peças pra fazer a conferência dentro do laboratório."
+    },
+    {
+      "inicio": 62.5,
+      "fim": 69.0,
+      "texto": "Então a gente dentro do laboratório tem as análises que são organolépticas e fisicoaquínicas."
+    },
+    {
+      "inicio": 69.0,
+      "fim": 76.0,
+      "texto": "Então a gente faz análise de cor, faz análise de textura, análise de odor, análise de aspecto."
+    },
+    {
+      "inicio": 76.0,
+      "fim": 82.0,
+      "texto": "E na carga a gente também faz a conferência, a gente tem padrões que são pré definidos"
+    },
+    {
+      "inicio": 82.0,
+      "fim": 87.0,
+      "texto": "pela equipe de pesquisa e desenvolvimento, que esses padrões são pré aprovados"
+    },
+    {
+      "inicio": 87.0,
+      "fim": 89.0,
+      "texto": "e passados para o time de qualidade."
+    },
+    {
+      "inicio": 89.0,
+      "fim": 98.0,
+      "texto": "A gente também faz a análise da embalagem, tanto dos cartuchos, dos produtos que vêm em volta de cartuchos."
+    },
+    {
+      "inicio": 98.0,
+      "fim": 105.0,
+      "texto": "A análise de cor, de zeres legais, a arte, se não tem algum defeito."
+    },
+    {
+      "inicio": 105.0,
+      "fim": 107.0,
+      "texto": "E também a análise da embalagem."
+    },
+    {
+      "inicio": 107.0,
+      "fim": 111.0,
+      "texto": "Depois que a equipe de pesquisa e desenvolvimento aprova uma fórmula,"
+    },
+    {
+      "inicio": 111.0,
+      "fim": 118.0,
+      "texto": "eles mandam peças, o fornecedor manda algumas peças pra gente dar continuidade aos testes,"
+    },
+    {
+      "inicio": 118.0,
+      "fim": 120.0,
+      "texto": "que seria o teste de estabilidade."
+    },
+    {
+      "inicio": 120.0,
+      "fim": 126.0,
+      "texto": "No teste de estabilidade a gente vai avaliar como que esse produto, essa fórmula que foi aprovada,"
+    },
+    {
+      "inicio": 126.0,
+      "fim": 132.0,
+      "texto": "se comporta em diferentes temperaturas, que seria na temperatura ambiente, na estufa,"
+    },
+    {
+      "inicio": 132.0,
+      "fim": 135.0,
+      "texto": "que é a temperatura mais elevada e na geladeira."
+    },
+    {
+      "inicio": 135.0,
+      "fim": 144.0,
+      "texto": "Então, a gente avalia durante um período pra ver se a fórmula mantém as suas características até o fim dos testes."
+    },
+    {
+      "inicio": 144.0,
+      "fim": 147.0,
+      "texto": "Então, passa por toda essa cadeia."
+    },
+    {
+      "inicio": 147.0,
+      "fim": 153.0,
+      "texto": "E depois que a gente faz essas análises, a gente libera o produto pra ser comercializado."
+    },
+    {
+      "inicio": 153.0,
+      "fim": 158.0,
+      "texto": "Vai pro time comercial e esse produto chega no cliente final."
+    }
+  ],
+  "texto_na_tela": [
+    {
+      "t": 2.9,
+      "texto": "vocês imaginam toda cadeia",
+      "conf": 1.0
+    },
+    {
+      "t": 2.9,
+      "texto": "que tem envolvida atrás disso",
+      "conf": 0.92
+    },
+    {
+      "t": 5.9,
+      "texto": "praele chegar perfeitinho",
+      "conf": 0.96
+    },
+    {
+      "t": 8.8,
+      "texto": "posso garantir que é muita",
+      "conf": 0.67
+    },
+    {
+      "t": 8.8,
+      "texto": "coisa que acontece",
+      "conf": 0.88
+    },
+    {
+      "t": 11.8,
+      "texto": "e um dos pprocessos queeu",
+      "conf": 0.44
+    },
+    {
+      "t": 11.8,
+      "texto": "tenho mais orgulho de falar",
+      "conf": 0.8
+    },
+    {
+      "t": 17.6,
+      "texto": "pra que esse produto chegue",
+      "conf": 0.99
+    },
+    {
+      "t": 17.6,
+      "texto": "perfeito nas lojas.",
+      "conf": 0.97
+    },
+    {
+      "t": 20.6,
+      "texto": "Equeria até chamar",
+      "conf": 1.0
+    },
+    {
+      "t": 23.5,
+      "texto": "que é a Gi,",
+      "conf": 0.72
+    },
+    {
+      "t": 26.5,
+      "texto": "que é responsável por",
+      "conf": 0.99
+    },
+    {
+      "t": 26.5,
+      "texto": "parte do processo",
+      "conf": 0.99
+    },
+    {
+      "t": 29.4,
+      "texto": "de tudo que a gente",
+      "conf": 0.94
+    },
+    {
+      "t": 29.4,
+      "texto": "faz aqui na Dailus.",
+      "conf": 0.92
+    },
+    {
+      "t": 32.4,
+      "texto": "Depois que 0 produto chega",
+      "conf": 0.81
+    },
+    {
+      "t": 32.4,
+      "texto": "Dailus",
+      "conf": 0.96
+    },
+    {
+      "t": 32.4,
+      "texto": "Grupo",
+      "conf": 1.0
+    },
+    {
+      "t": 35.3,
+      "texto": "ele recebe a conferência do",
+      "conf": 0.97
+    },
+    {
+      "t": 35.3,
+      "texto": "pessoal da logística",
+      "conf": 1.0
+    },
+    {
+      "t": 38.2,
+      "texto": "crupo",
+      "conf": 0.58
+    },
+    {
+      "t": 38.2,
+      "texto": "todas as informações",
+      "conf": 0.9
+    },
+    {
+      "t": 38.2,
+      "texto": "da nota fiscal.",
+      "conf": 0.71
+    },
+    {
+      "t": 41.2,
+      "texto": "Grupa Dailus",
+      "conf": 0.5
+    },
+    {
+      "t": 41.2,
+      "texto": "A logística liberando pra gente;",
+      "conf": 0.9
+    },
+    {
+      "t": 47.1,
+      "texto": "Validade",
+      "conf": 0.96
+    },
+    {
+      "t": 47.1,
+      "texto": "Stage",
+      "conf": 0.99
+    },
+    {
+      "t": 50.0,
+      "texto": "vê se todas as informacões",
+      "conf": 0.56
+    },
+    {
+      "t": 52.9,
+      "texto": "bate de acordo com",
+      "conf": 1.0
+    },
+    {
+      "t": 52.9,
+      "texto": "nota fiscal né?!",
+      "conf": 0.88
+    },
+    {
+      "t": 55.9,
+      "texto": "@uaudade",
+      "conf": 0.63
+    },
+    {
+      "t": 55.9,
+      "texto": "Dallus",
+      "conf": 0.85
+    },
+    {
+      "t": 55.9,
+      "texto": "Passado essa parte",
+      "conf": 0.92
+    },
+    {
+      "t": 55.9,
+      "texto": "da conferência;",
+      "conf": 0.94
+    },
+    {
+      "t": 55.9,
+      "texto": "Dals",
+      "conf": 0.84
+    },
+    {
+      "t": 58.8,
+      "texto": "peças pra fazer a conferência",
+      "conf": 0.95
+    },
+    {
+      "t": 58.8,
+      "texto": "dentro do laboratório",
+      "conf": 0.81
+    },
+    {
+      "t": 61.8,
+      "texto": "então a gente dentro @o",
+      "conf": 0.8
+    },
+    {
+      "t": 61.8,
+      "texto": "laboratório tem as análises",
+      "conf": 0.99
+    },
+    {
+      "t": 64.7,
+      "texto": "Grupo Dailus",
+      "conf": 0.61
+    },
+    {
+      "t": 67.6,
+      "texto": "que são organolépticase",
+      "conf": 1.0
+    },
+    {
+      "t": 67.6,
+      "texto": "físico químicass",
+      "conf": 0.45
+    },
+    {
+      "t": 70.6,
+      "texto": "faz análise de textura;",
+      "conf": 0.9
+    },
+    {
+      "t": 73.5,
+      "texto": "análise de aspecto",
+      "conf": 0.92
+    },
+    {
+      "t": 76.5,
+      "texto": "Grur",
+      "conf": 0.98
+    },
+    {
+      "t": 76.5,
+      "texto": "ena carga a gente também",
+      "conf": 0.76
+    },
+    {
+      "t": 76.5,
+      "texto": "faz a conferência",
+      "conf": 1.0
+    },
+    {
+      "t": 79.4,
+      "texto": "padrões que são",
+      "conf": 0.89
+    },
+    {
+      "t": 79.4,
+      "texto": "definidos",
+      "conf": 0.94
+    },
+    {
+      "t": 79.4,
+      "texto": "pela equipe de",
+      "conf": 0.94
+    },
+    {
+      "t": 79.4,
+      "texto": "PADRAO",
+      "conf": 0.85
+    },
+    {
+      "t": 79.4,
+      "texto": "@coiosy",
+      "conf": 0.58
+    },
+    {
+      "t": 79.4,
+      "texto": "06/26",
+      "conf": 0.98
+    },
+    {
+      "t": 79.4,
+      "texto": "Winina",
+      "conf": 0.61
+    },
+    {
+      "t": 79.4,
+      "texto": "Loie",
+      "conf": 0.75
+    },
+    {
+      "t": 79.4,
+      "texto": "Cod",
+      "conf": 1.0
+    },
+    {
+      "t": 79.4,
+      "texto": "tlizar",
+      "conf": 0.46
+    },
+    {
+      "t": 82.4,
+      "texto": "pesquisa e desenvolvimento",
+      "conf": 0.49
+    },
+    {
+      "t": 85.3,
+      "texto": "queesses padrões eles",
+      "conf": 0.7
+    },
+    {
+      "t": 85.3,
+      "texto": "'@pr@vados e",
+      "conf": 0.42
+    },
+    {
+      "t": 85.3,
+      "texto": "EMBALAGENS",
+      "conf": 0.96
+    },
+    {
+      "t": 85.3,
+      "texto": "COR",
+      "conf": 0.94
+    },
+    {
+      "t": 85.3,
+      "texto": "BLUSH",
+      "conf": 0.99
+    },
+    {
+      "t": 85.3,
+      "texto": "VARIAÇAO",
+      "conf": 0.88
+    },
+    {
+      "t": 85.3,
+      "texto": "RANGE",
+      "conf": 0.94
+    },
+    {
+      "t": 85.3,
+      "texto": "EMHOLO 5",
+      "conf": 0.57
+    },
+    {
+      "t": 85.3,
+      "texto": "DA ARTE F",
+      "conf": 0.53
+    },
+    {
+      "t": 85.3,
+      "texto": "IDEA",
+      "conf": 0.96
+    },
+    {
+      "t": 85.3,
+      "texto": "Pailus",
+      "conf": 0.4
+    },
+    {
+      "t": 88.2,
+      "texto": "A gente também faz",
+      "conf": 0.69
+    },
+    {
+      "t": 88.2,
+      "texto": "análiseda embalagem",
+      "conf": 0.74
+    },
+    {
+      "t": 94.1,
+      "texto": "dos [pr@dutos que vem",
+      "conf": 0.43
+    },
+    {
+      "t": 94.1,
+      "texto": "em volta decartuchos;",
+      "conf": 0.5
+    },
+    {
+      "t": 97.1,
+      "texto": "anâlisede €or,",
+      "conf": 0.44
+    },
+    {
+      "t": 100.0,
+      "texto": "upo Dailus",
+      "conf": 0.92
+    },
+    {
+      "t": 100.0,
+      "texto": "arte; né?!",
+      "conf": 0.47
+    },
+    {
+      "t": 102.9,
+      "texto": "Se não tem algum defeito",
+      "conf": 0.59
+    },
+    {
+      "t": 105.9,
+      "texto": "Cona",
+      "conf": 0.52
+    },
+    {
+      "t": 105.9,
+      "texto": "Depois queaequipe de",
+      "conf": 0.8
+    },
+    {
+      "t": 108.8,
+      "texto": "aprova uma fórmula;",
+      "conf": 0.79
+    },
+    {
+      "t": 111.8,
+      "texto": "Coa",
+      "conf": 0.58
+    },
+    {
+      "t": 111.8,
+      "texto": "eles",
+      "conf": 1.0
+    },
+    {
+      "t": 114.7,
+      "texto": "algumas",
+      "conf": 0.93
+    },
+    {
+      "t": 114.7,
+      "texto": "continuidade aos testes",
+      "conf": 0.84
+    },
+    {
+      "t": 117.6,
+      "texto": "Csu",
+      "conf": 0.59
+    },
+    {
+      "t": 117.6,
+      "texto": "que seria 0 teste",
+      "conf": 0.52
+    },
+    {
+      "t": 117.6,
+      "texto": "de estabilidade",
+      "conf": 1.0
+    },
+    {
+      "t": 120.6,
+      "texto": "gente vai avaliar",
+      "conf": 1.0
+    },
+    {
+      "t": 123.5,
+      "texto": "essa fórmula",
+      "conf": 0.98
+    },
+    {
+      "t": 126.5,
+      "texto": "comporta em diferentesJs",
+      "conf": 0.73
+    },
+    {
+      "t": 126.5,
+      "texto": "temperaturas",
+      "conf": 0.99
+    },
+    {
+      "t": 129.4,
+      "texto": "po Dailus",
+      "conf": 0.78
+    },
+    {
+      "t": 132.4,
+      "texto": "mais",
+      "conf": 1.0
+    },
+    {
+      "t": 135.3,
+      "texto": "Grupo D^",
+      "conf": 0.64
+    },
+    {
+      "t": 135.3,
+      "texto": "avalia durante um @eríodo",
+      "conf": 0.51
+    },
+    {
+      "t": 138.2,
+      "texto": "pra ver se a fórmula",
+      "conf": 0.9
+    },
+    {
+      "t": 141.2,
+      "texto": "Jailus",
+      "conf": 0.96
+    },
+    {
+      "t": 141.2,
+      "texto": "ela mantém as suas",
+      "conf": 0.95
+    },
+    {
+      "t": 141.2,
+      "texto": "características",
+      "conf": 1.0
+    },
+    {
+      "t": 141.2,
+      "texto": "Grupc",
+      "conf": 0.51
+    },
+    {
+      "t": 144.1,
+      "texto": "Então passa por toda",
+      "conf": 0.99
+    },
+    {
+      "t": 144.1,
+      "texto": "essa cadeia",
+      "conf": 0.98
+    },
+    {
+      "t": 147.1,
+      "texto": "depois que a gente",
+      "conf": 0.8
+    },
+    {
+      "t": 147.1,
+      "texto": "faz essas análises",
+      "conf": 1.0
+    },
+    {
+      "t": 150.0,
+      "texto": "gente libera @",
+      "conf": 0.57
+    },
+    {
+      "t": 150.0,
+      "texto": "produto",
+      "conf": 0.99
+    },
+    {
+      "t": 152.9,
+      "texto": "vai pro time comercial",
+      "conf": 0.8
+    },
+    {
+      "t": 155.9,
+      "texto": "eesse produto chega",
+      "conf": 1.0
+    },
+    {
+      "t": 155.9,
+      "texto": "no cliente final",
+      "conf": 0.82
+    }
+  ]
+}

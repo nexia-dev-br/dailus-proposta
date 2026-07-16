@@ -1,0 +1,30 @@
+{
+  "handle": "dailus",
+  "shortcode": "DagEunJlDv_",
+  "video_file": "data/social/instagram/media/dailus/DagEunJlDv_.mp4",
+  "duracao_seg": 4.7,
+  "duracao_mmss": "00:04",
+  "idioma": null,
+  "idioma_prob": null,
+  "n_segmentos_fala": 0,
+  "n_textos_na_tela": 3,
+  "transcricao": "",
+  "segmentos": [],
+  "texto_na_tela": [
+    {
+      "t": 0.0,
+      "texto": "ooooo, e que nã'",
+      "conf": 0.42
+    },
+    {
+      "t": 2.9,
+      "texto": "ooooo; e que não",
+      "conf": 0.68
+    },
+    {
+      "t": 2.9,
+      "texto": "agrida minha peeee",
+      "conf": 0.96
+    }
+  ]
+}

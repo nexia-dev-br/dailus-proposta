@@ -1,0 +1,96 @@
+{
+  "handle": "babidadailus",
+  "shortcode": "DZODjJevm20",
+  "video_file": "data/social/instagram/media/babidadailus/DZODjJevm20.mp4",
+  "duracao_seg": 14.3,
+  "duracao_mmss": "00:14",
+  "idioma": "pt",
+  "idioma_prob": 1,
+  "n_segmentos_fala": 8,
+  "n_textos_na_tela": 8,
+  "transcricao": "Pepu mas não Eu não lembro o que fiz Acho que eu passei do ponto Eu só lembro o teu bebê De logo, logo eu tava tonto Não, não Pra tirar a eu Pepu mas não",
+  "segmentos": [
+    {
+      "inicio": 0.0,
+      "fim": 2.0,
+      "texto": "Pepu mas não"
+    },
+    {
+      "inicio": 3.5,
+      "fim": 5.5,
+      "texto": "Eu não lembro o que fiz"
+    },
+    {
+      "inicio": 5.5,
+      "fim": 6.5,
+      "texto": "Acho que eu passei do ponto"
+    },
+    {
+      "inicio": 6.5,
+      "fim": 8.0,
+      "texto": "Eu só lembro o teu bebê"
+    },
+    {
+      "inicio": 8.0,
+      "fim": 10.0,
+      "texto": "De logo, logo eu tava tonto"
+    },
+    {
+      "inicio": 10.0,
+      "fim": 11.0,
+      "texto": "Não, não"
+    },
+    {
+      "inicio": 11.0,
+      "fim": 12.0,
+      "texto": "Pra tirar a eu"
+    },
+    {
+      "inicio": 12.0,
+      "fim": 13.5,
+      "texto": "Pepu mas não"
+    }
+  ],
+  "texto_na_tela": [
+    {
+      "t": 0.0,
+      "texto": "Mostre 0 quanto você é expressiva",
+      "conf": 0.93
+    },
+    {
+      "t": 0.0,
+      "texto": "sem dizer uma palavra!",
+      "conf": 0.69
+    },
+    {
+      "t": 2.9,
+      "texto": "sem dizer uma",
+      "conf": 0.89
+    },
+    {
+      "t": 2.9,
+      "texto": "palavra!",
+      "conf": 0.59
+    },
+    {
+      "t": 5.9,
+      "texto": "sem dizer uma palavral",
+      "conf": 0.75
+    },
+    {
+      "t": 8.8,
+      "texto": "apcDailus",
+      "conf": 0.42
+    },
+    {
+      "t": 11.8,
+      "texto": "Mostre 0",
+      "conf": 0.81
+    },
+    {
+      "t": 11.8,
+      "texto": "quanto você é expressiva",
+      "conf": 0.91
+    }
+  ]
+}

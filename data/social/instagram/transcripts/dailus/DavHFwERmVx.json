@@ -1,0 +1,481 @@
+{
+  "handle": "dailus",
+  "shortcode": "DavHFwERmVx",
+  "video_file": "data/social/instagram/media/dailus/DavHFwERmVx.mp4",
+  "duracao_seg": 144.1,
+  "duracao_mmss": "02:24",
+  "idioma": "pt",
+  "idioma_prob": 1,
+  "n_segmentos_fala": 30,
+  "n_textos_na_tela": 63,
+  "transcricao": "Oi pessoal, eu sou a Amanda, estou aqui na corrida com a Dailos. Eu vou correr 3 quilômetros, ainda não sei mais do tempo, porque eu sou uma corredora iniciante, gente. Vamos ter paciência, então acho que eu vou dar uma revezadinha entre caminhada e correr, mas acho que uns 40 minutos está bom. Oi gente, Jessica aqui, estou na corrida, a gente é a primeira corrida, tá? Então, assim, comecei com 3 quilômetros para correr, caminhar junto. Acredito que é o quê? 30, 40 minutos? Vamos, né, amiga? Então, bora! Oi, meu nome é Natália, eu vou correr 10 quilômetros. Eu quero bater meu arrepenta, eu quero fazer a baixa de 49, e eu espero que a minha pele dure. Mas ela vai durar, eu tenho certeza. Oi, sou a Janna, vou correr 10 quilômetros, e a minha última hora de 10 quilômetros eu fiz em 58, vamos tentar pelo menos 57, e eu tenho certeza absoluta que eu amei, que vai durar muito, porque eu amei. Oi, eu sou Tremi, vou correr 10 quilômetros, minha pele está aqui, intacta, meu amor, e eu tenho certeza que ela vai durar, porque eu fiz toda a preparação, não sou louca, lógico. Então, bora, compartilhem comigo, let's go! Gente, consegui finalizar a corrida, e eu até fiz um tempo melhor do que eu tinha falado antes, fiz 27 minutos, então estou super feliz com o resultado, porque foi a minha primeira corrida, mas o que eu mais fiquei feliz, gente, é com a pele, olha isso aqui, pele blindada. Gente, eu finalizei para a primeira, eu falei 30, 40 minutos, foi 27, entre caminhada e corrida, eu achei ótimo, tá? A pele está intacta, e é isso que importa, meu bem. Olha isso, está perfeito, perfeita, Dailuz. Oiê, eu fiz em 45 minutos, eu bati minha RP, gente, e a Maggie está intacta. Olha isso, intacta. Consegui finalizar os 10 quilômetros, e não só Dailuz, como eu, nós vamos muito hoje, porque consegui entregar os 10 quilômetros, não foi esse menor do que eu imaginei, fiz em 50 minutos, e a Dailuz conseguiu entregar uma maquiagem maravilhosa, e durou muito, muito, muito. Meus amores, fiz 10 km em 51 minutos, e eu não preciso nem dizer, né? Só vocês olharem, ó. Amor, se aguenta uma hora de show, bater no cabelo, fazer no pirueto, não vai aguentar 50 minutinhos correndo, uma maratoninha, ó, Dailuz entrega, meu amor.",
+  "segmentos": [
+    {
+      "inicio": 0.0,
+      "fim": 4.0,
+      "texto": "Oi pessoal, eu sou a Amanda, estou aqui na corrida com a Dailos."
+    },
+    {
+      "inicio": 4.0,
+      "fim": 10.0,
+      "texto": "Eu vou correr 3 quilômetros, ainda não sei mais do tempo, porque eu sou uma corredora iniciante, gente."
+    },
+    {
+      "inicio": 10.0,
+      "fim": 16.0,
+      "texto": "Vamos ter paciência, então acho que eu vou dar uma revezadinha entre caminhada e correr, mas acho que uns 40 minutos está bom."
+    },
+    {
+      "inicio": 16.0,
+      "fim": 20.0,
+      "texto": "Oi gente, Jessica aqui, estou na corrida, a gente é a primeira corrida, tá?"
+    },
+    {
+      "inicio": 20.0,
+      "fim": 25.0,
+      "texto": "Então, assim, comecei com 3 quilômetros para correr, caminhar junto. Acredito que é o quê?"
+    },
+    {
+      "inicio": 25.0,
+      "fim": 29.0,
+      "texto": "30, 40 minutos? Vamos, né, amiga? Então, bora!"
+    },
+    {
+      "inicio": 30.0,
+      "fim": 34.0,
+      "texto": "Oi, meu nome é Natália, eu vou correr 10 quilômetros."
+    },
+    {
+      "inicio": 34.0,
+      "fim": 43.7,
+      "texto": "Eu quero bater meu arrepenta, eu quero fazer a baixa de 49, e eu espero que a minha pele dure."
+    },
+    {
+      "inicio": 43.7,
+      "fim": 45.7,
+      "texto": "Mas ela vai durar, eu tenho certeza."
+    },
+    {
+      "inicio": 45.7,
+      "fim": 51.7,
+      "texto": "Oi, sou a Janna, vou correr 10 quilômetros, e a minha última hora de 10 quilômetros eu fiz em 58,"
+    },
+    {
+      "inicio": 51.7,
+      "fim": 57.7,
+      "texto": "vamos tentar pelo menos 57, e eu tenho certeza absoluta que eu amei, que vai durar muito, porque eu amei."
+    },
+    {
+      "inicio": 57.7,
+      "fim": 63.7,
+      "texto": "Oi, eu sou Tremi, vou correr 10 quilômetros, minha pele está aqui, intacta, meu amor,"
+    },
+    {
+      "inicio": 63.7,
+      "fim": 67.7,
+      "texto": "e eu tenho certeza que ela vai durar, porque eu fiz toda a preparação, não sou louca, lógico."
+    },
+    {
+      "inicio": 67.7,
+      "fim": 70.7,
+      "texto": "Então, bora, compartilhem comigo, let's go!"
+    },
+    {
+      "inicio": 70.7,
+      "fim": 77.2,
+      "texto": "Gente, consegui finalizar a corrida, e eu até fiz um tempo melhor do que eu tinha falado antes,"
+    },
+    {
+      "inicio": 77.2,
+      "fim": 81.2,
+      "texto": "fiz 27 minutos, então estou super feliz com o resultado, porque foi a minha primeira corrida,"
+    },
+    {
+      "inicio": 81.2,
+      "fim": 86.2,
+      "texto": "mas o que eu mais fiquei feliz, gente, é com a pele, olha isso aqui, pele blindada."
+    },
+    {
+      "inicio": 86.2,
+      "fim": 90.2,
+      "texto": "Gente, eu finalizei para a primeira, eu falei 30, 40 minutos, foi 27, entre caminhada e corrida,"
+    },
+    {
+      "inicio": 90.2,
+      "fim": 93.2,
+      "texto": "eu achei ótimo, tá? A pele está intacta, e é isso que importa, meu bem."
+    },
+    {
+      "inicio": 93.2,
+      "fim": 97.2,
+      "texto": "Olha isso, está perfeito, perfeita, Dailuz."
+    },
+    {
+      "inicio": 98.2,
+      "fim": 105.2,
+      "texto": "Oiê, eu fiz em 45 minutos, eu bati minha RP, gente, e a Maggie está intacta."
+    },
+    {
+      "inicio": 105.2,
+      "fim": 107.2,
+      "texto": "Olha isso, intacta."
+    },
+    {
+      "inicio": 107.2,
+      "fim": 111.2,
+      "texto": "Consegui finalizar os 10 quilômetros, e não só Dailuz, como eu,"
+    },
+    {
+      "inicio": 111.2,
+      "fim": 114.2,
+      "texto": "nós vamos muito hoje, porque consegui entregar os 10 quilômetros,"
+    },
+    {
+      "inicio": 114.2,
+      "fim": 120.2,
+      "texto": "não foi esse menor do que eu imaginei, fiz em 50 minutos, e a Dailuz conseguiu entregar uma maquiagem"
+    },
+    {
+      "inicio": 120.2,
+      "fim": 123.2,
+      "texto": "maravilhosa, e durou muito, muito, muito."
+    },
+    {
+      "inicio": 123.2,
+      "fim": 130.2,
+      "texto": "Meus amores, fiz 10 km em 51 minutos, e eu não preciso nem dizer, né?"
+    },
+    {
+      "inicio": 130.2,
+      "fim": 135.2,
+      "texto": "Só vocês olharem, ó. Amor, se aguenta uma hora de show,"
+    },
+    {
+      "inicio": 135.2,
+      "fim": 140.2,
+      "texto": "bater no cabelo, fazer no pirueto, não vai aguentar 50 minutinhos correndo,"
+    },
+    {
+      "inicio": 140.2,
+      "fim": 144.2,
+      "texto": "uma maratoninha, ó, Dailuz entrega, meu amor."
+    }
+  ],
+  "texto_na_tela": [
+    {
+      "t": 0.0,
+      "texto": "OYM",
+      "conf": 0.53
+    },
+    {
+      "t": 0.0,
+      "texto": "3KM",
+      "conf": 0.96
+    },
+    {
+      "t": 0.0,
+      "texto": "GOYAS",
+      "conf": 0.47
+    },
+    {
+      "t": 0.0,
+      "texto": "3187",
+      "conf": 0.92
+    },
+    {
+      "t": 0.0,
+      "texto": "Bore",
+      "conf": 0.65
+    },
+    {
+      "t": 2.9,
+      "texto": "OYA",
+      "conf": 0.85
+    },
+    {
+      "t": 2.9,
+      "texto": "RUN'",
+      "conf": 0.89
+    },
+    {
+      "t": 8.8,
+      "texto": "GOYA",
+      "conf": 0.46
+    },
+    {
+      "t": 14.7,
+      "texto": "3179",
+      "conf": 0.72
+    },
+    {
+      "t": 17.6,
+      "texto": "movimen",
+      "conf": 0.71
+    },
+    {
+      "t": 20.6,
+      "texto": "COVN",
+      "conf": 0.45
+    },
+    {
+      "t": 23.5,
+      "texto": "OYAI",
+      "conf": 0.58
+    },
+    {
+      "t": 26.5,
+      "texto": "OYAS",
+      "conf": 0.58
+    },
+    {
+      "t": 26.5,
+      "texto": "movimenta",
+      "conf": 0.54
+    },
+    {
+      "t": 29.4,
+      "texto": "1164",
+      "conf": 0.89
+    },
+    {
+      "t": 32.4,
+      "texto": "LVE!",
+      "conf": 0.71
+    },
+    {
+      "t": 32.4,
+      "texto": "Moviventi",
+      "conf": 0.46
+    },
+    {
+      "t": 35.3,
+      "texto": "salon",
+      "conf": 0.98
+    },
+    {
+      "t": 35.3,
+      "texto": "Bioré",
+      "conf": 1.0
+    },
+    {
+      "t": 35.3,
+      "texto": "BOY",
+      "conf": 0.64
+    },
+    {
+      "t": 38.2,
+      "texto": "OYN",
+      "conf": 0.89
+    },
+    {
+      "t": 38.2,
+      "texto": "hovimenta",
+      "conf": 0.59
+    },
+    {
+      "t": 41.2,
+      "texto": "Hovime",
+      "conf": 0.47
+    },
+    {
+      "t": 41.2,
+      "texto": "VVE!",
+      "conf": 0.5
+    },
+    {
+      "t": 44.1,
+      "texto": "Movimenti",
+      "conf": 0.75
+    },
+    {
+      "t": 44.1,
+      "texto": "1163",
+      "conf": 0.78
+    },
+    {
+      "t": 47.1,
+      "texto": "MOVIMENY",
+      "conf": 0.92
+    },
+    {
+      "t": 47.1,
+      "texto": "163",
+      "conf": 0.57
+    },
+    {
+      "t": 47.1,
+      "texto": "Biore",
+      "conf": 0.74
+    },
+    {
+      "t": 50.0,
+      "texto": "JoKM",
+      "conf": 0.43
+    },
+    {
+      "t": 50.0,
+      "texto": "1763",
+      "conf": 0.53
+    },
+    {
+      "t": 52.9,
+      "texto": "IOKM",
+      "conf": 0.52
+    },
+    {
+      "t": 55.9,
+      "texto": "763",
+      "conf": 0.76
+    },
+    {
+      "t": 61.8,
+      "texto": "5400",
+      "conf": 0.42
+    },
+    {
+      "t": 73.5,
+      "texto": "GOA",
+      "conf": 0.6
+    },
+    {
+      "t": 73.5,
+      "texto": "UYA",
+      "conf": 0.88
+    },
+    {
+      "t": 73.5,
+      "texto": "ovIM",
+      "conf": 0.57
+    },
+    {
+      "t": 79.4,
+      "texto": "JJA",
+      "conf": 0.88
+    },
+    {
+      "t": 79.4,
+      "texto": "Bcre",
+      "conf": 0.89
+    },
+    {
+      "t": 82.4,
+      "texto": "Guar",
+      "conf": 0.47
+    },
+    {
+      "t": 85.3,
+      "texto": "MAS",
+      "conf": 0.43
+    },
+    {
+      "t": 85.3,
+      "texto": "oviment",
+      "conf": 0.62
+    },
+    {
+      "t": 94.1,
+      "texto": "NTA",
+      "conf": 0.48
+    },
+    {
+      "t": 94.1,
+      "texto": "'Vimevfa",
+      "conf": 0.6
+    },
+    {
+      "t": 97.1,
+      "texto": "COYA",
+      "conf": 0.97
+    },
+    {
+      "t": 97.1,
+      "texto": "JEN",
+      "conf": 0.6
+    },
+    {
+      "t": 100.0,
+      "texto": "LIVE!",
+      "conf": 0.99
+    },
+    {
+      "t": 100.0,
+      "texto": "tOKM",
+      "conf": 0.41
+    },
+    {
+      "t": 100.0,
+      "texto": "Mol",
+      "conf": 0.72
+    },
+    {
+      "t": 102.9,
+      "texto": "JYA",
+      "conf": 0.9
+    },
+    {
+      "t": 102.9,
+      "texto": "Esenta",
+      "conf": 0.5
+    },
+    {
+      "t": 102.9,
+      "texto": "@Vimenfa",
+      "conf": 0.44
+    },
+    {
+      "t": 105.9,
+      "texto": "Dailus",
+      "conf": 0.99
+    },
+    {
+      "t": 108.8,
+      "texto": "Dail",
+      "conf": 0.84
+    },
+    {
+      "t": 108.8,
+      "texto": "Blore",
+      "conf": 0.52
+    },
+    {
+      "t": 114.7,
+      "texto": "GOYN",
+      "conf": 0.62
+    },
+    {
+      "t": 129.4,
+      "texto": "10k",
+      "conf": 0.7
+    },
+    {
+      "t": 129.4,
+      "texto": "790",
+      "conf": 0.52
+    },
+    {
+      "t": 132.4,
+      "texto": "1oKI -",
+      "conf": 0.47
+    },
+    {
+      "t": 138.2,
+      "texto": "285",
+      "conf": 0.97
+    },
+    {
+      "t": 138.2,
+      "texto": "101",
+      "conf": 0.69
+    },
+    {
+      "t": 138.2,
+      "texto": "320",
+      "conf": 0.52
+    },
+    {
+      "t": 141.2,
+      "texto": "086",
+      "conf": 0.99
+    }
+  ]
+}

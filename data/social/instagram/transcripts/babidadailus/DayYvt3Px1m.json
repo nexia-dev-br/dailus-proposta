@@ -1,0 +1,181 @@
+{
+  "handle": "babidadailus",
+  "shortcode": "DayYvt3Px1m",
+  "video_file": "data/social/instagram/media/babidadailus/DayYvt3Px1m.mp4",
+  "duracao_seg": 50.3,
+  "duracao_mmss": "00:50",
+  "idioma": "pt",
+  "idioma_prob": 1,
+  "n_segmentos_fala": 7,
+  "n_textos_na_tela": 26,
+  "transcricao": "Algumas das caixinhas que eu abri no Instagram me perguntaram qual que era o meu produto preferido da Dylos. Vamos ver? E o meu produto preferido, assim, é difícil, eu não vou falar que é sem sombra de dúvidas porque eu fiquei pensando em um monte e cheguei à conclusão que eu ia falar que é o nosso pó solto, o póza. Ele é muito bom, ele, assim, super fininho, não marca, deixa a pele leve, mas ao mesmo tempo tira toda a oleosidade da pele, ele é incrível e a tecnologia por trás dele é muito boa. Eu com essa parte de pele, principalmente de pó, são muito chatas e esse produto é maravilhoso e todo mundo que conhece sabe dele.",
+  "segmentos": [
+    {
+      "inicio": 0.0,
+      "fim": 6.2,
+      "texto": "Algumas das caixinhas que eu abri no Instagram me perguntaram qual que era o meu produto preferido da Dylos."
+    },
+    {
+      "inicio": 6.2,
+      "fim": 7.2,
+      "texto": "Vamos ver?"
+    },
+    {
+      "inicio": 12.1,
+      "fim": 18.6,
+      "texto": "E o meu produto preferido, assim, é difícil, eu não vou falar que é sem sombra de dúvidas porque eu fiquei pensando em um monte"
+    },
+    {
+      "inicio": 18.6,
+      "fim": 22.9,
+      "texto": "e cheguei à conclusão que eu ia falar que é o nosso pó solto, o póza."
+    },
+    {
+      "inicio": 22.9,
+      "fim": 31.7,
+      "texto": "Ele é muito bom, ele, assim, super fininho, não marca, deixa a pele leve, mas ao mesmo tempo tira toda a oleosidade da pele,"
+    },
+    {
+      "inicio": 31.7,
+      "fim": 35.9,
+      "texto": "ele é incrível e a tecnologia por trás dele é muito boa."
+    },
+    {
+      "inicio": 35.9,
+      "fim": 43.9,
+      "texto": "Eu com essa parte de pele, principalmente de pó, são muito chatas e esse produto é maravilhoso e todo mundo que conhece sabe dele."
+    }
+  ],
+  "texto_na_tela": [
+    {
+      "t": 0.0,
+      "texto": "isah.sampa",
+      "conf": 0.82
+    },
+    {
+      "t": 0.0,
+      "texto": "qual é 0 seu",
+      "conf": 0.83
+    },
+    {
+      "t": 0.0,
+      "texto": "produto favorito?",
+      "conf": 0.74
+    },
+    {
+      "t": 0.0,
+      "texto": "sendo honesta eu amo 0 gel",
+      "conf": 0.99
+    },
+    {
+      "t": 0.0,
+      "texto": "de sombrancelha!!",
+      "conf": 0.72
+    },
+    {
+      "t": 0.0,
+      "texto": "Responder",
+      "conf": 0.75
+    },
+    {
+      "t": 0.0,
+      "texto": "caixinhas que eu",
+      "conf": 0.92
+    },
+    {
+      "t": 2.9,
+      "texto": "Meu produto",
+      "conf": 0.52
+    },
+    {
+      "t": 5.9,
+      "texto": "Vam:osver?",
+      "conf": 0.51
+    },
+    {
+      "t": 8.8,
+      "texto": "Deque",
+      "conf": 0.41
+    },
+    {
+      "t": 8.8,
+      "texto": "ilus",
+      "conf": 0.94
+    },
+    {
+      "t": 8.8,
+      "texto": "45,90",
+      "conf": 0.45
+    },
+    {
+      "t": 8.8,
+      "texto": "é 0 seu",
+      "conf": 0.72
+    },
+    {
+      "t": 8.8,
+      "texto": "OLro",
+      "conf": 0.64
+    },
+    {
+      "t": 8.8,
+      "texto": "Dailus",
+      "conf": 0.99
+    },
+    {
+      "t": 8.8,
+      "texto": "qual",
+      "conf": 1.0
+    },
+    {
+      "t": 11.8,
+      "texto": "[pi@duto preferfdo",
+      "conf": 0.54
+    },
+    {
+      "t": 20.6,
+      "texto": "sollo",
+      "conf": 0.52
+    },
+    {
+      "t": 23.5,
+      "texto": "Datlus",
+      "conf": 0.45
+    },
+    {
+      "t": 23.5,
+      "texto": "ele assim",
+      "conf": 0.68
+    },
+    {
+      "t": 29.4,
+      "texto": "@leosidade",
+      "conf": 0.99
+    },
+    {
+      "t": 35.3,
+      "texto": "parte",
+      "conf": 1.0
+    },
+    {
+      "t": 38.2,
+      "texto": "sou muito",
+      "conf": 0.87
+    },
+    {
+      "t": 41.2,
+      "texto": "@ue @nhece",
+      "conf": 0.51
+    },
+    {
+      "t": 44.1,
+      "texto": "sendo honesta eu amo",
+      "conf": 0.89
+    },
+    {
+      "t": 44.1,
+      "texto": "gel",
+      "conf": 1.0
+    }
+  ]
+}

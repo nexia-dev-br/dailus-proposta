@@ -1,0 +1,176 @@
+{
+  "handle": "babidadailus",
+  "shortcode": "DaTnFjXhznk",
+  "video_file": "data/social/instagram/media/babidadailus/DaTnFjXhznk.mp4",
+  "duracao_seg": 41.2,
+  "duracao_mmss": "00:41",
+  "idioma": "pt",
+  "idioma_prob": 1,
+  "n_segmentos_fala": 8,
+  "n_textos_na_tela": 24,
+  "transcricao": "Tivemos o nosso evento no TikTok, foi um evento super legal no próprio TikTok. Lailis tem uma área destinada para isso e qual foi o intuito desse evento, né? Como que a gente mostra os nossos produtos para as criadoras de conteúdo, para as nossas afiliadas? Entendendo qual é a estratégia da Dylos nesse canal digital, então nessa frente, como a gente quer atuar e como que a gente quer estar em parceria com elas. Então quais foram os números que elas ajudaram a Dylos a conquistar, que nós conquistamos juntos? Quais são os números que nós queremos conquistar e como que a gente desenhou essa estratégia? E quais são os produtos-chaves para esse canal?",
+  "segmentos": [
+    {
+      "inicio": 0.0,
+      "fim": 5.9,
+      "texto": "Tivemos o nosso evento no TikTok, foi um evento super legal no próprio TikTok."
+    },
+    {
+      "inicio": 5.9,
+      "fim": 11.6,
+      "texto": "Lailis tem uma área destinada para isso e qual foi o intuito desse evento, né?"
+    },
+    {
+      "inicio": 11.6,
+      "fim": 17.8,
+      "texto": "Como que a gente mostra os nossos produtos para as criadoras de conteúdo, para as nossas afiliadas?"
+    },
+    {
+      "inicio": 17.8,
+      "fim": 24.3,
+      "texto": "Entendendo qual é a estratégia da Dylos nesse canal digital, então nessa frente, como a gente quer atuar"
+    },
+    {
+      "inicio": 24.3,
+      "fim": 26.5,
+      "texto": "e como que a gente quer estar em parceria com elas."
+    },
+    {
+      "inicio": 26.5,
+      "fim": 32.9,
+      "texto": "Então quais foram os números que elas ajudaram a Dylos a conquistar, que nós conquistamos juntos?"
+    },
+    {
+      "inicio": 32.9,
+      "fim": 37.8,
+      "texto": "Quais são os números que nós queremos conquistar e como que a gente desenhou essa estratégia?"
+    },
+    {
+      "inicio": 37.8,
+      "fim": 40.8,
+      "texto": "E quais são os produtos-chaves para esse canal?"
+    }
+  ],
+  "texto_na_tela": [
+    {
+      "t": 0.0,
+      "texto": "Tivemos@nosso evento",
+      "conf": 0.95
+    },
+    {
+      "t": 2.9,
+      "texto": "no próprio tiktok",
+      "conf": 1.0
+    },
+    {
+      "t": 5.9,
+      "texto": "merc",
+      "conf": 1.0
+    },
+    {
+      "t": 5.9,
+      "texto": "destinada pra isso",
+      "conf": 0.94
+    },
+    {
+      "t": 8.8,
+      "texto": "TikTok",
+      "conf": 0.64
+    },
+    {
+      "t": 8.8,
+      "texto": "desseeventoné?",
+      "conf": 0.82
+    },
+    {
+      "t": 11.8,
+      "texto": "como que a",
+      "conf": 0.87
+    },
+    {
+      "t": 11.8,
+      "texto": "'gente mostra @s",
+      "conf": 0.57
+    },
+    {
+      "t": 11.8,
+      "texto": "nossos produtos",
+      "conf": 0.96
+    },
+    {
+      "t": 14.7,
+      "texto": "pras nossas afiliadas",
+      "conf": 0.92
+    },
+    {
+      "t": 17.6,
+      "texto": "estratégia da dailus",
+      "conf": 0.85
+    },
+    {
+      "t": 20.6,
+      "texto": "então nessa frente",
+      "conf": 0.95
+    },
+    {
+      "t": 23.5,
+      "texto": "ecomoquea",
+      "conf": 0.99
+    },
+    {
+      "t": 23.5,
+      "texto": "igentequertáem",
+      "conf": 0.83
+    },
+    {
+      "t": 23.5,
+      "texto": "parceria com elas",
+      "conf": 0.92
+    },
+    {
+      "t": 26.5,
+      "texto": "entãoquaisforam os números",
+      "conf": 0.72
+    },
+    {
+      "t": 26.5,
+      "texto": "queelas ajudaram",
+      "conf": 0.77
+    },
+    {
+      "t": 29.4,
+      "texto": "dailusaconquistar;",
+      "conf": 0.98
+    },
+    {
+      "t": 32.4,
+      "texto": "quaissão @s números que nós",
+      "conf": 0.45
+    },
+    {
+      "t": 32.4,
+      "texto": "queremos conquistar",
+      "conf": 0.81
+    },
+    {
+      "t": 35.3,
+      "texto": "ecomoqueagentedesenhou",
+      "conf": 0.92
+    },
+    {
+      "t": 35.3,
+      "texto": "essa estratégia",
+      "conf": 0.75
+    },
+    {
+      "t": 38.2,
+      "texto": "quaissão@s produtos chaves",
+      "conf": 0.98
+    },
+    {
+      "t": 38.2,
+      "texto": "pra esse canal",
+      "conf": 0.69
+    }
+  ]
+}

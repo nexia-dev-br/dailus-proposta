@@ -1,0 +1,90 @@
+{
+  "handle": "babidadailus",
+  "shortcode": "DaYYbXiPZRS",
+  "video_file": "data/social/instagram/media/babidadailus/DaYYbXiPZRS.mp4",
+  "duracao_seg": 27.0,
+  "duracao_mmss": "00:27",
+  "idioma": "pt",
+  "idioma_prob": 1,
+  "n_segmentos_fala": 0,
+  "n_textos_na_tela": 15,
+  "transcricao": "",
+  "segmentos": [],
+  "texto_na_tela": [
+    {
+      "t": 0.0,
+      "texto": "pOV; @ mehhorjeito de comemorarseu",
+      "conf": 0.59
+    },
+    {
+      "t": 0.0,
+      "texto": "aniversárioedesacelerando",
+      "conf": 0.75
+    },
+    {
+      "t": 0.0,
+      "texto": "G@m sweet skin",
+      "conf": 0.61
+    },
+    {
+      "t": 5.9,
+      "texto": "p@V; @ mehor jeito de comemorarseu",
+      "conf": 0.65
+    },
+    {
+      "t": 5.9,
+      "texto": "com sweet skin",
+      "conf": 0.6
+    },
+    {
+      "t": 5.9,
+      "texto": "SWEET",
+      "conf": 0.95
+    },
+    {
+      "t": 8.8,
+      "texto": "(ertida",
+      "conf": 0.49
+    },
+    {
+      "t": 11.8,
+      "texto": "[@V; @melhorjeito decomemorar seu",
+      "conf": 0.5
+    },
+    {
+      "t": 11.8,
+      "texto": "oromo",
+      "conf": 0.53
+    },
+    {
+      "t": 14.7,
+      "texto": "aniversário é desacelerando",
+      "conf": 0.78
+    },
+    {
+      "t": 14.7,
+      "texto": "@@m sweet skin",
+      "conf": 0.74
+    },
+    {
+      "t": 17.6,
+      "texto": "sweet skin",
+      "conf": 1.0
+    },
+    {
+      "t": 20.6,
+      "texto": "[@V; @ mehor jeito de comemorar seu",
+      "conf": 0.61
+    },
+    {
+      "t": 20.6,
+      "texto": "aiversário é desacelerando",
+      "conf": 0.56
+    },
+    {
+      "t": 23.5,
+      "texto": "pov: 0 melhor jeito de comemorar seu",
+      "conf": 0.79
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "handle": "dailus",
+  "shortcode": "Daa-jdUCXJo",
+  "video_file": "data/social/instagram/media/dailus/Daa-jdUCXJo.mp4",
+  "duracao_seg": 42.5,
+  "duracao_mmss": "00:42",
+  "idioma": "pt",
+  "idioma_prob": 1,
+  "n_segmentos_fala": 0,
+  "n_textos_na_tela": 27,
+  "transcricao": "",
+  "segmentos": [],
+  "texto_na_tela": [
+    {
+      "t": 0.0,
+      "texto": "DIVERSÃO COMEÇA AGORA!",
+      "conf": 0.45
+    },
+    {
+      "t": 0.0,
+      "texto": "Dailus",
+      "conf": 0.99
+    },
+    {
+      "t": 11.8,
+      "texto": "Oatlus",
+      "conf": 0.42
+    },
+    {
+      "t": 14.7,
+      "texto": "0 RECEBIDO QUE VOCÊ MERECL",
+      "conf": 0.74
+    },
+    {
+      "t": 14.7,
+      "texto": "A DIVERSÃO COMEÇA AGORAI",
+      "conf": 0.63
+    },
+    {
+      "t": 14.7,
+      "texto": "atlus",
+      "conf": 0.54
+    },
+    {
+      "t": 20.6,
+      "texto": "0 RECEBIDO QUE VOF",
+      "conf": 0.87
+    },
+    {
+      "t": 20.6,
+      "texto": "A DIVERSÃO €",
+      "conf": 0.9
+    },
+    {
+      "t": 20.6,
+      "texto": "aius",
+      "conf": 0.79
+    },
+    {
+      "t": 23.5,
+      "texto": "RECEBIDO QUE VOCÊ MERECE",
+      "conf": 0.92
+    },
+    {
+      "t": 23.5,
+      "texto": "DIVERSÃO COMEÇA AGORAI",
+      "conf": 0.76
+    },
+    {
+      "t": 23.5,
+      "texto": "Dallus",
+      "conf": 0.72
+    },
+    {
+      "t": 23.5,
+      "texto": "divirta",
+      "conf": 0.89
+    },
+    {
+      "t": 26.5,
+      "texto": "ilus",
+      "conf": 0.69
+    },
+    {
+      "t": 26.5,
+      "texto": "221",
+      "conf": 0.46
+    },
+    {
+      "t": 26.5,
+      "texto": "Dailu",
+      "conf": 0.7
+    },
+    {
+      "t": 26.5,
+      "texto": "RENg",
+      "conf": 0.44
+    },
+    {
+      "t": 26.5,
+      "texto": "VED",
+      "conf": 0.88
+    },
+    {
+      "t": 29.4,
+      "texto": "COM",
+      "conf": 0.94
+    },
+    {
+      "t": 32.4,
+      "texto": "Daflus",
+      "conf": 0.57
+    },
+    {
+      "t": 35.3,
+      "texto": "rnt",
+      "conf": 0.57
+    },
+    {
+      "t": 35.3,
+      "texto": "glass",
+      "conf": 0.89
+    },
+    {
+      "t": 35.3,
+      "texto": "coat",
+      "conf": 0.95
+    },
+    {
+      "t": 35.3,
+      "texto": "gel",
+      "conf": 0.97
+    },
+    {
+      "t": 35.3,
+      "texto": "top",
+      "conf": 0.87
+    },
+    {
+      "t": 35.3,
+      "texto": "efeito",
+      "conf": 0.75
+    },
+    {
+      "t": 38.2,
+      "texto": "(Tulip",
+      "conf": 0.5
+    }
+  ]
+}

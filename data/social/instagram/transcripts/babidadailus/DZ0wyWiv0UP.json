@@ -1,0 +1,371 @@
+{
+  "handle": "babidadailus",
+  "shortcode": "DZ0wyWiv0UP",
+  "video_file": "data/social/instagram/media/babidadailus/DZ0wyWiv0UP.mp4",
+  "duracao_seg": 76.4,
+  "duracao_mmss": "01:16",
+  "idioma": "pt",
+  "idioma_prob": 1,
+  "n_segmentos_fala": 18,
+  "n_textos_na_tela": 53,
+  "transcricao": "Oi, hoje a gente está aqui no nosso evento de lançamento da nova linha de Sweet Skin. Seja devem ter visto o produto já está nas lojas, mas a gente quis trazer esse momento para apresentar um pouco mais do conceito, um pouco mais de qual a construção de cada fragrância e é um evento super intimista para algumas pessoas que vêm acompanhando a Dailos e Sweet Skin, para a gente trazer um pouquinho dessa aula. Então a gente está aqui na Fave, que é a casa de fragrances que está fazendo toda essa linha e aqui é um pouquinho que vocês vão ver do que a gente vai estar trazendo. A primeira experiência foi uma experiência que a Iza, que é a diretora de marketing da Fave, trouxe para a gente que mostra o quanto que o fato está muito relacionado ao paladar e se a gente perde esse sentido ou tem esse sentido um pouco menos forte, a gente também não tem o nosso paladar 100% como ele deveria estar. A segunda experiência que a gente trouxe, ela vem totalmente para o paladar. Então a gente trouxe uma chefe de cozinha para trazer três sobremesas que remetem as nossas fragrances, então ao sênei de cereja, ao torta de limão e ao creme de baunilha. Por último, a gente traz uma parte bem visual de personalização de moletom, então todo mundo que está aqui vai poder escolher o moletom do jeito que quer, caracterizado com os nossos elementos principais de Sweet Skin.",
+  "segmentos": [
+    {
+      "inicio": 0.0,
+      "fim": 4.9,
+      "texto": "Oi, hoje a gente está aqui no nosso evento de lançamento da nova linha de Sweet Skin."
+    },
+    {
+      "inicio": 4.9,
+      "fim": 8.8,
+      "texto": "Seja devem ter visto o produto já está nas lojas, mas a gente quis trazer esse momento"
+    },
+    {
+      "inicio": 8.8,
+      "fim": 13.2,
+      "texto": "para apresentar um pouco mais do conceito, um pouco mais de qual a construção de cada"
+    },
+    {
+      "inicio": 13.2,
+      "fim": 17.9,
+      "texto": "fragrância e é um evento super intimista para algumas pessoas que vêm acompanhando"
+    },
+    {
+      "inicio": 17.9,
+      "fim": 21.7,
+      "texto": "a Dailos e Sweet Skin, para a gente trazer um pouquinho dessa aula."
+    },
+    {
+      "inicio": 21.7,
+      "fim": 24.8,
+      "texto": "Então a gente está aqui na Fave, que é a casa de fragrances que está fazendo"
+    },
+    {
+      "inicio": 24.8,
+      "fim": 28.4,
+      "texto": "toda essa linha e aqui é um pouquinho que vocês vão ver do que a gente vai"
+    },
+    {
+      "inicio": 28.4,
+      "fim": 32.3,
+      "texto": "estar trazendo. A primeira experiência foi uma experiência que a Iza, que é a"
+    },
+    {
+      "inicio": 32.3,
+      "fim": 37.4,
+      "texto": "diretora de marketing da Fave, trouxe para a gente que mostra o quanto que o"
+    },
+    {
+      "inicio": 37.4,
+      "fim": 41.8,
+      "texto": "fato está muito relacionado ao paladar e se a gente perde esse sentido ou tem esse"
+    },
+    {
+      "inicio": 41.8,
+      "fim": 47.1,
+      "texto": "sentido um pouco menos forte, a gente também não tem o nosso paladar 100%"
+    },
+    {
+      "inicio": 47.1,
+      "fim": 50.3,
+      "texto": "como ele deveria estar. A segunda experiência que a gente trouxe, ela vem"
+    },
+    {
+      "inicio": 50.3,
+      "fim": 54.3,
+      "texto": "totalmente para o paladar. Então a gente trouxe uma chefe de cozinha para"
+    },
+    {
+      "inicio": 54.3,
+      "fim": 58.7,
+      "texto": "trazer três sobremesas que remetem as nossas fragrances, então ao sênei de"
+    },
+    {
+      "inicio": 58.7,
+      "fim": 64.0,
+      "texto": "cereja, ao torta de limão e ao creme de baunilha. Por último, a gente traz uma"
+    },
+    {
+      "inicio": 64.0,
+      "fim": 68.7,
+      "texto": "parte bem visual de personalização de moletom, então todo mundo que está aqui"
+    },
+    {
+      "inicio": 68.7,
+      "fim": 72.5,
+      "texto": "vai poder escolher o moletom do jeito que quer, caracterizado com os nossos"
+    },
+    {
+      "inicio": 72.5,
+      "fim": 76.2,
+      "texto": "elementos principais de Sweet Skin."
+    }
+  ],
+  "texto_na_tela": [
+    {
+      "t": 0.0,
+      "texto": "Hoje a gente tá",
+      "conf": 1.0
+    },
+    {
+      "t": 0.0,
+      "texto": "no nosso evento",
+      "conf": 1.0
+    },
+    {
+      "t": 0.0,
+      "texto": "aqui",
+      "conf": 1.0
+    },
+    {
+      "t": 2.9,
+      "texto": "de lançamentodanova",
+      "conf": 0.72
+    },
+    {
+      "t": 2.9,
+      "texto": "linha de sweet skin:.",
+      "conf": 0.41
+    },
+    {
+      "t": 2.9,
+      "texto": "ice",
+      "conf": 0.99
+    },
+    {
+      "t": 5.9,
+      "texto": "mas a",
+      "conf": 1.0
+    },
+    {
+      "t": 5.9,
+      "texto": "gente quis",
+      "conf": 1.0
+    },
+    {
+      "t": 5.9,
+      "texto": "trazer esse momento",
+      "conf": 0.99
+    },
+    {
+      "t": 8.8,
+      "texto": "pra apresentar um pouco",
+      "conf": 0.97
+    },
+    {
+      "t": 8.8,
+      "texto": "mais @o conceito",
+      "conf": 0.77
+    },
+    {
+      "t": 11.8,
+      "texto": "um pouco mais @e qual é a",
+      "conf": 0.79
+    },
+    {
+      "t": 11.8,
+      "texto": "construção de cada fragrância",
+      "conf": 0.77
+    },
+    {
+      "t": 14.7,
+      "texto": "pra algumas pessoas que vem",
+      "conf": 0.99
+    },
+    {
+      "t": 14.7,
+      "texto": "acompanhando a Dailus",
+      "conf": 1.0
+    },
+    {
+      "t": 17.6,
+      "texto": "@msweetskin",
+      "conf": 0.75
+    },
+    {
+      "t": 20.6,
+      "texto": "Então a gente",
+      "conf": 1.0
+    },
+    {
+      "t": 20.6,
+      "texto": "tá aqui na fav",
+      "conf": 0.93
+    },
+    {
+      "t": 23.5,
+      "texto": "8WE",
+      "conf": 0.56
+    },
+    {
+      "t": 23.5,
+      "texto": "NOVOS SAB",
+      "conf": 0.91
+    },
+    {
+      "t": 23.5,
+      "texto": "PRO SEU",
+      "conf": 0.99
+    },
+    {
+      "t": 23.5,
+      "texto": "toda essalinha",
+      "conf": 0.64
+    },
+    {
+      "t": 26.5,
+      "texto": "doquequeagente",
+      "conf": 0.97
+    },
+    {
+      "t": 26.5,
+      "texto": "Vaitá trazendo",
+      "conf": 0.65
+    },
+    {
+      "t": 29.4,
+      "texto": "ORVETE",
+      "conf": 1.0
+    },
+    {
+      "t": 29.4,
+      "texto": "PRO SEU B",
+      "conf": 0.54
+    },
+    {
+      "t": 29.4,
+      "texto": "Aprimeira experiência foi uma",
+      "conf": 0.93
+    },
+    {
+      "t": 29.4,
+      "texto": "exoeriência que a Isa",
+      "conf": 0.44
+    },
+    {
+      "t": 32.4,
+      "texto": "que é a diretora de",
+      "conf": 0.98
+    },
+    {
+      "t": 32.4,
+      "texto": "marketing da fav",
+      "conf": 0.94
+    },
+    {
+      "t": 35.3,
+      "texto": "que mostra 0",
+      "conf": 0.94
+    },
+    {
+      "t": 35.3,
+      "texto": "quanto que 0",
+      "conf": 0.81
+    },
+    {
+      "t": 44.1,
+      "texto": "a gente também não",
+      "conf": 0.95
+    },
+    {
+      "t": 44.1,
+      "texto": "tem 0 nosso paladar",
+      "conf": 0.89
+    },
+    {
+      "t": 47.1,
+      "texto": "SORVETE",
+      "conf": 0.97
+    },
+    {
+      "t": 47.1,
+      "texto": "PRO SEY",
+      "conf": 0.5
+    },
+    {
+      "t": 47.1,
+      "texto": "A segunda experiência",
+      "conf": 0.67
+    },
+    {
+      "t": 47.1,
+      "texto": "que a gente trouxe",
+      "conf": 0.77
+    },
+    {
+      "t": 50.0,
+      "texto": "ela vem totalmente",
+      "conf": 0.69
+    },
+    {
+      "t": 50.0,
+      "texto": "'pâladar",
+      "conf": 0.62
+    },
+    {
+      "t": 52.9,
+      "texto": "pra trazer frês sobremesas que",
+      "conf": 0.86
+    },
+    {
+      "t": 55.9,
+      "texto": "femetem as nossas",
+      "conf": 0.74
+    },
+    {
+      "t": 55.9,
+      "texto": "fragrâncias.",
+      "conf": 0.91
+    },
+    {
+      "t": 58.8,
+      "texto": "aotorta delimãoe",
+      "conf": 0.87
+    },
+    {
+      "t": 58.8,
+      "texto": "ao creme de baunilha",
+      "conf": 0.6
+    },
+    {
+      "t": 61.8,
+      "texto": "ISORVETE",
+      "conf": 0.95
+    },
+    {
+      "t": 61.8,
+      "texto": "IUM:",
+      "conf": 0.52
+    },
+    {
+      "t": 61.8,
+      "texto": "Por último;",
+      "conf": 0.63
+    },
+    {
+      "t": 64.7,
+      "texto": "de personalização demoletom",
+      "conf": 0.73
+    },
+    {
+      "t": 67.6,
+      "texto": "vai poder escolher @",
+      "conf": 0.74
+    },
+    {
+      "t": 67.6,
+      "texto": "quer",
+      "conf": 0.93
+    },
+    {
+      "t": 67.6,
+      "texto": "quee",
+      "conf": 0.59
+    },
+    {
+      "t": 70.6,
+      "texto": "caracterizado com os",
+      "conf": 0.93
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "handle": "babidadailus",
+  "shortcode": "DaL9lcrvlD_",
+  "video_file": "data/social/instagram/media/babidadailus/DaL9lcrvlD_.mp4",
+  "duracao_seg": 93.0,
+  "duracao_mmss": "01:33",
+  "idioma": "pt",
+  "idioma_prob": 1,
+  "n_segmentos_fala": 12,
+  "n_textos_na_tela": 6,
+  "transcricao": "já fiz aqui minha maquiagem quase tudo feita e agora eu queria fazer o resto dela com vocês queria mostrar pra vocês um produto que a Daile já tem faz muitos anos e nunca sai de moda eu acho ele incrível super versátil que é o nosso Lip Tint você pode usar ele na bochecha na boca e ele é aquele efeito de saúde super natural agora eu vou usar ela com outros dois produtos que é o Tint Balm para dar uma hidratação agora no inverno minha boca está muito seca e também o nosso contorno labial para dar mais uma definida na boca assim que fica com uma boca bem natural bem hidratada marcada mas não aquele marcado para festa que eu falo quando a gente faz aquele contorno bem mais desenhado além de uma sensação muito gostosa na boca não fica aquela coisa pesada não fica aquele botão que você sentiu ele seco enfim é o meu Lip Combo de todos os dias são esses três aqui eu queria mostrar para vocês com o protagonista dele que é o nosso Lip Tint",
+  "segmentos": [
+    {
+      "inicio": 0.1,
+      "fim": 9.6,
+      "texto": "já fiz aqui minha maquiagem quase tudo feita e agora eu queria fazer o resto dela com vocês"
+    },
+    {
+      "inicio": 9.6,
+      "fim": 21.5,
+      "texto": "queria mostrar pra vocês um produto que a Daile já tem faz muitos anos e nunca sai de moda"
+    },
+    {
+      "inicio": 21.5,
+      "fim": 26.2,
+      "texto": "eu acho ele incrível super versátil que é o nosso Lip Tint"
+    },
+    {
+      "inicio": 26.2,
+      "fim": 33.2,
+      "texto": "você pode usar ele na bochecha na boca e ele é aquele efeito de saúde super natural"
+    },
+    {
+      "inicio": 33.2,
+      "fim": 39.1,
+      "texto": "agora eu vou usar ela com outros dois produtos que é o Tint Balm para dar uma hidratação"
+    },
+    {
+      "inicio": 39.1,
+      "fim": 44.3,
+      "texto": "agora no inverno minha boca está muito seca e também o nosso contorno labial"
+    },
+    {
+      "inicio": 44.3,
+      "fim": 67.9,
+      "texto": "para dar mais uma definida na boca assim que fica com uma boca bem natural bem"
+    },
+    {
+      "inicio": 67.9,
+      "fim": 72.7,
+      "texto": "hidratada marcada mas não aquele marcado para festa que eu falo quando a gente faz"
+    },
+    {
+      "inicio": 72.7,
+      "fim": 77.7,
+      "texto": "aquele contorno bem mais desenhado além de uma sensação muito gostosa na boca"
+    },
+    {
+      "inicio": 77.7,
+      "fim": 81.2,
+      "texto": "não fica aquela coisa pesada não fica aquele botão que você sentiu ele seco"
+    },
+    {
+      "inicio": 81.2,
+      "fim": 87.1,
+      "texto": "enfim é o meu Lip Combo de todos os dias são esses três aqui eu queria mostrar"
+    },
+    {
+      "inicio": 87.1,
+      "fim": 91.3,
+      "texto": "para vocês com o protagonista dele que é o nosso Lip Tint"
+    }
+  ],
+  "texto_na_tela": [
+    {
+      "t": 26.5,
+      "texto": "Dailus",
+      "conf": 0.84
+    },
+    {
+      "t": 26.5,
+      "texto": "LIP",
+      "conf": 1.0
+    },
+    {
+      "t": 26.5,
+      "texto": "[TINT",
+      "conf": 0.64
+    },
+    {
+      "t": 26.5,
+      "texto": "BATIDA",
+      "conf": 0.95
+    },
+    {
+      "t": 26.5,
+      "texto": "(DE AMORA",
+      "conf": 0.55
+    },
+    {
+      "t": 26.5,
+      "texto": "vegano",
+      "conf": 1.0
+    }
+  ]
+}

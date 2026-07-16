@@ -1,0 +1,35 @@
+{
+  "handle": "babidadailus",
+  "shortcode": "DZ58J__vPZb",
+  "video_file": "data/social/instagram/media/babidadailus/DZ58J__vPZb.mp4",
+  "duracao_seg": 75.7,
+  "duracao_mmss": "01:15",
+  "idioma": "pt",
+  "idioma_prob": 1,
+  "n_segmentos_fala": 0,
+  "n_textos_na_tela": 4,
+  "transcricao": "",
+  "segmentos": [],
+  "texto_na_tela": [
+    {
+      "t": 0.0,
+      "texto": "ice",
+      "conf": 0.98
+    },
+    {
+      "t": 0.0,
+      "texto": "sream",
+      "conf": 0.77
+    },
+    {
+      "t": 20.6,
+      "texto": "eal",
+      "conf": 0.55
+    },
+    {
+      "t": 35.3,
+      "texto": "Dailus",
+      "conf": 0.88
+    }
+  ]
+}

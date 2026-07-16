@@ -1,0 +1,186 @@
+{
+  "handle": "babidadailus",
+  "shortcode": "DZ3BEszv1ts",
+  "video_file": "data/social/instagram/media/babidadailus/DZ3BEszv1ts.mp4",
+  "duracao_seg": 54.5,
+  "duracao_mmss": "00:54",
+  "idioma": "pt",
+  "idioma_prob": 1,
+  "n_segmentos_fala": 12,
+  "n_textos_na_tela": 22,
+  "transcricao": "Agora que o pessoal já conheceu todas as nossas fragrâncias, vamos perguntar qual foi a preferida deles? A minha fragrância preferida é essa de baunilha, porque dormir com cheirinho de baunilha é maravilhoso, gente! A minha valonita é torta de limão, porque é muito cítrico, eu gosto muito desse cítricozinho, então... Tchau, sabe? Gente, o meu preferido com certeza é o de cereja porque combina com o meu look! E aí, foca de vocês! Meu nome é Marta Carolina, e a minha fragrância favorita é a torta de limão, aquele cheirinho refrescante de limão siciliano que faz a gente levantar da cama. Meu predilés é o creme de baunilha, ele é simplesmente irresistível, ninguém resiste a uma boa baunilha. Agora é minha vez de falar minha fragrância preferida e ela é a torta de limão. Pra mim, uma fragrância cítrica não tem nada melhor.",
+  "segmentos": [
+    {
+      "inicio": 0.0,
+      "fim": 6.0,
+      "texto": "Agora que o pessoal já conheceu todas as nossas fragrâncias, vamos perguntar qual foi a preferida deles?"
+    },
+    {
+      "inicio": 6.0,
+      "fim": 12.0,
+      "texto": "A minha fragrância preferida é essa de baunilha, porque dormir com cheirinho de baunilha é maravilhoso, gente!"
+    },
+    {
+      "inicio": 12.0,
+      "fim": 17.0,
+      "texto": "A minha valonita é torta de limão, porque é muito cítrico, eu gosto muito desse cítricozinho, então..."
+    },
+    {
+      "inicio": 17.0,
+      "fim": 19.0,
+      "texto": "Tchau, sabe?"
+    },
+    {
+      "inicio": 20.0,
+      "fim": 24.0,
+      "texto": "Gente, o meu preferido com certeza é o de cereja porque combina com o meu look!"
+    },
+    {
+      "inicio": 24.0,
+      "fim": 26.0,
+      "texto": "E aí, foca de vocês!"
+    },
+    {
+      "inicio": 26.0,
+      "fim": 29.0,
+      "texto": "Meu nome é Marta Carolina, e a minha fragrância favorita"
+    },
+    {
+      "inicio": 29.0,
+      "fim": 33.0,
+      "texto": "é a torta de limão, aquele cheirinho refrescante de limão siciliano"
+    },
+    {
+      "inicio": 33.0,
+      "fim": 36.0,
+      "texto": "que faz a gente levantar da cama."
+    },
+    {
+      "inicio": 36.0,
+      "fim": 43.0,
+      "texto": "Meu predilés é o creme de baunilha, ele é simplesmente irresistível, ninguém resiste a uma boa baunilha."
+    },
+    {
+      "inicio": 43.0,
+      "fim": 48.0,
+      "texto": "Agora é minha vez de falar minha fragrância preferida e ela é a torta de limão."
+    },
+    {
+      "inicio": 48.0,
+      "fim": 51.0,
+      "texto": "Pra mim, uma fragrância cítrica não tem nada melhor."
+    }
+  ],
+  "texto_na_tela": [
+    {
+      "t": 0.0,
+      "texto": "já conheceu todas",
+      "conf": 0.99
+    },
+    {
+      "t": 0.0,
+      "texto": "as nossas",
+      "conf": 0.95
+    },
+    {
+      "t": 0.0,
+      "texto": "fragrâncias;",
+      "conf": 0.79
+    },
+    {
+      "t": 2.9,
+      "texto": "vamos perguntar qual que",
+      "conf": 0.77
+    },
+    {
+      "t": 2.9,
+      "texto": "foi a preferida deles?",
+      "conf": 0.86
+    },
+    {
+      "t": 5.9,
+      "texto": "Aminha fragrância preferida",
+      "conf": 0.96
+    },
+    {
+      "t": 8.8,
+      "texto": "cheirinho de baunilha",
+      "conf": 1.0
+    },
+    {
+      "t": 8.8,
+      "texto": "é maravilhoso gente.",
+      "conf": 0.73
+    },
+    {
+      "t": 11.8,
+      "texto": "Aminha favorita",
+      "conf": 0.81
+    },
+    {
+      "t": 11.8,
+      "texto": "torta de limão",
+      "conf": 0.98
+    },
+    {
+      "t": 14.7,
+      "texto": "desse \"cítricozinho'",
+      "conf": 0.88
+    },
+    {
+      "t": 14.7,
+      "texto": "que dá um tchan sabe?",
+      "conf": 1.0
+    },
+    {
+      "t": 14.7,
+      "texto": "SWEET",
+      "conf": 0.56
+    },
+    {
+      "t": 20.6,
+      "texto": "@om certeza é 0 de cereja",
+      "conf": 0.66
+    },
+    {
+      "t": 23.5,
+      "texto": "aí qualque",
+      "conf": 0.68
+    },
+    {
+      "t": 23.5,
+      "texto": "0 de vocês?",
+      "conf": 0.67
+    },
+    {
+      "t": 26.5,
+      "texto": "aminha fragrância favorita",
+      "conf": 0.81
+    },
+    {
+      "t": 38.2,
+      "texto": "ele é simplesmente",
+      "conf": 0.89
+    },
+    {
+      "t": 41.2,
+      "texto": "ninguém resiste a",
+      "conf": 0.99
+    },
+    {
+      "t": 41.2,
+      "texto": "uma boa baunilha.",
+      "conf": 0.78
+    },
+    {
+      "t": 44.1,
+      "texto": "Agora é minha vez de falar",
+      "conf": 0.97
+    },
+    {
+      "t": 44.1,
+      "texto": "minha fragância preferida",
+      "conf": 0.88
+    }
+  ]
+}

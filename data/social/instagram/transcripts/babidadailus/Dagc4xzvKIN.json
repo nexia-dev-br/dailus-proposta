@@ -1,0 +1,151 @@
+{
+  "handle": "babidadailus",
+  "shortcode": "Dagc4xzvKIN",
+  "video_file": "data/social/instagram/media/babidadailus/Dagc4xzvKIN.mp4",
+  "duracao_seg": 50.5,
+  "duracao_mmss": "00:50",
+  "idioma": "pt",
+  "idioma_prob": 1,
+  "n_segmentos_fala": 15,
+  "n_textos_na_tela": 12,
+  "transcricao": "Bora para um bate-bola rápido, um produto, uma ocasião. Dormi mal e tenho um compromisso logo cedo. Bye bye, Olheira. Nada melhor que o nosso corretivo para dar um up nesses momentos. Fiquei o dia inteiro em pé. Pernas cansadas de fontilou, sem dúvida. Recebi um convite de última hora. Ai, eu achei cheirosa, então bora espleixo de torta de limão para você chegar lá com tudo. Eu vou sair para jantar e é um encontro. Ai, eu vou no bora espleixo de sanda e de cereja. Acho que ele é perfeito para a sua ocasião. Acordei atrasada e eu preciso me arrumar o mais rápido possível. Vamos de Holoblush. Eu acho que sem estar ali coradinho, não tem como começar o dia bem. Então, Holoblush para mim é esse produto.",
+  "segmentos": [
+    {
+      "inicio": 0.0,
+      "fim": 3.4,
+      "texto": "Bora para um bate-bola rápido, um produto, uma ocasião."
+    },
+    {
+      "inicio": 3.4,
+      "fim": 5.9,
+      "texto": "Dormi mal e tenho um compromisso logo cedo."
+    },
+    {
+      "inicio": 6.8,
+      "fim": 8.0,
+      "texto": "Bye bye, Olheira."
+    },
+    {
+      "inicio": 8.0,
+      "fim": 12.0,
+      "texto": "Nada melhor que o nosso corretivo para dar um up nesses momentos."
+    },
+    {
+      "inicio": 12.0,
+      "fim": 13.7,
+      "texto": "Fiquei o dia inteiro em pé."
+    },
+    {
+      "inicio": 14.7,
+      "fim": 17.8,
+      "texto": "Pernas cansadas de fontilou, sem dúvida."
+    },
+    {
+      "inicio": 17.8,
+      "fim": 20.2,
+      "texto": "Recebi um convite de última hora."
+    },
+    {
+      "inicio": 22.4,
+      "fim": 28.0,
+      "texto": "Ai, eu achei cheirosa, então bora espleixo de torta de limão para você chegar lá com tudo."
+    },
+    {
+      "inicio": 28.3,
+      "fim": 30.6,
+      "texto": "Eu vou sair para jantar e é um encontro."
+    },
+    {
+      "inicio": 32.2,
+      "fim": 35.8,
+      "texto": "Ai, eu vou no bora espleixo de sanda e de cereja."
+    },
+    {
+      "inicio": 35.8,
+      "fim": 37.5,
+      "texto": "Acho que ele é perfeito para a sua ocasião."
+    },
+    {
+      "inicio": 38.2,
+      "fim": 41.4,
+      "texto": "Acordei atrasada e eu preciso me arrumar o mais rápido possível."
+    },
+    {
+      "inicio": 42.6,
+      "fim": 43.7,
+      "texto": "Vamos de Holoblush."
+    },
+    {
+      "inicio": 43.7,
+      "fim": 47.9,
+      "texto": "Eu acho que sem estar ali coradinho, não tem como começar o dia bem."
+    },
+    {
+      "inicio": 47.9,
+      "fim": 50.0,
+      "texto": "Então, Holoblush para mim é esse produto."
+    }
+  ],
+  "texto_na_tela": [
+    {
+      "t": 5.9,
+      "texto": "0YBCYB",
+      "conf": 0.43
+    },
+    {
+      "t": 5.9,
+      "texto": "Dalus",
+      "conf": 0.6
+    },
+    {
+      "t": 8.8,
+      "texto": "0YBBYB",
+      "conf": 0.43
+    },
+    {
+      "t": 8.8,
+      "texto": "Dailus",
+      "conf": 0.48
+    },
+    {
+      "t": 14.7,
+      "texto": "FORTILON",
+      "conf": 1.0
+    },
+    {
+      "t": 14.7,
+      "texto": "PERNAS",
+      "conf": 0.98
+    },
+    {
+      "t": 14.7,
+      "texto": "CANSADAS",
+      "conf": 0.98
+    },
+    {
+      "t": 14.7,
+      "texto": "CANFOHA",
+      "conf": 0.77
+    },
+    {
+      "t": 14.7,
+      "texto": "1208",
+      "conf": 1.0
+    },
+    {
+      "t": 32.4,
+      "texto": "SWEET",
+      "conf": 0.45
+    },
+    {
+      "t": 32.4,
+      "texto": "SRI",
+      "conf": 0.63
+    },
+    {
+      "t": 35.3,
+      "texto": "SRD",
+      "conf": 0.45
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "handle": "babidadailus",
+  "shortcode": "DZDyFxXvU-6",
+  "video_file": "data/social/instagram/media/babidadailus/DZDyFxXvU-6.mp4",
+  "duracao_seg": 67.4,
+  "duracao_mmss": "01:07",
+  "idioma": "pt",
+  "idioma_prob": 1,
+  "n_segmentos_fala": 0,
+  "n_textos_na_tela": 25,
+  "transcricao": "",
+  "segmentos": [],
+  "texto_na_tela": [
+    {
+      "t": 0.0,
+      "texto": "Dailus",
+      "conf": 0.57
+    },
+    {
+      "t": 0.0,
+      "texto": "Julua",
+      "conf": 0.58
+    },
+    {
+      "t": 5.9,
+      "texto": "'CUM",
+      "conf": 0.44
+    },
+    {
+      "t": 11.8,
+      "texto": "Liquipo",
+      "conf": 0.71
+    },
+    {
+      "t": 11.8,
+      "texto": "OLHÃOEB",
+      "conf": 0.98
+    },
+    {
+      "t": 14.7,
+      "texto": "BANHO PREMIUM",
+      "conf": 0.99
+    },
+    {
+      "t": 14.7,
+      "texto": "Re 29,90",
+      "conf": 0.51
+    },
+    {
+      "t": 14.7,
+      "texto": "lançamento",
+      "conf": 1.0
+    },
+    {
+      "t": 14.7,
+      "texto": "39,90",
+      "conf": 0.97
+    },
+    {
+      "t": 14.7,
+      "texto": "MENTO:",
+      "conf": 0.58
+    },
+    {
+      "t": 14.7,
+      "texto": "melu",
+      "conf": 0.65
+    },
+    {
+      "t": 17.6,
+      "texto": "Dellus",
+      "conf": 0.52
+    },
+    {
+      "t": 17.6,
+      "texto": "Dalus",
+      "conf": 0.5
+    },
+    {
+      "t": 17.6,
+      "texto": "OLEO",
+      "conf": 0.84
+    },
+    {
+      "t": 17.6,
+      "texto": "R6 19,90",
+      "conf": 0.57
+    },
+    {
+      "t": 17.6,
+      "texto": "19,90",
+      "conf": 0.83
+    },
+    {
+      "t": 20.6,
+      "texto": "Off",
+      "conf": 0.48
+    },
+    {
+      "t": 20.6,
+      "texto": "50%OFF",
+      "conf": 0.77
+    },
+    {
+      "t": 26.5,
+      "texto": "ilus",
+      "conf": 0.88
+    },
+    {
+      "t": 29.4,
+      "texto": "cop",
+      "conf": 0.83
+    },
+    {
+      "t": 32.4,
+      "texto": "ose",
+      "conf": 0.99
+    },
+    {
+      "t": 41.2,
+      "texto": "Vme",
+      "conf": 0.45
+    },
+    {
+      "t": 44.1,
+      "texto": "nailus",
+      "conf": 0.94
+    },
+    {
+      "t": 58.8,
+      "texto": "Dailos",
+      "conf": 0.49
+    },
+    {
+      "t": 61.8,
+      "texto": "Dau",
+      "conf": 0.47
+    }
+  ]
+}

@@ -1,0 +1,406 @@
+{
+  "handle": "babidadailus",
+  "shortcode": "DZqX6Povc4c",
+  "video_file": "data/social/instagram/media/babidadailus/DZqX6Povc4c.mp4",
+  "duracao_seg": 83.4,
+  "duracao_mmss": "01:23",
+  "idioma": "pt",
+  "idioma_prob": 1,
+  "n_segmentos_fala": 14,
+  "n_textos_na_tela": 64,
+  "transcricao": "Logo cedinho já comecei indo pra academia, se eu não for de manhã não vou mais, então já tava por lá. Depois fui já direto pra Dallas pra conseguir começar a trabalhar, organizar algumas coisas, tirar do papel algumas ideias, possibilidades pra 2027, e só fui conseguir parar depois por volta das quatro e meia. E fui testar uma ativação super legal que o time tá fazendo da copa, ficou muito legal. Aí no fim da tarde, por volta de umas seis horas, fui direto pro aeroporto, direto pra Guarulhos, que a gente tava tendo uma viagem pra visitar um dos nossos fornecedores em Curitiba. Emborquei e só nove e meia cheguei lá direto pro hotel, que eu já tava exausta, morta, cansada. E no dia seguinte, logo cedinho, a gente já foi pro fornecedor pra acompanhar algumas etapas do nosso processo produtivo e deixar tudo redondinho pro lançamento. Pois ou moço, a gente aproveitou que já tava por lá pra ir visitar algumas lojas e pegar o voo de volta pra São Paulo ali no finalzinho do dia. Logo que cheguei por volta de umas oito, só nove e meia fui chegar em casa, mas não parou por aí, ainda tinha muito Red Bull pra tomar pra dar conta dessas caixas pra mudança.",
+  "segmentos": [
+    {
+      "inicio": 2.9,
+      "fim": 9.9,
+      "texto": "Logo cedinho já comecei indo pra academia, se eu não for de manhã não vou mais, então já tava por lá."
+    },
+    {
+      "inicio": 9.9,
+      "fim": 16.9,
+      "texto": "Depois fui já direto pra Dallas pra conseguir começar a trabalhar, organizar algumas coisas,"
+    },
+    {
+      "inicio": 16.9,
+      "fim": 20.9,
+      "texto": "tirar do papel algumas ideias, possibilidades pra 2027,"
+    },
+    {
+      "inicio": 20.9,
+      "fim": 25.9,
+      "texto": "e só fui conseguir parar depois por volta das quatro e meia."
+    },
+    {
+      "inicio": 25.9,
+      "fim": 31.9,
+      "texto": "E fui testar uma ativação super legal que o time tá fazendo da copa, ficou muito legal."
+    },
+    {
+      "inicio": 31.9,
+      "fim": 37.9,
+      "texto": "Aí no fim da tarde, por volta de umas seis horas, fui direto pro aeroporto, direto pra Guarulhos,"
+    },
+    {
+      "inicio": 37.9,
+      "fim": 42.9,
+      "texto": "que a gente tava tendo uma viagem pra visitar um dos nossos fornecedores em Curitiba."
+    },
+    {
+      "inicio": 42.9,
+      "fim": 49.9,
+      "texto": "Emborquei e só nove e meia cheguei lá direto pro hotel, que eu já tava exausta, morta, cansada."
+    },
+    {
+      "inicio": 49.9,
+      "fim": 57.9,
+      "texto": "E no dia seguinte, logo cedinho, a gente já foi pro fornecedor pra acompanhar algumas etapas do nosso processo produtivo"
+    },
+    {
+      "inicio": 57.9,
+      "fim": 60.9,
+      "texto": "e deixar tudo redondinho pro lançamento."
+    },
+    {
+      "inicio": 60.9,
+      "fim": 65.9,
+      "texto": "Pois ou moço, a gente aproveitou que já tava por lá pra ir visitar algumas lojas"
+    },
+    {
+      "inicio": 65.9,
+      "fim": 70.9,
+      "texto": "e pegar o voo de volta pra São Paulo ali no finalzinho do dia."
+    },
+    {
+      "inicio": 70.9,
+      "fim": 75.9,
+      "texto": "Logo que cheguei por volta de umas oito, só nove e meia fui chegar em casa,"
+    },
+    {
+      "inicio": 75.9,
+      "fim": 82.9,
+      "texto": "mas não parou por aí, ainda tinha muito Red Bull pra tomar pra dar conta dessas caixas pra mudança."
+    }
+  ],
+  "texto_na_tela": [
+    {
+      "t": 0.0,
+      "texto": "2143",
+      "conf": 0.91
+    },
+    {
+      "t": 0.0,
+      "texto": "indo para",
+      "conf": 0.63
+    },
+    {
+      "t": 0.0,
+      "texto": "0 hotel",
+      "conf": 0.77
+    },
+    {
+      "t": 2.9,
+      "texto": "5.30",
+      "conf": 0.58
+    },
+    {
+      "t": 2.9,
+      "texto": "academia",
+      "conf": 0.67
+    },
+    {
+      "t": 2.9,
+      "texto": "quarta-feira",
+      "conf": 0.9
+    },
+    {
+      "t": 5.9,
+      "texto": "iniciando",
+      "conf": 0.88
+    },
+    {
+      "t": 5.9,
+      "texto": "treino",
+      "conf": 1.0
+    },
+    {
+      "t": 11.8,
+      "texto": "850",
+      "conf": 0.99
+    },
+    {
+      "t": 11.8,
+      "texto": "chegando",
+      "conf": 0.99
+    },
+    {
+      "t": 11.8,
+      "texto": "na Dailus",
+      "conf": 0.93
+    },
+    {
+      "t": 14.7,
+      "texto": "10.00",
+      "conf": 0.53
+    },
+    {
+      "t": 14.7,
+      "texto": "organizando algumas ideias",
+      "conf": 0.93
+    },
+    {
+      "t": 14.7,
+      "texto": "de produtos",
+      "conf": 0.99
+    },
+    {
+      "t": 14.7,
+      "texto": "2027",
+      "conf": 0.73
+    },
+    {
+      "t": 14.7,
+      "texto": "para",
+      "conf": 1.0
+    },
+    {
+      "t": 17.6,
+      "texto": "de produtos para 2027",
+      "conf": 0.89
+    },
+    {
+      "t": 20.6,
+      "texto": "16830",
+      "conf": 0.64
+    },
+    {
+      "t": 20.6,
+      "texto": "testando a nossa ativação",
+      "conf": 0.74
+    },
+    {
+      "t": 20.6,
+      "texto": "@a copa domundo",
+      "conf": 0.89
+    },
+    {
+      "t": 23.5,
+      "texto": "16.30",
+      "conf": 0.88
+    },
+    {
+      "t": 23.5,
+      "texto": "festando a nossa atvação",
+      "conf": 0.59
+    },
+    {
+      "t": 26.5,
+      "texto": "da c@padomundo",
+      "conf": 0.82
+    },
+    {
+      "t": 29.4,
+      "texto": "da @@padomundo",
+      "conf": 0.63
+    },
+    {
+      "t": 32.4,
+      "texto": "18.03",
+      "conf": 0.67
+    },
+    {
+      "t": 32.4,
+      "texto": "aeroporto",
+      "conf": 0.92
+    },
+    {
+      "t": 38.2,
+      "texto": "1920",
+      "conf": 1.0
+    },
+    {
+      "t": 38.2,
+      "texto": "jantando",
+      "conf": 0.63
+    },
+    {
+      "t": 41.2,
+      "texto": "20:0",
+      "conf": 0.54
+    },
+    {
+      "t": 41.2,
+      "texto": "pegando voo",
+      "conf": 0.8
+    },
+    {
+      "t": 41.2,
+      "texto": "para Curitiba",
+      "conf": 0.99
+    },
+    {
+      "t": 44.1,
+      "texto": "21.32",
+      "conf": 0.88
+    },
+    {
+      "t": 44.1,
+      "texto": "cheguei em Curitiba",
+      "conf": 0.75
+    },
+    {
+      "t": 47.1,
+      "texto": "21843",
+      "conf": 0.95
+    },
+    {
+      "t": 47.1,
+      "texto": "hotel",
+      "conf": 0.95
+    },
+    {
+      "t": 50.0,
+      "texto": "8.30",
+      "conf": 0.68
+    },
+    {
+      "t": 50.0,
+      "texto": "chegada no",
+      "conf": 0.94
+    },
+    {
+      "t": 50.0,
+      "texto": "nosso fornecedor",
+      "conf": 0.84
+    },
+    {
+      "t": 50.0,
+      "texto": "quinta-feira",
+      "conf": 1.0
+    },
+    {
+      "t": 52.9,
+      "texto": "Iho powor",
+      "conf": 0.61
+    },
+    {
+      "t": 52.9,
+      "texto": "o/ míndlul boauty",
+      "conf": 0.66
+    },
+    {
+      "t": 55.9,
+      "texto": "chegada n@",
+      "conf": 0.94
+    },
+    {
+      "t": 55.9,
+      "texto": "nosso",
+      "conf": 0.97
+    },
+    {
+      "t": 55.9,
+      "texto": "fomnecedor",
+      "conf": 0.44
+    },
+    {
+      "t": 55.9,
+      "texto": "Barbara Rossi, Diego Kilpp, Samir Silva",
+      "conf": 0.89
+    },
+    {
+      "t": 55.9,
+      "texto": "Dailus",
+      "conf": 1.0
+    },
+    {
+      "t": 61.8,
+      "texto": "13.35",
+      "conf": 0.91
+    },
+    {
+      "t": 61.8,
+      "texto": "visitando as lojas",
+      "conf": 0.96
+    },
+    {
+      "t": 61.8,
+      "texto": "da cidade",
+      "conf": 0.96
+    },
+    {
+      "t": 67.6,
+      "texto": "1850",
+      "conf": 1.0
+    },
+    {
+      "t": 67.6,
+      "texto": "voo de volta",
+      "conf": 0.91
+    },
+    {
+      "t": 67.6,
+      "texto": "para São Paulo",
+      "conf": 0.97
+    },
+    {
+      "t": 70.6,
+      "texto": "chegando em",
+      "conf": 0.97
+    },
+    {
+      "t": 70.6,
+      "texto": "São Paulo",
+      "conf": 0.88
+    },
+    {
+      "t": 73.5,
+      "texto": "CERTIFICADO",
+      "conf": 0.85
+    },
+    {
+      "t": 73.5,
+      "texto": "2130",
+      "conf": 0.84
+    },
+    {
+      "t": 73.5,
+      "texto": "Arrumar as @aixas",
+      "conf": 0.8
+    },
+    {
+      "t": 73.5,
+      "texto": "paaamudanç",
+      "conf": 0.49
+    },
+    {
+      "t": 76.5,
+      "texto": "21830",
+      "conf": 0.63
+    },
+    {
+      "t": 76.5,
+      "texto": "Afrumar @s @aixas",
+      "conf": 0.61
+    },
+    {
+      "t": 79.4,
+      "texto": "21:30 R",
+      "conf": 0.54
+    },
+    {
+      "t": 79.4,
+      "texto": "Arrumar as caixas",
+      "conf": 0.53
+    },
+    {
+      "t": 79.4,
+      "texto": "@ara a mudança",
+      "conf": 0.5
+    },
+    {
+      "t": 79.4,
+      "texto": "250 ml",
+      "conf": 0.77
+    }
+  ]
+}

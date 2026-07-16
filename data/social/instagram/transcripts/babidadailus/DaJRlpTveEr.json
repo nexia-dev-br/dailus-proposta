@@ -1,0 +1,166 @@
+{
+  "handle": "babidadailus",
+  "shortcode": "DaJRlpTveEr",
+  "video_file": "data/social/instagram/media/babidadailus/DaJRlpTveEr.mp4",
+  "duracao_seg": 124.0,
+  "duracao_mmss": "02:04",
+  "idioma": "pt",
+  "idioma_prob": 1,
+  "n_segmentos_fala": 28,
+  "n_textos_na_tela": 2,
+  "transcricao": "Eu coloquei uma caixinha de pergunta nos stories, perguntando curiosidades que vocês gostariam de saber sobre a Dailus, sobre a nossa história E vou responder agora um pouquinho Quando e como que surgiu a Dailus? Pessoal, a Dailus em si com esse nome A parte de maquiagem tem 20 anos e a parte de Smautes tem 10 anos Mas antes disso, antes de ser Dailus era real, se o nome da empresa, o nome da marca E a empresa, antes mesmo de ser Dailus, vem de um sonho muito grande de fazer acontecer De uma família que queria colocar o produto na rua, queria experimentar, queria testar Sem ninguém que conhecia sobre isso, sobre estudando todos os dias E eu falo com muito orgulho, brinco que desde que eu nasci cheirando Smautes no ambiente de fábrica E gosto muito disso e tenho muito orgulho de estar acompanhando de perto e de estar começando a fazer parte dessa história E como foi escolhido o nome da Dailus? Da onde que veio? Então, como eu falei, a empresa era Realci Só que Realci, quando a gente para para ver, ele é genérico, Realci Realci o quê? Pode servir para várias coisas E nessa, literalmente o meu pai estava sentado ali com uma comunidade lituana aqui no Brasil E ele foi perguntando palavras que remetessem a bonita, linda, legal, cheirosa E aí dentro dessas palavras nenhuma ficou boa Aí ele falou isso e a gente colocasse no masculino Então Dailus significa bonito em lituano E uma curiosidade da Dailus? Eu acho que uma curiosidade é que a gente já esteve na categoria capilar Com tonicuzinhos capilares e também com gel Acho que poucas pessoas sabem disso E você pode dar para a gente algum spoiler de lançamento que está para vir? Posso! Tem um produto muito legal para a sombrancelha se chegando no mercado Tenho certeza que vai ser sucesso",
+  "segmentos": [
+    {
+      "inicio": 0.0,
+      "fim": 6.5,
+      "texto": "Eu coloquei uma caixinha de pergunta nos stories, perguntando curiosidades que vocês gostariam de saber sobre a Dailus, sobre a nossa história"
+    },
+    {
+      "inicio": 6.5,
+      "fim": 8.2,
+      "texto": "E vou responder agora um pouquinho"
+    },
+    {
+      "inicio": 8.2,
+      "fim": 10.3,
+      "texto": "Quando e como que surgiu a Dailus?"
+    },
+    {
+      "inicio": 11.3,
+      "fim": 14.5,
+      "texto": "Pessoal, a Dailus em si com esse nome"
+    },
+    {
+      "inicio": 14.5,
+      "fim": 19.5,
+      "texto": "A parte de maquiagem tem 20 anos e a parte de Smautes tem 10 anos"
+    },
+    {
+      "inicio": 19.5,
+      "fim": 25.5,
+      "texto": "Mas antes disso, antes de ser Dailus era real, se o nome da empresa, o nome da marca"
+    },
+    {
+      "inicio": 26.0,
+      "fim": 32.0,
+      "texto": "E a empresa, antes mesmo de ser Dailus, vem de um sonho muito grande de fazer acontecer"
+    },
+    {
+      "inicio": 32.0,
+      "fim": 37.0,
+      "texto": "De uma família que queria colocar o produto na rua, queria experimentar, queria testar"
+    },
+    {
+      "inicio": 37.0,
+      "fim": 41.5,
+      "texto": "Sem ninguém que conhecia sobre isso, sobre estudando todos os dias"
+    },
+    {
+      "inicio": 41.5,
+      "fim": 48.5,
+      "texto": "E eu falo com muito orgulho, brinco que desde que eu nasci cheirando Smautes no ambiente de fábrica"
+    },
+    {
+      "inicio": 48.5,
+      "fim": 58.5,
+      "texto": "E gosto muito disso e tenho muito orgulho de estar acompanhando de perto e de estar começando a fazer parte dessa história"
+    },
+    {
+      "inicio": 58.5,
+      "fim": 61.5,
+      "texto": "E como foi escolhido o nome da Dailus? Da onde que veio?"
+    },
+    {
+      "inicio": 61.5,
+      "fim": 65.5,
+      "texto": "Então, como eu falei, a empresa era Realci"
+    },
+    {
+      "inicio": 65.5,
+      "fim": 69.5,
+      "texto": "Só que Realci, quando a gente para para ver, ele é genérico, Realci"
+    },
+    {
+      "inicio": 69.5,
+      "fim": 72.5,
+      "texto": "Realci o quê? Pode servir para várias coisas"
+    },
+    {
+      "inicio": 72.5,
+      "fim": 78.5,
+      "texto": "E nessa, literalmente o meu pai estava sentado ali com uma comunidade lituana aqui no Brasil"
+    },
+    {
+      "inicio": 78.5,
+      "fim": 85.5,
+      "texto": "E ele foi perguntando palavras que remetessem a bonita, linda, legal, cheirosa"
+    },
+    {
+      "inicio": 85.5,
+      "fim": 88.5,
+      "texto": "E aí dentro dessas palavras nenhuma ficou boa"
+    },
+    {
+      "inicio": 88.5,
+      "fim": 91.5,
+      "texto": "Aí ele falou isso e a gente colocasse no masculino"
+    },
+    {
+      "inicio": 91.5,
+      "fim": 95.5,
+      "texto": "Então Dailus significa bonito em lituano"
+    },
+    {
+      "inicio": 95.5,
+      "fim": 98.5,
+      "texto": "E uma curiosidade da Dailus?"
+    },
+    {
+      "inicio": 98.5,
+      "fim": 104.5,
+      "texto": "Eu acho que uma curiosidade é que a gente já esteve na categoria capilar"
+    },
+    {
+      "inicio": 104.5,
+      "fim": 108.5,
+      "texto": "Com tonicuzinhos capilares e também com gel"
+    },
+    {
+      "inicio": 108.5,
+      "fim": 110.5,
+      "texto": "Acho que poucas pessoas sabem disso"
+    },
+    {
+      "inicio": 110.5,
+      "fim": 114.5,
+      "texto": "E você pode dar para a gente algum spoiler de lançamento que está para vir?"
+    },
+    {
+      "inicio": 114.5,
+      "fim": 116.5,
+      "texto": "Posso!"
+    },
+    {
+      "inicio": 116.5,
+      "fim": 121.5,
+      "texto": "Tem um produto muito legal para a sombrancelha se chegando no mercado"
+    },
+    {
+      "inicio": 121.5,
+      "fim": 123.5,
+      "texto": "Tenho certeza que vai ser sucesso"
+    }
+  ],
+  "texto_na_tela": [
+    {
+      "t": 8.8,
+      "texto": "QUACDOBCOMO",
+      "conf": 0.57
+    },
+    {
+      "t": 97.1,
+      "texto": "U COROSIDACB",
+      "conf": 0.4
+    }
+  ]
+}

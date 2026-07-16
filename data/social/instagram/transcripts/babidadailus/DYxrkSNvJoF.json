@@ -1,0 +1,336 @@
+{
+  "handle": "babidadailus",
+  "shortcode": "DYxrkSNvJoF",
+  "video_file": "data/social/instagram/media/babidadailus/DYxrkSNvJoF.mp4",
+  "duracao_seg": 50.7,
+  "duracao_mmss": "00:50",
+  "idioma": "pt",
+  "idioma_prob": 1,
+  "n_segmentos_fala": 9,
+  "n_textos_na_tela": 55,
+  "transcricao": "Acabei de voltar aqui de um evento de K-Beauty e foi dentro da virada cultural coreana que teve aqui em São Paulo, né? Então, eles estão trazendo três frentes, então essa parte de K-Beauty, a parte de comida e a parte de K-pop. Eu fiquei só na dia K-Beauty e foi muito legal, assim. Eu particularmente não conhecia quase nada dessa cultura, então você entrar ali e ter contato com marcas que ainda não estão no mainstream quando a gente olha aqui no Brasil e a gente ainda não consegue encontrar no varejo e comer esses grandes, a gente também não tem, só ir comer esse próprio. Então se você não é muito do nicho, você ainda não tem muito contato, então foi muito legal. Estou gravando aqui um pouquinho mais no detalhe de como foi, então até estou abrindo algumas coisinhas que eu acabei comprando por lá.",
+  "segmentos": [
+    {
+      "inicio": 0.0,
+      "fim": 2.8,
+      "texto": "Acabei de voltar aqui de um evento de K-Beauty"
+    },
+    {
+      "inicio": 2.8,
+      "fim": 6.1,
+      "texto": "e foi dentro da virada cultural coreana que teve aqui em São Paulo, né?"
+    },
+    {
+      "inicio": 6.1,
+      "fim": 13.6,
+      "texto": "Então, eles estão trazendo três frentes, então essa parte de K-Beauty, a parte de comida e a parte de K-pop."
+    },
+    {
+      "inicio": 13.6,
+      "fim": 17.0,
+      "texto": "Eu fiquei só na dia K-Beauty e foi muito legal, assim."
+    },
+    {
+      "inicio": 17.0,
+      "fim": 25.1,
+      "texto": "Eu particularmente não conhecia quase nada dessa cultura, então você entrar ali e ter contato com marcas"
+    },
+    {
+      "inicio": 25.1,
+      "fim": 29.0,
+      "texto": "que ainda não estão no mainstream quando a gente olha aqui no Brasil"
+    },
+    {
+      "inicio": 29.1,
+      "fim": 36.6,
+      "texto": "e a gente ainda não consegue encontrar no varejo e comer esses grandes, a gente também não tem, só ir comer esse próprio."
+    },
+    {
+      "inicio": 36.6,
+      "fim": 42.3,
+      "texto": "Então se você não é muito do nicho, você ainda não tem muito contato, então foi muito legal."
+    },
+    {
+      "inicio": 42.3,
+      "fim": 50.4,
+      "texto": "Estou gravando aqui um pouquinho mais no detalhe de como foi, então até estou abrindo algumas coisinhas que eu acabei comprando por lá."
+    }
+  ],
+  "texto_na_tela": [
+    {
+      "t": 0.0,
+      "texto": "BeLEZA",
+      "conf": 0.5
+    },
+    {
+      "t": 0.0,
+      "texto": "LIFESTYLE",
+      "conf": 0.94
+    },
+    {
+      "t": 0.0,
+      "texto": "AVENIDA PAULSTA RECEBE POP",
+      "conf": 0.86
+    },
+    {
+      "t": 0.0,
+      "texto": "UPOFICIAL DEK-BEAUTY NESTE",
+      "conf": 0.84
+    },
+    {
+      "t": 0.0,
+      "texto": "FIM DE SEMANA",
+      "conf": 0.71
+    },
+    {
+      "t": 0.0,
+      "texto": "Organizada pelo Centro Cultura",
+      "conf": 0.68
+    },
+    {
+      "t": 0.0,
+      "texto": "Coreano no",
+      "conf": 1.0
+    },
+    {
+      "t": 0.0,
+      "texto": "Brasil, pop-up reunira",
+      "conf": 0.99
+    },
+    {
+      "t": 0.0,
+      "texto": "marcas de k-beauty.",
+      "conf": 0.78
+    },
+    {
+      "t": 0.0,
+      "texto": "POR CHAMES OLIVEIRA",
+      "conf": 1.0
+    },
+    {
+      "t": 0.0,
+      "texto": "2026",
+      "conf": 1.0
+    },
+    {
+      "t": 0.0,
+      "texto": "Acabei de voltar",
+      "conf": 0.81
+    },
+    {
+      "t": 0.0,
+      "texto": "aqui",
+      "conf": 0.99
+    },
+    {
+      "t": 2.9,
+      "texto": "coreana que teve aqui em",
+      "conf": 0.93
+    },
+    {
+      "t": 5.9,
+      "texto": "Eles estão trazendo três frentes;",
+      "conf": 0.97
+    },
+    {
+      "t": 8.8,
+      "texto": "[1ª K-Beauty",
+      "conf": 0.66
+    },
+    {
+      "t": 8.8,
+      "texto": "20 Comida",
+      "conf": 0.52
+    },
+    {
+      "t": 8.8,
+      "texto": "30 K-Pop",
+      "conf": 0.62
+    },
+    {
+      "t": 8.8,
+      "texto": "então essa parte de K-Beauty;",
+      "conf": 0.54
+    },
+    {
+      "t": 11.8,
+      "texto": "patde K-Pop.",
+      "conf": 0.43
+    },
+    {
+      "t": 14.7,
+      "texto": "foi muito legal assim.",
+      "conf": 0.66
+    },
+    {
+      "t": 17.6,
+      "texto": "particularmente não conhecia",
+      "conf": 0.52
+    },
+    {
+      "t": 20.6,
+      "texto": "Teste",
+      "conf": 0.82
+    },
+    {
+      "t": 23.5,
+      "texto": "K-beauty invadirá São Paulo neste fim de",
+      "conf": 1.0
+    },
+    {
+      "t": 23.5,
+      "texto": "semana.",
+      "conf": 0.99
+    },
+    {
+      "t": 23.5,
+      "texto": "Entre os dias 22 e 24 de maio, 0",
+      "conf": 0.78
+    },
+    {
+      "t": 23.5,
+      "texto": "Centro Cultural Coreano no Brasil reunirá em",
+      "conf": 0.97
+    },
+    {
+      "t": 23.5,
+      "texto": "sua sede na Avenida Paulista mais de 30 marcas",
+      "conf": 0.84
+    },
+    {
+      "t": 23.5,
+      "texto": "coreanas de beleza em uma pop-up",
+      "conf": 0.98
+    },
+    {
+      "t": 23.5,
+      "texto": "gratuita, que",
+      "conf": 0.93
+    },
+    {
+      "t": 23.5,
+      "texto": "pretende de aproximar 0 público brasileiro da",
+      "conf": 0.96
+    },
+    {
+      "t": 23.5,
+      "texto": "indústria cosmética do pais",
+      "conf": 0.93
+    },
+    {
+      "t": 23.5,
+      "texto": "é referência global",
+      "conf": 0.96
+    },
+    {
+      "t": 23.5,
+      "texto": "pvação e tecnologia.",
+      "conf": 0.96
+    },
+    {
+      "t": 23.5,
+      "texto": "ter contato com marcas",
+      "conf": 0.93
+    },
+    {
+      "t": 23.5,
+      "texto": "que",
+      "conf": 1.0
+    },
+    {
+      "t": 26.5,
+      "texto": "semana. Entre os dias 22 e 24 de maio,",
+      "conf": 0.56
+    },
+    {
+      "t": 26.5,
+      "texto": "indústria cosmética do país, que é referência global",
+      "conf": 0.77
+    },
+    {
+      "t": 26.5,
+      "texto": "em inovaçao e",
+      "conf": 0.6
+    },
+    {
+      "t": 26.5,
+      "texto": "tecnologia.",
+      "conf": 0.99
+    },
+    {
+      "t": 26.5,
+      "texto": "quando agente",
+      "conf": 0.78
+    },
+    {
+      "t": 26.5,
+      "texto": "@ha aqui no Brasi]",
+      "conf": 0.74
+    },
+    {
+      "t": 29.4,
+      "texto": "gente ainda não consegue",
+      "conf": 0.76
+    },
+    {
+      "t": 29.4,
+      "texto": "encontrarno varejo",
+      "conf": 0.59
+    },
+    {
+      "t": 32.4,
+      "texto": "@@m @ G@Mmerce grandes",
+      "conf": 0.4
+    },
+    {
+      "t": 32.4,
+      "texto": "MYURI",
+      "conf": 0.52
+    },
+    {
+      "t": 35.3,
+      "texto": "PCALM",
+      "conf": 0.85
+    },
+    {
+      "t": 35.3,
+      "texto": "então se você",
+      "conf": 0.81
+    },
+    {
+      "t": 38.2,
+      "texto": "você ainda não",
+      "conf": 0.73
+    },
+    {
+      "t": 38.2,
+      "texto": "tem muito contato .",
+      "conf": 0.92
+    },
+    {
+      "t": 41.2,
+      "texto": "Tô gravando",
+      "conf": 0.61
+    },
+    {
+      "t": 41.2,
+      "texto": "um pouquinho mais",
+      "conf": 0.98
+    },
+    {
+      "t": 44.1,
+      "texto": "detahedecomo f@i",
+      "conf": 0.83
+    },
+    {
+      "t": 47.1,
+      "texto": "algumas @oisinhas queeu",
+      "conf": 0.65
+    },
+    {
+      "t": 47.1,
+      "texto": "acabei @@mprando por lá.",
+      "conf": 0.57
+    }
+  ]
+}

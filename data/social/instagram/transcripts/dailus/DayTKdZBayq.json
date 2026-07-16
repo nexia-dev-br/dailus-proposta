@@ -1,0 +1,56 @@
+{
+  "handle": "dailus",
+  "shortcode": "DayTKdZBayq",
+  "video_file": "data/social/instagram/media/dailus/DayTKdZBayq.mp4",
+  "duracao_seg": 26.2,
+  "duracao_mmss": "00:26",
+  "idioma": "pt",
+  "idioma_prob": 1,
+  "n_segmentos_fala": 2,
+  "n_textos_na_tela": 6,
+  "transcricao": "Bebe ou passar, tudo empieza a latir Me invita a centrar e a unciar da minha energia",
+  "segmentos": [
+    {
+      "inicio": 17.3,
+      "fim": 21.3,
+      "texto": "Bebe ou passar, tudo empieza a latir"
+    },
+    {
+      "inicio": 21.3,
+      "fim": 25.3,
+      "texto": "Me invita a centrar e a unciar da minha energia"
+    }
+  ],
+  "texto_na_tela": [
+    {
+      "t": 0.0,
+      "texto": "SHOOTINGBACKSTAGE",
+      "conf": 0.67
+    },
+    {
+      "t": 2.9,
+      "texto": "GHOOIINGBACKSTAGE",
+      "conf": 0.5
+    },
+    {
+      "t": 2.9,
+      "texto": "gdacdrancelhas fix tudo",
+      "conf": 0.53
+    },
+    {
+      "t": 23.5,
+      "texto": "250",
+      "conf": 0.45
+    },
+    {
+      "t": 23.5,
+      "texto": "Flash",
+      "conf": 1.0
+    },
+    {
+      "t": 23.5,
+      "texto": "Nonc",
+      "conf": 0.9
+    }
+  ]
+}

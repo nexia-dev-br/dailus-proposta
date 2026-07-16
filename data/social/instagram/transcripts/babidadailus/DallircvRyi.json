@@ -1,0 +1,681 @@
+{
+  "handle": "babidadailus",
+  "shortcode": "DallircvRyi",
+  "video_file": "data/social/instagram/media/babidadailus/DallircvRyi.mp4",
+  "duracao_seg": 124.7,
+  "duracao_mmss": "02:04",
+  "idioma": "pt",
+  "idioma_prob": 1,
+  "n_segmentos_fala": 45,
+  "n_textos_na_tela": 88,
+  "transcricao": "Vocês já puderam conhecer um pouquinho mais da nossa qualidade, mas tem outra área que eu queria muito contar para vocês como que funciona, que é a nossa operação. Para isso, eu quis chamar o Jeff, que é nosso coordenador aqui da operação, para mostrar para vocês um pouquinho de como funciona todo esse processo. Bora lá? Oi, pessoal, tudo bem? Eu sou o Jeffer Sousquera, sou responsável por toda a operação logística e hoje eu vou apresentar para vocês um pouco como funciona a nossa operação logística. Nós fomos responsáveis por todo o planejamento, e a execução da movimentação dos nossos estoques. Isso vai desde a otimização do espaço físico até o dimensionamento das pessoas e dos equipamentos necessários para rodar toda a operação. Nós separamos nossa operação em três grandes etapas. Recebimento de mercadorias, separação de pedidos e a expedição. No recebimento, nós trabalhamos através de janelas de atendimento, onde nossos fornecedores se apresentam, a gente faz a checagem das quantidades, do lote, da validade, de como as caixas estão e das etiquetas. A partir dessa liberação, nós colocamos as cargas no setor da qualidade. E aí quem quiser ver melhor, a G já explicou isso em um vídeo anterior. Quando a qualidade faz a liberação das cargas, nós armazenamos elas nos endereços seguindo uma ordem de fefo, que significa o primeiro que vem e o primeiro que sai. Temos duas operações no nosso CD. Um é o Bitube, que é a venda direta para distribuidores, farmácias, grandes redes, perfomarias, que são caixas fechadas praticamente. E a venda Bitucí, que é a venda direta para o consumidor final. Nosso processo é muito rápido. A gente separa, confere em bala e etiqueta para expedir logo na parte da manhã. Aí entra a etapa final, a expedição. Os pedidos são coletados e expedidos através das nossas transportadoras parceiras e chega até a sua casa. E o resultado de tudo isso é uma performance de 99,7%, que é um número excelente para o mercado de logística. Entregamos milhares de pedidos durante o mês com uma equipe comprometida e experiente.",
+  "segmentos": [
+    {
+      "inicio": 0.0,
+      "fim": 3.2,
+      "texto": "Vocês já puderam conhecer um pouquinho mais da nossa qualidade,"
+    },
+    {
+      "inicio": 3.2,
+      "fim": 6.2,
+      "texto": "mas tem outra área que eu queria muito contar para vocês"
+    },
+    {
+      "inicio": 6.2,
+      "fim": 9.2,
+      "texto": "como que funciona, que é a nossa operação."
+    },
+    {
+      "inicio": 9.2,
+      "fim": 12.8,
+      "texto": "Para isso, eu quis chamar o Jeff, que é nosso coordenador aqui da operação,"
+    },
+    {
+      "inicio": 12.8,
+      "fim": 16.6,
+      "texto": "para mostrar para vocês um pouquinho de como funciona todo esse processo."
+    },
+    {
+      "inicio": 16.6,
+      "fim": 17.6,
+      "texto": "Bora lá?"
+    },
+    {
+      "inicio": 18.8,
+      "fim": 21.4,
+      "texto": "Oi, pessoal, tudo bem? Eu sou o Jeffer Sousquera,"
+    },
+    {
+      "inicio": 21.4,
+      "fim": 23.4,
+      "texto": "sou responsável por toda a operação logística"
+    },
+    {
+      "inicio": 23.4,
+      "fim": 25.0,
+      "texto": "e hoje eu vou apresentar para vocês um pouco"
+    },
+    {
+      "inicio": 25.0,
+      "fim": 27.2,
+      "texto": "como funciona a nossa operação logística."
+    },
+    {
+      "inicio": 27.2,
+      "fim": 29.8,
+      "texto": "Nós fomos responsáveis por todo o planejamento,"
+    },
+    {
+      "inicio": 29.8,
+      "fim": 33.2,
+      "texto": "e a execução da movimentação dos nossos estoques."
+    },
+    {
+      "inicio": 33.2,
+      "fim": 36.2,
+      "texto": "Isso vai desde a otimização do espaço físico"
+    },
+    {
+      "inicio": 36.2,
+      "fim": 38.8,
+      "texto": "até o dimensionamento das pessoas"
+    },
+    {
+      "inicio": 38.8,
+      "fim": 41.8,
+      "texto": "e dos equipamentos necessários para rodar toda a operação."
+    },
+    {
+      "inicio": 41.8,
+      "fim": 44.8,
+      "texto": "Nós separamos nossa operação em três grandes etapas."
+    },
+    {
+      "inicio": 44.8,
+      "fim": 49.2,
+      "texto": "Recebimento de mercadorias, separação de pedidos e a expedição."
+    },
+    {
+      "inicio": 49.2,
+      "fim": 52.8,
+      "texto": "No recebimento, nós trabalhamos através de janelas de atendimento,"
+    },
+    {
+      "inicio": 52.8,
+      "fim": 55.2,
+      "texto": "onde nossos fornecedores se apresentam,"
+    },
+    {
+      "inicio": 55.2,
+      "fim": 59.4,
+      "texto": "a gente faz a checagem das quantidades, do lote, da validade,"
+    },
+    {
+      "inicio": 59.4,
+      "fim": 62.4,
+      "texto": "de como as caixas estão e das etiquetas."
+    },
+    {
+      "inicio": 62.4,
+      "fim": 64.0,
+      "texto": "A partir dessa liberação,"
+    },
+    {
+      "inicio": 64.0,
+      "fim": 67.6,
+      "texto": "nós colocamos as cargas no setor da qualidade."
+    },
+    {
+      "inicio": 67.6,
+      "fim": 71.4,
+      "texto": "E aí quem quiser ver melhor, a G já explicou isso em um vídeo anterior."
+    },
+    {
+      "inicio": 71.4,
+      "fim": 73.8,
+      "texto": "Quando a qualidade faz a liberação das cargas,"
+    },
+    {
+      "inicio": 73.8,
+      "fim": 76.2,
+      "texto": "nós armazenamos elas nos endereços"
+    },
+    {
+      "inicio": 76.2,
+      "fim": 77.8,
+      "texto": "seguindo uma ordem de fefo,"
+    },
+    {
+      "inicio": 77.8,
+      "fim": 80.8,
+      "texto": "que significa o primeiro que vem e o primeiro que sai."
+    },
+    {
+      "inicio": 80.8,
+      "fim": 83.0,
+      "texto": "Temos duas operações no nosso CD."
+    },
+    {
+      "inicio": 83.0,
+      "fim": 86.0,
+      "texto": "Um é o Bitube, que é a venda direta para"
+    },
+    {
+      "inicio": 86.0,
+      "fim": 89.0,
+      "texto": "distribuidores, farmácias, grandes redes,"
+    },
+    {
+      "inicio": 89.0,
+      "fim": 93.0,
+      "texto": "perfomarias, que são caixas fechadas praticamente."
+    },
+    {
+      "inicio": 93.0,
+      "fim": 96.4,
+      "texto": "E a venda Bitucí, que é a venda direta para o consumidor final."
+    },
+    {
+      "inicio": 96.4,
+      "fim": 98.0,
+      "texto": "Nosso processo é muito rápido."
+    },
+    {
+      "inicio": 98.0,
+      "fim": 101.0,
+      "texto": "A gente separa, confere em bala e etiqueta"
+    },
+    {
+      "inicio": 101.0,
+      "fim": 103.2,
+      "texto": "para expedir logo na parte da manhã."
+    },
+    {
+      "inicio": 103.2,
+      "fim": 105.8,
+      "texto": "Aí entra a etapa final, a expedição."
+    },
+    {
+      "inicio": 105.8,
+      "fim": 108.4,
+      "texto": "Os pedidos são coletados e expedidos"
+    },
+    {
+      "inicio": 108.4,
+      "fim": 110.6,
+      "texto": "através das nossas transportadoras parceiras"
+    },
+    {
+      "inicio": 110.6,
+      "fim": 112.0,
+      "texto": "e chega até a sua casa."
+    },
+    {
+      "inicio": 112.0,
+      "fim": 113.6,
+      "texto": "E o resultado de tudo isso"
+    },
+    {
+      "inicio": 113.6,
+      "fim": 116.6,
+      "texto": "é uma performance de 99,7%,"
+    },
+    {
+      "inicio": 116.6,
+      "fim": 119.0,
+      "texto": "que é um número excelente para o mercado de logística."
+    },
+    {
+      "inicio": 119.0,
+      "fim": 121.8,
+      "texto": "Entregamos milhares de pedidos durante o mês"
+    },
+    {
+      "inicio": 121.8,
+      "fim": 124.6,
+      "texto": "com uma equipe comprometida e experiente."
+    }
+  ],
+  "texto_na_tela": [
+    {
+      "t": 0.0,
+      "texto": "Vocês já puderam conhecer",
+      "conf": 0.85
+    },
+    {
+      "t": 0.0,
+      "texto": "um pouquinho mais",
+      "conf": 0.87
+    },
+    {
+      "t": 2.9,
+      "texto": "mas tem outra área que eu",
+      "conf": 0.91
+    },
+    {
+      "t": 2.9,
+      "texto": "queria muito contar pra vocês",
+      "conf": 0.99
+    },
+    {
+      "t": 5.9,
+      "texto": "como que funciona;",
+      "conf": 0.77
+    },
+    {
+      "t": 8.8,
+      "texto": "Pra isso eu quis chamar 0 Jef",
+      "conf": 0.59
+    },
+    {
+      "t": 11.8,
+      "texto": "pra mostrar pra vocês",
+      "conf": 0.82
+    },
+    {
+      "t": 11.8,
+      "texto": "pouquinho",
+      "conf": 1.0
+    },
+    {
+      "t": 14.7,
+      "texto": "de como funciona",
+      "conf": 0.94
+    },
+    {
+      "t": 14.7,
+      "texto": "todo esse processo.",
+      "conf": 0.7
+    },
+    {
+      "t": 17.6,
+      "texto": "Oi pessoal,",
+      "conf": 0.48
+    },
+    {
+      "t": 20.6,
+      "texto": "sou responsável por",
+      "conf": 0.93
+    },
+    {
+      "t": 20.6,
+      "texto": "toda operação logística",
+      "conf": 1.0
+    },
+    {
+      "t": 23.5,
+      "texto": "hoje eu vou apresentar",
+      "conf": 0.81
+    },
+    {
+      "t": 23.5,
+      "texto": "pra vocês um pouco",
+      "conf": 0.97
+    },
+    {
+      "t": 23.5,
+      "texto": "orupo",
+      "conf": 0.97
+    },
+    {
+      "t": 23.5,
+      "texto": "Dailus",
+      "conf": 0.89
+    },
+    {
+      "t": 26.5,
+      "texto": "crupo",
+      "conf": 0.44
+    },
+    {
+      "t": 26.5,
+      "texto": "Nós somos responsáveis",
+      "conf": 0.53
+    },
+    {
+      "t": 26.5,
+      "texto": "por todo planejamento",
+      "conf": 0.78
+    },
+    {
+      "t": 29.4,
+      "texto": "Grupo",
+      "conf": 0.64
+    },
+    {
+      "t": 29.4,
+      "texto": "execução da movimentação",
+      "conf": 0.86
+    },
+    {
+      "t": 29.4,
+      "texto": "dos nossos estoques.",
+      "conf": 0.8
+    },
+    {
+      "t": 32.4,
+      "texto": "Isso vai desde a otimização",
+      "conf": 0.69
+    },
+    {
+      "t": 32.4,
+      "texto": "do espaço físico",
+      "conf": 0.99
+    },
+    {
+      "t": 35.3,
+      "texto": "até o dimensionamento",
+      "conf": 0.67
+    },
+    {
+      "t": 38.2,
+      "texto": "dos equipamentos",
+      "conf": 0.93
+    },
+    {
+      "t": 41.2,
+      "texto": "orupo Dailus",
+      "conf": 0.98
+    },
+    {
+      "t": 41.2,
+      "texto": "Nós separamos nossa @peração",
+      "conf": 0.76
+    },
+    {
+      "t": 41.2,
+      "texto": "em três grandes etapas;",
+      "conf": 0.8
+    },
+    {
+      "t": 44.1,
+      "texto": "recebimento de mercadoriaso",
+      "conf": 0.78
+    },
+    {
+      "t": 47.1,
+      "texto": "separação de pedidos",
+      "conf": 1.0
+    },
+    {
+      "t": 47.1,
+      "texto": "expedição.",
+      "conf": 0.94
+    },
+    {
+      "t": 50.0,
+      "texto": "Grupo Dailus",
+      "conf": 0.97
+    },
+    {
+      "t": 50.0,
+      "texto": "Janelas deatendimento",
+      "conf": 0.75
+    },
+    {
+      "t": 52.9,
+      "texto": "@ndenossos fornecedores",
+      "conf": 0.89
+    },
+    {
+      "t": 52.9,
+      "texto": "seapresentam;",
+      "conf": 0.99
+    },
+    {
+      "t": 55.9,
+      "texto": "gente faz a checagem",
+      "conf": 0.92
+    },
+    {
+      "t": 55.9,
+      "texto": "@as quantidades;",
+      "conf": 0.71
+    },
+    {
+      "t": 58.8,
+      "texto": "DE ESMALTES",
+      "conf": 0.67
+    },
+    {
+      "t": 58.8,
+      "texto": "REMOVEDOR DE ESMALTES",
+      "conf": 0.98
+    },
+    {
+      "t": 58.8,
+      "texto": "REMOVEDOR DE ES",
+      "conf": 0.98
+    },
+    {
+      "t": 58.8,
+      "texto": "CONTÉM 24",
+      "conf": 0.91
+    },
+    {
+      "t": 58.8,
+      "texto": "Unidades",
+      "conf": 0.67
+    },
+    {
+      "t": 58.8,
+      "texto": "REMOVEDOR DE",
+      "conf": 0.73
+    },
+    {
+      "t": 58.8,
+      "texto": "Dai",
+      "conf": 0.9
+    },
+    {
+      "t": 58.8,
+      "texto": "REMOVEDOR",
+      "conf": 1.0
+    },
+    {
+      "t": 58.8,
+      "texto": "ESMALTES",
+      "conf": 1.0
+    },
+    {
+      "t": 58.8,
+      "texto": "de como as caixas",
+      "conf": 0.66
+    },
+    {
+      "t": 58.8,
+      "texto": "R DE ESMALTES",
+      "conf": 0.89
+    },
+    {
+      "t": 58.8,
+      "texto": "estão e das etiquetas.",
+      "conf": 0.74
+    },
+    {
+      "t": 58.8,
+      "texto": "Dailu",
+      "conf": 1.0
+    },
+    {
+      "t": 58.8,
+      "texto": "REMOVEDG",
+      "conf": 0.68
+    },
+    {
+      "t": 58.8,
+      "texto": "Daülus",
+      "conf": 0.6
+    },
+    {
+      "t": 61.8,
+      "texto": "dessa liberação",
+      "conf": 0.89
+    },
+    {
+      "t": 61.8,
+      "texto": "partir",
+      "conf": 1.0
+    },
+    {
+      "t": 64.7,
+      "texto": "nós colocamos as cargas",
+      "conf": 0.66
+    },
+    {
+      "t": 64.7,
+      "texto": "no setor da qualidade",
+      "conf": 0.99
+    },
+    {
+      "t": 67.6,
+      "texto": "aí quem quiserver melhor",
+      "conf": 0.97
+    },
+    {
+      "t": 70.6,
+      "texto": "Estoque",
+      "conf": 0.94
+    },
+    {
+      "t": 70.6,
+      "texto": "Quando a qualidade faz",
+      "conf": 0.83
+    },
+    {
+      "t": 70.6,
+      "texto": "liberação das cargas;",
+      "conf": 0.79
+    },
+    {
+      "t": 73.5,
+      "texto": "nós armazenamos",
+      "conf": 0.86
+    },
+    {
+      "t": 73.5,
+      "texto": "elas nos endereços",
+      "conf": 1.0
+    },
+    {
+      "t": 76.5,
+      "texto": "que signinca",
+      "conf": 0.61
+    },
+    {
+      "t": 79.4,
+      "texto": "Dallus",
+      "conf": 0.96
+    },
+    {
+      "t": 82.4,
+      "texto": "Eetoque",
+      "conf": 0.63
+    },
+    {
+      "t": 82.4,
+      "texto": "uma é0 B2B",
+      "conf": 0.8
+    },
+    {
+      "t": 85.3,
+      "texto": "que éa venda direta",
+      "conf": 0.74
+    },
+    {
+      "t": 85.3,
+      "texto": "para distribuidores,",
+      "conf": 0.79
+    },
+    {
+      "t": 88.2,
+      "texto": "po D",
+      "conf": 0.41
+    },
+    {
+      "t": 91.2,
+      "texto": "praticamente",
+      "conf": 1.0
+    },
+    {
+      "t": 94.1,
+      "texto": "que a venda direto pr@",
+      "conf": 0.67
+    },
+    {
+      "t": 94.1,
+      "texto": "consumidor final.",
+      "conf": 0.81
+    },
+    {
+      "t": 97.1,
+      "texto": "a gente separa;",
+      "conf": 0.94
+    },
+    {
+      "t": 100.0,
+      "texto": "embala eetiqueta para expedir",
+      "conf": 0.88
+    },
+    {
+      "t": 100.0,
+      "texto": "logo na parte da manhã.",
+      "conf": 0.83
+    },
+    {
+      "t": 102.9,
+      "texto": "LOGISTICA",
+      "conf": 0.43
+    },
+    {
+      "t": 102.9,
+      "texto": "Aí entra a etapa final,",
+      "conf": 0.94
+    },
+    {
+      "t": 102.9,
+      "texto": "Retrans",
+      "conf": 0.82
+    },
+    {
+      "t": 108.8,
+      "texto": "através das nossas",
+      "conf": 0.77
+    },
+    {
+      "t": 108.8,
+      "texto": "transportadoras parceiras",
+      "conf": 0.98
+    },
+    {
+      "t": 111.8,
+      "texto": "crupo Dailus",
+      "conf": 0.97
+    },
+    {
+      "t": 111.8,
+      "texto": "Eo resultado de tudo isso?",
+      "conf": 0.94
+    },
+    {
+      "t": 114.7,
+      "texto": "uma performance de 99,7%",
+      "conf": 0.72
+    },
+    {
+      "t": 114.7,
+      "texto": "Dailos",
+      "conf": 0.57
+    },
+    {
+      "t": 120.6,
+      "texto": "com uma equipe",
+      "conf": 1.0
+    },
+    {
+      "t": 120.6,
+      "texto": "crupo Dallus",
+      "conf": 0.55
+    }
+  ]
+}

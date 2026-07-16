@@ -1,0 +1,331 @@
+{
+  "handle": "babidadailus",
+  "shortcode": "DY8ToabvYOm",
+  "video_file": "data/social/instagram/media/babidadailus/DY8ToabvYOm.mp4",
+  "duracao_seg": 77.4,
+  "duracao_mmss": "01:17",
+  "idioma": "pt",
+  "idioma_prob": 1,
+  "n_segmentos_fala": 18,
+  "n_textos_na_tela": 45,
+  "transcricao": "Hoje a gente está aqui na montagem da Beauty Show, é um grande evento para a gente, então a empresa inteira fica muito animada com isso e eu queria mostrar um pouquinho dos bastidores para vocês. Normalmente vocês só veem um negócio lindo, super feitinho, agora eu queria mostrar como que é esse processo. Então primeiro, já nessa fase de montagem, vou colocar aqui alguns vídeos para vocês, mas a gente vai até o galpão e monta o stand do zero, então a gente vai no galpão terceiro, monta o stand para testar se vai estar tudo ok, se vai estar tudo redondo. Estando tudo ok, a gente vem da configuração dele em tamanho real, ele é literalmente as mesmas plazas que estão aqui, vão para lá. Tando tudo certo, a gente finaliza o projeto e traz para cá. Essa montagem começou ontem e hoje a gente já está na finalização, últimos detalhes colocando os produtos já nas prateleiras, o nosso stand vai vir com uma proposta muito legal, diferente de todos os anos, diferente de tudo que vocês já viram a Dylos fazendo. E amanhã a gente mostra mais um detalhe, mas garanto que vai ser muito legal e já posso dar um spoiler pelos vídeos que vocês vão estar dentro do stand, mas em duas dimensões, em dois universos Dylos diferentes. Espero vocês por aqui.",
+  "segmentos": [
+    {
+      "inicio": 0.0,
+      "fim": 6.1,
+      "texto": "Hoje a gente está aqui na montagem da Beauty Show, é um grande evento para a gente, então"
+    },
+    {
+      "inicio": 6.1,
+      "fim": 11.0,
+      "texto": "a empresa inteira fica muito animada com isso e eu queria mostrar um pouquinho dos bastidores"
+    },
+    {
+      "inicio": 11.0,
+      "fim": 12.0,
+      "texto": "para vocês."
+    },
+    {
+      "inicio": 12.0,
+      "fim": 16.7,
+      "texto": "Normalmente vocês só veem um negócio lindo, super feitinho, agora eu queria mostrar como"
+    },
+    {
+      "inicio": 16.7,
+      "fim": 18.6,
+      "texto": "que é esse processo."
+    },
+    {
+      "inicio": 18.6,
+      "fim": 23.4,
+      "texto": "Então primeiro, já nessa fase de montagem, vou colocar aqui alguns vídeos para vocês,"
+    },
+    {
+      "inicio": 23.4,
+      "fim": 27.8,
+      "texto": "mas a gente vai até o galpão e monta o stand do zero, então a gente vai no"
+    },
+    {
+      "inicio": 27.8,
+      "fim": 33.7,
+      "texto": "galpão terceiro, monta o stand para testar se vai estar tudo ok, se vai estar tudo redondo."
+    },
+    {
+      "inicio": 33.7,
+      "fim": 38.6,
+      "texto": "Estando tudo ok, a gente vem da configuração dele em tamanho real, ele é literalmente as"
+    },
+    {
+      "inicio": 38.6,
+      "fim": 41.3,
+      "texto": "mesmas plazas que estão aqui, vão para lá."
+    },
+    {
+      "inicio": 41.3,
+      "fim": 45.5,
+      "texto": "Tando tudo certo, a gente finaliza o projeto e traz para cá."
+    },
+    {
+      "inicio": 45.5,
+      "fim": 51.0,
+      "texto": "Essa montagem começou ontem e hoje a gente já está na finalização, últimos detalhes"
+    },
+    {
+      "inicio": 51.0,
+      "fim": 55.8,
+      "texto": "colocando os produtos já nas prateleiras, o nosso stand vai vir com uma proposta"
+    },
+    {
+      "inicio": 55.8,
+      "fim": 61.4,
+      "texto": "muito legal, diferente de todos os anos, diferente de tudo que vocês já viram a Dylos fazendo."
+    },
+    {
+      "inicio": 61.4,
+      "fim": 66.9,
+      "texto": "E amanhã a gente mostra mais um detalhe, mas garanto que vai ser muito legal e já posso"
+    },
+    {
+      "inicio": 66.9,
+      "fim": 71.7,
+      "texto": "dar um spoiler pelos vídeos que vocês vão estar dentro do stand, mas em duas dimensões,"
+    },
+    {
+      "inicio": 71.7,
+      "fim": 74.6,
+      "texto": "em dois universos Dylos diferentes."
+    },
+    {
+      "inicio": 74.6,
+      "fim": 75.7,
+      "texto": "Espero vocês por aqui."
+    }
+  ],
+  "texto_na_tela": [
+    {
+      "t": 2.9,
+      "texto": "Éumgrande evento pra gente",
+      "conf": 0.96
+    },
+    {
+      "t": 5.9,
+      "texto": "BeautyShow",
+      "conf": 0.99
+    },
+    {
+      "t": 5.9,
+      "texto": "Expositor",
+      "conf": 0.83
+    },
+    {
+      "t": 5.9,
+      "texto": "fica muito âinâda com isso",
+      "conf": 0.6
+    },
+    {
+      "t": 8.8,
+      "texto": "BcautySho",
+      "conf": 0.86
+    },
+    {
+      "t": 8.8,
+      "texto": "dos bastidôres pra vocês.",
+      "conf": 0.44
+    },
+    {
+      "t": 11.8,
+      "texto": "Bcautyshow",
+      "conf": 0.73
+    },
+    {
+      "t": 11.8,
+      "texto": "só veem onegocio lindo;",
+      "conf": 0.66
+    },
+    {
+      "t": 14.7,
+      "texto": "agora euquêriamostrar",
+      "conf": 0.45
+    },
+    {
+      "t": 17.6,
+      "texto": "BARBARA RossI",
+      "conf": 0.7
+    },
+    {
+      "t": 20.6,
+      "texto": "BcautyShov",
+      "conf": 0.93
+    },
+    {
+      "t": 20.6,
+      "texto": "Exosioa",
+      "conf": 0.46
+    },
+    {
+      "t": 20.6,
+      "texto": "ROSSI",
+      "conf": 0.63
+    },
+    {
+      "t": 23.5,
+      "texto": "masagente vai atéogalppão",
+      "conf": 0.67
+    },
+    {
+      "t": 26.5,
+      "texto": "entãoagentevai",
+      "conf": 0.87
+    },
+    {
+      "t": 32.4,
+      "texto": "estando tudook",
+      "conf": 0.91
+    },
+    {
+      "t": 35.3,
+      "texto": "@m tamanho real",
+      "conf": 0.55
+    },
+    {
+      "t": 38.2,
+      "texto": "asmesmas peças",
+      "conf": 1.0
+    },
+    {
+      "t": 38.2,
+      "texto": "queestão aqui;",
+      "conf": 0.97
+    },
+    {
+      "t": 41.2,
+      "texto": "gentefinaliza@ projeto",
+      "conf": 0.96
+    },
+    {
+      "t": 44.1,
+      "texto": "Wasneno",
+      "conf": 0.45
+    },
+    {
+      "t": 44.1,
+      "texto": "Essamontagem",
+      "conf": 1.0
+    },
+    {
+      "t": 44.1,
+      "texto": "Dailus",
+      "conf": 0.57
+    },
+    {
+      "t": 47.1,
+      "texto": "hojeagentejá",
+      "conf": 0.99
+    },
+    {
+      "t": 47.1,
+      "texto": "tá na finalização;",
+      "conf": 0.9
+    },
+    {
+      "t": 47.1,
+      "texto": "ESMALTES",
+      "conf": 1.0
+    },
+    {
+      "t": 47.1,
+      "texto": "Uailus",
+      "conf": 0.77
+    },
+    {
+      "t": 47.1,
+      "texto": "Cuio",
+      "conf": 0.4
+    },
+    {
+      "t": 50.0,
+      "texto": "LDÃO",
+      "conf": 0.84
+    },
+    {
+      "t": 50.0,
+      "texto": "colocando @s produtos",
+      "conf": 0.89
+    },
+    {
+      "t": 52.9,
+      "texto": "nossostand vai vir",
+      "conf": 0.96
+    },
+    {
+      "t": 55.9,
+      "texto": "diferentedetodos @san0s",
+      "conf": 0.67
+    },
+    {
+      "t": 55.9,
+      "texto": "ACHADINHOS)",
+      "conf": 0.84
+    },
+    {
+      "t": 58.8,
+      "texto": "já viram a Dailus fazendo",
+      "conf": 0.92
+    },
+    {
+      "t": 61.8,
+      "texto": "maisosdetahhes",
+      "conf": 0.93
+    },
+    {
+      "t": 64.7,
+      "texto": "ejápossodarum",
+      "conf": 0.76
+    },
+    {
+      "t": 67.6,
+      "texto": "vocês vão estardentrodo stand",
+      "conf": 0.99
+    },
+    {
+      "t": 67.6,
+      "texto": "Bcauty_how",
+      "conf": 0.44
+    },
+    {
+      "t": 70.6,
+      "texto": "em dois universos",
+      "conf": 0.81
+    },
+    {
+      "t": 70.6,
+      "texto": "Dal",
+      "conf": 0.53
+    },
+    {
+      "t": 73.5,
+      "texto": "doe",
+      "conf": 0.57
+    },
+    {
+      "t": 73.5,
+      "texto": "ACHOU, GANHOU",
+      "conf": 0.7
+    },
+    {
+      "t": 73.5,
+      "texto": "JCAR",
+      "conf": 0.62
+    },
+    {
+      "t": 73.5,
+      "texto": "Loss",
+      "conf": 0.91
+    },
+    {
+      "t": 73.5,
+      "texto": "Espero vocês por aqui",
+      "conf": 0.68
+    }
+  ]
+}

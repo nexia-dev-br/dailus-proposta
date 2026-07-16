@@ -1,0 +1,75 @@
+{
+  "handle": "dailus",
+  "shortcode": "DaiLd7QCxfJ",
+  "video_file": "data/social/instagram/media/dailus/DaiLd7QCxfJ.mp4",
+  "duracao_seg": 21.8,
+  "duracao_mmss": "00:21",
+  "idioma": "pt",
+  "idioma_prob": 1,
+  "n_segmentos_fala": 0,
+  "n_textos_na_tela": 12,
+  "transcricao": "",
+  "segmentos": [],
+  "texto_na_tela": [
+    {
+      "t": 8.8,
+      "texto": "Dailus",
+      "conf": 1.0
+    },
+    {
+      "t": 8.8,
+      "texto": "BatoM",
+      "conf": 0.43
+    },
+    {
+      "t": 8.8,
+      "texto": "MATTE",
+      "conf": 0.42
+    },
+    {
+      "t": 8.8,
+      "texto": "12h",
+      "conf": 0.4
+    },
+    {
+      "t": 8.8,
+      "texto": "Lauipo",
+      "conf": 0.46
+    },
+    {
+      "t": 8.8,
+      "texto": "Líquipo",
+      "conf": 0.71
+    },
+    {
+      "t": 8.8,
+      "texto": "Llouipo",
+      "conf": 0.43
+    },
+    {
+      "t": 8.8,
+      "texto": "Líquido",
+      "conf": 0.77
+    },
+    {
+      "t": 11.8,
+      "texto": "4 ml",
+      "conf": 0.87
+    },
+    {
+      "t": 17.6,
+      "texto": "BaTOM Llquido",
+      "conf": 0.41
+    },
+    {
+      "t": 17.6,
+      "texto": "BATOM Lquido",
+      "conf": 0.63
+    },
+    {
+      "t": 17.6,
+      "texto": "BATOM Liquido",
+      "conf": 0.42
+    }
+  ]
+}

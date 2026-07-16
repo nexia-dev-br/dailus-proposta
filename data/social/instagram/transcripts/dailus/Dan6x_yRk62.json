@@ -1,0 +1,251 @@
+{
+  "handle": "dailus",
+  "shortcode": "Dan6x_yRk62",
+  "video_file": "data/social/instagram/media/dailus/Dan6x_yRk62.mp4",
+  "duracao_seg": 121.3,
+  "duracao_mmss": "02:01",
+  "idioma": "pt",
+  "idioma_prob": 1,
+  "n_segmentos_fala": 40,
+  "n_textos_na_tela": 7,
+  "transcricao": "Mas onde será que ele se meteu? Será que ainda está por perto? Atrás da horta, como sempre. Ele é zero criativo. Bora acabar com esse coitado! A festa acabou! Vocês não entendem. Eu sou 90% água e zero carisma. E por isso você rouba o cheiro da cidade? Eu quase desmaiei com o meu próprio suvaco na esteira, Amado. Terapia! Não tem o cheiro de nada. Sou o esquecido da gaveta de legumes. A nota aí que a gente não vai repetir. O segredo da mulher cheirosa não é feitsaria. É construção de camadas. Primeiro você pega o sabonete, esfolia e remove a casquinha velha para tirar essa energia pesada. Depois vem o gelato hidratante, que derrete na pele. Puro spa em casa. E sela com o bóri splash em calda. Um cheirinho delicioso que gruda e não solta nem com resa. O perigo agora é ele achar que é o último chuchu da feira. Meu Deus. Eu tô cheirando a herdeira. Eu virei um chuchu premium. Mas... Meninas, vocês acham que um legume sem graça pensou nisso sozinho? Eu fui só o laranja. O verdadeiro chefão quer impestiar a vila inteira com cheiro de geladeira desligada. Pior que não ter cheiro é ter um cheiro ruim. Um potinho de creme comprou o chuchu. Quero ver essas frutinhas sobreviverem ao meu cheiro de repolho.",
+  "segmentos": [
+    {
+      "inicio": 3.2,
+      "fim": 5.2,
+      "texto": "Mas onde será que ele se meteu?"
+    },
+    {
+      "inicio": 5.2,
+      "fim": 7.2,
+      "texto": "Será que ainda está por perto?"
+    },
+    {
+      "inicio": 7.2,
+      "fim": 9.2,
+      "texto": "Atrás da horta, como sempre."
+    },
+    {
+      "inicio": 9.2,
+      "fim": 11.2,
+      "texto": "Ele é zero criativo."
+    },
+    {
+      "inicio": 11.2,
+      "fim": 14.9,
+      "texto": "Bora acabar com esse coitado!"
+    },
+    {
+      "inicio": 17.8,
+      "fim": 19.8,
+      "texto": "A festa acabou!"
+    },
+    {
+      "inicio": 20.8,
+      "fim": 22.8,
+      "texto": "Vocês não entendem."
+    },
+    {
+      "inicio": 22.8,
+      "fim": 26.8,
+      "texto": "Eu sou 90% água e zero carisma."
+    },
+    {
+      "inicio": 26.8,
+      "fim": 28.8,
+      "texto": "E por isso você rouba o cheiro da cidade?"
+    },
+    {
+      "inicio": 28.8,
+      "fim": 32.8,
+      "texto": "Eu quase desmaiei com o meu próprio suvaco na esteira, Amado."
+    },
+    {
+      "inicio": 32.8,
+      "fim": 33.8,
+      "texto": "Terapia!"
+    },
+    {
+      "inicio": 33.8,
+      "fim": 35.8,
+      "texto": "Não tem o cheiro de nada."
+    },
+    {
+      "inicio": 35.8,
+      "fim": 38.8,
+      "texto": "Sou o esquecido da gaveta de legumes."
+    },
+    {
+      "inicio": 39.8,
+      "fim": 41.8,
+      "texto": "A nota aí que a gente não vai repetir."
+    },
+    {
+      "inicio": 41.8,
+      "fim": 44.8,
+      "texto": "O segredo da mulher cheirosa não é feitsaria."
+    },
+    {
+      "inicio": 44.8,
+      "fim": 46.8,
+      "texto": "É construção de camadas."
+    },
+    {
+      "inicio": 46.8,
+      "fim": 48.8,
+      "texto": "Primeiro você pega o sabonete,"
+    },
+    {
+      "inicio": 48.8,
+      "fim": 51.8,
+      "texto": "esfolia e remove a casquinha velha"
+    },
+    {
+      "inicio": 51.8,
+      "fim": 54.8,
+      "texto": "para tirar essa energia pesada."
+    },
+    {
+      "inicio": 54.8,
+      "fim": 56.8,
+      "texto": "Depois vem o gelato hidratante,"
+    },
+    {
+      "inicio": 56.8,
+      "fim": 58.8,
+      "texto": "que derrete na pele."
+    },
+    {
+      "inicio": 58.8,
+      "fim": 60.8,
+      "texto": "Puro spa em casa."
+    },
+    {
+      "inicio": 61.8,
+      "fim": 64.8,
+      "texto": "E sela com o bóri splash em calda."
+    },
+    {
+      "inicio": 64.8,
+      "fim": 66.8,
+      "texto": "Um cheirinho delicioso que gruda"
+    },
+    {
+      "inicio": 66.8,
+      "fim": 69.8,
+      "texto": "e não solta nem com resa."
+    },
+    {
+      "inicio": 71.8,
+      "fim": 77.1,
+      "texto": "O perigo agora é ele achar que é o último chuchu da feira."
+    },
+    {
+      "inicio": 77.1,
+      "fim": 79.1,
+      "texto": "Meu Deus."
+    },
+    {
+      "inicio": 79.1,
+      "fim": 82.1,
+      "texto": "Eu tô cheirando a herdeira."
+    },
+    {
+      "inicio": 82.1,
+      "fim": 86.7,
+      "texto": "Eu virei um chuchu premium."
+    },
+    {
+      "inicio": 86.7,
+      "fim": 88.7,
+      "texto": "Mas..."
+    },
+    {
+      "inicio": 88.7,
+      "fim": 91.7,
+      "texto": "Meninas, vocês acham que um legume sem graça"
+    },
+    {
+      "inicio": 91.7,
+      "fim": 93.7,
+      "texto": "pensou nisso sozinho?"
+    },
+    {
+      "inicio": 93.7,
+      "fim": 95.7,
+      "texto": "Eu fui só o laranja."
+    },
+    {
+      "inicio": 95.7,
+      "fim": 98.7,
+      "texto": "O verdadeiro chefão quer impestiar a vila inteira"
+    },
+    {
+      "inicio": 98.7,
+      "fim": 101.7,
+      "texto": "com cheiro de geladeira desligada."
+    },
+    {
+      "inicio": 101.7,
+      "fim": 104.7,
+      "texto": "Pior que não ter cheiro"
+    },
+    {
+      "inicio": 104.7,
+      "fim": 107.7,
+      "texto": "é ter um cheiro ruim."
+    },
+    {
+      "inicio": 108.7,
+      "fim": 116.1,
+      "texto": "Um potinho de creme comprou o chuchu."
+    },
+    {
+      "inicio": 116.1,
+      "fim": 118.1,
+      "texto": "Quero ver essas frutinhas sobreviverem"
+    },
+    {
+      "inicio": 118.1,
+      "fim": 121.1,
+      "texto": "ao meu cheiro de repolho."
+    }
+  ],
+  "texto_na_tela": [
+    {
+      "t": 0.0,
+      "texto": "SWEET",
+      "conf": 0.79
+    },
+    {
+      "t": 0.0,
+      "texto": "SKIN",
+      "conf": 0.49
+    },
+    {
+      "t": 0.0,
+      "texto": "icecream",
+      "conf": 1.0
+    },
+    {
+      "t": 55.9,
+      "texto": "SWEETSKIN",
+      "conf": 0.55
+    },
+    {
+      "t": 55.9,
+      "texto": "co oranm",
+      "conf": 0.44
+    },
+    {
+      "t": 58.8,
+      "texto": "ce croom",
+      "conf": 0.56
+    },
+    {
+      "t": 58.8,
+      "texto": "OCLATO MIDRATAHTI",
+      "conf": 0.65
+    }
+  ]
+}

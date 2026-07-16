@@ -1,0 +1,105 @@
+{
+  "handle": "babidadailus",
+  "shortcode": "DY227jTvANl",
+  "video_file": "data/social/instagram/media/babidadailus/DY227jTvANl.mp4",
+  "duracao_seg": 33.0,
+  "duracao_mmss": "00:33",
+  "idioma": "pt",
+  "idioma_prob": 1,
+  "n_segmentos_fala": 0,
+  "n_textos_na_tela": 18,
+  "transcricao": "",
+  "segmentos": [],
+  "texto_na_tela": [
+    {
+      "t": 0.0,
+      "texto": "pov: você foinafábrica",
+      "conf": 0.53
+    },
+    {
+      "t": 0.0,
+      "texto": "desweetskin",
+      "conf": 0.97
+    },
+    {
+      "t": 8.8,
+      "texto": "LIXO",
+      "conf": 0.95
+    },
+    {
+      "t": 11.8,
+      "texto": "dosnovostrêscheiros",
+      "conf": 0.7
+    },
+    {
+      "t": 11.8,
+      "texto": "que vamos lançar",
+      "conf": 0.84
+    },
+    {
+      "t": 14.7,
+      "texto": "@osnovostrêscheiros",
+      "conf": 0.82
+    },
+    {
+      "t": 14.7,
+      "texto": "D Dallu",
+      "conf": 0.77
+    },
+    {
+      "t": 17.6,
+      "texto": "spoileresseeapenasum",
+      "conf": 0.49
+    },
+    {
+      "t": 17.6,
+      "texto": "@osnovostrêsceiros",
+      "conf": 0.74
+    },
+    {
+      "t": 20.6,
+      "texto": "SKIN",
+      "conf": 0.62
+    },
+    {
+      "t": 20.6,
+      "texto": "craam",
+      "conf": 0.73
+    },
+    {
+      "t": 20.6,
+      "texto": "sams",
+      "conf": 0.49
+    },
+    {
+      "t": 20.6,
+      "texto": "SWEET",
+      "conf": 0.95
+    },
+    {
+      "t": 20.6,
+      "texto": "cremc",
+      "conf": 0.65
+    },
+    {
+      "t": 20.6,
+      "texto": "omo",
+      "conf": 0.47
+    },
+    {
+      "t": 23.5,
+      "texto": "gpoleresseéapenas um",
+      "conf": 0.53
+    },
+    {
+      "t": 23.5,
+      "texto": "dosnovostêsceiros",
+      "conf": 0.67
+    },
+    {
+      "t": 26.5,
+      "texto": "spoileresseegpenas um",
+      "conf": 0.42
+    }
+  ]
+}

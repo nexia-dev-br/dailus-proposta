@@ -1,0 +1,25 @@
+{
+  "handle": "babidadailus",
+  "shortcode": "DZFuIHRPvWT",
+  "video_file": "data/social/instagram/media/babidadailus/DZFuIHRPvWT.mp4",
+  "duracao_seg": 6.9,
+  "duracao_mmss": "00:06",
+  "idioma": "pt",
+  "idioma_prob": 1,
+  "n_segmentos_fala": 0,
+  "n_textos_na_tela": 2,
+  "transcricao": "",
+  "segmentos": [],
+  "texto_na_tela": [
+    {
+      "t": 2.9,
+      "texto": "Datlus",
+      "conf": 0.8
+    },
+    {
+      "t": 2.9,
+      "texto": "Dailus",
+      "conf": 0.93
+    }
+  ]
+}

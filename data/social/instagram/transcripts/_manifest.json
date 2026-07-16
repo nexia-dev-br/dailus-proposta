@@ -1,0 +1,6532 @@
+{
+  "gerado_em_utc": "2026-07-15T23:34:04.154091+00:00",
+  "modelo": "small",
+  "ocr": true,
+  "totais": {
+    "videos": 33,
+    "com_fala": 20,
+    "com_texto_na_tela": 33
+  },
+  "itens": [
+    {
+      "handle": "babidadailus",
+      "shortcode": "DY-A41cvPk_",
+      "video_file": "data/social/instagram/media/babidadailus/DY-A41cvPk_.mp4",
+      "duracao_seg": 139.7,
+      "duracao_mmss": "02:19",
+      "idioma": "pt",
+      "idioma_prob": 1,
+      "n_segmentos_fala": 20,
+      "n_textos_na_tela": 83,
+      "transcricao": "E hoje chegou o dia, aqui está o nosso estande montado, essa parte aqui vai ser pra foto, então é uma das partes Instagrammáveis que a gente tem aqui no estande e o tema central dele então, falando, é o nosso top glass, ele é um top coat maravilhoso, resistência na unha além de um brilho que dura muito tempo, pra cá a gente tem outros top coats que foram super sucesso e são incríveis que são os top crumbs, eles imitam o pó cromado mas sem fazer aquela sujeira absurda que a gente sabe que fica quando a gente vai usar aquele pó solto e eles dão um efeito incrível inclusive é o que eu tô na unha hoje e se vocês repararem tanto na parte de fora quanto aqui na parte de dentro a gente falou com uma série de espelhos para ajudar nessa questão também de foto, aqui a gente tem uma experiência nova que a gente tá postando muito na questão da personalização, na customização dos vidrinhos de esmalte, então é um pouquinho do que a gente tá trazendo pra cá, todo mundo vai ganhar o esmalte e tem os adesivos exclusivos da Dailos pra tá fazendo os vidrinhos, pra tá personalizando e não acabou ainda, o que que a gente quis colocar também? Aqui pra receber brinde, então você entra nessa máquina, ela vai um vento muito baixo, voa papelzinho, se você pegar o papelzinho certo você vai tá ganhando um gloss da coleção Shaco Sherry, eu acho que vocês repararam que é a primeira vez que a Dailos faz um estande que não seja rosa, pensado na coleção, então aqui é todo um ambiente que a gente trouxe mais pro prateado, mais pro preto, pensando no top gross, pensando nos top crumbs e aqui é como se fosse um portal Então passando por aqui você entra no mundo rosa que é a Dailos e nesse ano a gente vem com uma coisa exclusiva que é a parte de comprou, ganhou seu mimo, ganhou seu brinde, é o primeiro ano que a gente faz isso e pra cá a gente tem o nosso paredão Instagramável, é outra parte também pra garantir que você vai conseguir aquela foto incrível aqui, além de ter uma máquina de dinâmica aqui também você ganha mais brinde de Dailos",
+      "segmentos": [
+        {
+          "inicio": 0.0,
+          "fim": 7.8,
+          "texto": "E hoje chegou o dia, aqui está o nosso estande montado, essa parte aqui vai ser pra foto, então é uma das partes"
+        },
+        {
+          "inicio": 7.8,
+          "fim": 16.1,
+          "texto": "Instagrammáveis que a gente tem aqui no estande e o tema central dele então, falando, é o nosso top glass, ele é um top coat"
+        },
+        {
+          "inicio": 16.1,
+          "fim": 24.6,
+          "texto": "maravilhoso, resistência na unha além de um brilho que dura muito tempo, pra cá a gente tem outros top coats que foram"
+        },
+        {
+          "inicio": 24.6,
+          "fim": 31.4,
+          "texto": "super sucesso e são incríveis que são os top crumbs, eles imitam o pó cromado mas sem fazer aquela sujeira"
+        },
+        {
+          "inicio": 31.4,
+          "fim": 36.6,
+          "texto": "absurda que a gente sabe que fica quando a gente vai usar aquele pó solto e eles dão um efeito incrível"
+        },
+        {
+          "inicio": 36.6,
+          "fim": 45.6,
+          "texto": "inclusive é o que eu tô na unha hoje e se vocês repararem tanto na parte de fora quanto aqui na parte de"
+        },
+        {
+          "inicio": 45.6,
+          "fim": 52.0,
+          "texto": "dentro a gente falou com uma série de espelhos para ajudar nessa questão também de foto, aqui a gente"
+        },
+        {
+          "inicio": 52.0,
+          "fim": 58.4,
+          "texto": "tem uma experiência nova que a gente tá postando muito na questão da personalização, na customização dos vidrinhos de"
+        },
+        {
+          "inicio": 58.4,
+          "fim": 64.6,
+          "texto": "esmalte, então é um pouquinho do que a gente tá trazendo pra cá, todo mundo vai ganhar o esmalte e tem os adesivos"
+        },
+        {
+          "inicio": 64.6,
+          "fim": 70.2,
+          "texto": "exclusivos da Dailos pra tá fazendo os vidrinhos, pra tá personalizando e não acabou ainda, o que que a gente"
+        },
+        {
+          "inicio": 70.2,
+          "fim": 77.0,
+          "texto": "quis colocar também? Aqui pra receber brinde, então você entra nessa máquina, ela vai um vento muito"
+        },
+        {
+          "inicio": 77.0,
+          "fim": 84.0,
+          "texto": "baixo, voa papelzinho, se você pegar o papelzinho certo você vai tá ganhando um gloss da coleção"
+        },
+        {
+          "inicio": 84.0,
+          "fim": 89.0,
+          "texto": "Shaco Sherry, eu acho que vocês repararam que é a primeira vez que a Dailos faz um estande que não"
+        },
+        {
+          "inicio": 89.0,
+          "fim": 96.0,
+          "texto": "seja rosa, pensado na coleção, então aqui é todo um ambiente que a gente trouxe mais pro prateado,"
+        },
+        {
+          "inicio": 96.0,
+          "fim": 101.6,
+          "texto": "mais pro preto, pensando no top gross, pensando nos top crumbs e aqui é como se fosse um portal"
+        },
+        {
+          "inicio": 102.0,
+          "fim": 109.0,
+          "texto": "Então passando por aqui você entra no mundo rosa que é a Dailos e nesse ano a gente vem com uma coisa"
+        },
+        {
+          "inicio": 109.0,
+          "fim": 116.0,
+          "texto": "exclusiva que é a parte de comprou, ganhou seu mimo, ganhou seu brinde, é o primeiro ano que a gente faz isso"
+        },
+        {
+          "inicio": 116.0,
+          "fim": 123.0,
+          "texto": "e pra cá a gente tem o nosso paredão Instagramável, é outra parte também pra garantir que você vai conseguir"
+        },
+        {
+          "inicio": 123.0,
+          "fim": 130.0,
+          "texto": "aquela foto incrível aqui, além de ter uma máquina de dinâmica aqui também você ganha mais brinde"
+        },
+        {
+          "inicio": 130.0,
+          "fim": 132.0,
+          "texto": "de Dailos"
+        }
+      ],
+      "texto_na_tela": [
+        {
+          "t": 0.0,
+          "texto": "Dé il",
+          "conf": 0.52
+        },
+        {
+          "t": 2.9,
+          "texto": "OUTI",
+          "conf": 0.44
+        },
+        {
+          "t": 2.9,
+          "texto": "Kisse",
+          "conf": 0.95
+        },
+        {
+          "t": 2.9,
+          "texto": "IcoRel",
+          "conf": 0.52
+        },
+        {
+          "t": 2.9,
+          "texto": "Dailu",
+          "conf": 0.45
+        },
+        {
+          "t": 5.9,
+          "texto": "então éumadas partes",
+          "conf": 0.92
+        },
+        {
+          "t": 11.8,
+          "texto": "flass",
+          "conf": 0.51
+        },
+        {
+          "t": 11.8,
+          "texto": "Express",
+          "conf": 0.42
+        },
+        {
+          "t": 11.8,
+          "texto": "Durabilidade",
+          "conf": 0.61
+        },
+        {
+          "t": 11.8,
+          "texto": "é6 nosso",
+          "conf": 0.51
+        },
+        {
+          "t": 14.7,
+          "texto": "Dailus",
+          "conf": 1.0
+        },
+        {
+          "t": 14.7,
+          "texto": "ToR",
+          "conf": 0.4
+        },
+        {
+          "t": 14.7,
+          "texto": "Ilass",
+          "conf": 0.86
+        },
+        {
+          "t": 14.7,
+          "texto": "efelto ge",
+          "conf": 0.55
+        },
+        {
+          "t": 14.7,
+          "texto": "Eleeum t@@oatmaavihoso",
+          "conf": 0.52
+        },
+        {
+          "t": 17.6,
+          "texto": "alémdeumbrilho que",
+          "conf": 1.0
+        },
+        {
+          "t": 20.6,
+          "texto": "SUA VIDA",
+          "conf": 1.0
+        },
+        {
+          "t": 20.6,
+          "texto": "EM DE CABINE!",
+          "conf": 0.97
+        },
+        {
+          "t": 20.6,
+          "texto": "Pra cá a gente tem outros",
+          "conf": 0.97
+        },
+        {
+          "t": 23.5,
+          "texto": "Oallu",
+          "conf": 0.54
+        },
+        {
+          "t": 23.5,
+          "texto": "super sucesso e são incríveis;",
+          "conf": 0.63
+        },
+        {
+          "t": 23.5,
+          "texto": "CROMADO",
+          "conf": 1.0
+        },
+        {
+          "t": 26.5,
+          "texto": "'efeito pó",
+          "conf": 0.96
+        },
+        {
+          "t": 26.5,
+          "texto": "quesão@stochrome;",
+          "conf": 0.82
+        },
+        {
+          "t": 26.5,
+          "texto": "prata",
+          "conf": 0.99
+        },
+        {
+          "t": 29.4,
+          "texto": "massemfazeraquela",
+          "conf": 0.82
+        },
+        {
+          "t": 32.4,
+          "texto": "quandoagentevaiusar",
+          "conf": 0.98
+        },
+        {
+          "t": 32.4,
+          "texto": "expositor",
+          "conf": 0.64
+        },
+        {
+          "t": 35.3,
+          "texto": "MOVENTO:",
+          "conf": 0.66
+        },
+        {
+          "t": 35.3,
+          "texto": "M SUAVIDA",
+          "conf": 0.43
+        },
+        {
+          "t": 35.3,
+          "texto": "BeautyShow",
+          "conf": 0.45
+        },
+        {
+          "t": 35.3,
+          "texto": "Roesi",
+          "conf": 0.66
+        },
+        {
+          "t": 35.3,
+          "texto": "BaRBARA",
+          "conf": 0.52
+        },
+        {
+          "t": 38.2,
+          "texto": "@queeutônaunhahoe",
+          "conf": 0.84
+        },
+        {
+          "t": 41.2,
+          "texto": "Bcautyshow",
+          "conf": 0.85
+        },
+        {
+          "t": 44.1,
+          "texto": "giass",
+          "conf": 0.57
+        },
+        {
+          "t": 44.1,
+          "texto": "gel",
+          "conf": 0.74
+        },
+        {
+          "t": 44.1,
+          "texto": "quanto aquina parte de dento",
+          "conf": 0.78
+        },
+        {
+          "t": 44.1,
+          "texto": "cfcico",
+          "conf": 0.6
+        },
+        {
+          "t": 47.1,
+          "texto": "TOPK",
+          "conf": 0.54
+        },
+        {
+          "t": 47.1,
+          "texto": "pa@judarnessa questão",
+          "conf": 0.97
+        },
+        {
+          "t": 50.0,
+          "texto": "seu",
+          "conf": 0.99
+        },
+        {
+          "t": 50.0,
+          "texto": "Aqui a gente temua",
+          "conf": 0.73
+        },
+        {
+          "t": 52.9,
+          "texto": "ACABA DE FICAR",
+          "conf": 0.63
+        },
+        {
+          "t": 52.9,
+          "texto": "Dallus",
+          "conf": 0.67
+        },
+        {
+          "t": 52.9,
+          "texto": "tá apostando muito",
+          "conf": 0.64
+        },
+        {
+          "t": 52.9,
+          "texto": "Ujlass",
+          "conf": 0.7
+        },
+        {
+          "t": 55.9,
+          "texto": "nacustomizagãodos",
+          "conf": 0.92
+        },
+        {
+          "t": 58.8,
+          "texto": "igente tá trazendoprac",
+          "conf": 0.54
+        },
+        {
+          "t": 61.8,
+          "texto": "ijel",
+          "conf": 0.43
+        },
+        {
+          "t": 61.8,
+          "texto": "temosadesivosexclusivos",
+          "conf": 0.71
+        },
+        {
+          "t": 67.6,
+          "texto": "lil",
+          "conf": 0.48
+        },
+        {
+          "t": 70.6,
+          "texto": "pURose",
+          "conf": 0.44
+        },
+        {
+          "t": 70.6,
+          "texto": "prareceber brinde",
+          "conf": 0.51
+        },
+        {
+          "t": 70.6,
+          "texto": "aquip",
+          "conf": 0.51
+        },
+        {
+          "t": 73.5,
+          "texto": "ose]",
+          "conf": 0.71
+        },
+        {
+          "t": 73.5,
+          "texto": "Ruby",
+          "conf": 0.46
+        },
+        {
+          "t": 73.5,
+          "texto": "nessa máquina",
+          "conf": 0.76
+        },
+        {
+          "t": 76.5,
+          "texto": "voa",
+          "conf": 1.0
+        },
+        {
+          "t": 76.5,
+          "texto": "papelzinho;",
+          "conf": 1.0
+        },
+        {
+          "t": 82.4,
+          "texto": "Choco Cherry;",
+          "conf": 0.54
+        },
+        {
+          "t": 85.3,
+          "texto": "primeirawvez quea Dailus",
+          "conf": 0.71
+        },
+        {
+          "t": 91.2,
+          "texto": "então",
+          "conf": 1.0
+        },
+        {
+          "t": 91.2,
+          "texto": "aquic",
+          "conf": 0.71
+        },
+        {
+          "t": 100.0,
+          "texto": "CONTA",
+          "conf": 1.0
+        },
+        {
+          "t": 100.0,
+          "texto": "DDailus",
+          "conf": 0.65
+        },
+        {
+          "t": 102.9,
+          "texto": "mel",
+          "conf": 0.97
+        },
+        {
+          "t": 102.9,
+          "texto": "Rul",
+          "conf": 0.98
+        },
+        {
+          "t": 102.9,
+          "texto": "você entra noMundorosa",
+          "conf": 0.47
+        },
+        {
+          "t": 102.9,
+          "texto": "Jailus",
+          "conf": 0.86
+        },
+        {
+          "t": 105.9,
+          "texto": "Enesse ano a gentevem",
+          "conf": 0.98
+        },
+        {
+          "t": 105.9,
+          "texto": "melr",
+          "conf": 0.6
+        },
+        {
+          "t": 108.8,
+          "texto": "c@muma coisa exclusiva",
+          "conf": 0.63
+        },
+        {
+          "t": 114.7,
+          "texto": "queagentefazisso",
+          "conf": 0.82
+        },
+        {
+          "t": 117.6,
+          "texto": "nosso paredão instagramável",
+          "conf": 0.95
+        },
+        {
+          "t": 120.6,
+          "texto": "pagarantir que você vai",
+          "conf": 0.94
+        },
+        {
+          "t": 123.5,
+          "texto": "PKICESSOE",
+          "conf": 0.43
+        },
+        {
+          "t": 123.5,
+          "texto": "CONFIA L",
+          "conf": 0.83
+        },
+        {
+          "t": 126.5,
+          "texto": "ter uma máquina dedinâmica",
+          "conf": 0.83
+        },
+        {
+          "t": 126.5,
+          "texto": "CONFIA",
+          "conf": 0.81
+        },
+        {
+          "t": 135.3,
+          "texto": "melu",
+          "conf": 0.97
+        },
+        {
+          "t": 135.3,
+          "texto": "Rubyl",
+          "conf": 0.48
+        },
+        {
+          "t": 135.3,
+          "texto": "D alus",
+          "conf": 0.62
+        }
+      ]
+    },
+    {
+      "handle": "babidadailus",
+      "shortcode": "DY0V1LFvRFC",
+      "video_file": "data/social/instagram/media/babidadailus/DY0V1LFvRFC.mp4",
+      "duracao_seg": 16.3,
+      "duracao_mmss": "00:16",
+      "idioma": "pt",
+      "idioma_prob": 1,
+      "n_segmentos_fala": 1,
+      "n_textos_na_tela": 2,
+      "transcricao": "A gente eu amo ser mulher brilhada deus, brilhada deus",
+      "segmentos": [
+        {
+          "inicio": 0.0,
+          "fim": 7.6,
+          "texto": "A gente eu amo ser mulher brilhada deus, brilhada deus"
+        }
+      ],
+      "texto_na_tela": [
+        {
+          "t": 0.0,
+          "texto": "eu quando estou",
+          "conf": 0.99
+        },
+        {
+          "t": 0.0,
+          "texto": "de unhas feitas",
+          "conf": 0.72
+        }
+      ]
+    },
+    {
+      "handle": "babidadailus",
+      "shortcode": "DY227jTvANl",
+      "video_file": "data/social/instagram/media/babidadailus/DY227jTvANl.mp4",
+      "duracao_seg": 33.0,
+      "duracao_mmss": "00:33",
+      "idioma": "pt",
+      "idioma_prob": 1,
+      "n_segmentos_fala": 0,
+      "n_textos_na_tela": 18,
+      "transcricao": "",
+      "segmentos": [],
+      "texto_na_tela": [
+        {
+          "t": 0.0,
+          "texto": "pov: você foinafábrica",
+          "conf": 0.53
+        },
+        {
+          "t": 0.0,
+          "texto": "desweetskin",
+          "conf": 0.97
+        },
+        {
+          "t": 8.8,
+          "texto": "LIXO",
+          "conf": 0.95
+        },
+        {
+          "t": 11.8,
+          "texto": "dosnovostrêscheiros",
+          "conf": 0.7
+        },
+        {
+          "t": 11.8,
+          "texto": "que vamos lançar",
+          "conf": 0.84
+        },
+        {
+          "t": 14.7,
+          "texto": "@osnovostrêscheiros",
+          "conf": 0.82
+        },
+        {
+          "t": 14.7,
+          "texto": "D Dallu",
+          "conf": 0.77
+        },
+        {
+          "t": 17.6,
+          "texto": "spoileresseeapenasum",
+          "conf": 0.49
+        },
+        {
+          "t": 17.6,
+          "texto": "@osnovostrêsceiros",
+          "conf": 0.74
+        },
+        {
+          "t": 20.6,
+          "texto": "SKIN",
+          "conf": 0.62
+        },
+        {
+          "t": 20.6,
+          "texto": "craam",
+          "conf": 0.73
+        },
+        {
+          "t": 20.6,
+          "texto": "sams",
+          "conf": 0.49
+        },
+        {
+          "t": 20.6,
+          "texto": "SWEET",
+          "conf": 0.95
+        },
+        {
+          "t": 20.6,
+          "texto": "cremc",
+          "conf": 0.65
+        },
+        {
+          "t": 20.6,
+          "texto": "omo",
+          "conf": 0.47
+        },
+        {
+          "t": 23.5,
+          "texto": "gpoleresseéapenas um",
+          "conf": 0.53
+        },
+        {
+          "t": 23.5,
+          "texto": "dosnovostêsceiros",
+          "conf": 0.67
+        },
+        {
+          "t": 26.5,
+          "texto": "spoileresseegpenas um",
+          "conf": 0.42
+        }
+      ]
+    },
+    {
+      "handle": "babidadailus",
+      "shortcode": "DY5jx-APYXP",
+      "video_file": "data/social/instagram/media/babidadailus/DY5jx-APYXP.mp4",
+      "duracao_seg": 29.4,
+      "duracao_mmss": "00:29",
+      "idioma": "pt",
+      "idioma_prob": 1,
+      "n_segmentos_fala": 0,
+      "n_textos_na_tela": 23,
+      "transcricao": "",
+      "segmentos": [],
+      "texto_na_tela": [
+        {
+          "t": 0.0,
+          "texto": "Coisas queeuamo",
+          "conf": 0.95
+        },
+        {
+          "t": 0.0,
+          "texto": "noescritório",
+          "conf": 0.91
+        },
+        {
+          "t": 2.9,
+          "texto": "Nossa",
+          "conf": 1.0
+        },
+        {
+          "t": 2.9,
+          "texto": "recepçãoicom",
+          "conf": 0.76
+        },
+        {
+          "t": 2.9,
+          "texto": "vitrine de lançamentos",
+          "conf": 0.97
+        },
+        {
+          "t": 2.9,
+          "texto": "BEM-VIN",
+          "conf": 1.0
+        },
+        {
+          "t": 2.9,
+          "texto": "CHEGOU",
+          "conf": 1.0
+        },
+        {
+          "t": 2.9,
+          "texto": "HORA",
+          "conf": 1.0
+        },
+        {
+          "t": 5.9,
+          "texto": "Nossa recepção com",
+          "conf": 0.99
+        },
+        {
+          "t": 5.9,
+          "texto": "BEM-VINDE!",
+          "conf": 0.53
+        },
+        {
+          "t": 5.9,
+          "texto": "DIVERSÃO `",
+          "conf": 0.43
+        },
+        {
+          "t": 8.8,
+          "texto": "@ paredão de",
+          "conf": 0.85
+        },
+        {
+          "t": 8.8,
+          "texto": "esmaltes",
+          "conf": 0.99
+        },
+        {
+          "t": 11.8,
+          "texto": "Quadro da 20 identidade",
+          "conf": 0.6
+        },
+        {
+          "t": 11.8,
+          "texto": "all",
+          "conf": 0.92
+        },
+        {
+          "t": 11.8,
+          "texto": "visual damarca",
+          "conf": 0.9
+        },
+        {
+          "t": 11.8,
+          "texto": "vida",
+          "conf": 0.96
+        },
+        {
+          "t": 14.7,
+          "texto": "avida",
+          "conf": 0.96
+        },
+        {
+          "t": 17.6,
+          "texto": "Nosso cantinho",
+          "conf": 0.88
+        },
+        {
+          "t": 17.6,
+          "texto": "Dailus",
+          "conf": 0.66
+        },
+        {
+          "t": 20.6,
+          "texto": "do café",
+          "conf": 0.82
+        },
+        {
+          "t": 23.5,
+          "texto": "Vários produtinhos",
+          "conf": 1.0
+        },
+        {
+          "t": 23.5,
+          "texto": "que temosnasaladeP&D",
+          "conf": 0.94
+        }
+      ]
+    },
+    {
+      "handle": "babidadailus",
+      "shortcode": "DY8ToabvYOm",
+      "video_file": "data/social/instagram/media/babidadailus/DY8ToabvYOm.mp4",
+      "duracao_seg": 77.4,
+      "duracao_mmss": "01:17",
+      "idioma": "pt",
+      "idioma_prob": 1,
+      "n_segmentos_fala": 18,
+      "n_textos_na_tela": 45,
+      "transcricao": "Hoje a gente está aqui na montagem da Beauty Show, é um grande evento para a gente, então a empresa inteira fica muito animada com isso e eu queria mostrar um pouquinho dos bastidores para vocês. Normalmente vocês só veem um negócio lindo, super feitinho, agora eu queria mostrar como que é esse processo. Então primeiro, já nessa fase de montagem, vou colocar aqui alguns vídeos para vocês, mas a gente vai até o galpão e monta o stand do zero, então a gente vai no galpão terceiro, monta o stand para testar se vai estar tudo ok, se vai estar tudo redondo. Estando tudo ok, a gente vem da configuração dele em tamanho real, ele é literalmente as mesmas plazas que estão aqui, vão para lá. Tando tudo certo, a gente finaliza o projeto e traz para cá. Essa montagem começou ontem e hoje a gente já está na finalização, últimos detalhes colocando os produtos já nas prateleiras, o nosso stand vai vir com uma proposta muito legal, diferente de todos os anos, diferente de tudo que vocês já viram a Dylos fazendo. E amanhã a gente mostra mais um detalhe, mas garanto que vai ser muito legal e já posso dar um spoiler pelos vídeos que vocês vão estar dentro do stand, mas em duas dimensões, em dois universos Dylos diferentes. Espero vocês por aqui.",
+      "segmentos": [
+        {
+          "inicio": 0.0,
+          "fim": 6.1,
+          "texto": "Hoje a gente está aqui na montagem da Beauty Show, é um grande evento para a gente, então"
+        },
+        {
+          "inicio": 6.1,
+          "fim": 11.0,
+          "texto": "a empresa inteira fica muito animada com isso e eu queria mostrar um pouquinho dos bastidores"
+        },
+        {
+          "inicio": 11.0,
+          "fim": 12.0,
+          "texto": "para vocês."
+        },
+        {
+          "inicio": 12.0,
+          "fim": 16.7,
+          "texto": "Normalmente vocês só veem um negócio lindo, super feitinho, agora eu queria mostrar como"
+        },
+        {
+          "inicio": 16.7,
+          "fim": 18.6,
+          "texto": "que é esse processo."
+        },
+        {
+          "inicio": 18.6,
+          "fim": 23.4,
+          "texto": "Então primeiro, já nessa fase de montagem, vou colocar aqui alguns vídeos para vocês,"
+        },
+        {
+          "inicio": 23.4,
+          "fim": 27.8,
+          "texto": "mas a gente vai até o galpão e monta o stand do zero, então a gente vai no"
+        },
+        {
+          "inicio": 27.8,
+          "fim": 33.7,
+          "texto": "galpão terceiro, monta o stand para testar se vai estar tudo ok, se vai estar tudo redondo."
+        },
+        {
+          "inicio": 33.7,
+          "fim": 38.6,
+          "texto": "Estando tudo ok, a gente vem da configuração dele em tamanho real, ele é literalmente as"
+        },
+        {
+          "inicio": 38.6,
+          "fim": 41.3,
+          "texto": "mesmas plazas que estão aqui, vão para lá."
+        },
+        {
+          "inicio": 41.3,
+          "fim": 45.5,
+          "texto": "Tando tudo certo, a gente finaliza o projeto e traz para cá."
+        },
+        {
+          "inicio": 45.5,
+          "fim": 51.0,
+          "texto": "Essa montagem começou ontem e hoje a gente já está na finalização, últimos detalhes"
+        },
+        {
+          "inicio": 51.0,
+          "fim": 55.8,
+          "texto": "colocando os produtos já nas prateleiras, o nosso stand vai vir com uma proposta"
+        },
+        {
+          "inicio": 55.8,
+          "fim": 61.4,
+          "texto": "muito legal, diferente de todos os anos, diferente de tudo que vocês já viram a Dylos fazendo."
+        },
+        {
+          "inicio": 61.4,
+          "fim": 66.9,
+          "texto": "E amanhã a gente mostra mais um detalhe, mas garanto que vai ser muito legal e já posso"
+        },
+        {
+          "inicio": 66.9,
+          "fim": 71.7,
+          "texto": "dar um spoiler pelos vídeos que vocês vão estar dentro do stand, mas em duas dimensões,"
+        },
+        {
+          "inicio": 71.7,
+          "fim": 74.6,
+          "texto": "em dois universos Dylos diferentes."
+        },
+        {
+          "inicio": 74.6,
+          "fim": 75.7,
+          "texto": "Espero vocês por aqui."
+        }
+      ],
+      "texto_na_tela": [
+        {
+          "t": 2.9,
+          "texto": "Éumgrande evento pra gente",
+          "conf": 0.96
+        },
+        {
+          "t": 5.9,
+          "texto": "BeautyShow",
+          "conf": 0.99
+        },
+        {
+          "t": 5.9,
+          "texto": "Expositor",
+          "conf": 0.83
+        },
+        {
+          "t": 5.9,
+          "texto": "fica muito âinâda com isso",
+          "conf": 0.6
+        },
+        {
+          "t": 8.8,
+          "texto": "BcautySho",
+          "conf": 0.86
+        },
+        {
+          "t": 8.8,
+          "texto": "dos bastidôres pra vocês.",
+          "conf": 0.44
+        },
+        {
+          "t": 11.8,
+          "texto": "Bcautyshow",
+          "conf": 0.73
+        },
+        {
+          "t": 11.8,
+          "texto": "só veem onegocio lindo;",
+          "conf": 0.66
+        },
+        {
+          "t": 14.7,
+          "texto": "agora euquêriamostrar",
+          "conf": 0.45
+        },
+        {
+          "t": 17.6,
+          "texto": "BARBARA RossI",
+          "conf": 0.7
+        },
+        {
+          "t": 20.6,
+          "texto": "BcautyShov",
+          "conf": 0.93
+        },
+        {
+          "t": 20.6,
+          "texto": "Exosioa",
+          "conf": 0.46
+        },
+        {
+          "t": 20.6,
+          "texto": "ROSSI",
+          "conf": 0.63
+        },
+        {
+          "t": 23.5,
+          "texto": "masagente vai atéogalppão",
+          "conf": 0.67
+        },
+        {
+          "t": 26.5,
+          "texto": "entãoagentevai",
+          "conf": 0.87
+        },
+        {
+          "t": 32.4,
+          "texto": "estando tudook",
+          "conf": 0.91
+        },
+        {
+          "t": 35.3,
+          "texto": "@m tamanho real",
+          "conf": 0.55
+        },
+        {
+          "t": 38.2,
+          "texto": "asmesmas peças",
+          "conf": 1.0
+        },
+        {
+          "t": 38.2,
+          "texto": "queestão aqui;",
+          "conf": 0.97
+        },
+        {
+          "t": 41.2,
+          "texto": "gentefinaliza@ projeto",
+          "conf": 0.96
+        },
+        {
+          "t": 44.1,
+          "texto": "Wasneno",
+          "conf": 0.45
+        },
+        {
+          "t": 44.1,
+          "texto": "Essamontagem",
+          "conf": 1.0
+        },
+        {
+          "t": 44.1,
+          "texto": "Dailus",
+          "conf": 0.57
+        },
+        {
+          "t": 47.1,
+          "texto": "hojeagentejá",
+          "conf": 0.99
+        },
+        {
+          "t": 47.1,
+          "texto": "tá na finalização;",
+          "conf": 0.9
+        },
+        {
+          "t": 47.1,
+          "texto": "ESMALTES",
+          "conf": 1.0
+        },
+        {
+          "t": 47.1,
+          "texto": "Uailus",
+          "conf": 0.77
+        },
+        {
+          "t": 47.1,
+          "texto": "Cuio",
+          "conf": 0.4
+        },
+        {
+          "t": 50.0,
+          "texto": "LDÃO",
+          "conf": 0.84
+        },
+        {
+          "t": 50.0,
+          "texto": "colocando @s produtos",
+          "conf": 0.89
+        },
+        {
+          "t": 52.9,
+          "texto": "nossostand vai vir",
+          "conf": 0.96
+        },
+        {
+          "t": 55.9,
+          "texto": "diferentedetodos @san0s",
+          "conf": 0.67
+        },
+        {
+          "t": 55.9,
+          "texto": "ACHADINHOS)",
+          "conf": 0.84
+        },
+        {
+          "t": 58.8,
+          "texto": "já viram a Dailus fazendo",
+          "conf": 0.92
+        },
+        {
+          "t": 61.8,
+          "texto": "maisosdetahhes",
+          "conf": 0.93
+        },
+        {
+          "t": 64.7,
+          "texto": "ejápossodarum",
+          "conf": 0.76
+        },
+        {
+          "t": 67.6,
+          "texto": "vocês vão estardentrodo stand",
+          "conf": 0.99
+        },
+        {
+          "t": 67.6,
+          "texto": "Bcauty_how",
+          "conf": 0.44
+        },
+        {
+          "t": 70.6,
+          "texto": "em dois universos",
+          "conf": 0.81
+        },
+        {
+          "t": 70.6,
+          "texto": "Dal",
+          "conf": 0.53
+        },
+        {
+          "t": 73.5,
+          "texto": "doe",
+          "conf": 0.57
+        },
+        {
+          "t": 73.5,
+          "texto": "ACHOU, GANHOU",
+          "conf": 0.7
+        },
+        {
+          "t": 73.5,
+          "texto": "JCAR",
+          "conf": 0.62
+        },
+        {
+          "t": 73.5,
+          "texto": "Loss",
+          "conf": 0.91
+        },
+        {
+          "t": 73.5,
+          "texto": "Espero vocês por aqui",
+          "conf": 0.68
+        }
+      ]
+    },
+    {
+      "handle": "babidadailus",
+      "shortcode": "DYVp7quMaak",
+      "video_file": "data/social/instagram/media/babidadailus/DYVp7quMaak.mp4",
+      "duracao_seg": 6.2,
+      "duracao_mmss": "00:06",
+      "idioma": "pt",
+      "idioma_prob": 1,
+      "n_segmentos_fala": 0,
+      "n_textos_na_tela": 1,
+      "transcricao": "",
+      "segmentos": [],
+      "texto_na_tela": [
+        {
+          "t": 0.0,
+          "texto": "ARKG",
+          "conf": 0.65
+        }
+      ]
+    },
+    {
+      "handle": "babidadailus",
+      "shortcode": "DYxrkSNvJoF",
+      "video_file": "data/social/instagram/media/babidadailus/DYxrkSNvJoF.mp4",
+      "duracao_seg": 50.7,
+      "duracao_mmss": "00:50",
+      "idioma": "pt",
+      "idioma_prob": 1,
+      "n_segmentos_fala": 9,
+      "n_textos_na_tela": 55,
+      "transcricao": "Acabei de voltar aqui de um evento de K-Beauty e foi dentro da virada cultural coreana que teve aqui em São Paulo, né? Então, eles estão trazendo três frentes, então essa parte de K-Beauty, a parte de comida e a parte de K-pop. Eu fiquei só na dia K-Beauty e foi muito legal, assim. Eu particularmente não conhecia quase nada dessa cultura, então você entrar ali e ter contato com marcas que ainda não estão no mainstream quando a gente olha aqui no Brasil e a gente ainda não consegue encontrar no varejo e comer esses grandes, a gente também não tem, só ir comer esse próprio. Então se você não é muito do nicho, você ainda não tem muito contato, então foi muito legal. Estou gravando aqui um pouquinho mais no detalhe de como foi, então até estou abrindo algumas coisinhas que eu acabei comprando por lá.",
+      "segmentos": [
+        {
+          "inicio": 0.0,
+          "fim": 2.8,
+          "texto": "Acabei de voltar aqui de um evento de K-Beauty"
+        },
+        {
+          "inicio": 2.8,
+          "fim": 6.1,
+          "texto": "e foi dentro da virada cultural coreana que teve aqui em São Paulo, né?"
+        },
+        {
+          "inicio": 6.1,
+          "fim": 13.6,
+          "texto": "Então, eles estão trazendo três frentes, então essa parte de K-Beauty, a parte de comida e a parte de K-pop."
+        },
+        {
+          "inicio": 13.6,
+          "fim": 17.0,
+          "texto": "Eu fiquei só na dia K-Beauty e foi muito legal, assim."
+        },
+        {
+          "inicio": 17.0,
+          "fim": 25.1,
+          "texto": "Eu particularmente não conhecia quase nada dessa cultura, então você entrar ali e ter contato com marcas"
+        },
+        {
+          "inicio": 25.1,
+          "fim": 29.0,
+          "texto": "que ainda não estão no mainstream quando a gente olha aqui no Brasil"
+        },
+        {
+          "inicio": 29.1,
+          "fim": 36.6,
+          "texto": "e a gente ainda não consegue encontrar no varejo e comer esses grandes, a gente também não tem, só ir comer esse próprio."
+        },
+        {
+          "inicio": 36.6,
+          "fim": 42.3,
+          "texto": "Então se você não é muito do nicho, você ainda não tem muito contato, então foi muito legal."
+        },
+        {
+          "inicio": 42.3,
+          "fim": 50.4,
+          "texto": "Estou gravando aqui um pouquinho mais no detalhe de como foi, então até estou abrindo algumas coisinhas que eu acabei comprando por lá."
+        }
+      ],
+      "texto_na_tela": [
+        {
+          "t": 0.0,
+          "texto": "BeLEZA",
+          "conf": 0.5
+        },
+        {
+          "t": 0.0,
+          "texto": "LIFESTYLE",
+          "conf": 0.94
+        },
+        {
+          "t": 0.0,
+          "texto": "AVENIDA PAULSTA RECEBE POP",
+          "conf": 0.86
+        },
+        {
+          "t": 0.0,
+          "texto": "UPOFICIAL DEK-BEAUTY NESTE",
+          "conf": 0.84
+        },
+        {
+          "t": 0.0,
+          "texto": "FIM DE SEMANA",
+          "conf": 0.71
+        },
+        {
+          "t": 0.0,
+          "texto": "Organizada pelo Centro Cultura",
+          "conf": 0.68
+        },
+        {
+          "t": 0.0,
+          "texto": "Coreano no",
+          "conf": 1.0
+        },
+        {
+          "t": 0.0,
+          "texto": "Brasil, pop-up reunira",
+          "conf": 0.99
+        },
+        {
+          "t": 0.0,
+          "texto": "marcas de k-beauty.",
+          "conf": 0.78
+        },
+        {
+          "t": 0.0,
+          "texto": "POR CHAMES OLIVEIRA",
+          "conf": 1.0
+        },
+        {
+          "t": 0.0,
+          "texto": "2026",
+          "conf": 1.0
+        },
+        {
+          "t": 0.0,
+          "texto": "Acabei de voltar",
+          "conf": 0.81
+        },
+        {
+          "t": 0.0,
+          "texto": "aqui",
+          "conf": 0.99
+        },
+        {
+          "t": 2.9,
+          "texto": "coreana que teve aqui em",
+          "conf": 0.93
+        },
+        {
+          "t": 5.9,
+          "texto": "Eles estão trazendo três frentes;",
+          "conf": 0.97
+        },
+        {
+          "t": 8.8,
+          "texto": "[1ª K-Beauty",
+          "conf": 0.66
+        },
+        {
+          "t": 8.8,
+          "texto": "20 Comida",
+          "conf": 0.52
+        },
+        {
+          "t": 8.8,
+          "texto": "30 K-Pop",
+          "conf": 0.62
+        },
+        {
+          "t": 8.8,
+          "texto": "então essa parte de K-Beauty;",
+          "conf": 0.54
+        },
+        {
+          "t": 11.8,
+          "texto": "patde K-Pop.",
+          "conf": 0.43
+        },
+        {
+          "t": 14.7,
+          "texto": "foi muito legal assim.",
+          "conf": 0.66
+        },
+        {
+          "t": 17.6,
+          "texto": "particularmente não conhecia",
+          "conf": 0.52
+        },
+        {
+          "t": 20.6,
+          "texto": "Teste",
+          "conf": 0.82
+        },
+        {
+          "t": 23.5,
+          "texto": "K-beauty invadirá São Paulo neste fim de",
+          "conf": 1.0
+        },
+        {
+          "t": 23.5,
+          "texto": "semana.",
+          "conf": 0.99
+        },
+        {
+          "t": 23.5,
+          "texto": "Entre os dias 22 e 24 de maio, 0",
+          "conf": 0.78
+        },
+        {
+          "t": 23.5,
+          "texto": "Centro Cultural Coreano no Brasil reunirá em",
+          "conf": 0.97
+        },
+        {
+          "t": 23.5,
+          "texto": "sua sede na Avenida Paulista mais de 30 marcas",
+          "conf": 0.84
+        },
+        {
+          "t": 23.5,
+          "texto": "coreanas de beleza em uma pop-up",
+          "conf": 0.98
+        },
+        {
+          "t": 23.5,
+          "texto": "gratuita, que",
+          "conf": 0.93
+        },
+        {
+          "t": 23.5,
+          "texto": "pretende de aproximar 0 público brasileiro da",
+          "conf": 0.96
+        },
+        {
+          "t": 23.5,
+          "texto": "indústria cosmética do pais",
+          "conf": 0.93
+        },
+        {
+          "t": 23.5,
+          "texto": "é referência global",
+          "conf": 0.96
+        },
+        {
+          "t": 23.5,
+          "texto": "pvação e tecnologia.",
+          "conf": 0.96
+        },
+        {
+          "t": 23.5,
+          "texto": "ter contato com marcas",
+          "conf": 0.93
+        },
+        {
+          "t": 23.5,
+          "texto": "que",
+          "conf": 1.0
+        },
+        {
+          "t": 26.5,
+          "texto": "semana. Entre os dias 22 e 24 de maio,",
+          "conf": 0.56
+        },
+        {
+          "t": 26.5,
+          "texto": "indústria cosmética do país, que é referência global",
+          "conf": 0.77
+        },
+        {
+          "t": 26.5,
+          "texto": "em inovaçao e",
+          "conf": 0.6
+        },
+        {
+          "t": 26.5,
+          "texto": "tecnologia.",
+          "conf": 0.99
+        },
+        {
+          "t": 26.5,
+          "texto": "quando agente",
+          "conf": 0.78
+        },
+        {
+          "t": 26.5,
+          "texto": "@ha aqui no Brasi]",
+          "conf": 0.74
+        },
+        {
+          "t": 29.4,
+          "texto": "gente ainda não consegue",
+          "conf": 0.76
+        },
+        {
+          "t": 29.4,
+          "texto": "encontrarno varejo",
+          "conf": 0.59
+        },
+        {
+          "t": 32.4,
+          "texto": "@@m @ G@Mmerce grandes",
+          "conf": 0.4
+        },
+        {
+          "t": 32.4,
+          "texto": "MYURI",
+          "conf": 0.52
+        },
+        {
+          "t": 35.3,
+          "texto": "PCALM",
+          "conf": 0.85
+        },
+        {
+          "t": 35.3,
+          "texto": "então se você",
+          "conf": 0.81
+        },
+        {
+          "t": 38.2,
+          "texto": "você ainda não",
+          "conf": 0.73
+        },
+        {
+          "t": 38.2,
+          "texto": "tem muito contato .",
+          "conf": 0.92
+        },
+        {
+          "t": 41.2,
+          "texto": "Tô gravando",
+          "conf": 0.61
+        },
+        {
+          "t": 41.2,
+          "texto": "um pouquinho mais",
+          "conf": 0.98
+        },
+        {
+          "t": 44.1,
+          "texto": "detahedecomo f@i",
+          "conf": 0.83
+        },
+        {
+          "t": 47.1,
+          "texto": "algumas @oisinhas queeu",
+          "conf": 0.65
+        },
+        {
+          "t": 47.1,
+          "texto": "acabei @@mprando por lá.",
+          "conf": 0.57
+        }
+      ]
+    },
+    {
+      "handle": "babidadailus",
+      "shortcode": "DZ0wyWiv0UP",
+      "video_file": "data/social/instagram/media/babidadailus/DZ0wyWiv0UP.mp4",
+      "duracao_seg": 76.4,
+      "duracao_mmss": "01:16",
+      "idioma": "pt",
+      "idioma_prob": 1,
+      "n_segmentos_fala": 18,
+      "n_textos_na_tela": 53,
+      "transcricao": "Oi, hoje a gente está aqui no nosso evento de lançamento da nova linha de Sweet Skin. Seja devem ter visto o produto já está nas lojas, mas a gente quis trazer esse momento para apresentar um pouco mais do conceito, um pouco mais de qual a construção de cada fragrância e é um evento super intimista para algumas pessoas que vêm acompanhando a Dailos e Sweet Skin, para a gente trazer um pouquinho dessa aula. Então a gente está aqui na Fave, que é a casa de fragrances que está fazendo toda essa linha e aqui é um pouquinho que vocês vão ver do que a gente vai estar trazendo. A primeira experiência foi uma experiência que a Iza, que é a diretora de marketing da Fave, trouxe para a gente que mostra o quanto que o fato está muito relacionado ao paladar e se a gente perde esse sentido ou tem esse sentido um pouco menos forte, a gente também não tem o nosso paladar 100% como ele deveria estar. A segunda experiência que a gente trouxe, ela vem totalmente para o paladar. Então a gente trouxe uma chefe de cozinha para trazer três sobremesas que remetem as nossas fragrances, então ao sênei de cereja, ao torta de limão e ao creme de baunilha. Por último, a gente traz uma parte bem visual de personalização de moletom, então todo mundo que está aqui vai poder escolher o moletom do jeito que quer, caracterizado com os nossos elementos principais de Sweet Skin.",
+      "segmentos": [
+        {
+          "inicio": 0.0,
+          "fim": 4.9,
+          "texto": "Oi, hoje a gente está aqui no nosso evento de lançamento da nova linha de Sweet Skin."
+        },
+        {
+          "inicio": 4.9,
+          "fim": 8.8,
+          "texto": "Seja devem ter visto o produto já está nas lojas, mas a gente quis trazer esse momento"
+        },
+        {
+          "inicio": 8.8,
+          "fim": 13.2,
+          "texto": "para apresentar um pouco mais do conceito, um pouco mais de qual a construção de cada"
+        },
+        {
+          "inicio": 13.2,
+          "fim": 17.9,
+          "texto": "fragrância e é um evento super intimista para algumas pessoas que vêm acompanhando"
+        },
+        {
+          "inicio": 17.9,
+          "fim": 21.7,
+          "texto": "a Dailos e Sweet Skin, para a gente trazer um pouquinho dessa aula."
+        },
+        {
+          "inicio": 21.7,
+          "fim": 24.8,
+          "texto": "Então a gente está aqui na Fave, que é a casa de fragrances que está fazendo"
+        },
+        {
+          "inicio": 24.8,
+          "fim": 28.4,
+          "texto": "toda essa linha e aqui é um pouquinho que vocês vão ver do que a gente vai"
+        },
+        {
+          "inicio": 28.4,
+          "fim": 32.3,
+          "texto": "estar trazendo. A primeira experiência foi uma experiência que a Iza, que é a"
+        },
+        {
+          "inicio": 32.3,
+          "fim": 37.4,
+          "texto": "diretora de marketing da Fave, trouxe para a gente que mostra o quanto que o"
+        },
+        {
+          "inicio": 37.4,
+          "fim": 41.8,
+          "texto": "fato está muito relacionado ao paladar e se a gente perde esse sentido ou tem esse"
+        },
+        {
+          "inicio": 41.8,
+          "fim": 47.1,
+          "texto": "sentido um pouco menos forte, a gente também não tem o nosso paladar 100%"
+        },
+        {
+          "inicio": 47.1,
+          "fim": 50.3,
+          "texto": "como ele deveria estar. A segunda experiência que a gente trouxe, ela vem"
+        },
+        {
+          "inicio": 50.3,
+          "fim": 54.3,
+          "texto": "totalmente para o paladar. Então a gente trouxe uma chefe de cozinha para"
+        },
+        {
+          "inicio": 54.3,
+          "fim": 58.7,
+          "texto": "trazer três sobremesas que remetem as nossas fragrances, então ao sênei de"
+        },
+        {
+          "inicio": 58.7,
+          "fim": 64.0,
+          "texto": "cereja, ao torta de limão e ao creme de baunilha. Por último, a gente traz uma"
+        },
+        {
+          "inicio": 64.0,
+          "fim": 68.7,
+          "texto": "parte bem visual de personalização de moletom, então todo mundo que está aqui"
+        },
+        {
+          "inicio": 68.7,
+          "fim": 72.5,
+          "texto": "vai poder escolher o moletom do jeito que quer, caracterizado com os nossos"
+        },
+        {
+          "inicio": 72.5,
+          "fim": 76.2,
+          "texto": "elementos principais de Sweet Skin."
+        }
+      ],
+      "texto_na_tela": [
+        {
+          "t": 0.0,
+          "texto": "Hoje a gente tá",
+          "conf": 1.0
+        },
+        {
+          "t": 0.0,
+          "texto": "no nosso evento",
+          "conf": 1.0
+        },
+        {
+          "t": 0.0,
+          "texto": "aqui",
+          "conf": 1.0
+        },
+        {
+          "t": 2.9,
+          "texto": "de lançamentodanova",
+          "conf": 0.72
+        },
+        {
+          "t": 2.9,
+          "texto": "linha de sweet skin:.",
+          "conf": 0.41
+        },
+        {
+          "t": 2.9,
+          "texto": "ice",
+          "conf": 0.99
+        },
+        {
+          "t": 5.9,
+          "texto": "mas a",
+          "conf": 1.0
+        },
+        {
+          "t": 5.9,
+          "texto": "gente quis",
+          "conf": 1.0
+        },
+        {
+          "t": 5.9,
+          "texto": "trazer esse momento",
+          "conf": 0.99
+        },
+        {
+          "t": 8.8,
+          "texto": "pra apresentar um pouco",
+          "conf": 0.97
+        },
+        {
+          "t": 8.8,
+          "texto": "mais @o conceito",
+          "conf": 0.77
+        },
+        {
+          "t": 11.8,
+          "texto": "um pouco mais @e qual é a",
+          "conf": 0.79
+        },
+        {
+          "t": 11.8,
+          "texto": "construção de cada fragrância",
+          "conf": 0.77
+        },
+        {
+          "t": 14.7,
+          "texto": "pra algumas pessoas que vem",
+          "conf": 0.99
+        },
+        {
+          "t": 14.7,
+          "texto": "acompanhando a Dailus",
+          "conf": 1.0
+        },
+        {
+          "t": 17.6,
+          "texto": "@msweetskin",
+          "conf": 0.75
+        },
+        {
+          "t": 20.6,
+          "texto": "Então a gente",
+          "conf": 1.0
+        },
+        {
+          "t": 20.6,
+          "texto": "tá aqui na fav",
+          "conf": 0.93
+        },
+        {
+          "t": 23.5,
+          "texto": "8WE",
+          "conf": 0.56
+        },
+        {
+          "t": 23.5,
+          "texto": "NOVOS SAB",
+          "conf": 0.91
+        },
+        {
+          "t": 23.5,
+          "texto": "PRO SEU",
+          "conf": 0.99
+        },
+        {
+          "t": 23.5,
+          "texto": "toda essalinha",
+          "conf": 0.64
+        },
+        {
+          "t": 26.5,
+          "texto": "doquequeagente",
+          "conf": 0.97
+        },
+        {
+          "t": 26.5,
+          "texto": "Vaitá trazendo",
+          "conf": 0.65
+        },
+        {
+          "t": 29.4,
+          "texto": "ORVETE",
+          "conf": 1.0
+        },
+        {
+          "t": 29.4,
+          "texto": "PRO SEU B",
+          "conf": 0.54
+        },
+        {
+          "t": 29.4,
+          "texto": "Aprimeira experiência foi uma",
+          "conf": 0.93
+        },
+        {
+          "t": 29.4,
+          "texto": "exoeriência que a Isa",
+          "conf": 0.44
+        },
+        {
+          "t": 32.4,
+          "texto": "que é a diretora de",
+          "conf": 0.98
+        },
+        {
+          "t": 32.4,
+          "texto": "marketing da fav",
+          "conf": 0.94
+        },
+        {
+          "t": 35.3,
+          "texto": "que mostra 0",
+          "conf": 0.94
+        },
+        {
+          "t": 35.3,
+          "texto": "quanto que 0",
+          "conf": 0.81
+        },
+        {
+          "t": 44.1,
+          "texto": "a gente também não",
+          "conf": 0.95
+        },
+        {
+          "t": 44.1,
+          "texto": "tem 0 nosso paladar",
+          "conf": 0.89
+        },
+        {
+          "t": 47.1,
+          "texto": "SORVETE",
+          "conf": 0.97
+        },
+        {
+          "t": 47.1,
+          "texto": "PRO SEY",
+          "conf": 0.5
+        },
+        {
+          "t": 47.1,
+          "texto": "A segunda experiência",
+          "conf": 0.67
+        },
+        {
+          "t": 47.1,
+          "texto": "que a gente trouxe",
+          "conf": 0.77
+        },
+        {
+          "t": 50.0,
+          "texto": "ela vem totalmente",
+          "conf": 0.69
+        },
+        {
+          "t": 50.0,
+          "texto": "'pâladar",
+          "conf": 0.62
+        },
+        {
+          "t": 52.9,
+          "texto": "pra trazer frês sobremesas que",
+          "conf": 0.86
+        },
+        {
+          "t": 55.9,
+          "texto": "femetem as nossas",
+          "conf": 0.74
+        },
+        {
+          "t": 55.9,
+          "texto": "fragrâncias.",
+          "conf": 0.91
+        },
+        {
+          "t": 58.8,
+          "texto": "aotorta delimãoe",
+          "conf": 0.87
+        },
+        {
+          "t": 58.8,
+          "texto": "ao creme de baunilha",
+          "conf": 0.6
+        },
+        {
+          "t": 61.8,
+          "texto": "ISORVETE",
+          "conf": 0.95
+        },
+        {
+          "t": 61.8,
+          "texto": "IUM:",
+          "conf": 0.52
+        },
+        {
+          "t": 61.8,
+          "texto": "Por último;",
+          "conf": 0.63
+        },
+        {
+          "t": 64.7,
+          "texto": "de personalização demoletom",
+          "conf": 0.73
+        },
+        {
+          "t": 67.6,
+          "texto": "vai poder escolher @",
+          "conf": 0.74
+        },
+        {
+          "t": 67.6,
+          "texto": "quer",
+          "conf": 0.93
+        },
+        {
+          "t": 67.6,
+          "texto": "quee",
+          "conf": 0.59
+        },
+        {
+          "t": 70.6,
+          "texto": "caracterizado com os",
+          "conf": 0.93
+        }
+      ]
+    },
+    {
+      "handle": "babidadailus",
+      "shortcode": "DZ3BEszv1ts",
+      "video_file": "data/social/instagram/media/babidadailus/DZ3BEszv1ts.mp4",
+      "duracao_seg": 54.5,
+      "duracao_mmss": "00:54",
+      "idioma": "pt",
+      "idioma_prob": 1,
+      "n_segmentos_fala": 12,
+      "n_textos_na_tela": 22,
+      "transcricao": "Agora que o pessoal já conheceu todas as nossas fragrâncias, vamos perguntar qual foi a preferida deles? A minha fragrância preferida é essa de baunilha, porque dormir com cheirinho de baunilha é maravilhoso, gente! A minha valonita é torta de limão, porque é muito cítrico, eu gosto muito desse cítricozinho, então... Tchau, sabe? Gente, o meu preferido com certeza é o de cereja porque combina com o meu look! E aí, foca de vocês! Meu nome é Marta Carolina, e a minha fragrância favorita é a torta de limão, aquele cheirinho refrescante de limão siciliano que faz a gente levantar da cama. Meu predilés é o creme de baunilha, ele é simplesmente irresistível, ninguém resiste a uma boa baunilha. Agora é minha vez de falar minha fragrância preferida e ela é a torta de limão. Pra mim, uma fragrância cítrica não tem nada melhor.",
+      "segmentos": [
+        {
+          "inicio": 0.0,
+          "fim": 6.0,
+          "texto": "Agora que o pessoal já conheceu todas as nossas fragrâncias, vamos perguntar qual foi a preferida deles?"
+        },
+        {
+          "inicio": 6.0,
+          "fim": 12.0,
+          "texto": "A minha fragrância preferida é essa de baunilha, porque dormir com cheirinho de baunilha é maravilhoso, gente!"
+        },
+        {
+          "inicio": 12.0,
+          "fim": 17.0,
+          "texto": "A minha valonita é torta de limão, porque é muito cítrico, eu gosto muito desse cítricozinho, então..."
+        },
+        {
+          "inicio": 17.0,
+          "fim": 19.0,
+          "texto": "Tchau, sabe?"
+        },
+        {
+          "inicio": 20.0,
+          "fim": 24.0,
+          "texto": "Gente, o meu preferido com certeza é o de cereja porque combina com o meu look!"
+        },
+        {
+          "inicio": 24.0,
+          "fim": 26.0,
+          "texto": "E aí, foca de vocês!"
+        },
+        {
+          "inicio": 26.0,
+          "fim": 29.0,
+          "texto": "Meu nome é Marta Carolina, e a minha fragrância favorita"
+        },
+        {
+          "inicio": 29.0,
+          "fim": 33.0,
+          "texto": "é a torta de limão, aquele cheirinho refrescante de limão siciliano"
+        },
+        {
+          "inicio": 33.0,
+          "fim": 36.0,
+          "texto": "que faz a gente levantar da cama."
+        },
+        {
+          "inicio": 36.0,
+          "fim": 43.0,
+          "texto": "Meu predilés é o creme de baunilha, ele é simplesmente irresistível, ninguém resiste a uma boa baunilha."
+        },
+        {
+          "inicio": 43.0,
+          "fim": 48.0,
+          "texto": "Agora é minha vez de falar minha fragrância preferida e ela é a torta de limão."
+        },
+        {
+          "inicio": 48.0,
+          "fim": 51.0,
+          "texto": "Pra mim, uma fragrância cítrica não tem nada melhor."
+        }
+      ],
+      "texto_na_tela": [
+        {
+          "t": 0.0,
+          "texto": "já conheceu todas",
+          "conf": 0.99
+        },
+        {
+          "t": 0.0,
+          "texto": "as nossas",
+          "conf": 0.95
+        },
+        {
+          "t": 0.0,
+          "texto": "fragrâncias;",
+          "conf": 0.79
+        },
+        {
+          "t": 2.9,
+          "texto": "vamos perguntar qual que",
+          "conf": 0.77
+        },
+        {
+          "t": 2.9,
+          "texto": "foi a preferida deles?",
+          "conf": 0.86
+        },
+        {
+          "t": 5.9,
+          "texto": "Aminha fragrância preferida",
+          "conf": 0.96
+        },
+        {
+          "t": 8.8,
+          "texto": "cheirinho de baunilha",
+          "conf": 1.0
+        },
+        {
+          "t": 8.8,
+          "texto": "é maravilhoso gente.",
+          "conf": 0.73
+        },
+        {
+          "t": 11.8,
+          "texto": "Aminha favorita",
+          "conf": 0.81
+        },
+        {
+          "t": 11.8,
+          "texto": "torta de limão",
+          "conf": 0.98
+        },
+        {
+          "t": 14.7,
+          "texto": "desse \"cítricozinho'",
+          "conf": 0.88
+        },
+        {
+          "t": 14.7,
+          "texto": "que dá um tchan sabe?",
+          "conf": 1.0
+        },
+        {
+          "t": 14.7,
+          "texto": "SWEET",
+          "conf": 0.56
+        },
+        {
+          "t": 20.6,
+          "texto": "@om certeza é 0 de cereja",
+          "conf": 0.66
+        },
+        {
+          "t": 23.5,
+          "texto": "aí qualque",
+          "conf": 0.68
+        },
+        {
+          "t": 23.5,
+          "texto": "0 de vocês?",
+          "conf": 0.67
+        },
+        {
+          "t": 26.5,
+          "texto": "aminha fragrância favorita",
+          "conf": 0.81
+        },
+        {
+          "t": 38.2,
+          "texto": "ele é simplesmente",
+          "conf": 0.89
+        },
+        {
+          "t": 41.2,
+          "texto": "ninguém resiste a",
+          "conf": 0.99
+        },
+        {
+          "t": 41.2,
+          "texto": "uma boa baunilha.",
+          "conf": 0.78
+        },
+        {
+          "t": 44.1,
+          "texto": "Agora é minha vez de falar",
+          "conf": 0.97
+        },
+        {
+          "t": 44.1,
+          "texto": "minha fragância preferida",
+          "conf": 0.88
+        }
+      ]
+    },
+    {
+      "handle": "babidadailus",
+      "shortcode": "DZ58J__vPZb",
+      "video_file": "data/social/instagram/media/babidadailus/DZ58J__vPZb.mp4",
+      "duracao_seg": 75.7,
+      "duracao_mmss": "01:15",
+      "idioma": "pt",
+      "idioma_prob": 1,
+      "n_segmentos_fala": 0,
+      "n_textos_na_tela": 4,
+      "transcricao": "",
+      "segmentos": [],
+      "texto_na_tela": [
+        {
+          "t": 0.0,
+          "texto": "ice",
+          "conf": 0.98
+        },
+        {
+          "t": 0.0,
+          "texto": "sream",
+          "conf": 0.77
+        },
+        {
+          "t": 20.6,
+          "texto": "eal",
+          "conf": 0.55
+        },
+        {
+          "t": 35.3,
+          "texto": "Dailus",
+          "conf": 0.88
+        }
+      ]
+    },
+    {
+      "handle": "babidadailus",
+      "shortcode": "DZDyFxXvU-6",
+      "video_file": "data/social/instagram/media/babidadailus/DZDyFxXvU-6.mp4",
+      "duracao_seg": 67.4,
+      "duracao_mmss": "01:07",
+      "idioma": "pt",
+      "idioma_prob": 1,
+      "n_segmentos_fala": 0,
+      "n_textos_na_tela": 25,
+      "transcricao": "",
+      "segmentos": [],
+      "texto_na_tela": [
+        {
+          "t": 0.0,
+          "texto": "Dailus",
+          "conf": 0.57
+        },
+        {
+          "t": 0.0,
+          "texto": "Julua",
+          "conf": 0.58
+        },
+        {
+          "t": 5.9,
+          "texto": "'CUM",
+          "conf": 0.44
+        },
+        {
+          "t": 11.8,
+          "texto": "Liquipo",
+          "conf": 0.71
+        },
+        {
+          "t": 11.8,
+          "texto": "OLHÃOEB",
+          "conf": 0.98
+        },
+        {
+          "t": 14.7,
+          "texto": "BANHO PREMIUM",
+          "conf": 0.99
+        },
+        {
+          "t": 14.7,
+          "texto": "Re 29,90",
+          "conf": 0.51
+        },
+        {
+          "t": 14.7,
+          "texto": "lançamento",
+          "conf": 1.0
+        },
+        {
+          "t": 14.7,
+          "texto": "39,90",
+          "conf": 0.97
+        },
+        {
+          "t": 14.7,
+          "texto": "MENTO:",
+          "conf": 0.58
+        },
+        {
+          "t": 14.7,
+          "texto": "melu",
+          "conf": 0.65
+        },
+        {
+          "t": 17.6,
+          "texto": "Dellus",
+          "conf": 0.52
+        },
+        {
+          "t": 17.6,
+          "texto": "Dalus",
+          "conf": 0.5
+        },
+        {
+          "t": 17.6,
+          "texto": "OLEO",
+          "conf": 0.84
+        },
+        {
+          "t": 17.6,
+          "texto": "R6 19,90",
+          "conf": 0.57
+        },
+        {
+          "t": 17.6,
+          "texto": "19,90",
+          "conf": 0.83
+        },
+        {
+          "t": 20.6,
+          "texto": "Off",
+          "conf": 0.48
+        },
+        {
+          "t": 20.6,
+          "texto": "50%OFF",
+          "conf": 0.77
+        },
+        {
+          "t": 26.5,
+          "texto": "ilus",
+          "conf": 0.88
+        },
+        {
+          "t": 29.4,
+          "texto": "cop",
+          "conf": 0.83
+        },
+        {
+          "t": 32.4,
+          "texto": "ose",
+          "conf": 0.99
+        },
+        {
+          "t": 41.2,
+          "texto": "Vme",
+          "conf": 0.45
+        },
+        {
+          "t": 44.1,
+          "texto": "nailus",
+          "conf": 0.94
+        },
+        {
+          "t": 58.8,
+          "texto": "Dailos",
+          "conf": 0.49
+        },
+        {
+          "t": 61.8,
+          "texto": "Dau",
+          "conf": 0.47
+        }
+      ]
+    },
+    {
+      "handle": "babidadailus",
+      "shortcode": "DZFuIHRPvWT",
+      "video_file": "data/social/instagram/media/babidadailus/DZFuIHRPvWT.mp4",
+      "duracao_seg": 6.9,
+      "duracao_mmss": "00:06",
+      "idioma": "pt",
+      "idioma_prob": 1,
+      "n_segmentos_fala": 0,
+      "n_textos_na_tela": 2,
+      "transcricao": "",
+      "segmentos": [],
+      "texto_na_tela": [
+        {
+          "t": 2.9,
+          "texto": "Datlus",
+          "conf": 0.8
+        },
+        {
+          "t": 2.9,
+          "texto": "Dailus",
+          "conf": 0.93
+        }
+      ]
+    },
+    {
+      "handle": "babidadailus",
+      "shortcode": "DZODjJevm20",
+      "video_file": "data/social/instagram/media/babidadailus/DZODjJevm20.mp4",
+      "duracao_seg": 14.3,
+      "duracao_mmss": "00:14",
+      "idioma": "pt",
+      "idioma_prob": 1,
+      "n_segmentos_fala": 8,
+      "n_textos_na_tela": 8,
+      "transcricao": "Pepu mas não Eu não lembro o que fiz Acho que eu passei do ponto Eu só lembro o teu bebê De logo, logo eu tava tonto Não, não Pra tirar a eu Pepu mas não",
+      "segmentos": [
+        {
+          "inicio": 0.0,
+          "fim": 2.0,
+          "texto": "Pepu mas não"
+        },
+        {
+          "inicio": 3.5,
+          "fim": 5.5,
+          "texto": "Eu não lembro o que fiz"
+        },
+        {
+          "inicio": 5.5,
+          "fim": 6.5,
+          "texto": "Acho que eu passei do ponto"
+        },
+        {
+          "inicio": 6.5,
+          "fim": 8.0,
+          "texto": "Eu só lembro o teu bebê"
+        },
+        {
+          "inicio": 8.0,
+          "fim": 10.0,
+          "texto": "De logo, logo eu tava tonto"
+        },
+        {
+          "inicio": 10.0,
+          "fim": 11.0,
+          "texto": "Não, não"
+        },
+        {
+          "inicio": 11.0,
+          "fim": 12.0,
+          "texto": "Pra tirar a eu"
+        },
+        {
+          "inicio": 12.0,
+          "fim": 13.5,
+          "texto": "Pepu mas não"
+        }
+      ],
+      "texto_na_tela": [
+        {
+          "t": 0.0,
+          "texto": "Mostre 0 quanto você é expressiva",
+          "conf": 0.93
+        },
+        {
+          "t": 0.0,
+          "texto": "sem dizer uma palavra!",
+          "conf": 0.69
+        },
+        {
+          "t": 2.9,
+          "texto": "sem dizer uma",
+          "conf": 0.89
+        },
+        {
+          "t": 2.9,
+          "texto": "palavra!",
+          "conf": 0.59
+        },
+        {
+          "t": 5.9,
+          "texto": "sem dizer uma palavral",
+          "conf": 0.75
+        },
+        {
+          "t": 8.8,
+          "texto": "apcDailus",
+          "conf": 0.42
+        },
+        {
+          "t": 11.8,
+          "texto": "Mostre 0",
+          "conf": 0.81
+        },
+        {
+          "t": 11.8,
+          "texto": "quanto você é expressiva",
+          "conf": 0.91
+        }
+      ]
+    },
+    {
+      "handle": "babidadailus",
+      "shortcode": "DZqX6Povc4c",
+      "video_file": "data/social/instagram/media/babidadailus/DZqX6Povc4c.mp4",
+      "duracao_seg": 83.4,
+      "duracao_mmss": "01:23",
+      "idioma": "pt",
+      "idioma_prob": 1,
+      "n_segmentos_fala": 14,
+      "n_textos_na_tela": 64,
+      "transcricao": "Logo cedinho já comecei indo pra academia, se eu não for de manhã não vou mais, então já tava por lá. Depois fui já direto pra Dallas pra conseguir começar a trabalhar, organizar algumas coisas, tirar do papel algumas ideias, possibilidades pra 2027, e só fui conseguir parar depois por volta das quatro e meia. E fui testar uma ativação super legal que o time tá fazendo da copa, ficou muito legal. Aí no fim da tarde, por volta de umas seis horas, fui direto pro aeroporto, direto pra Guarulhos, que a gente tava tendo uma viagem pra visitar um dos nossos fornecedores em Curitiba. Emborquei e só nove e meia cheguei lá direto pro hotel, que eu já tava exausta, morta, cansada. E no dia seguinte, logo cedinho, a gente já foi pro fornecedor pra acompanhar algumas etapas do nosso processo produtivo e deixar tudo redondinho pro lançamento. Pois ou moço, a gente aproveitou que já tava por lá pra ir visitar algumas lojas e pegar o voo de volta pra São Paulo ali no finalzinho do dia. Logo que cheguei por volta de umas oito, só nove e meia fui chegar em casa, mas não parou por aí, ainda tinha muito Red Bull pra tomar pra dar conta dessas caixas pra mudança.",
+      "segmentos": [
+        {
+          "inicio": 2.9,
+          "fim": 9.9,
+          "texto": "Logo cedinho já comecei indo pra academia, se eu não for de manhã não vou mais, então já tava por lá."
+        },
+        {
+          "inicio": 9.9,
+          "fim": 16.9,
+          "texto": "Depois fui já direto pra Dallas pra conseguir começar a trabalhar, organizar algumas coisas,"
+        },
+        {
+          "inicio": 16.9,
+          "fim": 20.9,
+          "texto": "tirar do papel algumas ideias, possibilidades pra 2027,"
+        },
+        {
+          "inicio": 20.9,
+          "fim": 25.9,
+          "texto": "e só fui conseguir parar depois por volta das quatro e meia."
+        },
+        {
+          "inicio": 25.9,
+          "fim": 31.9,
+          "texto": "E fui testar uma ativação super legal que o time tá fazendo da copa, ficou muito legal."
+        },
+        {
+          "inicio": 31.9,
+          "fim": 37.9,
+          "texto": "Aí no fim da tarde, por volta de umas seis horas, fui direto pro aeroporto, direto pra Guarulhos,"
+        },
+        {
+          "inicio": 37.9,
+          "fim": 42.9,
+          "texto": "que a gente tava tendo uma viagem pra visitar um dos nossos fornecedores em Curitiba."
+        },
+        {
+          "inicio": 42.9,
+          "fim": 49.9,
+          "texto": "Emborquei e só nove e meia cheguei lá direto pro hotel, que eu já tava exausta, morta, cansada."
+        },
+        {
+          "inicio": 49.9,
+          "fim": 57.9,
+          "texto": "E no dia seguinte, logo cedinho, a gente já foi pro fornecedor pra acompanhar algumas etapas do nosso processo produtivo"
+        },
+        {
+          "inicio": 57.9,
+          "fim": 60.9,
+          "texto": "e deixar tudo redondinho pro lançamento."
+        },
+        {
+          "inicio": 60.9,
+          "fim": 65.9,
+          "texto": "Pois ou moço, a gente aproveitou que já tava por lá pra ir visitar algumas lojas"
+        },
+        {
+          "inicio": 65.9,
+          "fim": 70.9,
+          "texto": "e pegar o voo de volta pra São Paulo ali no finalzinho do dia."
+        },
+        {
+          "inicio": 70.9,
+          "fim": 75.9,
+          "texto": "Logo que cheguei por volta de umas oito, só nove e meia fui chegar em casa,"
+        },
+        {
+          "inicio": 75.9,
+          "fim": 82.9,
+          "texto": "mas não parou por aí, ainda tinha muito Red Bull pra tomar pra dar conta dessas caixas pra mudança."
+        }
+      ],
+      "texto_na_tela": [
+        {
+          "t": 0.0,
+          "texto": "2143",
+          "conf": 0.91
+        },
+        {
+          "t": 0.0,
+          "texto": "indo para",
+          "conf": 0.63
+        },
+        {
+          "t": 0.0,
+          "texto": "0 hotel",
+          "conf": 0.77
+        },
+        {
+          "t": 2.9,
+          "texto": "5.30",
+          "conf": 0.58
+        },
+        {
+          "t": 2.9,
+          "texto": "academia",
+          "conf": 0.67
+        },
+        {
+          "t": 2.9,
+          "texto": "quarta-feira",
+          "conf": 0.9
+        },
+        {
+          "t": 5.9,
+          "texto": "iniciando",
+          "conf": 0.88
+        },
+        {
+          "t": 5.9,
+          "texto": "treino",
+          "conf": 1.0
+        },
+        {
+          "t": 11.8,
+          "texto": "850",
+          "conf": 0.99
+        },
+        {
+          "t": 11.8,
+          "texto": "chegando",
+          "conf": 0.99
+        },
+        {
+          "t": 11.8,
+          "texto": "na Dailus",
+          "conf": 0.93
+        },
+        {
+          "t": 14.7,
+          "texto": "10.00",
+          "conf": 0.53
+        },
+        {
+          "t": 14.7,
+          "texto": "organizando algumas ideias",
+          "conf": 0.93
+        },
+        {
+          "t": 14.7,
+          "texto": "de produtos",
+          "conf": 0.99
+        },
+        {
+          "t": 14.7,
+          "texto": "2027",
+          "conf": 0.73
+        },
+        {
+          "t": 14.7,
+          "texto": "para",
+          "conf": 1.0
+        },
+        {
+          "t": 17.6,
+          "texto": "de produtos para 2027",
+          "conf": 0.89
+        },
+        {
+          "t": 20.6,
+          "texto": "16830",
+          "conf": 0.64
+        },
+        {
+          "t": 20.6,
+          "texto": "testando a nossa ativação",
+          "conf": 0.74
+        },
+        {
+          "t": 20.6,
+          "texto": "@a copa domundo",
+          "conf": 0.89
+        },
+        {
+          "t": 23.5,
+          "texto": "16.30",
+          "conf": 0.88
+        },
+        {
+          "t": 23.5,
+          "texto": "festando a nossa atvação",
+          "conf": 0.59
+        },
+        {
+          "t": 26.5,
+          "texto": "da c@padomundo",
+          "conf": 0.82
+        },
+        {
+          "t": 29.4,
+          "texto": "da @@padomundo",
+          "conf": 0.63
+        },
+        {
+          "t": 32.4,
+          "texto": "18.03",
+          "conf": 0.67
+        },
+        {
+          "t": 32.4,
+          "texto": "aeroporto",
+          "conf": 0.92
+        },
+        {
+          "t": 38.2,
+          "texto": "1920",
+          "conf": 1.0
+        },
+        {
+          "t": 38.2,
+          "texto": "jantando",
+          "conf": 0.63
+        },
+        {
+          "t": 41.2,
+          "texto": "20:0",
+          "conf": 0.54
+        },
+        {
+          "t": 41.2,
+          "texto": "pegando voo",
+          "conf": 0.8
+        },
+        {
+          "t": 41.2,
+          "texto": "para Curitiba",
+          "conf": 0.99
+        },
+        {
+          "t": 44.1,
+          "texto": "21.32",
+          "conf": 0.88
+        },
+        {
+          "t": 44.1,
+          "texto": "cheguei em Curitiba",
+          "conf": 0.75
+        },
+        {
+          "t": 47.1,
+          "texto": "21843",
+          "conf": 0.95
+        },
+        {
+          "t": 47.1,
+          "texto": "hotel",
+          "conf": 0.95
+        },
+        {
+          "t": 50.0,
+          "texto": "8.30",
+          "conf": 0.68
+        },
+        {
+          "t": 50.0,
+          "texto": "chegada no",
+          "conf": 0.94
+        },
+        {
+          "t": 50.0,
+          "texto": "nosso fornecedor",
+          "conf": 0.84
+        },
+        {
+          "t": 50.0,
+          "texto": "quinta-feira",
+          "conf": 1.0
+        },
+        {
+          "t": 52.9,
+          "texto": "Iho powor",
+          "conf": 0.61
+        },
+        {
+          "t": 52.9,
+          "texto": "o/ míndlul boauty",
+          "conf": 0.66
+        },
+        {
+          "t": 55.9,
+          "texto": "chegada n@",
+          "conf": 0.94
+        },
+        {
+          "t": 55.9,
+          "texto": "nosso",
+          "conf": 0.97
+        },
+        {
+          "t": 55.9,
+          "texto": "fomnecedor",
+          "conf": 0.44
+        },
+        {
+          "t": 55.9,
+          "texto": "Barbara Rossi, Diego Kilpp, Samir Silva",
+          "conf": 0.89
+        },
+        {
+          "t": 55.9,
+          "texto": "Dailus",
+          "conf": 1.0
+        },
+        {
+          "t": 61.8,
+          "texto": "13.35",
+          "conf": 0.91
+        },
+        {
+          "t": 61.8,
+          "texto": "visitando as lojas",
+          "conf": 0.96
+        },
+        {
+          "t": 61.8,
+          "texto": "da cidade",
+          "conf": 0.96
+        },
+        {
+          "t": 67.6,
+          "texto": "1850",
+          "conf": 1.0
+        },
+        {
+          "t": 67.6,
+          "texto": "voo de volta",
+          "conf": 0.91
+        },
+        {
+          "t": 67.6,
+          "texto": "para São Paulo",
+          "conf": 0.97
+        },
+        {
+          "t": 70.6,
+          "texto": "chegando em",
+          "conf": 0.97
+        },
+        {
+          "t": 70.6,
+          "texto": "São Paulo",
+          "conf": 0.88
+        },
+        {
+          "t": 73.5,
+          "texto": "CERTIFICADO",
+          "conf": 0.85
+        },
+        {
+          "t": 73.5,
+          "texto": "2130",
+          "conf": 0.84
+        },
+        {
+          "t": 73.5,
+          "texto": "Arrumar as @aixas",
+          "conf": 0.8
+        },
+        {
+          "t": 73.5,
+          "texto": "paaamudanç",
+          "conf": 0.49
+        },
+        {
+          "t": 76.5,
+          "texto": "21830",
+          "conf": 0.63
+        },
+        {
+          "t": 76.5,
+          "texto": "Afrumar @s @aixas",
+          "conf": 0.61
+        },
+        {
+          "t": 79.4,
+          "texto": "21:30 R",
+          "conf": 0.54
+        },
+        {
+          "t": 79.4,
+          "texto": "Arrumar as caixas",
+          "conf": 0.53
+        },
+        {
+          "t": 79.4,
+          "texto": "@ara a mudança",
+          "conf": 0.5
+        },
+        {
+          "t": 79.4,
+          "texto": "250 ml",
+          "conf": 0.77
+        }
+      ]
+    },
+    {
+      "handle": "babidadailus",
+      "shortcode": "DaBsI0fP04R",
+      "video_file": "data/social/instagram/media/babidadailus/DaBsI0fP04R.mp4",
+      "duracao_seg": 158.1,
+      "duracao_mmss": "02:38",
+      "idioma": "pt",
+      "idioma_prob": 1,
+      "n_segmentos_fala": 31,
+      "n_textos_na_tela": 109,
+      "transcricao": "Quando vocês recebem um produto, quando vocês compram um produto, vocês imaginam toda cadeia que tem envolvida atrás disso pra ele chegar perfeitinho pra vocês? Pois é, posso dizer a gente que é muita coisa que acontece e um dos processos que eu tenho mais orgulho de falar aqui da Dailuz é todo nosso processo de qualidade envolvido pra que esse produto chegue perfeito nas lojas. E queria até chamar uma das pessoas responsáveis por isso que é Agi, que tá aqui com a gente, que é responsável por parte do processo e ela vai explicar pra vocês um pouquinho de tudo que a gente faz aqui na Dailuz. Depois que o produto chega, ele recebe a conferência do pessoal da logística que vai conferir quantidade, lote, todas as informações da nota fiscal. A logística liberando pra gente, a gente vai até o produto, faz conferência, dilote, validade, data de fabricação, vê se todas as informações bate de acordo com a nota fiscal. Passado essa arte da conferência, a gente retira peças pra fazer a conferência dentro do laboratório. Então a gente dentro do laboratório tem as análises que são organolépticas e fisicoaquínicas. Então a gente faz análise de cor, faz análise de textura, análise de odor, análise de aspecto. E na carga a gente também faz a conferência, a gente tem padrões que são pré definidos pela equipe de pesquisa e desenvolvimento, que esses padrões são pré aprovados e passados para o time de qualidade. A gente também faz a análise da embalagem, tanto dos cartuchos, dos produtos que vêm em volta de cartuchos. A análise de cor, de zeres legais, a arte, se não tem algum defeito. E também a análise da embalagem. Depois que a equipe de pesquisa e desenvolvimento aprova uma fórmula, eles mandam peças, o fornecedor manda algumas peças pra gente dar continuidade aos testes, que seria o teste de estabilidade. No teste de estabilidade a gente vai avaliar como que esse produto, essa fórmula que foi aprovada, se comporta em diferentes temperaturas, que seria na temperatura ambiente, na estufa, que é a temperatura mais elevada e na geladeira. Então, a gente avalia durante um período pra ver se a fórmula mantém as suas características até o fim dos testes. Então, passa por toda essa cadeia. E depois que a gente faz essas análises, a gente libera o produto pra ser comercializado. Vai pro time comercial e esse produto chega no cliente final.",
+      "segmentos": [
+        {
+          "inicio": 0.0,
+          "fim": 3.0,
+          "texto": "Quando vocês recebem um produto, quando vocês compram um produto,"
+        },
+        {
+          "inicio": 3.0,
+          "fim": 9.0,
+          "texto": "vocês imaginam toda cadeia que tem envolvida atrás disso pra ele chegar perfeitinho pra vocês?"
+        },
+        {
+          "inicio": 9.0,
+          "fim": 12.5,
+          "texto": "Pois é, posso dizer a gente que é muita coisa que acontece"
+        },
+        {
+          "inicio": 12.5,
+          "fim": 15.9,
+          "texto": "e um dos processos que eu tenho mais orgulho de falar aqui da Dailuz"
+        },
+        {
+          "inicio": 15.9,
+          "fim": 21.7,
+          "texto": "é todo nosso processo de qualidade envolvido pra que esse produto chegue perfeito nas lojas."
+        },
+        {
+          "inicio": 21.7,
+          "fim": 25.4,
+          "texto": "E queria até chamar uma das pessoas responsáveis por isso que é Agi,"
+        },
+        {
+          "inicio": 25.4,
+          "fim": 28.5,
+          "texto": "que tá aqui com a gente, que é responsável por parte do processo"
+        },
+        {
+          "inicio": 28.5,
+          "fim": 32.5,
+          "texto": "e ela vai explicar pra vocês um pouquinho de tudo que a gente faz aqui na Dailuz."
+        },
+        {
+          "inicio": 32.5,
+          "fim": 37.0,
+          "texto": "Depois que o produto chega, ele recebe a conferência do pessoal da logística"
+        },
+        {
+          "inicio": 37.0,
+          "fim": 41.5,
+          "texto": "que vai conferir quantidade, lote, todas as informações da nota fiscal."
+        },
+        {
+          "inicio": 41.5,
+          "fim": 47.0,
+          "texto": "A logística liberando pra gente, a gente vai até o produto, faz conferência,"
+        },
+        {
+          "inicio": 47.0,
+          "fim": 55.0,
+          "texto": "dilote, validade, data de fabricação, vê se todas as informações bate de acordo com a nota fiscal."
+        },
+        {
+          "inicio": 55.0,
+          "fim": 62.5,
+          "texto": "Passado essa arte da conferência, a gente retira peças pra fazer a conferência dentro do laboratório."
+        },
+        {
+          "inicio": 62.5,
+          "fim": 69.0,
+          "texto": "Então a gente dentro do laboratório tem as análises que são organolépticas e fisicoaquínicas."
+        },
+        {
+          "inicio": 69.0,
+          "fim": 76.0,
+          "texto": "Então a gente faz análise de cor, faz análise de textura, análise de odor, análise de aspecto."
+        },
+        {
+          "inicio": 76.0,
+          "fim": 82.0,
+          "texto": "E na carga a gente também faz a conferência, a gente tem padrões que são pré definidos"
+        },
+        {
+          "inicio": 82.0,
+          "fim": 87.0,
+          "texto": "pela equipe de pesquisa e desenvolvimento, que esses padrões são pré aprovados"
+        },
+        {
+          "inicio": 87.0,
+          "fim": 89.0,
+          "texto": "e passados para o time de qualidade."
+        },
+        {
+          "inicio": 89.0,
+          "fim": 98.0,
+          "texto": "A gente também faz a análise da embalagem, tanto dos cartuchos, dos produtos que vêm em volta de cartuchos."
+        },
+        {
+          "inicio": 98.0,
+          "fim": 105.0,
+          "texto": "A análise de cor, de zeres legais, a arte, se não tem algum defeito."
+        },
+        {
+          "inicio": 105.0,
+          "fim": 107.0,
+          "texto": "E também a análise da embalagem."
+        },
+        {
+          "inicio": 107.0,
+          "fim": 111.0,
+          "texto": "Depois que a equipe de pesquisa e desenvolvimento aprova uma fórmula,"
+        },
+        {
+          "inicio": 111.0,
+          "fim": 118.0,
+          "texto": "eles mandam peças, o fornecedor manda algumas peças pra gente dar continuidade aos testes,"
+        },
+        {
+          "inicio": 118.0,
+          "fim": 120.0,
+          "texto": "que seria o teste de estabilidade."
+        },
+        {
+          "inicio": 120.0,
+          "fim": 126.0,
+          "texto": "No teste de estabilidade a gente vai avaliar como que esse produto, essa fórmula que foi aprovada,"
+        },
+        {
+          "inicio": 126.0,
+          "fim": 132.0,
+          "texto": "se comporta em diferentes temperaturas, que seria na temperatura ambiente, na estufa,"
+        },
+        {
+          "inicio": 132.0,
+          "fim": 135.0,
+          "texto": "que é a temperatura mais elevada e na geladeira."
+        },
+        {
+          "inicio": 135.0,
+          "fim": 144.0,
+          "texto": "Então, a gente avalia durante um período pra ver se a fórmula mantém as suas características até o fim dos testes."
+        },
+        {
+          "inicio": 144.0,
+          "fim": 147.0,
+          "texto": "Então, passa por toda essa cadeia."
+        },
+        {
+          "inicio": 147.0,
+          "fim": 153.0,
+          "texto": "E depois que a gente faz essas análises, a gente libera o produto pra ser comercializado."
+        },
+        {
+          "inicio": 153.0,
+          "fim": 158.0,
+          "texto": "Vai pro time comercial e esse produto chega no cliente final."
+        }
+      ],
+      "texto_na_tela": [
+        {
+          "t": 2.9,
+          "texto": "vocês imaginam toda cadeia",
+          "conf": 1.0
+        },
+        {
+          "t": 2.9,
+          "texto": "que tem envolvida atrás disso",
+          "conf": 0.92
+        },
+        {
+          "t": 5.9,
+          "texto": "praele chegar perfeitinho",
+          "conf": 0.96
+        },
+        {
+          "t": 8.8,
+          "texto": "posso garantir que é muita",
+          "conf": 0.67
+        },
+        {
+          "t": 8.8,
+          "texto": "coisa que acontece",
+          "conf": 0.88
+        },
+        {
+          "t": 11.8,
+          "texto": "e um dos pprocessos queeu",
+          "conf": 0.44
+        },
+        {
+          "t": 11.8,
+          "texto": "tenho mais orgulho de falar",
+          "conf": 0.8
+        },
+        {
+          "t": 17.6,
+          "texto": "pra que esse produto chegue",
+          "conf": 0.99
+        },
+        {
+          "t": 17.6,
+          "texto": "perfeito nas lojas.",
+          "conf": 0.97
+        },
+        {
+          "t": 20.6,
+          "texto": "Equeria até chamar",
+          "conf": 1.0
+        },
+        {
+          "t": 23.5,
+          "texto": "que é a Gi,",
+          "conf": 0.72
+        },
+        {
+          "t": 26.5,
+          "texto": "que é responsável por",
+          "conf": 0.99
+        },
+        {
+          "t": 26.5,
+          "texto": "parte do processo",
+          "conf": 0.99
+        },
+        {
+          "t": 29.4,
+          "texto": "de tudo que a gente",
+          "conf": 0.94
+        },
+        {
+          "t": 29.4,
+          "texto": "faz aqui na Dailus.",
+          "conf": 0.92
+        },
+        {
+          "t": 32.4,
+          "texto": "Depois que 0 produto chega",
+          "conf": 0.81
+        },
+        {
+          "t": 32.4,
+          "texto": "Dailus",
+          "conf": 0.96
+        },
+        {
+          "t": 32.4,
+          "texto": "Grupo",
+          "conf": 1.0
+        },
+        {
+          "t": 35.3,
+          "texto": "ele recebe a conferência do",
+          "conf": 0.97
+        },
+        {
+          "t": 35.3,
+          "texto": "pessoal da logística",
+          "conf": 1.0
+        },
+        {
+          "t": 38.2,
+          "texto": "crupo",
+          "conf": 0.58
+        },
+        {
+          "t": 38.2,
+          "texto": "todas as informações",
+          "conf": 0.9
+        },
+        {
+          "t": 38.2,
+          "texto": "da nota fiscal.",
+          "conf": 0.71
+        },
+        {
+          "t": 41.2,
+          "texto": "Grupa Dailus",
+          "conf": 0.5
+        },
+        {
+          "t": 41.2,
+          "texto": "A logística liberando pra gente;",
+          "conf": 0.9
+        },
+        {
+          "t": 47.1,
+          "texto": "Validade",
+          "conf": 0.96
+        },
+        {
+          "t": 47.1,
+          "texto": "Stage",
+          "conf": 0.99
+        },
+        {
+          "t": 50.0,
+          "texto": "vê se todas as informacões",
+          "conf": 0.56
+        },
+        {
+          "t": 52.9,
+          "texto": "bate de acordo com",
+          "conf": 1.0
+        },
+        {
+          "t": 52.9,
+          "texto": "nota fiscal né?!",
+          "conf": 0.88
+        },
+        {
+          "t": 55.9,
+          "texto": "@uaudade",
+          "conf": 0.63
+        },
+        {
+          "t": 55.9,
+          "texto": "Dallus",
+          "conf": 0.85
+        },
+        {
+          "t": 55.9,
+          "texto": "Passado essa parte",
+          "conf": 0.92
+        },
+        {
+          "t": 55.9,
+          "texto": "da conferência;",
+          "conf": 0.94
+        },
+        {
+          "t": 55.9,
+          "texto": "Dals",
+          "conf": 0.84
+        },
+        {
+          "t": 58.8,
+          "texto": "peças pra fazer a conferência",
+          "conf": 0.95
+        },
+        {
+          "t": 58.8,
+          "texto": "dentro do laboratório",
+          "conf": 0.81
+        },
+        {
+          "t": 61.8,
+          "texto": "então a gente dentro @o",
+          "conf": 0.8
+        },
+        {
+          "t": 61.8,
+          "texto": "laboratório tem as análises",
+          "conf": 0.99
+        },
+        {
+          "t": 64.7,
+          "texto": "Grupo Dailus",
+          "conf": 0.61
+        },
+        {
+          "t": 67.6,
+          "texto": "que são organolépticase",
+          "conf": 1.0
+        },
+        {
+          "t": 67.6,
+          "texto": "físico químicass",
+          "conf": 0.45
+        },
+        {
+          "t": 70.6,
+          "texto": "faz análise de textura;",
+          "conf": 0.9
+        },
+        {
+          "t": 73.5,
+          "texto": "análise de aspecto",
+          "conf": 0.92
+        },
+        {
+          "t": 76.5,
+          "texto": "Grur",
+          "conf": 0.98
+        },
+        {
+          "t": 76.5,
+          "texto": "ena carga a gente também",
+          "conf": 0.76
+        },
+        {
+          "t": 76.5,
+          "texto": "faz a conferência",
+          "conf": 1.0
+        },
+        {
+          "t": 79.4,
+          "texto": "padrões que são",
+          "conf": 0.89
+        },
+        {
+          "t": 79.4,
+          "texto": "definidos",
+          "conf": 0.94
+        },
+        {
+          "t": 79.4,
+          "texto": "pela equipe de",
+          "conf": 0.94
+        },
+        {
+          "t": 79.4,
+          "texto": "PADRAO",
+          "conf": 0.85
+        },
+        {
+          "t": 79.4,
+          "texto": "@coiosy",
+          "conf": 0.58
+        },
+        {
+          "t": 79.4,
+          "texto": "06/26",
+          "conf": 0.98
+        },
+        {
+          "t": 79.4,
+          "texto": "Winina",
+          "conf": 0.61
+        },
+        {
+          "t": 79.4,
+          "texto": "Loie",
+          "conf": 0.75
+        },
+        {
+          "t": 79.4,
+          "texto": "Cod",
+          "conf": 1.0
+        },
+        {
+          "t": 79.4,
+          "texto": "tlizar",
+          "conf": 0.46
+        },
+        {
+          "t": 82.4,
+          "texto": "pesquisa e desenvolvimento",
+          "conf": 0.49
+        },
+        {
+          "t": 85.3,
+          "texto": "queesses padrões eles",
+          "conf": 0.7
+        },
+        {
+          "t": 85.3,
+          "texto": "'@pr@vados e",
+          "conf": 0.42
+        },
+        {
+          "t": 85.3,
+          "texto": "EMBALAGENS",
+          "conf": 0.96
+        },
+        {
+          "t": 85.3,
+          "texto": "COR",
+          "conf": 0.94
+        },
+        {
+          "t": 85.3,
+          "texto": "BLUSH",
+          "conf": 0.99
+        },
+        {
+          "t": 85.3,
+          "texto": "VARIAÇAO",
+          "conf": 0.88
+        },
+        {
+          "t": 85.3,
+          "texto": "RANGE",
+          "conf": 0.94
+        },
+        {
+          "t": 85.3,
+          "texto": "EMHOLO 5",
+          "conf": 0.57
+        },
+        {
+          "t": 85.3,
+          "texto": "DA ARTE F",
+          "conf": 0.53
+        },
+        {
+          "t": 85.3,
+          "texto": "IDEA",
+          "conf": 0.96
+        },
+        {
+          "t": 85.3,
+          "texto": "Pailus",
+          "conf": 0.4
+        },
+        {
+          "t": 88.2,
+          "texto": "A gente também faz",
+          "conf": 0.69
+        },
+        {
+          "t": 88.2,
+          "texto": "análiseda embalagem",
+          "conf": 0.74
+        },
+        {
+          "t": 94.1,
+          "texto": "dos [pr@dutos que vem",
+          "conf": 0.43
+        },
+        {
+          "t": 94.1,
+          "texto": "em volta decartuchos;",
+          "conf": 0.5
+        },
+        {
+          "t": 97.1,
+          "texto": "anâlisede €or,",
+          "conf": 0.44
+        },
+        {
+          "t": 100.0,
+          "texto": "upo Dailus",
+          "conf": 0.92
+        },
+        {
+          "t": 100.0,
+          "texto": "arte; né?!",
+          "conf": 0.47
+        },
+        {
+          "t": 102.9,
+          "texto": "Se não tem algum defeito",
+          "conf": 0.59
+        },
+        {
+          "t": 105.9,
+          "texto": "Cona",
+          "conf": 0.52
+        },
+        {
+          "t": 105.9,
+          "texto": "Depois queaequipe de",
+          "conf": 0.8
+        },
+        {
+          "t": 108.8,
+          "texto": "aprova uma fórmula;",
+          "conf": 0.79
+        },
+        {
+          "t": 111.8,
+          "texto": "Coa",
+          "conf": 0.58
+        },
+        {
+          "t": 111.8,
+          "texto": "eles",
+          "conf": 1.0
+        },
+        {
+          "t": 114.7,
+          "texto": "algumas",
+          "conf": 0.93
+        },
+        {
+          "t": 114.7,
+          "texto": "continuidade aos testes",
+          "conf": 0.84
+        },
+        {
+          "t": 117.6,
+          "texto": "Csu",
+          "conf": 0.59
+        },
+        {
+          "t": 117.6,
+          "texto": "que seria 0 teste",
+          "conf": 0.52
+        },
+        {
+          "t": 117.6,
+          "texto": "de estabilidade",
+          "conf": 1.0
+        },
+        {
+          "t": 120.6,
+          "texto": "gente vai avaliar",
+          "conf": 1.0
+        },
+        {
+          "t": 123.5,
+          "texto": "essa fórmula",
+          "conf": 0.98
+        },
+        {
+          "t": 126.5,
+          "texto": "comporta em diferentesJs",
+          "conf": 0.73
+        },
+        {
+          "t": 126.5,
+          "texto": "temperaturas",
+          "conf": 0.99
+        },
+        {
+          "t": 129.4,
+          "texto": "po Dailus",
+          "conf": 0.78
+        },
+        {
+          "t": 132.4,
+          "texto": "mais",
+          "conf": 1.0
+        },
+        {
+          "t": 135.3,
+          "texto": "Grupo D^",
+          "conf": 0.64
+        },
+        {
+          "t": 135.3,
+          "texto": "avalia durante um @eríodo",
+          "conf": 0.51
+        },
+        {
+          "t": 138.2,
+          "texto": "pra ver se a fórmula",
+          "conf": 0.9
+        },
+        {
+          "t": 141.2,
+          "texto": "Jailus",
+          "conf": 0.96
+        },
+        {
+          "t": 141.2,
+          "texto": "ela mantém as suas",
+          "conf": 0.95
+        },
+        {
+          "t": 141.2,
+          "texto": "características",
+          "conf": 1.0
+        },
+        {
+          "t": 141.2,
+          "texto": "Grupc",
+          "conf": 0.51
+        },
+        {
+          "t": 144.1,
+          "texto": "Então passa por toda",
+          "conf": 0.99
+        },
+        {
+          "t": 144.1,
+          "texto": "essa cadeia",
+          "conf": 0.98
+        },
+        {
+          "t": 147.1,
+          "texto": "depois que a gente",
+          "conf": 0.8
+        },
+        {
+          "t": 147.1,
+          "texto": "faz essas análises",
+          "conf": 1.0
+        },
+        {
+          "t": 150.0,
+          "texto": "gente libera @",
+          "conf": 0.57
+        },
+        {
+          "t": 150.0,
+          "texto": "produto",
+          "conf": 0.99
+        },
+        {
+          "t": 152.9,
+          "texto": "vai pro time comercial",
+          "conf": 0.8
+        },
+        {
+          "t": 155.9,
+          "texto": "eesse produto chega",
+          "conf": 1.0
+        },
+        {
+          "t": 155.9,
+          "texto": "no cliente final",
+          "conf": 0.82
+        }
+      ]
+    },
+    {
+      "handle": "babidadailus",
+      "shortcode": "DaJRlpTveEr",
+      "video_file": "data/social/instagram/media/babidadailus/DaJRlpTveEr.mp4",
+      "duracao_seg": 124.0,
+      "duracao_mmss": "02:04",
+      "idioma": "pt",
+      "idioma_prob": 1,
+      "n_segmentos_fala": 28,
+      "n_textos_na_tela": 2,
+      "transcricao": "Eu coloquei uma caixinha de pergunta nos stories, perguntando curiosidades que vocês gostariam de saber sobre a Dailus, sobre a nossa história E vou responder agora um pouquinho Quando e como que surgiu a Dailus? Pessoal, a Dailus em si com esse nome A parte de maquiagem tem 20 anos e a parte de Smautes tem 10 anos Mas antes disso, antes de ser Dailus era real, se o nome da empresa, o nome da marca E a empresa, antes mesmo de ser Dailus, vem de um sonho muito grande de fazer acontecer De uma família que queria colocar o produto na rua, queria experimentar, queria testar Sem ninguém que conhecia sobre isso, sobre estudando todos os dias E eu falo com muito orgulho, brinco que desde que eu nasci cheirando Smautes no ambiente de fábrica E gosto muito disso e tenho muito orgulho de estar acompanhando de perto e de estar começando a fazer parte dessa história E como foi escolhido o nome da Dailus? Da onde que veio? Então, como eu falei, a empresa era Realci Só que Realci, quando a gente para para ver, ele é genérico, Realci Realci o quê? Pode servir para várias coisas E nessa, literalmente o meu pai estava sentado ali com uma comunidade lituana aqui no Brasil E ele foi perguntando palavras que remetessem a bonita, linda, legal, cheirosa E aí dentro dessas palavras nenhuma ficou boa Aí ele falou isso e a gente colocasse no masculino Então Dailus significa bonito em lituano E uma curiosidade da Dailus? Eu acho que uma curiosidade é que a gente já esteve na categoria capilar Com tonicuzinhos capilares e também com gel Acho que poucas pessoas sabem disso E você pode dar para a gente algum spoiler de lançamento que está para vir? Posso! Tem um produto muito legal para a sombrancelha se chegando no mercado Tenho certeza que vai ser sucesso",
+      "segmentos": [
+        {
+          "inicio": 0.0,
+          "fim": 6.5,
+          "texto": "Eu coloquei uma caixinha de pergunta nos stories, perguntando curiosidades que vocês gostariam de saber sobre a Dailus, sobre a nossa história"
+        },
+        {
+          "inicio": 6.5,
+          "fim": 8.2,
+          "texto": "E vou responder agora um pouquinho"
+        },
+        {
+          "inicio": 8.2,
+          "fim": 10.3,
+          "texto": "Quando e como que surgiu a Dailus?"
+        },
+        {
+          "inicio": 11.3,
+          "fim": 14.5,
+          "texto": "Pessoal, a Dailus em si com esse nome"
+        },
+        {
+          "inicio": 14.5,
+          "fim": 19.5,
+          "texto": "A parte de maquiagem tem 20 anos e a parte de Smautes tem 10 anos"
+        },
+        {
+          "inicio": 19.5,
+          "fim": 25.5,
+          "texto": "Mas antes disso, antes de ser Dailus era real, se o nome da empresa, o nome da marca"
+        },
+        {
+          "inicio": 26.0,
+          "fim": 32.0,
+          "texto": "E a empresa, antes mesmo de ser Dailus, vem de um sonho muito grande de fazer acontecer"
+        },
+        {
+          "inicio": 32.0,
+          "fim": 37.0,
+          "texto": "De uma família que queria colocar o produto na rua, queria experimentar, queria testar"
+        },
+        {
+          "inicio": 37.0,
+          "fim": 41.5,
+          "texto": "Sem ninguém que conhecia sobre isso, sobre estudando todos os dias"
+        },
+        {
+          "inicio": 41.5,
+          "fim": 48.5,
+          "texto": "E eu falo com muito orgulho, brinco que desde que eu nasci cheirando Smautes no ambiente de fábrica"
+        },
+        {
+          "inicio": 48.5,
+          "fim": 58.5,
+          "texto": "E gosto muito disso e tenho muito orgulho de estar acompanhando de perto e de estar começando a fazer parte dessa história"
+        },
+        {
+          "inicio": 58.5,
+          "fim": 61.5,
+          "texto": "E como foi escolhido o nome da Dailus? Da onde que veio?"
+        },
+        {
+          "inicio": 61.5,
+          "fim": 65.5,
+          "texto": "Então, como eu falei, a empresa era Realci"
+        },
+        {
+          "inicio": 65.5,
+          "fim": 69.5,
+          "texto": "Só que Realci, quando a gente para para ver, ele é genérico, Realci"
+        },
+        {
+          "inicio": 69.5,
+          "fim": 72.5,
+          "texto": "Realci o quê? Pode servir para várias coisas"
+        },
+        {
+          "inicio": 72.5,
+          "fim": 78.5,
+          "texto": "E nessa, literalmente o meu pai estava sentado ali com uma comunidade lituana aqui no Brasil"
+        },
+        {
+          "inicio": 78.5,
+          "fim": 85.5,
+          "texto": "E ele foi perguntando palavras que remetessem a bonita, linda, legal, cheirosa"
+        },
+        {
+          "inicio": 85.5,
+          "fim": 88.5,
+          "texto": "E aí dentro dessas palavras nenhuma ficou boa"
+        },
+        {
+          "inicio": 88.5,
+          "fim": 91.5,
+          "texto": "Aí ele falou isso e a gente colocasse no masculino"
+        },
+        {
+          "inicio": 91.5,
+          "fim": 95.5,
+          "texto": "Então Dailus significa bonito em lituano"
+        },
+        {
+          "inicio": 95.5,
+          "fim": 98.5,
+          "texto": "E uma curiosidade da Dailus?"
+        },
+        {
+          "inicio": 98.5,
+          "fim": 104.5,
+          "texto": "Eu acho que uma curiosidade é que a gente já esteve na categoria capilar"
+        },
+        {
+          "inicio": 104.5,
+          "fim": 108.5,
+          "texto": "Com tonicuzinhos capilares e também com gel"
+        },
+        {
+          "inicio": 108.5,
+          "fim": 110.5,
+          "texto": "Acho que poucas pessoas sabem disso"
+        },
+        {
+          "inicio": 110.5,
+          "fim": 114.5,
+          "texto": "E você pode dar para a gente algum spoiler de lançamento que está para vir?"
+        },
+        {
+          "inicio": 114.5,
+          "fim": 116.5,
+          "texto": "Posso!"
+        },
+        {
+          "inicio": 116.5,
+          "fim": 121.5,
+          "texto": "Tem um produto muito legal para a sombrancelha se chegando no mercado"
+        },
+        {
+          "inicio": 121.5,
+          "fim": 123.5,
+          "texto": "Tenho certeza que vai ser sucesso"
+        }
+      ],
+      "texto_na_tela": [
+        {
+          "t": 8.8,
+          "texto": "QUACDOBCOMO",
+          "conf": 0.57
+        },
+        {
+          "t": 97.1,
+          "texto": "U COROSIDACB",
+          "conf": 0.4
+        }
+      ]
+    },
+    {
+      "handle": "babidadailus",
+      "shortcode": "DaL9lcrvlD_",
+      "video_file": "data/social/instagram/media/babidadailus/DaL9lcrvlD_.mp4",
+      "duracao_seg": 93.0,
+      "duracao_mmss": "01:33",
+      "idioma": "pt",
+      "idioma_prob": 1,
+      "n_segmentos_fala": 12,
+      "n_textos_na_tela": 6,
+      "transcricao": "já fiz aqui minha maquiagem quase tudo feita e agora eu queria fazer o resto dela com vocês queria mostrar pra vocês um produto que a Daile já tem faz muitos anos e nunca sai de moda eu acho ele incrível super versátil que é o nosso Lip Tint você pode usar ele na bochecha na boca e ele é aquele efeito de saúde super natural agora eu vou usar ela com outros dois produtos que é o Tint Balm para dar uma hidratação agora no inverno minha boca está muito seca e também o nosso contorno labial para dar mais uma definida na boca assim que fica com uma boca bem natural bem hidratada marcada mas não aquele marcado para festa que eu falo quando a gente faz aquele contorno bem mais desenhado além de uma sensação muito gostosa na boca não fica aquela coisa pesada não fica aquele botão que você sentiu ele seco enfim é o meu Lip Combo de todos os dias são esses três aqui eu queria mostrar para vocês com o protagonista dele que é o nosso Lip Tint",
+      "segmentos": [
+        {
+          "inicio": 0.1,
+          "fim": 9.6,
+          "texto": "já fiz aqui minha maquiagem quase tudo feita e agora eu queria fazer o resto dela com vocês"
+        },
+        {
+          "inicio": 9.6,
+          "fim": 21.5,
+          "texto": "queria mostrar pra vocês um produto que a Daile já tem faz muitos anos e nunca sai de moda"
+        },
+        {
+          "inicio": 21.5,
+          "fim": 26.2,
+          "texto": "eu acho ele incrível super versátil que é o nosso Lip Tint"
+        },
+        {
+          "inicio": 26.2,
+          "fim": 33.2,
+          "texto": "você pode usar ele na bochecha na boca e ele é aquele efeito de saúde super natural"
+        },
+        {
+          "inicio": 33.2,
+          "fim": 39.1,
+          "texto": "agora eu vou usar ela com outros dois produtos que é o Tint Balm para dar uma hidratação"
+        },
+        {
+          "inicio": 39.1,
+          "fim": 44.3,
+          "texto": "agora no inverno minha boca está muito seca e também o nosso contorno labial"
+        },
+        {
+          "inicio": 44.3,
+          "fim": 67.9,
+          "texto": "para dar mais uma definida na boca assim que fica com uma boca bem natural bem"
+        },
+        {
+          "inicio": 67.9,
+          "fim": 72.7,
+          "texto": "hidratada marcada mas não aquele marcado para festa que eu falo quando a gente faz"
+        },
+        {
+          "inicio": 72.7,
+          "fim": 77.7,
+          "texto": "aquele contorno bem mais desenhado além de uma sensação muito gostosa na boca"
+        },
+        {
+          "inicio": 77.7,
+          "fim": 81.2,
+          "texto": "não fica aquela coisa pesada não fica aquele botão que você sentiu ele seco"
+        },
+        {
+          "inicio": 81.2,
+          "fim": 87.1,
+          "texto": "enfim é o meu Lip Combo de todos os dias são esses três aqui eu queria mostrar"
+        },
+        {
+          "inicio": 87.1,
+          "fim": 91.3,
+          "texto": "para vocês com o protagonista dele que é o nosso Lip Tint"
+        }
+      ],
+      "texto_na_tela": [
+        {
+          "t": 26.5,
+          "texto": "Dailus",
+          "conf": 0.84
+        },
+        {
+          "t": 26.5,
+          "texto": "LIP",
+          "conf": 1.0
+        },
+        {
+          "t": 26.5,
+          "texto": "[TINT",
+          "conf": 0.64
+        },
+        {
+          "t": 26.5,
+          "texto": "BATIDA",
+          "conf": 0.95
+        },
+        {
+          "t": 26.5,
+          "texto": "(DE AMORA",
+          "conf": 0.55
+        },
+        {
+          "t": 26.5,
+          "texto": "vegano",
+          "conf": 1.0
+        }
+      ]
+    },
+    {
+      "handle": "babidadailus",
+      "shortcode": "DaObAhNPUtJ",
+      "video_file": "data/social/instagram/media/babidadailus/DaObAhNPUtJ.mp4",
+      "duracao_seg": 94.1,
+      "duracao_mmss": "01:34",
+      "idioma": "pt",
+      "idioma_prob": 1,
+      "n_segmentos_fala": 20,
+      "n_textos_na_tela": 5,
+      "transcricao": "Eu resolvi mostrar um lançamento da DAILUS para vocês. Ele está incrível, é super diferente de tudo que vocês vão ver no mercado em relação a essa categoria de produtos e é o nosso novo gel de sombrancelhas, o nosso gel fixe tudo. O que ele tem de diferencial do gel que a gente já tem no mercado? A fixação dele. O nosso gel, ele já fixa super bem, mas esse novo gel, além da fixação, ele vai dar essa fixação por mais horas e permite com que você desenhe mais a sua sombrancelha, então ela vai ficar muito mais modelada. Quando você abre ele, ele tem duas partes a mais grossinha que você vai passar para jogar os fios para cima e depois a mais fininha que você vai alinhar os fios da forma que você quer. Você já consegue ver a diferença de um lado para o outro, aqui a sombrancelha super de pezinha, bem alinhada, até aquele up no olhar, e esse daqui a sombrancelha fala mais chocha, capenda, sem graça, normalzinha. Eu gosto da sombrancelha assim, mas se você prefere ela bem naquele estilo Brown Amination que ela fica super para cima, não tem problema e esse é um produto perfeito porque ele vai fixar a sua sombrancelha no lugar. Quando eu falo que ela fixa bem, é que ela fixa bem mesmo. É assim que ela fica, esse nosso novo gel de sombrancelha fixe tudo. Espero que vocês gostem, vão nas lojas, conheçam, é um produto incrível.",
+      "segmentos": [
+        {
+          "inicio": 0.0,
+          "fim": 3.4,
+          "texto": "Eu resolvi mostrar um lançamento da DAILUS para vocês."
+        },
+        {
+          "inicio": 3.4,
+          "fim": 8.3,
+          "texto": "Ele está incrível, é super diferente de tudo que vocês vão ver no mercado em relação"
+        },
+        {
+          "inicio": 8.3,
+          "fim": 14.9,
+          "texto": "a essa categoria de produtos e é o nosso novo gel de sombrancelhas, o nosso gel fixe tudo."
+        },
+        {
+          "inicio": 14.9,
+          "fim": 19.0,
+          "texto": "O que ele tem de diferencial do gel que a gente já tem no mercado?"
+        },
+        {
+          "inicio": 19.0,
+          "fim": 20.5,
+          "texto": "A fixação dele."
+        },
+        {
+          "inicio": 20.5,
+          "fim": 26.5,
+          "texto": "O nosso gel, ele já fixa super bem, mas esse novo gel, além da fixação, ele"
+        },
+        {
+          "inicio": 26.5,
+          "fim": 31.6,
+          "texto": "vai dar essa fixação por mais horas e permite com que você desenhe mais a sua sombrancelha,"
+        },
+        {
+          "inicio": 31.6,
+          "fim": 33.8,
+          "texto": "então ela vai ficar muito mais modelada."
+        },
+        {
+          "inicio": 33.8,
+          "fim": 43.9,
+          "texto": "Quando você abre ele, ele tem duas partes a mais grossinha que você vai passar para"
+        },
+        {
+          "inicio": 43.9,
+          "fim": 49.5,
+          "texto": "jogar os fios para cima e depois a mais fininha que você vai alinhar os fios da forma que"
+        },
+        {
+          "inicio": 49.5,
+          "fim": 55.0,
+          "texto": "você quer."
+        },
+        {
+          "inicio": 55.0,
+          "fim": 59.0,
+          "texto": "Você já consegue ver a diferença de um lado para o outro, aqui a sombrancelha"
+        },
+        {
+          "inicio": 59.0,
+          "fim": 64.3,
+          "texto": "super de pezinha, bem alinhada, até aquele up no olhar, e esse daqui a sombrancelha fala"
+        },
+        {
+          "inicio": 64.3,
+          "fim": 68.2,
+          "texto": "mais chocha, capenda, sem graça, normalzinha."
+        },
+        {
+          "inicio": 68.2,
+          "fim": 72.0,
+          "texto": "Eu gosto da sombrancelha assim, mas se você prefere ela bem naquele estilo Brown Amination"
+        },
+        {
+          "inicio": 72.0,
+          "fim": 76.9,
+          "texto": "que ela fica super para cima, não tem problema e esse é um produto perfeito porque ele vai"
+        },
+        {
+          "inicio": 76.9,
+          "fim": 79.2,
+          "texto": "fixar a sua sombrancelha no lugar."
+        },
+        {
+          "inicio": 79.2,
+          "fim": 83.8,
+          "texto": "Quando eu falo que ela fixa bem, é que ela fixa bem mesmo."
+        },
+        {
+          "inicio": 83.8,
+          "fim": 88.0,
+          "texto": "É assim que ela fica, esse nosso novo gel de sombrancelha fixe tudo."
+        },
+        {
+          "inicio": 88.0,
+          "fim": 92.8,
+          "texto": "Espero que vocês gostem, vão nas lojas, conheçam, é um produto incrível."
+        }
+      ],
+      "texto_na_tela": [
+        {
+          "t": 11.8,
+          "texto": "Dailus",
+          "conf": 1.0
+        },
+        {
+          "t": 11.8,
+          "texto": "TUDO",
+          "conf": 0.65
+        },
+        {
+          "t": 11.8,
+          "texto": "orou",
+          "conf": 0.45
+        },
+        {
+          "t": 11.8,
+          "texto": "Uncolor",
+          "conf": 0.48
+        },
+        {
+          "t": 58.8,
+          "texto": "COCJ CEL",
+          "conf": 0.51
+        }
+      ]
+    },
+    {
+      "handle": "babidadailus",
+      "shortcode": "DaQ9tI1FCh3",
+      "video_file": "data/social/instagram/media/babidadailus/DaQ9tI1FCh3.mp4",
+      "duracao_seg": 2.5,
+      "duracao_mmss": "00:02",
+      "idioma": null,
+      "idioma_prob": null,
+      "n_segmentos_fala": 0,
+      "n_textos_na_tela": 1,
+      "transcricao": "",
+      "segmentos": [],
+      "texto_na_tela": [
+        {
+          "t": 0.0,
+          "texto": "XoTxiT",
+          "conf": 0.51
+        }
+      ]
+    },
+    {
+      "handle": "babidadailus",
+      "shortcode": "DaTnFjXhznk",
+      "video_file": "data/social/instagram/media/babidadailus/DaTnFjXhznk.mp4",
+      "duracao_seg": 41.2,
+      "duracao_mmss": "00:41",
+      "idioma": "pt",
+      "idioma_prob": 1,
+      "n_segmentos_fala": 8,
+      "n_textos_na_tela": 24,
+      "transcricao": "Tivemos o nosso evento no TikTok, foi um evento super legal no próprio TikTok. Lailis tem uma área destinada para isso e qual foi o intuito desse evento, né? Como que a gente mostra os nossos produtos para as criadoras de conteúdo, para as nossas afiliadas? Entendendo qual é a estratégia da Dylos nesse canal digital, então nessa frente, como a gente quer atuar e como que a gente quer estar em parceria com elas. Então quais foram os números que elas ajudaram a Dylos a conquistar, que nós conquistamos juntos? Quais são os números que nós queremos conquistar e como que a gente desenhou essa estratégia? E quais são os produtos-chaves para esse canal?",
+      "segmentos": [
+        {
+          "inicio": 0.0,
+          "fim": 5.9,
+          "texto": "Tivemos o nosso evento no TikTok, foi um evento super legal no próprio TikTok."
+        },
+        {
+          "inicio": 5.9,
+          "fim": 11.6,
+          "texto": "Lailis tem uma área destinada para isso e qual foi o intuito desse evento, né?"
+        },
+        {
+          "inicio": 11.6,
+          "fim": 17.8,
+          "texto": "Como que a gente mostra os nossos produtos para as criadoras de conteúdo, para as nossas afiliadas?"
+        },
+        {
+          "inicio": 17.8,
+          "fim": 24.3,
+          "texto": "Entendendo qual é a estratégia da Dylos nesse canal digital, então nessa frente, como a gente quer atuar"
+        },
+        {
+          "inicio": 24.3,
+          "fim": 26.5,
+          "texto": "e como que a gente quer estar em parceria com elas."
+        },
+        {
+          "inicio": 26.5,
+          "fim": 32.9,
+          "texto": "Então quais foram os números que elas ajudaram a Dylos a conquistar, que nós conquistamos juntos?"
+        },
+        {
+          "inicio": 32.9,
+          "fim": 37.8,
+          "texto": "Quais são os números que nós queremos conquistar e como que a gente desenhou essa estratégia?"
+        },
+        {
+          "inicio": 37.8,
+          "fim": 40.8,
+          "texto": "E quais são os produtos-chaves para esse canal?"
+        }
+      ],
+      "texto_na_tela": [
+        {
+          "t": 0.0,
+          "texto": "Tivemos@nosso evento",
+          "conf": 0.95
+        },
+        {
+          "t": 2.9,
+          "texto": "no próprio tiktok",
+          "conf": 1.0
+        },
+        {
+          "t": 5.9,
+          "texto": "merc",
+          "conf": 1.0
+        },
+        {
+          "t": 5.9,
+          "texto": "destinada pra isso",
+          "conf": 0.94
+        },
+        {
+          "t": 8.8,
+          "texto": "TikTok",
+          "conf": 0.64
+        },
+        {
+          "t": 8.8,
+          "texto": "desseeventoné?",
+          "conf": 0.82
+        },
+        {
+          "t": 11.8,
+          "texto": "como que a",
+          "conf": 0.87
+        },
+        {
+          "t": 11.8,
+          "texto": "'gente mostra @s",
+          "conf": 0.57
+        },
+        {
+          "t": 11.8,
+          "texto": "nossos produtos",
+          "conf": 0.96
+        },
+        {
+          "t": 14.7,
+          "texto": "pras nossas afiliadas",
+          "conf": 0.92
+        },
+        {
+          "t": 17.6,
+          "texto": "estratégia da dailus",
+          "conf": 0.85
+        },
+        {
+          "t": 20.6,
+          "texto": "então nessa frente",
+          "conf": 0.95
+        },
+        {
+          "t": 23.5,
+          "texto": "ecomoquea",
+          "conf": 0.99
+        },
+        {
+          "t": 23.5,
+          "texto": "igentequertáem",
+          "conf": 0.83
+        },
+        {
+          "t": 23.5,
+          "texto": "parceria com elas",
+          "conf": 0.92
+        },
+        {
+          "t": 26.5,
+          "texto": "entãoquaisforam os números",
+          "conf": 0.72
+        },
+        {
+          "t": 26.5,
+          "texto": "queelas ajudaram",
+          "conf": 0.77
+        },
+        {
+          "t": 29.4,
+          "texto": "dailusaconquistar;",
+          "conf": 0.98
+        },
+        {
+          "t": 32.4,
+          "texto": "quaissão @s números que nós",
+          "conf": 0.45
+        },
+        {
+          "t": 32.4,
+          "texto": "queremos conquistar",
+          "conf": 0.81
+        },
+        {
+          "t": 35.3,
+          "texto": "ecomoqueagentedesenhou",
+          "conf": 0.92
+        },
+        {
+          "t": 35.3,
+          "texto": "essa estratégia",
+          "conf": 0.75
+        },
+        {
+          "t": 38.2,
+          "texto": "quaissão@s produtos chaves",
+          "conf": 0.98
+        },
+        {
+          "t": 38.2,
+          "texto": "pra esse canal",
+          "conf": 0.69
+        }
+      ]
+    },
+    {
+      "handle": "babidadailus",
+      "shortcode": "DaYYbXiPZRS",
+      "video_file": "data/social/instagram/media/babidadailus/DaYYbXiPZRS.mp4",
+      "duracao_seg": 27.0,
+      "duracao_mmss": "00:27",
+      "idioma": "pt",
+      "idioma_prob": 1,
+      "n_segmentos_fala": 0,
+      "n_textos_na_tela": 15,
+      "transcricao": "",
+      "segmentos": [],
+      "texto_na_tela": [
+        {
+          "t": 0.0,
+          "texto": "pOV; @ mehhorjeito de comemorarseu",
+          "conf": 0.59
+        },
+        {
+          "t": 0.0,
+          "texto": "aniversárioedesacelerando",
+          "conf": 0.75
+        },
+        {
+          "t": 0.0,
+          "texto": "G@m sweet skin",
+          "conf": 0.61
+        },
+        {
+          "t": 5.9,
+          "texto": "p@V; @ mehor jeito de comemorarseu",
+          "conf": 0.65
+        },
+        {
+          "t": 5.9,
+          "texto": "com sweet skin",
+          "conf": 0.6
+        },
+        {
+          "t": 5.9,
+          "texto": "SWEET",
+          "conf": 0.95
+        },
+        {
+          "t": 8.8,
+          "texto": "(ertida",
+          "conf": 0.49
+        },
+        {
+          "t": 11.8,
+          "texto": "[@V; @melhorjeito decomemorar seu",
+          "conf": 0.5
+        },
+        {
+          "t": 11.8,
+          "texto": "oromo",
+          "conf": 0.53
+        },
+        {
+          "t": 14.7,
+          "texto": "aniversário é desacelerando",
+          "conf": 0.78
+        },
+        {
+          "t": 14.7,
+          "texto": "@@m sweet skin",
+          "conf": 0.74
+        },
+        {
+          "t": 17.6,
+          "texto": "sweet skin",
+          "conf": 1.0
+        },
+        {
+          "t": 20.6,
+          "texto": "[@V; @ mehor jeito de comemorar seu",
+          "conf": 0.61
+        },
+        {
+          "t": 20.6,
+          "texto": "aiversário é desacelerando",
+          "conf": 0.56
+        },
+        {
+          "t": 23.5,
+          "texto": "pov: 0 melhor jeito de comemorar seu",
+          "conf": 0.79
+        }
+      ]
+    },
+    {
+      "handle": "babidadailus",
+      "shortcode": "Dagc4xzvKIN",
+      "video_file": "data/social/instagram/media/babidadailus/Dagc4xzvKIN.mp4",
+      "duracao_seg": 50.5,
+      "duracao_mmss": "00:50",
+      "idioma": "pt",
+      "idioma_prob": 1,
+      "n_segmentos_fala": 15,
+      "n_textos_na_tela": 12,
+      "transcricao": "Bora para um bate-bola rápido, um produto, uma ocasião. Dormi mal e tenho um compromisso logo cedo. Bye bye, Olheira. Nada melhor que o nosso corretivo para dar um up nesses momentos. Fiquei o dia inteiro em pé. Pernas cansadas de fontilou, sem dúvida. Recebi um convite de última hora. Ai, eu achei cheirosa, então bora espleixo de torta de limão para você chegar lá com tudo. Eu vou sair para jantar e é um encontro. Ai, eu vou no bora espleixo de sanda e de cereja. Acho que ele é perfeito para a sua ocasião. Acordei atrasada e eu preciso me arrumar o mais rápido possível. Vamos de Holoblush. Eu acho que sem estar ali coradinho, não tem como começar o dia bem. Então, Holoblush para mim é esse produto.",
+      "segmentos": [
+        {
+          "inicio": 0.0,
+          "fim": 3.4,
+          "texto": "Bora para um bate-bola rápido, um produto, uma ocasião."
+        },
+        {
+          "inicio": 3.4,
+          "fim": 5.9,
+          "texto": "Dormi mal e tenho um compromisso logo cedo."
+        },
+        {
+          "inicio": 6.8,
+          "fim": 8.0,
+          "texto": "Bye bye, Olheira."
+        },
+        {
+          "inicio": 8.0,
+          "fim": 12.0,
+          "texto": "Nada melhor que o nosso corretivo para dar um up nesses momentos."
+        },
+        {
+          "inicio": 12.0,
+          "fim": 13.7,
+          "texto": "Fiquei o dia inteiro em pé."
+        },
+        {
+          "inicio": 14.7,
+          "fim": 17.8,
+          "texto": "Pernas cansadas de fontilou, sem dúvida."
+        },
+        {
+          "inicio": 17.8,
+          "fim": 20.2,
+          "texto": "Recebi um convite de última hora."
+        },
+        {
+          "inicio": 22.4,
+          "fim": 28.0,
+          "texto": "Ai, eu achei cheirosa, então bora espleixo de torta de limão para você chegar lá com tudo."
+        },
+        {
+          "inicio": 28.3,
+          "fim": 30.6,
+          "texto": "Eu vou sair para jantar e é um encontro."
+        },
+        {
+          "inicio": 32.2,
+          "fim": 35.8,
+          "texto": "Ai, eu vou no bora espleixo de sanda e de cereja."
+        },
+        {
+          "inicio": 35.8,
+          "fim": 37.5,
+          "texto": "Acho que ele é perfeito para a sua ocasião."
+        },
+        {
+          "inicio": 38.2,
+          "fim": 41.4,
+          "texto": "Acordei atrasada e eu preciso me arrumar o mais rápido possível."
+        },
+        {
+          "inicio": 42.6,
+          "fim": 43.7,
+          "texto": "Vamos de Holoblush."
+        },
+        {
+          "inicio": 43.7,
+          "fim": 47.9,
+          "texto": "Eu acho que sem estar ali coradinho, não tem como começar o dia bem."
+        },
+        {
+          "inicio": 47.9,
+          "fim": 50.0,
+          "texto": "Então, Holoblush para mim é esse produto."
+        }
+      ],
+      "texto_na_tela": [
+        {
+          "t": 5.9,
+          "texto": "0YBCYB",
+          "conf": 0.43
+        },
+        {
+          "t": 5.9,
+          "texto": "Dalus",
+          "conf": 0.6
+        },
+        {
+          "t": 8.8,
+          "texto": "0YBBYB",
+          "conf": 0.43
+        },
+        {
+          "t": 8.8,
+          "texto": "Dailus",
+          "conf": 0.48
+        },
+        {
+          "t": 14.7,
+          "texto": "FORTILON",
+          "conf": 1.0
+        },
+        {
+          "t": 14.7,
+          "texto": "PERNAS",
+          "conf": 0.98
+        },
+        {
+          "t": 14.7,
+          "texto": "CANSADAS",
+          "conf": 0.98
+        },
+        {
+          "t": 14.7,
+          "texto": "CANFOHA",
+          "conf": 0.77
+        },
+        {
+          "t": 14.7,
+          "texto": "1208",
+          "conf": 1.0
+        },
+        {
+          "t": 32.4,
+          "texto": "SWEET",
+          "conf": 0.45
+        },
+        {
+          "t": 32.4,
+          "texto": "SRI",
+          "conf": 0.63
+        },
+        {
+          "t": 35.3,
+          "texto": "SRD",
+          "conf": 0.45
+        }
+      ]
+    },
+    {
+      "handle": "babidadailus",
+      "shortcode": "DajFrBEPRvg",
+      "video_file": "data/social/instagram/media/babidadailus/DajFrBEPRvg.mp4",
+      "duracao_seg": 8.8,
+      "duracao_mmss": "00:08",
+      "idioma": "pt",
+      "idioma_prob": 1,
+      "n_segmentos_fala": 0,
+      "n_textos_na_tela": 4,
+      "transcricao": "",
+      "segmentos": [],
+      "texto_na_tela": [
+        {
+          "t": 0.0,
+          "texto": "pov; osom da vida",
+          "conf": 0.93
+        },
+        {
+          "t": 0.0,
+          "texto": "quando estou com as unhas",
+          "conf": 0.82
+        },
+        {
+          "t": 0.0,
+          "texto": "renovadas",
+          "conf": 1.0
+        },
+        {
+          "t": 2.9,
+          "texto": "pov; 0 som da vida",
+          "conf": 0.62
+        }
+      ]
+    },
+    {
+      "handle": "babidadailus",
+      "shortcode": "DallircvRyi",
+      "video_file": "data/social/instagram/media/babidadailus/DallircvRyi.mp4",
+      "duracao_seg": 124.7,
+      "duracao_mmss": "02:04",
+      "idioma": "pt",
+      "idioma_prob": 1,
+      "n_segmentos_fala": 45,
+      "n_textos_na_tela": 88,
+      "transcricao": "Vocês já puderam conhecer um pouquinho mais da nossa qualidade, mas tem outra área que eu queria muito contar para vocês como que funciona, que é a nossa operação. Para isso, eu quis chamar o Jeff, que é nosso coordenador aqui da operação, para mostrar para vocês um pouquinho de como funciona todo esse processo. Bora lá? Oi, pessoal, tudo bem? Eu sou o Jeffer Sousquera, sou responsável por toda a operação logística e hoje eu vou apresentar para vocês um pouco como funciona a nossa operação logística. Nós fomos responsáveis por todo o planejamento, e a execução da movimentação dos nossos estoques. Isso vai desde a otimização do espaço físico até o dimensionamento das pessoas e dos equipamentos necessários para rodar toda a operação. Nós separamos nossa operação em três grandes etapas. Recebimento de mercadorias, separação de pedidos e a expedição. No recebimento, nós trabalhamos através de janelas de atendimento, onde nossos fornecedores se apresentam, a gente faz a checagem das quantidades, do lote, da validade, de como as caixas estão e das etiquetas. A partir dessa liberação, nós colocamos as cargas no setor da qualidade. E aí quem quiser ver melhor, a G já explicou isso em um vídeo anterior. Quando a qualidade faz a liberação das cargas, nós armazenamos elas nos endereços seguindo uma ordem de fefo, que significa o primeiro que vem e o primeiro que sai. Temos duas operações no nosso CD. Um é o Bitube, que é a venda direta para distribuidores, farmácias, grandes redes, perfomarias, que são caixas fechadas praticamente. E a venda Bitucí, que é a venda direta para o consumidor final. Nosso processo é muito rápido. A gente separa, confere em bala e etiqueta para expedir logo na parte da manhã. Aí entra a etapa final, a expedição. Os pedidos são coletados e expedidos através das nossas transportadoras parceiras e chega até a sua casa. E o resultado de tudo isso é uma performance de 99,7%, que é um número excelente para o mercado de logística. Entregamos milhares de pedidos durante o mês com uma equipe comprometida e experiente.",
+      "segmentos": [
+        {
+          "inicio": 0.0,
+          "fim": 3.2,
+          "texto": "Vocês já puderam conhecer um pouquinho mais da nossa qualidade,"
+        },
+        {
+          "inicio": 3.2,
+          "fim": 6.2,
+          "texto": "mas tem outra área que eu queria muito contar para vocês"
+        },
+        {
+          "inicio": 6.2,
+          "fim": 9.2,
+          "texto": "como que funciona, que é a nossa operação."
+        },
+        {
+          "inicio": 9.2,
+          "fim": 12.8,
+          "texto": "Para isso, eu quis chamar o Jeff, que é nosso coordenador aqui da operação,"
+        },
+        {
+          "inicio": 12.8,
+          "fim": 16.6,
+          "texto": "para mostrar para vocês um pouquinho de como funciona todo esse processo."
+        },
+        {
+          "inicio": 16.6,
+          "fim": 17.6,
+          "texto": "Bora lá?"
+        },
+        {
+          "inicio": 18.8,
+          "fim": 21.4,
+          "texto": "Oi, pessoal, tudo bem? Eu sou o Jeffer Sousquera,"
+        },
+        {
+          "inicio": 21.4,
+          "fim": 23.4,
+          "texto": "sou responsável por toda a operação logística"
+        },
+        {
+          "inicio": 23.4,
+          "fim": 25.0,
+          "texto": "e hoje eu vou apresentar para vocês um pouco"
+        },
+        {
+          "inicio": 25.0,
+          "fim": 27.2,
+          "texto": "como funciona a nossa operação logística."
+        },
+        {
+          "inicio": 27.2,
+          "fim": 29.8,
+          "texto": "Nós fomos responsáveis por todo o planejamento,"
+        },
+        {
+          "inicio": 29.8,
+          "fim": 33.2,
+          "texto": "e a execução da movimentação dos nossos estoques."
+        },
+        {
+          "inicio": 33.2,
+          "fim": 36.2,
+          "texto": "Isso vai desde a otimização do espaço físico"
+        },
+        {
+          "inicio": 36.2,
+          "fim": 38.8,
+          "texto": "até o dimensionamento das pessoas"
+        },
+        {
+          "inicio": 38.8,
+          "fim": 41.8,
+          "texto": "e dos equipamentos necessários para rodar toda a operação."
+        },
+        {
+          "inicio": 41.8,
+          "fim": 44.8,
+          "texto": "Nós separamos nossa operação em três grandes etapas."
+        },
+        {
+          "inicio": 44.8,
+          "fim": 49.2,
+          "texto": "Recebimento de mercadorias, separação de pedidos e a expedição."
+        },
+        {
+          "inicio": 49.2,
+          "fim": 52.8,
+          "texto": "No recebimento, nós trabalhamos através de janelas de atendimento,"
+        },
+        {
+          "inicio": 52.8,
+          "fim": 55.2,
+          "texto": "onde nossos fornecedores se apresentam,"
+        },
+        {
+          "inicio": 55.2,
+          "fim": 59.4,
+          "texto": "a gente faz a checagem das quantidades, do lote, da validade,"
+        },
+        {
+          "inicio": 59.4,
+          "fim": 62.4,
+          "texto": "de como as caixas estão e das etiquetas."
+        },
+        {
+          "inicio": 62.4,
+          "fim": 64.0,
+          "texto": "A partir dessa liberação,"
+        },
+        {
+          "inicio": 64.0,
+          "fim": 67.6,
+          "texto": "nós colocamos as cargas no setor da qualidade."
+        },
+        {
+          "inicio": 67.6,
+          "fim": 71.4,
+          "texto": "E aí quem quiser ver melhor, a G já explicou isso em um vídeo anterior."
+        },
+        {
+          "inicio": 71.4,
+          "fim": 73.8,
+          "texto": "Quando a qualidade faz a liberação das cargas,"
+        },
+        {
+          "inicio": 73.8,
+          "fim": 76.2,
+          "texto": "nós armazenamos elas nos endereços"
+        },
+        {
+          "inicio": 76.2,
+          "fim": 77.8,
+          "texto": "seguindo uma ordem de fefo,"
+        },
+        {
+          "inicio": 77.8,
+          "fim": 80.8,
+          "texto": "que significa o primeiro que vem e o primeiro que sai."
+        },
+        {
+          "inicio": 80.8,
+          "fim": 83.0,
+          "texto": "Temos duas operações no nosso CD."
+        },
+        {
+          "inicio": 83.0,
+          "fim": 86.0,
+          "texto": "Um é o Bitube, que é a venda direta para"
+        },
+        {
+          "inicio": 86.0,
+          "fim": 89.0,
+          "texto": "distribuidores, farmácias, grandes redes,"
+        },
+        {
+          "inicio": 89.0,
+          "fim": 93.0,
+          "texto": "perfomarias, que são caixas fechadas praticamente."
+        },
+        {
+          "inicio": 93.0,
+          "fim": 96.4,
+          "texto": "E a venda Bitucí, que é a venda direta para o consumidor final."
+        },
+        {
+          "inicio": 96.4,
+          "fim": 98.0,
+          "texto": "Nosso processo é muito rápido."
+        },
+        {
+          "inicio": 98.0,
+          "fim": 101.0,
+          "texto": "A gente separa, confere em bala e etiqueta"
+        },
+        {
+          "inicio": 101.0,
+          "fim": 103.2,
+          "texto": "para expedir logo na parte da manhã."
+        },
+        {
+          "inicio": 103.2,
+          "fim": 105.8,
+          "texto": "Aí entra a etapa final, a expedição."
+        },
+        {
+          "inicio": 105.8,
+          "fim": 108.4,
+          "texto": "Os pedidos são coletados e expedidos"
+        },
+        {
+          "inicio": 108.4,
+          "fim": 110.6,
+          "texto": "através das nossas transportadoras parceiras"
+        },
+        {
+          "inicio": 110.6,
+          "fim": 112.0,
+          "texto": "e chega até a sua casa."
+        },
+        {
+          "inicio": 112.0,
+          "fim": 113.6,
+          "texto": "E o resultado de tudo isso"
+        },
+        {
+          "inicio": 113.6,
+          "fim": 116.6,
+          "texto": "é uma performance de 99,7%,"
+        },
+        {
+          "inicio": 116.6,
+          "fim": 119.0,
+          "texto": "que é um número excelente para o mercado de logística."
+        },
+        {
+          "inicio": 119.0,
+          "fim": 121.8,
+          "texto": "Entregamos milhares de pedidos durante o mês"
+        },
+        {
+          "inicio": 121.8,
+          "fim": 124.6,
+          "texto": "com uma equipe comprometida e experiente."
+        }
+      ],
+      "texto_na_tela": [
+        {
+          "t": 0.0,
+          "texto": "Vocês já puderam conhecer",
+          "conf": 0.85
+        },
+        {
+          "t": 0.0,
+          "texto": "um pouquinho mais",
+          "conf": 0.87
+        },
+        {
+          "t": 2.9,
+          "texto": "mas tem outra área que eu",
+          "conf": 0.91
+        },
+        {
+          "t": 2.9,
+          "texto": "queria muito contar pra vocês",
+          "conf": 0.99
+        },
+        {
+          "t": 5.9,
+          "texto": "como que funciona;",
+          "conf": 0.77
+        },
+        {
+          "t": 8.8,
+          "texto": "Pra isso eu quis chamar 0 Jef",
+          "conf": 0.59
+        },
+        {
+          "t": 11.8,
+          "texto": "pra mostrar pra vocês",
+          "conf": 0.82
+        },
+        {
+          "t": 11.8,
+          "texto": "pouquinho",
+          "conf": 1.0
+        },
+        {
+          "t": 14.7,
+          "texto": "de como funciona",
+          "conf": 0.94
+        },
+        {
+          "t": 14.7,
+          "texto": "todo esse processo.",
+          "conf": 0.7
+        },
+        {
+          "t": 17.6,
+          "texto": "Oi pessoal,",
+          "conf": 0.48
+        },
+        {
+          "t": 20.6,
+          "texto": "sou responsável por",
+          "conf": 0.93
+        },
+        {
+          "t": 20.6,
+          "texto": "toda operação logística",
+          "conf": 1.0
+        },
+        {
+          "t": 23.5,
+          "texto": "hoje eu vou apresentar",
+          "conf": 0.81
+        },
+        {
+          "t": 23.5,
+          "texto": "pra vocês um pouco",
+          "conf": 0.97
+        },
+        {
+          "t": 23.5,
+          "texto": "orupo",
+          "conf": 0.97
+        },
+        {
+          "t": 23.5,
+          "texto": "Dailus",
+          "conf": 0.89
+        },
+        {
+          "t": 26.5,
+          "texto": "crupo",
+          "conf": 0.44
+        },
+        {
+          "t": 26.5,
+          "texto": "Nós somos responsáveis",
+          "conf": 0.53
+        },
+        {
+          "t": 26.5,
+          "texto": "por todo planejamento",
+          "conf": 0.78
+        },
+        {
+          "t": 29.4,
+          "texto": "Grupo",
+          "conf": 0.64
+        },
+        {
+          "t": 29.4,
+          "texto": "execução da movimentação",
+          "conf": 0.86
+        },
+        {
+          "t": 29.4,
+          "texto": "dos nossos estoques.",
+          "conf": 0.8
+        },
+        {
+          "t": 32.4,
+          "texto": "Isso vai desde a otimização",
+          "conf": 0.69
+        },
+        {
+          "t": 32.4,
+          "texto": "do espaço físico",
+          "conf": 0.99
+        },
+        {
+          "t": 35.3,
+          "texto": "até o dimensionamento",
+          "conf": 0.67
+        },
+        {
+          "t": 38.2,
+          "texto": "dos equipamentos",
+          "conf": 0.93
+        },
+        {
+          "t": 41.2,
+          "texto": "orupo Dailus",
+          "conf": 0.98
+        },
+        {
+          "t": 41.2,
+          "texto": "Nós separamos nossa @peração",
+          "conf": 0.76
+        },
+        {
+          "t": 41.2,
+          "texto": "em três grandes etapas;",
+          "conf": 0.8
+        },
+        {
+          "t": 44.1,
+          "texto": "recebimento de mercadoriaso",
+          "conf": 0.78
+        },
+        {
+          "t": 47.1,
+          "texto": "separação de pedidos",
+          "conf": 1.0
+        },
+        {
+          "t": 47.1,
+          "texto": "expedição.",
+          "conf": 0.94
+        },
+        {
+          "t": 50.0,
+          "texto": "Grupo Dailus",
+          "conf": 0.97
+        },
+        {
+          "t": 50.0,
+          "texto": "Janelas deatendimento",
+          "conf": 0.75
+        },
+        {
+          "t": 52.9,
+          "texto": "@ndenossos fornecedores",
+          "conf": 0.89
+        },
+        {
+          "t": 52.9,
+          "texto": "seapresentam;",
+          "conf": 0.99
+        },
+        {
+          "t": 55.9,
+          "texto": "gente faz a checagem",
+          "conf": 0.92
+        },
+        {
+          "t": 55.9,
+          "texto": "@as quantidades;",
+          "conf": 0.71
+        },
+        {
+          "t": 58.8,
+          "texto": "DE ESMALTES",
+          "conf": 0.67
+        },
+        {
+          "t": 58.8,
+          "texto": "REMOVEDOR DE ESMALTES",
+          "conf": 0.98
+        },
+        {
+          "t": 58.8,
+          "texto": "REMOVEDOR DE ES",
+          "conf": 0.98
+        },
+        {
+          "t": 58.8,
+          "texto": "CONTÉM 24",
+          "conf": 0.91
+        },
+        {
+          "t": 58.8,
+          "texto": "Unidades",
+          "conf": 0.67
+        },
+        {
+          "t": 58.8,
+          "texto": "REMOVEDOR DE",
+          "conf": 0.73
+        },
+        {
+          "t": 58.8,
+          "texto": "Dai",
+          "conf": 0.9
+        },
+        {
+          "t": 58.8,
+          "texto": "REMOVEDOR",
+          "conf": 1.0
+        },
+        {
+          "t": 58.8,
+          "texto": "ESMALTES",
+          "conf": 1.0
+        },
+        {
+          "t": 58.8,
+          "texto": "de como as caixas",
+          "conf": 0.66
+        },
+        {
+          "t": 58.8,
+          "texto": "R DE ESMALTES",
+          "conf": 0.89
+        },
+        {
+          "t": 58.8,
+          "texto": "estão e das etiquetas.",
+          "conf": 0.74
+        },
+        {
+          "t": 58.8,
+          "texto": "Dailu",
+          "conf": 1.0
+        },
+        {
+          "t": 58.8,
+          "texto": "REMOVEDG",
+          "conf": 0.68
+        },
+        {
+          "t": 58.8,
+          "texto": "Daülus",
+          "conf": 0.6
+        },
+        {
+          "t": 61.8,
+          "texto": "dessa liberação",
+          "conf": 0.89
+        },
+        {
+          "t": 61.8,
+          "texto": "partir",
+          "conf": 1.0
+        },
+        {
+          "t": 64.7,
+          "texto": "nós colocamos as cargas",
+          "conf": 0.66
+        },
+        {
+          "t": 64.7,
+          "texto": "no setor da qualidade",
+          "conf": 0.99
+        },
+        {
+          "t": 67.6,
+          "texto": "aí quem quiserver melhor",
+          "conf": 0.97
+        },
+        {
+          "t": 70.6,
+          "texto": "Estoque",
+          "conf": 0.94
+        },
+        {
+          "t": 70.6,
+          "texto": "Quando a qualidade faz",
+          "conf": 0.83
+        },
+        {
+          "t": 70.6,
+          "texto": "liberação das cargas;",
+          "conf": 0.79
+        },
+        {
+          "t": 73.5,
+          "texto": "nós armazenamos",
+          "conf": 0.86
+        },
+        {
+          "t": 73.5,
+          "texto": "elas nos endereços",
+          "conf": 1.0
+        },
+        {
+          "t": 76.5,
+          "texto": "que signinca",
+          "conf": 0.61
+        },
+        {
+          "t": 79.4,
+          "texto": "Dallus",
+          "conf": 0.96
+        },
+        {
+          "t": 82.4,
+          "texto": "Eetoque",
+          "conf": 0.63
+        },
+        {
+          "t": 82.4,
+          "texto": "uma é0 B2B",
+          "conf": 0.8
+        },
+        {
+          "t": 85.3,
+          "texto": "que éa venda direta",
+          "conf": 0.74
+        },
+        {
+          "t": 85.3,
+          "texto": "para distribuidores,",
+          "conf": 0.79
+        },
+        {
+          "t": 88.2,
+          "texto": "po D",
+          "conf": 0.41
+        },
+        {
+          "t": 91.2,
+          "texto": "praticamente",
+          "conf": 1.0
+        },
+        {
+          "t": 94.1,
+          "texto": "que a venda direto pr@",
+          "conf": 0.67
+        },
+        {
+          "t": 94.1,
+          "texto": "consumidor final.",
+          "conf": 0.81
+        },
+        {
+          "t": 97.1,
+          "texto": "a gente separa;",
+          "conf": 0.94
+        },
+        {
+          "t": 100.0,
+          "texto": "embala eetiqueta para expedir",
+          "conf": 0.88
+        },
+        {
+          "t": 100.0,
+          "texto": "logo na parte da manhã.",
+          "conf": 0.83
+        },
+        {
+          "t": 102.9,
+          "texto": "LOGISTICA",
+          "conf": 0.43
+        },
+        {
+          "t": 102.9,
+          "texto": "Aí entra a etapa final,",
+          "conf": 0.94
+        },
+        {
+          "t": 102.9,
+          "texto": "Retrans",
+          "conf": 0.82
+        },
+        {
+          "t": 108.8,
+          "texto": "através das nossas",
+          "conf": 0.77
+        },
+        {
+          "t": 108.8,
+          "texto": "transportadoras parceiras",
+          "conf": 0.98
+        },
+        {
+          "t": 111.8,
+          "texto": "crupo Dailus",
+          "conf": 0.97
+        },
+        {
+          "t": 111.8,
+          "texto": "Eo resultado de tudo isso?",
+          "conf": 0.94
+        },
+        {
+          "t": 114.7,
+          "texto": "uma performance de 99,7%",
+          "conf": 0.72
+        },
+        {
+          "t": 114.7,
+          "texto": "Dailos",
+          "conf": 0.57
+        },
+        {
+          "t": 120.6,
+          "texto": "com uma equipe",
+          "conf": 1.0
+        },
+        {
+          "t": 120.6,
+          "texto": "crupo Dallus",
+          "conf": 0.55
+        }
+      ]
+    },
+    {
+      "handle": "babidadailus",
+      "shortcode": "DaqywGGP9uL",
+      "video_file": "data/social/instagram/media/babidadailus/DaqywGGP9uL.mp4",
+      "duracao_seg": 64.8,
+      "duracao_mmss": "01:04",
+      "idioma": "pt",
+      "idioma_prob": 1,
+      "n_segmentos_fala": 12,
+      "n_textos_na_tela": 35,
+      "transcricao": "Oi, a gente está aqui, na Ikezaki da Liberdade, para mostrar um pouquinho de como a loja está linda. A Daelus simplesmente personalizou a loja inteira com a identidade visual da nossa nova coleção de sweet skin. E aqui, o que vocês não está vendo de ação? Além de, obviamente, uma loja maravilhosa e com vários produtos da Daelus, a gente já teve uma primeira ação que foi um moletom personalizado para quem comprasse alguns produtos. Vamos ter também a roleta que eu vou mostrar um pouquinho aqui. Vocês vão comprar produtos da Daelus, tanto sweet skin quanto a linha de body care da sweet skin também, e maquiagem da Daelus e aí você tem a oportunidade de estar girando a nossa roleta. E no próximo final de semana do dia 18 vai ter moletão de novo. Então venham para cá, não percam, porque eles estão maravilhosos. E ao longo desses meses, então agora de julho e de agosto, vão ter algumas ativações muito legais. Quem estiver passando por aqui, não deixe de confiar porque tem muita coisa boa que vocês vão estar vendo por aqui.",
+      "segmentos": [
+        {
+          "inicio": 0.0,
+          "fim": 5.9,
+          "texto": "Oi, a gente está aqui, na Ikezaki da Liberdade, para mostrar um pouquinho de como a loja está linda."
+        },
+        {
+          "inicio": 5.9,
+          "fim": 13.0,
+          "texto": "A Daelus simplesmente personalizou a loja inteira com a identidade visual da nossa nova coleção de sweet skin."
+        },
+        {
+          "inicio": 13.0,
+          "fim": 15.5,
+          "texto": "E aqui, o que vocês não está vendo de ação?"
+        },
+        {
+          "inicio": 15.5,
+          "fim": 20.9,
+          "texto": "Além de, obviamente, uma loja maravilhosa e com vários produtos da Daelus,"
+        },
+        {
+          "inicio": 20.9,
+          "fim": 27.2,
+          "texto": "a gente já teve uma primeira ação que foi um moletom personalizado para quem comprasse alguns produtos."
+        },
+        {
+          "inicio": 27.2,
+          "fim": 30.7,
+          "texto": "Vamos ter também a roleta que eu vou mostrar um pouquinho aqui."
+        },
+        {
+          "inicio": 30.7,
+          "fim": 37.5,
+          "texto": "Vocês vão comprar produtos da Daelus, tanto sweet skin quanto a linha de body care da sweet skin também,"
+        },
+        {
+          "inicio": 37.5,
+          "fim": 41.7,
+          "texto": "e maquiagem da Daelus e aí você tem a oportunidade de estar girando a nossa roleta."
+        },
+        {
+          "inicio": 41.7,
+          "fim": 46.0,
+          "texto": "E no próximo final de semana do dia 18 vai ter moletão de novo."
+        },
+        {
+          "inicio": 46.0,
+          "fim": 50.5,
+          "texto": "Então venham para cá, não percam, porque eles estão maravilhosos."
+        },
+        {
+          "inicio": 50.6,
+          "fim": 58.3,
+          "texto": "E ao longo desses meses, então agora de julho e de agosto, vão ter algumas ativações muito legais."
+        },
+        {
+          "inicio": 58.3,
+          "fim": 63.8,
+          "texto": "Quem estiver passando por aqui, não deixe de confiar porque tem muita coisa boa que vocês vão estar vendo por aqui."
+        }
+      ],
+      "texto_na_tela": [
+        {
+          "t": 0.0,
+          "texto": "erdadel",
+          "conf": 0.65
+        },
+        {
+          "t": 0.0,
+          "texto": "maius",
+          "conf": 0.42
+        },
+        {
+          "t": 2.9,
+          "texto": "Gos",
+          "conf": 0.69
+        },
+        {
+          "t": 2.9,
+          "texto": "IKESAKI",
+          "conf": 0.98
+        },
+        {
+          "t": 2.9,
+          "texto": "delcomoalojatálinda",
+          "conf": 0.56
+        },
+        {
+          "t": 5.9,
+          "texto": "parsonalzoualojainteira",
+          "conf": 0.78
+        },
+        {
+          "t": 8.8,
+          "texto": "comaidentidadevisual",
+          "conf": 1.0
+        },
+        {
+          "t": 11.8,
+          "texto": "ice cream",
+          "conf": 0.7
+        },
+        {
+          "t": 14.7,
+          "texto": "além deobviamente umaloja",
+          "conf": 0.61
+        },
+        {
+          "t": 17.6,
+          "texto": "Datlus",
+          "conf": 0.54
+        },
+        {
+          "t": 20.6,
+          "texto": "agentejá teveuma primeira ação",
+          "conf": 0.72
+        },
+        {
+          "t": 26.5,
+          "texto": "Vamos tertammoémaroleta",
+          "conf": 0.63
+        },
+        {
+          "t": 32.4,
+          "texto": "oupuns",
+          "conf": 0.52
+        },
+        {
+          "t": 32.4,
+          "texto": "sweet skin quantoa",
+          "conf": 0.84
+        },
+        {
+          "t": 32.4,
+          "texto": "cor",
+          "conf": 0.58
+        },
+        {
+          "t": 32.4,
+          "texto": "SWEET",
+          "conf": 0.72
+        },
+        {
+          "t": 35.3,
+          "texto": "Dailus",
+          "conf": 0.97
+        },
+        {
+          "t": 35.3,
+          "texto": "da sweet skin também",
+          "conf": 0.92
+        },
+        {
+          "t": 38.2,
+          "texto": "detá",
+          "conf": 0.97
+        },
+        {
+          "t": 38.2,
+          "texto": "TENTE [",
+          "conf": 0.67
+        },
+        {
+          "t": 41.2,
+          "texto": "3 GI",
+          "conf": 0.52
+        },
+        {
+          "t": 41.2,
+          "texto": "Eno próximofinalde semana",
+          "conf": 0.82
+        },
+        {
+          "t": 47.1,
+          "texto": "NOVOS SABORES DE",
+          "conf": 0.79
+        },
+        {
+          "t": 47.1,
+          "texto": "SORVE",
+          "conf": 0.99
+        },
+        {
+          "t": 47.1,
+          "texto": "PRO",
+          "conf": 0.73
+        },
+        {
+          "t": 47.1,
+          "texto": "'BANHO",
+          "conf": 0.41
+        },
+        {
+          "t": 47.1,
+          "texto": "SEU",
+          "conf": 0.81
+        },
+        {
+          "t": 47.1,
+          "texto": "PREMIUMI",
+          "conf": 0.73
+        },
+        {
+          "t": 50.0,
+          "texto": "Eaolongodesses meses",
+          "conf": 0.97
+        },
+        {
+          "t": 52.9,
+          "texto": "entãoagoradejuhoedeagosto",
+          "conf": 0.99
+        },
+        {
+          "t": 52.9,
+          "texto": "Dailu",
+          "conf": 0.51
+        },
+        {
+          "t": 52.9,
+          "texto": "Gream",
+          "conf": 0.82
+        },
+        {
+          "t": 58.8,
+          "texto": "nãodeixede conferir",
+          "conf": 0.77
+        },
+        {
+          "t": 61.8,
+          "texto": "e crear",
+          "conf": 0.5
+        },
+        {
+          "t": 61.8,
+          "texto": "quevocêsvãotá vendo por aqui.",
+          "conf": 0.66
+        }
+      ]
+    },
+    {
+      "handle": "babidadailus",
+      "shortcode": "DayYvt3Px1m",
+      "video_file": "data/social/instagram/media/babidadailus/DayYvt3Px1m.mp4",
+      "duracao_seg": 50.3,
+      "duracao_mmss": "00:50",
+      "idioma": "pt",
+      "idioma_prob": 1,
+      "n_segmentos_fala": 7,
+      "n_textos_na_tela": 26,
+      "transcricao": "Algumas das caixinhas que eu abri no Instagram me perguntaram qual que era o meu produto preferido da Dylos. Vamos ver? E o meu produto preferido, assim, é difícil, eu não vou falar que é sem sombra de dúvidas porque eu fiquei pensando em um monte e cheguei à conclusão que eu ia falar que é o nosso pó solto, o póza. Ele é muito bom, ele, assim, super fininho, não marca, deixa a pele leve, mas ao mesmo tempo tira toda a oleosidade da pele, ele é incrível e a tecnologia por trás dele é muito boa. Eu com essa parte de pele, principalmente de pó, são muito chatas e esse produto é maravilhoso e todo mundo que conhece sabe dele.",
+      "segmentos": [
+        {
+          "inicio": 0.0,
+          "fim": 6.2,
+          "texto": "Algumas das caixinhas que eu abri no Instagram me perguntaram qual que era o meu produto preferido da Dylos."
+        },
+        {
+          "inicio": 6.2,
+          "fim": 7.2,
+          "texto": "Vamos ver?"
+        },
+        {
+          "inicio": 12.1,
+          "fim": 18.6,
+          "texto": "E o meu produto preferido, assim, é difícil, eu não vou falar que é sem sombra de dúvidas porque eu fiquei pensando em um monte"
+        },
+        {
+          "inicio": 18.6,
+          "fim": 22.9,
+          "texto": "e cheguei à conclusão que eu ia falar que é o nosso pó solto, o póza."
+        },
+        {
+          "inicio": 22.9,
+          "fim": 31.7,
+          "texto": "Ele é muito bom, ele, assim, super fininho, não marca, deixa a pele leve, mas ao mesmo tempo tira toda a oleosidade da pele,"
+        },
+        {
+          "inicio": 31.7,
+          "fim": 35.9,
+          "texto": "ele é incrível e a tecnologia por trás dele é muito boa."
+        },
+        {
+          "inicio": 35.9,
+          "fim": 43.9,
+          "texto": "Eu com essa parte de pele, principalmente de pó, são muito chatas e esse produto é maravilhoso e todo mundo que conhece sabe dele."
+        }
+      ],
+      "texto_na_tela": [
+        {
+          "t": 0.0,
+          "texto": "isah.sampa",
+          "conf": 0.82
+        },
+        {
+          "t": 0.0,
+          "texto": "qual é 0 seu",
+          "conf": 0.83
+        },
+        {
+          "t": 0.0,
+          "texto": "produto favorito?",
+          "conf": 0.74
+        },
+        {
+          "t": 0.0,
+          "texto": "sendo honesta eu amo 0 gel",
+          "conf": 0.99
+        },
+        {
+          "t": 0.0,
+          "texto": "de sombrancelha!!",
+          "conf": 0.72
+        },
+        {
+          "t": 0.0,
+          "texto": "Responder",
+          "conf": 0.75
+        },
+        {
+          "t": 0.0,
+          "texto": "caixinhas que eu",
+          "conf": 0.92
+        },
+        {
+          "t": 2.9,
+          "texto": "Meu produto",
+          "conf": 0.52
+        },
+        {
+          "t": 5.9,
+          "texto": "Vam:osver?",
+          "conf": 0.51
+        },
+        {
+          "t": 8.8,
+          "texto": "Deque",
+          "conf": 0.41
+        },
+        {
+          "t": 8.8,
+          "texto": "ilus",
+          "conf": 0.94
+        },
+        {
+          "t": 8.8,
+          "texto": "45,90",
+          "conf": 0.45
+        },
+        {
+          "t": 8.8,
+          "texto": "é 0 seu",
+          "conf": 0.72
+        },
+        {
+          "t": 8.8,
+          "texto": "OLro",
+          "conf": 0.64
+        },
+        {
+          "t": 8.8,
+          "texto": "Dailus",
+          "conf": 0.99
+        },
+        {
+          "t": 8.8,
+          "texto": "qual",
+          "conf": 1.0
+        },
+        {
+          "t": 11.8,
+          "texto": "[pi@duto preferfdo",
+          "conf": 0.54
+        },
+        {
+          "t": 20.6,
+          "texto": "sollo",
+          "conf": 0.52
+        },
+        {
+          "t": 23.5,
+          "texto": "Datlus",
+          "conf": 0.45
+        },
+        {
+          "t": 23.5,
+          "texto": "ele assim",
+          "conf": 0.68
+        },
+        {
+          "t": 29.4,
+          "texto": "@leosidade",
+          "conf": 0.99
+        },
+        {
+          "t": 35.3,
+          "texto": "parte",
+          "conf": 1.0
+        },
+        {
+          "t": 38.2,
+          "texto": "sou muito",
+          "conf": 0.87
+        },
+        {
+          "t": 41.2,
+          "texto": "@ue @nhece",
+          "conf": 0.51
+        },
+        {
+          "t": 44.1,
+          "texto": "sendo honesta eu amo",
+          "conf": 0.89
+        },
+        {
+          "t": 44.1,
+          "texto": "gel",
+          "conf": 1.0
+        }
+      ]
+    },
+    {
+      "handle": "dailus",
+      "shortcode": "Daa-jdUCXJo",
+      "video_file": "data/social/instagram/media/dailus/Daa-jdUCXJo.mp4",
+      "duracao_seg": 42.5,
+      "duracao_mmss": "00:42",
+      "idioma": "pt",
+      "idioma_prob": 1,
+      "n_segmentos_fala": 0,
+      "n_textos_na_tela": 27,
+      "transcricao": "",
+      "segmentos": [],
+      "texto_na_tela": [
+        {
+          "t": 0.0,
+          "texto": "DIVERSÃO COMEÇA AGORA!",
+          "conf": 0.45
+        },
+        {
+          "t": 0.0,
+          "texto": "Dailus",
+          "conf": 0.99
+        },
+        {
+          "t": 11.8,
+          "texto": "Oatlus",
+          "conf": 0.42
+        },
+        {
+          "t": 14.7,
+          "texto": "0 RECEBIDO QUE VOCÊ MERECL",
+          "conf": 0.74
+        },
+        {
+          "t": 14.7,
+          "texto": "A DIVERSÃO COMEÇA AGORAI",
+          "conf": 0.63
+        },
+        {
+          "t": 14.7,
+          "texto": "atlus",
+          "conf": 0.54
+        },
+        {
+          "t": 20.6,
+          "texto": "0 RECEBIDO QUE VOF",
+          "conf": 0.87
+        },
+        {
+          "t": 20.6,
+          "texto": "A DIVERSÃO €",
+          "conf": 0.9
+        },
+        {
+          "t": 20.6,
+          "texto": "aius",
+          "conf": 0.79
+        },
+        {
+          "t": 23.5,
+          "texto": "RECEBIDO QUE VOCÊ MERECE",
+          "conf": 0.92
+        },
+        {
+          "t": 23.5,
+          "texto": "DIVERSÃO COMEÇA AGORAI",
+          "conf": 0.76
+        },
+        {
+          "t": 23.5,
+          "texto": "Dallus",
+          "conf": 0.72
+        },
+        {
+          "t": 23.5,
+          "texto": "divirta",
+          "conf": 0.89
+        },
+        {
+          "t": 26.5,
+          "texto": "ilus",
+          "conf": 0.69
+        },
+        {
+          "t": 26.5,
+          "texto": "221",
+          "conf": 0.46
+        },
+        {
+          "t": 26.5,
+          "texto": "Dailu",
+          "conf": 0.7
+        },
+        {
+          "t": 26.5,
+          "texto": "RENg",
+          "conf": 0.44
+        },
+        {
+          "t": 26.5,
+          "texto": "VED",
+          "conf": 0.88
+        },
+        {
+          "t": 29.4,
+          "texto": "COM",
+          "conf": 0.94
+        },
+        {
+          "t": 32.4,
+          "texto": "Daflus",
+          "conf": 0.57
+        },
+        {
+          "t": 35.3,
+          "texto": "rnt",
+          "conf": 0.57
+        },
+        {
+          "t": 35.3,
+          "texto": "glass",
+          "conf": 0.89
+        },
+        {
+          "t": 35.3,
+          "texto": "coat",
+          "conf": 0.95
+        },
+        {
+          "t": 35.3,
+          "texto": "gel",
+          "conf": 0.97
+        },
+        {
+          "t": 35.3,
+          "texto": "top",
+          "conf": 0.87
+        },
+        {
+          "t": 35.3,
+          "texto": "efeito",
+          "conf": 0.75
+        },
+        {
+          "t": 38.2,
+          "texto": "(Tulip",
+          "conf": 0.5
+        }
+      ]
+    },
+    {
+      "handle": "dailus",
+      "shortcode": "DadxgqRCGv2",
+      "video_file": "data/social/instagram/media/dailus/DadxgqRCGv2.mp4",
+      "duracao_seg": 11.3,
+      "duracao_mmss": "00:11",
+      "idioma": "pt",
+      "idioma_prob": 1,
+      "n_segmentos_fala": 0,
+      "n_textos_na_tela": 1,
+      "transcricao": "",
+      "segmentos": [],
+      "texto_na_tela": [
+        {
+          "t": 5.9,
+          "texto": "IKESAKI",
+          "conf": 0.77
+        }
+      ]
+    },
+    {
+      "handle": "dailus",
+      "shortcode": "DagEunJlDv_",
+      "video_file": "data/social/instagram/media/dailus/DagEunJlDv_.mp4",
+      "duracao_seg": 4.7,
+      "duracao_mmss": "00:04",
+      "idioma": null,
+      "idioma_prob": null,
+      "n_segmentos_fala": 0,
+      "n_textos_na_tela": 3,
+      "transcricao": "",
+      "segmentos": [],
+      "texto_na_tela": [
+        {
+          "t": 0.0,
+          "texto": "ooooo, e que nã'",
+          "conf": 0.42
+        },
+        {
+          "t": 2.9,
+          "texto": "ooooo; e que não",
+          "conf": 0.68
+        },
+        {
+          "t": 2.9,
+          "texto": "agrida minha peeee",
+          "conf": 0.96
+        }
+      ]
+    },
+    {
+      "handle": "dailus",
+      "shortcode": "DaiLd7QCxfJ",
+      "video_file": "data/social/instagram/media/dailus/DaiLd7QCxfJ.mp4",
+      "duracao_seg": 21.8,
+      "duracao_mmss": "00:21",
+      "idioma": "pt",
+      "idioma_prob": 1,
+      "n_segmentos_fala": 0,
+      "n_textos_na_tela": 12,
+      "transcricao": "",
+      "segmentos": [],
+      "texto_na_tela": [
+        {
+          "t": 8.8,
+          "texto": "Dailus",
+          "conf": 1.0
+        },
+        {
+          "t": 8.8,
+          "texto": "BatoM",
+          "conf": 0.43
+        },
+        {
+          "t": 8.8,
+          "texto": "MATTE",
+          "conf": 0.42
+        },
+        {
+          "t": 8.8,
+          "texto": "12h",
+          "conf": 0.4
+        },
+        {
+          "t": 8.8,
+          "texto": "Lauipo",
+          "conf": 0.46
+        },
+        {
+          "t": 8.8,
+          "texto": "Líquipo",
+          "conf": 0.71
+        },
+        {
+          "t": 8.8,
+          "texto": "Llouipo",
+          "conf": 0.43
+        },
+        {
+          "t": 8.8,
+          "texto": "Líquido",
+          "conf": 0.77
+        },
+        {
+          "t": 11.8,
+          "texto": "4 ml",
+          "conf": 0.87
+        },
+        {
+          "t": 17.6,
+          "texto": "BaTOM Llquido",
+          "conf": 0.41
+        },
+        {
+          "t": 17.6,
+          "texto": "BATOM Lquido",
+          "conf": 0.63
+        },
+        {
+          "t": 17.6,
+          "texto": "BATOM Liquido",
+          "conf": 0.42
+        }
+      ]
+    },
+    {
+      "handle": "dailus",
+      "shortcode": "Dan6x_yRk62",
+      "video_file": "data/social/instagram/media/dailus/Dan6x_yRk62.mp4",
+      "duracao_seg": 121.3,
+      "duracao_mmss": "02:01",
+      "idioma": "pt",
+      "idioma_prob": 1,
+      "n_segmentos_fala": 40,
+      "n_textos_na_tela": 7,
+      "transcricao": "Mas onde será que ele se meteu? Será que ainda está por perto? Atrás da horta, como sempre. Ele é zero criativo. Bora acabar com esse coitado! A festa acabou! Vocês não entendem. Eu sou 90% água e zero carisma. E por isso você rouba o cheiro da cidade? Eu quase desmaiei com o meu próprio suvaco na esteira, Amado. Terapia! Não tem o cheiro de nada. Sou o esquecido da gaveta de legumes. A nota aí que a gente não vai repetir. O segredo da mulher cheirosa não é feitsaria. É construção de camadas. Primeiro você pega o sabonete, esfolia e remove a casquinha velha para tirar essa energia pesada. Depois vem o gelato hidratante, que derrete na pele. Puro spa em casa. E sela com o bóri splash em calda. Um cheirinho delicioso que gruda e não solta nem com resa. O perigo agora é ele achar que é o último chuchu da feira. Meu Deus. Eu tô cheirando a herdeira. Eu virei um chuchu premium. Mas... Meninas, vocês acham que um legume sem graça pensou nisso sozinho? Eu fui só o laranja. O verdadeiro chefão quer impestiar a vila inteira com cheiro de geladeira desligada. Pior que não ter cheiro é ter um cheiro ruim. Um potinho de creme comprou o chuchu. Quero ver essas frutinhas sobreviverem ao meu cheiro de repolho.",
+      "segmentos": [
+        {
+          "inicio": 3.2,
+          "fim": 5.2,
+          "texto": "Mas onde será que ele se meteu?"
+        },
+        {
+          "inicio": 5.2,
+          "fim": 7.2,
+          "texto": "Será que ainda está por perto?"
+        },
+        {
+          "inicio": 7.2,
+          "fim": 9.2,
+          "texto": "Atrás da horta, como sempre."
+        },
+        {
+          "inicio": 9.2,
+          "fim": 11.2,
+          "texto": "Ele é zero criativo."
+        },
+        {
+          "inicio": 11.2,
+          "fim": 14.9,
+          "texto": "Bora acabar com esse coitado!"
+        },
+        {
+          "inicio": 17.8,
+          "fim": 19.8,
+          "texto": "A festa acabou!"
+        },
+        {
+          "inicio": 20.8,
+          "fim": 22.8,
+          "texto": "Vocês não entendem."
+        },
+        {
+          "inicio": 22.8,
+          "fim": 26.8,
+          "texto": "Eu sou 90% água e zero carisma."
+        },
+        {
+          "inicio": 26.8,
+          "fim": 28.8,
+          "texto": "E por isso você rouba o cheiro da cidade?"
+        },
+        {
+          "inicio": 28.8,
+          "fim": 32.8,
+          "texto": "Eu quase desmaiei com o meu próprio suvaco na esteira, Amado."
+        },
+        {
+          "inicio": 32.8,
+          "fim": 33.8,
+          "texto": "Terapia!"
+        },
+        {
+          "inicio": 33.8,
+          "fim": 35.8,
+          "texto": "Não tem o cheiro de nada."
+        },
+        {
+          "inicio": 35.8,
+          "fim": 38.8,
+          "texto": "Sou o esquecido da gaveta de legumes."
+        },
+        {
+          "inicio": 39.8,
+          "fim": 41.8,
+          "texto": "A nota aí que a gente não vai repetir."
+        },
+        {
+          "inicio": 41.8,
+          "fim": 44.8,
+          "texto": "O segredo da mulher cheirosa não é feitsaria."
+        },
+        {
+          "inicio": 44.8,
+          "fim": 46.8,
+          "texto": "É construção de camadas."
+        },
+        {
+          "inicio": 46.8,
+          "fim": 48.8,
+          "texto": "Primeiro você pega o sabonete,"
+        },
+        {
+          "inicio": 48.8,
+          "fim": 51.8,
+          "texto": "esfolia e remove a casquinha velha"
+        },
+        {
+          "inicio": 51.8,
+          "fim": 54.8,
+          "texto": "para tirar essa energia pesada."
+        },
+        {
+          "inicio": 54.8,
+          "fim": 56.8,
+          "texto": "Depois vem o gelato hidratante,"
+        },
+        {
+          "inicio": 56.8,
+          "fim": 58.8,
+          "texto": "que derrete na pele."
+        },
+        {
+          "inicio": 58.8,
+          "fim": 60.8,
+          "texto": "Puro spa em casa."
+        },
+        {
+          "inicio": 61.8,
+          "fim": 64.8,
+          "texto": "E sela com o bóri splash em calda."
+        },
+        {
+          "inicio": 64.8,
+          "fim": 66.8,
+          "texto": "Um cheirinho delicioso que gruda"
+        },
+        {
+          "inicio": 66.8,
+          "fim": 69.8,
+          "texto": "e não solta nem com resa."
+        },
+        {
+          "inicio": 71.8,
+          "fim": 77.1,
+          "texto": "O perigo agora é ele achar que é o último chuchu da feira."
+        },
+        {
+          "inicio": 77.1,
+          "fim": 79.1,
+          "texto": "Meu Deus."
+        },
+        {
+          "inicio": 79.1,
+          "fim": 82.1,
+          "texto": "Eu tô cheirando a herdeira."
+        },
+        {
+          "inicio": 82.1,
+          "fim": 86.7,
+          "texto": "Eu virei um chuchu premium."
+        },
+        {
+          "inicio": 86.7,
+          "fim": 88.7,
+          "texto": "Mas..."
+        },
+        {
+          "inicio": 88.7,
+          "fim": 91.7,
+          "texto": "Meninas, vocês acham que um legume sem graça"
+        },
+        {
+          "inicio": 91.7,
+          "fim": 93.7,
+          "texto": "pensou nisso sozinho?"
+        },
+        {
+          "inicio": 93.7,
+          "fim": 95.7,
+          "texto": "Eu fui só o laranja."
+        },
+        {
+          "inicio": 95.7,
+          "fim": 98.7,
+          "texto": "O verdadeiro chefão quer impestiar a vila inteira"
+        },
+        {
+          "inicio": 98.7,
+          "fim": 101.7,
+          "texto": "com cheiro de geladeira desligada."
+        },
+        {
+          "inicio": 101.7,
+          "fim": 104.7,
+          "texto": "Pior que não ter cheiro"
+        },
+        {
+          "inicio": 104.7,
+          "fim": 107.7,
+          "texto": "é ter um cheiro ruim."
+        },
+        {
+          "inicio": 108.7,
+          "fim": 116.1,
+          "texto": "Um potinho de creme comprou o chuchu."
+        },
+        {
+          "inicio": 116.1,
+          "fim": 118.1,
+          "texto": "Quero ver essas frutinhas sobreviverem"
+        },
+        {
+          "inicio": 118.1,
+          "fim": 121.1,
+          "texto": "ao meu cheiro de repolho."
+        }
+      ],
+      "texto_na_tela": [
+        {
+          "t": 0.0,
+          "texto": "SWEET",
+          "conf": 0.79
+        },
+        {
+          "t": 0.0,
+          "texto": "SKIN",
+          "conf": 0.49
+        },
+        {
+          "t": 0.0,
+          "texto": "icecream",
+          "conf": 1.0
+        },
+        {
+          "t": 55.9,
+          "texto": "SWEETSKIN",
+          "conf": 0.55
+        },
+        {
+          "t": 55.9,
+          "texto": "co oranm",
+          "conf": 0.44
+        },
+        {
+          "t": 58.8,
+          "texto": "ce croom",
+          "conf": 0.56
+        },
+        {
+          "t": 58.8,
+          "texto": "OCLATO MIDRATAHTI",
+          "conf": 0.65
+        }
+      ]
+    },
+    {
+      "handle": "dailus",
+      "shortcode": "DavHFwERmVx",
+      "video_file": "data/social/instagram/media/dailus/DavHFwERmVx.mp4",
+      "duracao_seg": 144.1,
+      "duracao_mmss": "02:24",
+      "idioma": "pt",
+      "idioma_prob": 1,
+      "n_segmentos_fala": 30,
+      "n_textos_na_tela": 63,
+      "transcricao": "Oi pessoal, eu sou a Amanda, estou aqui na corrida com a Dailos. Eu vou correr 3 quilômetros, ainda não sei mais do tempo, porque eu sou uma corredora iniciante, gente. Vamos ter paciência, então acho que eu vou dar uma revezadinha entre caminhada e correr, mas acho que uns 40 minutos está bom. Oi gente, Jessica aqui, estou na corrida, a gente é a primeira corrida, tá? Então, assim, comecei com 3 quilômetros para correr, caminhar junto. Acredito que é o quê? 30, 40 minutos? Vamos, né, amiga? Então, bora! Oi, meu nome é Natália, eu vou correr 10 quilômetros. Eu quero bater meu arrepenta, eu quero fazer a baixa de 49, e eu espero que a minha pele dure. Mas ela vai durar, eu tenho certeza. Oi, sou a Janna, vou correr 10 quilômetros, e a minha última hora de 10 quilômetros eu fiz em 58, vamos tentar pelo menos 57, e eu tenho certeza absoluta que eu amei, que vai durar muito, porque eu amei. Oi, eu sou Tremi, vou correr 10 quilômetros, minha pele está aqui, intacta, meu amor, e eu tenho certeza que ela vai durar, porque eu fiz toda a preparação, não sou louca, lógico. Então, bora, compartilhem comigo, let's go! Gente, consegui finalizar a corrida, e eu até fiz um tempo melhor do que eu tinha falado antes, fiz 27 minutos, então estou super feliz com o resultado, porque foi a minha primeira corrida, mas o que eu mais fiquei feliz, gente, é com a pele, olha isso aqui, pele blindada. Gente, eu finalizei para a primeira, eu falei 30, 40 minutos, foi 27, entre caminhada e corrida, eu achei ótimo, tá? A pele está intacta, e é isso que importa, meu bem. Olha isso, está perfeito, perfeita, Dailuz. Oiê, eu fiz em 45 minutos, eu bati minha RP, gente, e a Maggie está intacta. Olha isso, intacta. Consegui finalizar os 10 quilômetros, e não só Dailuz, como eu, nós vamos muito hoje, porque consegui entregar os 10 quilômetros, não foi esse menor do que eu imaginei, fiz em 50 minutos, e a Dailuz conseguiu entregar uma maquiagem maravilhosa, e durou muito, muito, muito. Meus amores, fiz 10 km em 51 minutos, e eu não preciso nem dizer, né? Só vocês olharem, ó. Amor, se aguenta uma hora de show, bater no cabelo, fazer no pirueto, não vai aguentar 50 minutinhos correndo, uma maratoninha, ó, Dailuz entrega, meu amor.",
+      "segmentos": [
+        {
+          "inicio": 0.0,
+          "fim": 4.0,
+          "texto": "Oi pessoal, eu sou a Amanda, estou aqui na corrida com a Dailos."
+        },
+        {
+          "inicio": 4.0,
+          "fim": 10.0,
+          "texto": "Eu vou correr 3 quilômetros, ainda não sei mais do tempo, porque eu sou uma corredora iniciante, gente."
+        },
+        {
+          "inicio": 10.0,
+          "fim": 16.0,
+          "texto": "Vamos ter paciência, então acho que eu vou dar uma revezadinha entre caminhada e correr, mas acho que uns 40 minutos está bom."
+        },
+        {
+          "inicio": 16.0,
+          "fim": 20.0,
+          "texto": "Oi gente, Jessica aqui, estou na corrida, a gente é a primeira corrida, tá?"
+        },
+        {
+          "inicio": 20.0,
+          "fim": 25.0,
+          "texto": "Então, assim, comecei com 3 quilômetros para correr, caminhar junto. Acredito que é o quê?"
+        },
+        {
+          "inicio": 25.0,
+          "fim": 29.0,
+          "texto": "30, 40 minutos? Vamos, né, amiga? Então, bora!"
+        },
+        {
+          "inicio": 30.0,
+          "fim": 34.0,
+          "texto": "Oi, meu nome é Natália, eu vou correr 10 quilômetros."
+        },
+        {
+          "inicio": 34.0,
+          "fim": 43.7,
+          "texto": "Eu quero bater meu arrepenta, eu quero fazer a baixa de 49, e eu espero que a minha pele dure."
+        },
+        {
+          "inicio": 43.7,
+          "fim": 45.7,
+          "texto": "Mas ela vai durar, eu tenho certeza."
+        },
+        {
+          "inicio": 45.7,
+          "fim": 51.7,
+          "texto": "Oi, sou a Janna, vou correr 10 quilômetros, e a minha última hora de 10 quilômetros eu fiz em 58,"
+        },
+        {
+          "inicio": 51.7,
+          "fim": 57.7,
+          "texto": "vamos tentar pelo menos 57, e eu tenho certeza absoluta que eu amei, que vai durar muito, porque eu amei."
+        },
+        {
+          "inicio": 57.7,
+          "fim": 63.7,
+          "texto": "Oi, eu sou Tremi, vou correr 10 quilômetros, minha pele está aqui, intacta, meu amor,"
+        },
+        {
+          "inicio": 63.7,
+          "fim": 67.7,
+          "texto": "e eu tenho certeza que ela vai durar, porque eu fiz toda a preparação, não sou louca, lógico."
+        },
+        {
+          "inicio": 67.7,
+          "fim": 70.7,
+          "texto": "Então, bora, compartilhem comigo, let's go!"
+        },
+        {
+          "inicio": 70.7,
+          "fim": 77.2,
+          "texto": "Gente, consegui finalizar a corrida, e eu até fiz um tempo melhor do que eu tinha falado antes,"
+        },
+        {
+          "inicio": 77.2,
+          "fim": 81.2,
+          "texto": "fiz 27 minutos, então estou super feliz com o resultado, porque foi a minha primeira corrida,"
+        },
+        {
+          "inicio": 81.2,
+          "fim": 86.2,
+          "texto": "mas o que eu mais fiquei feliz, gente, é com a pele, olha isso aqui, pele blindada."
+        },
+        {
+          "inicio": 86.2,
+          "fim": 90.2,
+          "texto": "Gente, eu finalizei para a primeira, eu falei 30, 40 minutos, foi 27, entre caminhada e corrida,"
+        },
+        {
+          "inicio": 90.2,
+          "fim": 93.2,
+          "texto": "eu achei ótimo, tá? A pele está intacta, e é isso que importa, meu bem."
+        },
+        {
+          "inicio": 93.2,
+          "fim": 97.2,
+          "texto": "Olha isso, está perfeito, perfeita, Dailuz."
+        },
+        {
+          "inicio": 98.2,
+          "fim": 105.2,
+          "texto": "Oiê, eu fiz em 45 minutos, eu bati minha RP, gente, e a Maggie está intacta."
+        },
+        {
+          "inicio": 105.2,
+          "fim": 107.2,
+          "texto": "Olha isso, intacta."
+        },
+        {
+          "inicio": 107.2,
+          "fim": 111.2,
+          "texto": "Consegui finalizar os 10 quilômetros, e não só Dailuz, como eu,"
+        },
+        {
+          "inicio": 111.2,
+          "fim": 114.2,
+          "texto": "nós vamos muito hoje, porque consegui entregar os 10 quilômetros,"
+        },
+        {
+          "inicio": 114.2,
+          "fim": 120.2,
+          "texto": "não foi esse menor do que eu imaginei, fiz em 50 minutos, e a Dailuz conseguiu entregar uma maquiagem"
+        },
+        {
+          "inicio": 120.2,
+          "fim": 123.2,
+          "texto": "maravilhosa, e durou muito, muito, muito."
+        },
+        {
+          "inicio": 123.2,
+          "fim": 130.2,
+          "texto": "Meus amores, fiz 10 km em 51 minutos, e eu não preciso nem dizer, né?"
+        },
+        {
+          "inicio": 130.2,
+          "fim": 135.2,
+          "texto": "Só vocês olharem, ó. Amor, se aguenta uma hora de show,"
+        },
+        {
+          "inicio": 135.2,
+          "fim": 140.2,
+          "texto": "bater no cabelo, fazer no pirueto, não vai aguentar 50 minutinhos correndo,"
+        },
+        {
+          "inicio": 140.2,
+          "fim": 144.2,
+          "texto": "uma maratoninha, ó, Dailuz entrega, meu amor."
+        }
+      ],
+      "texto_na_tela": [
+        {
+          "t": 0.0,
+          "texto": "OYM",
+          "conf": 0.53
+        },
+        {
+          "t": 0.0,
+          "texto": "3KM",
+          "conf": 0.96
+        },
+        {
+          "t": 0.0,
+          "texto": "GOYAS",
+          "conf": 0.47
+        },
+        {
+          "t": 0.0,
+          "texto": "3187",
+          "conf": 0.92
+        },
+        {
+          "t": 0.0,
+          "texto": "Bore",
+          "conf": 0.65
+        },
+        {
+          "t": 2.9,
+          "texto": "OYA",
+          "conf": 0.85
+        },
+        {
+          "t": 2.9,
+          "texto": "RUN'",
+          "conf": 0.89
+        },
+        {
+          "t": 8.8,
+          "texto": "GOYA",
+          "conf": 0.46
+        },
+        {
+          "t": 14.7,
+          "texto": "3179",
+          "conf": 0.72
+        },
+        {
+          "t": 17.6,
+          "texto": "movimen",
+          "conf": 0.71
+        },
+        {
+          "t": 20.6,
+          "texto": "COVN",
+          "conf": 0.45
+        },
+        {
+          "t": 23.5,
+          "texto": "OYAI",
+          "conf": 0.58
+        },
+        {
+          "t": 26.5,
+          "texto": "OYAS",
+          "conf": 0.58
+        },
+        {
+          "t": 26.5,
+          "texto": "movimenta",
+          "conf": 0.54
+        },
+        {
+          "t": 29.4,
+          "texto": "1164",
+          "conf": 0.89
+        },
+        {
+          "t": 32.4,
+          "texto": "LVE!",
+          "conf": 0.71
+        },
+        {
+          "t": 32.4,
+          "texto": "Moviventi",
+          "conf": 0.46
+        },
+        {
+          "t": 35.3,
+          "texto": "salon",
+          "conf": 0.98
+        },
+        {
+          "t": 35.3,
+          "texto": "Bioré",
+          "conf": 1.0
+        },
+        {
+          "t": 35.3,
+          "texto": "BOY",
+          "conf": 0.64
+        },
+        {
+          "t": 38.2,
+          "texto": "OYN",
+          "conf": 0.89
+        },
+        {
+          "t": 38.2,
+          "texto": "hovimenta",
+          "conf": 0.59
+        },
+        {
+          "t": 41.2,
+          "texto": "Hovime",
+          "conf": 0.47
+        },
+        {
+          "t": 41.2,
+          "texto": "VVE!",
+          "conf": 0.5
+        },
+        {
+          "t": 44.1,
+          "texto": "Movimenti",
+          "conf": 0.75
+        },
+        {
+          "t": 44.1,
+          "texto": "1163",
+          "conf": 0.78
+        },
+        {
+          "t": 47.1,
+          "texto": "MOVIMENY",
+          "conf": 0.92
+        },
+        {
+          "t": 47.1,
+          "texto": "163",
+          "conf": 0.57
+        },
+        {
+          "t": 47.1,
+          "texto": "Biore",
+          "conf": 0.74
+        },
+        {
+          "t": 50.0,
+          "texto": "JoKM",
+          "conf": 0.43
+        },
+        {
+          "t": 50.0,
+          "texto": "1763",
+          "conf": 0.53
+        },
+        {
+          "t": 52.9,
+          "texto": "IOKM",
+          "conf": 0.52
+        },
+        {
+          "t": 55.9,
+          "texto": "763",
+          "conf": 0.76
+        },
+        {
+          "t": 61.8,
+          "texto": "5400",
+          "conf": 0.42
+        },
+        {
+          "t": 73.5,
+          "texto": "GOA",
+          "conf": 0.6
+        },
+        {
+          "t": 73.5,
+          "texto": "UYA",
+          "conf": 0.88
+        },
+        {
+          "t": 73.5,
+          "texto": "ovIM",
+          "conf": 0.57
+        },
+        {
+          "t": 79.4,
+          "texto": "JJA",
+          "conf": 0.88
+        },
+        {
+          "t": 79.4,
+          "texto": "Bcre",
+          "conf": 0.89
+        },
+        {
+          "t": 82.4,
+          "texto": "Guar",
+          "conf": 0.47
+        },
+        {
+          "t": 85.3,
+          "texto": "MAS",
+          "conf": 0.43
+        },
+        {
+          "t": 85.3,
+          "texto": "oviment",
+          "conf": 0.62
+        },
+        {
+          "t": 94.1,
+          "texto": "NTA",
+          "conf": 0.48
+        },
+        {
+          "t": 94.1,
+          "texto": "'Vimevfa",
+          "conf": 0.6
+        },
+        {
+          "t": 97.1,
+          "texto": "COYA",
+          "conf": 0.97
+        },
+        {
+          "t": 97.1,
+          "texto": "JEN",
+          "conf": 0.6
+        },
+        {
+          "t": 100.0,
+          "texto": "LIVE!",
+          "conf": 0.99
+        },
+        {
+          "t": 100.0,
+          "texto": "tOKM",
+          "conf": 0.41
+        },
+        {
+          "t": 100.0,
+          "texto": "Mol",
+          "conf": 0.72
+        },
+        {
+          "t": 102.9,
+          "texto": "JYA",
+          "conf": 0.9
+        },
+        {
+          "t": 102.9,
+          "texto": "Esenta",
+          "conf": 0.5
+        },
+        {
+          "t": 102.9,
+          "texto": "@Vimenfa",
+          "conf": 0.44
+        },
+        {
+          "t": 105.9,
+          "texto": "Dailus",
+          "conf": 0.99
+        },
+        {
+          "t": 108.8,
+          "texto": "Dail",
+          "conf": 0.84
+        },
+        {
+          "t": 108.8,
+          "texto": "Blore",
+          "conf": 0.52
+        },
+        {
+          "t": 114.7,
+          "texto": "GOYN",
+          "conf": 0.62
+        },
+        {
+          "t": 129.4,
+          "texto": "10k",
+          "conf": 0.7
+        },
+        {
+          "t": 129.4,
+          "texto": "790",
+          "conf": 0.52
+        },
+        {
+          "t": 132.4,
+          "texto": "1oKI -",
+          "conf": 0.47
+        },
+        {
+          "t": 138.2,
+          "texto": "285",
+          "conf": 0.97
+        },
+        {
+          "t": 138.2,
+          "texto": "101",
+          "conf": 0.69
+        },
+        {
+          "t": 138.2,
+          "texto": "320",
+          "conf": 0.52
+        },
+        {
+          "t": 141.2,
+          "texto": "086",
+          "conf": 0.99
+        }
+      ]
+    },
+    {
+      "handle": "dailus",
+      "shortcode": "DayTKdZBayq",
+      "video_file": "data/social/instagram/media/dailus/DayTKdZBayq.mp4",
+      "duracao_seg": 26.2,
+      "duracao_mmss": "00:26",
+      "idioma": "pt",
+      "idioma_prob": 1,
+      "n_segmentos_fala": 2,
+      "n_textos_na_tela": 6,
+      "transcricao": "Bebe ou passar, tudo empieza a latir Me invita a centrar e a unciar da minha energia",
+      "segmentos": [
+        {
+          "inicio": 17.3,
+          "fim": 21.3,
+          "texto": "Bebe ou passar, tudo empieza a latir"
+        },
+        {
+          "inicio": 21.3,
+          "fim": 25.3,
+          "texto": "Me invita a centrar e a unciar da minha energia"
+        }
+      ],
+      "texto_na_tela": [
+        {
+          "t": 0.0,
+          "texto": "SHOOTINGBACKSTAGE",
+          "conf": 0.67
+        },
+        {
+          "t": 2.9,
+          "texto": "GHOOIINGBACKSTAGE",
+          "conf": 0.5
+        },
+        {
+          "t": 2.9,
+          "texto": "gdacdrancelhas fix tudo",
+          "conf": 0.53
+        },
+        {
+          "t": 23.5,
+          "texto": "250",
+          "conf": 0.45
+        },
+        {
+          "t": 23.5,
+          "texto": "Flash",
+          "conf": 1.0
+        },
+        {
+          "t": 23.5,
+          "texto": "Nonc",
+          "conf": 0.9
+        }
+      ]
+    }
+  ]
+}

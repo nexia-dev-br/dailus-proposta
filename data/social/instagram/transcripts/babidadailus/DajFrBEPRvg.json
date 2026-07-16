@@ -1,0 +1,35 @@
+{
+  "handle": "babidadailus",
+  "shortcode": "DajFrBEPRvg",
+  "video_file": "data/social/instagram/media/babidadailus/DajFrBEPRvg.mp4",
+  "duracao_seg": 8.8,
+  "duracao_mmss": "00:08",
+  "idioma": "pt",
+  "idioma_prob": 1,
+  "n_segmentos_fala": 0,
+  "n_textos_na_tela": 4,
+  "transcricao": "",
+  "segmentos": [],
+  "texto_na_tela": [
+    {
+      "t": 0.0,
+      "texto": "pov; osom da vida",
+      "conf": 0.93
+    },
+    {
+      "t": 0.0,
+      "texto": "quando estou com as unhas",
+      "conf": 0.82
+    },
+    {
+      "t": 0.0,
+      "texto": "renovadas",
+      "conf": 1.0
+    },
+    {
+      "t": 2.9,
+      "texto": "pov; 0 som da vida",
+      "conf": 0.62
+    }
+  ]
+}

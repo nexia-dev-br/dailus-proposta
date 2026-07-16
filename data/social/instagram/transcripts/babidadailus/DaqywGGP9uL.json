@@ -1,0 +1,251 @@
+{
+  "handle": "babidadailus",
+  "shortcode": "DaqywGGP9uL",
+  "video_file": "data/social/instagram/media/babidadailus/DaqywGGP9uL.mp4",
+  "duracao_seg": 64.8,
+  "duracao_mmss": "01:04",
+  "idioma": "pt",
+  "idioma_prob": 1,
+  "n_segmentos_fala": 12,
+  "n_textos_na_tela": 35,
+  "transcricao": "Oi, a gente está aqui, na Ikezaki da Liberdade, para mostrar um pouquinho de como a loja está linda. A Daelus simplesmente personalizou a loja inteira com a identidade visual da nossa nova coleção de sweet skin. E aqui, o que vocês não está vendo de ação? Além de, obviamente, uma loja maravilhosa e com vários produtos da Daelus, a gente já teve uma primeira ação que foi um moletom personalizado para quem comprasse alguns produtos. Vamos ter também a roleta que eu vou mostrar um pouquinho aqui. Vocês vão comprar produtos da Daelus, tanto sweet skin quanto a linha de body care da sweet skin também, e maquiagem da Daelus e aí você tem a oportunidade de estar girando a nossa roleta. E no próximo final de semana do dia 18 vai ter moletão de novo. Então venham para cá, não percam, porque eles estão maravilhosos. E ao longo desses meses, então agora de julho e de agosto, vão ter algumas ativações muito legais. Quem estiver passando por aqui, não deixe de confiar porque tem muita coisa boa que vocês vão estar vendo por aqui.",
+  "segmentos": [
+    {
+      "inicio": 0.0,
+      "fim": 5.9,
+      "texto": "Oi, a gente está aqui, na Ikezaki da Liberdade, para mostrar um pouquinho de como a loja está linda."
+    },
+    {
+      "inicio": 5.9,
+      "fim": 13.0,
+      "texto": "A Daelus simplesmente personalizou a loja inteira com a identidade visual da nossa nova coleção de sweet skin."
+    },
+    {
+      "inicio": 13.0,
+      "fim": 15.5,
+      "texto": "E aqui, o que vocês não está vendo de ação?"
+    },
+    {
+      "inicio": 15.5,
+      "fim": 20.9,
+      "texto": "Além de, obviamente, uma loja maravilhosa e com vários produtos da Daelus,"
+    },
+    {
+      "inicio": 20.9,
+      "fim": 27.2,
+      "texto": "a gente já teve uma primeira ação que foi um moletom personalizado para quem comprasse alguns produtos."
+    },
+    {
+      "inicio": 27.2,
+      "fim": 30.7,
+      "texto": "Vamos ter também a roleta que eu vou mostrar um pouquinho aqui."
+    },
+    {
+      "inicio": 30.7,
+      "fim": 37.5,
+      "texto": "Vocês vão comprar produtos da Daelus, tanto sweet skin quanto a linha de body care da sweet skin também,"
+    },
+    {
+      "inicio": 37.5,
+      "fim": 41.7,
+      "texto": "e maquiagem da Daelus e aí você tem a oportunidade de estar girando a nossa roleta."
+    },
+    {
+      "inicio": 41.7,
+      "fim": 46.0,
+      "texto": "E no próximo final de semana do dia 18 vai ter moletão de novo."
+    },
+    {
+      "inicio": 46.0,
+      "fim": 50.5,
+      "texto": "Então venham para cá, não percam, porque eles estão maravilhosos."
+    },
+    {
+      "inicio": 50.6,
+      "fim": 58.3,
+      "texto": "E ao longo desses meses, então agora de julho e de agosto, vão ter algumas ativações muito legais."
+    },
+    {
+      "inicio": 58.3,
+      "fim": 63.8,
+      "texto": "Quem estiver passando por aqui, não deixe de confiar porque tem muita coisa boa que vocês vão estar vendo por aqui."
+    }
+  ],
+  "texto_na_tela": [
+    {
+      "t": 0.0,
+      "texto": "erdadel",
+      "conf": 0.65
+    },
+    {
+      "t": 0.0,
+      "texto": "maius",
+      "conf": 0.42
+    },
+    {
+      "t": 2.9,
+      "texto": "Gos",
+      "conf": 0.69
+    },
+    {
+      "t": 2.9,
+      "texto": "IKESAKI",
+      "conf": 0.98
+    },
+    {
+      "t": 2.9,
+      "texto": "delcomoalojatálinda",
+      "conf": 0.56
+    },
+    {
+      "t": 5.9,
+      "texto": "parsonalzoualojainteira",
+      "conf": 0.78
+    },
+    {
+      "t": 8.8,
+      "texto": "comaidentidadevisual",
+      "conf": 1.0
+    },
+    {
+      "t": 11.8,
+      "texto": "ice cream",
+      "conf": 0.7
+    },
+    {
+      "t": 14.7,
+      "texto": "além deobviamente umaloja",
+      "conf": 0.61
+    },
+    {
+      "t": 17.6,
+      "texto": "Datlus",
+      "conf": 0.54
+    },
+    {
+      "t": 20.6,
+      "texto": "agentejá teveuma primeira ação",
+      "conf": 0.72
+    },
+    {
+      "t": 26.5,
+      "texto": "Vamos tertammoémaroleta",
+      "conf": 0.63
+    },
+    {
+      "t": 32.4,
+      "texto": "oupuns",
+      "conf": 0.52
+    },
+    {
+      "t": 32.4,
+      "texto": "sweet skin quantoa",
+      "conf": 0.84
+    },
+    {
+      "t": 32.4,
+      "texto": "cor",
+      "conf": 0.58
+    },
+    {
+      "t": 32.4,
+      "texto": "SWEET",
+      "conf": 0.72
+    },
+    {
+      "t": 35.3,
+      "texto": "Dailus",
+      "conf": 0.97
+    },
+    {
+      "t": 35.3,
+      "texto": "da sweet skin também",
+      "conf": 0.92
+    },
+    {
+      "t": 38.2,
+      "texto": "detá",
+      "conf": 0.97
+    },
+    {
+      "t": 38.2,
+      "texto": "TENTE [",
+      "conf": 0.67
+    },
+    {
+      "t": 41.2,
+      "texto": "3 GI",
+      "conf": 0.52
+    },
+    {
+      "t": 41.2,
+      "texto": "Eno próximofinalde semana",
+      "conf": 0.82
+    },
+    {
+      "t": 47.1,
+      "texto": "NOVOS SABORES DE",
+      "conf": 0.79
+    },
+    {
+      "t": 47.1,
+      "texto": "SORVE",
+      "conf": 0.99
+    },
+    {
+      "t": 47.1,
+      "texto": "PRO",
+      "conf": 0.73
+    },
+    {
+      "t": 47.1,
+      "texto": "'BANHO",
+      "conf": 0.41
+    },
+    {
+      "t": 47.1,
+      "texto": "SEU",
+      "conf": 0.81
+    },
+    {
+      "t": 47.1,
+      "texto": "PREMIUMI",
+      "conf": 0.73
+    },
+    {
+      "t": 50.0,
+      "texto": "Eaolongodesses meses",
+      "conf": 0.97
+    },
+    {
+      "t": 52.9,
+      "texto": "entãoagoradejuhoedeagosto",
+      "conf": 0.99
+    },
+    {
+      "t": 52.9,
+      "texto": "Dailu",
+      "conf": 0.51
+    },
+    {
+      "t": 52.9,
+      "texto": "Gream",
+      "conf": 0.82
+    },
+    {
+      "t": 58.8,
+      "texto": "nãodeixede conferir",
+      "conf": 0.77
+    },
+    {
+      "t": 61.8,
+      "texto": "e crear",
+      "conf": 0.5
+    },
+    {
+      "t": 61.8,
+      "texto": "quevocêsvãotá vendo por aqui.",
+      "conf": 0.66
+    }
+  ]
+}

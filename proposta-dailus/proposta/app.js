@@ -281,6 +281,15 @@
     });
   }, {rootMargin:'120px'}) : null;
 
+  /* fallback: vídeo ausente -> poster; poster ausente -> placeholder genérico */
+  var PLACEHOLDER = 'assets/reel-placeholder.svg';
+  function imgWithFallback(t, eager){
+    var im = document.createElement('img'); im.src = url(t); im.alt = '';
+    if(eager != null){ im.loading = (eager ? 'eager' : 'lazy'); }
+    im.addEventListener('error', function(){ if(im.src.indexOf(PLACEHOLDER)===-1){ im.src = PLACEHOLDER; } });
+    return im;
+  }
+
   /* devolve <video> (autoplay/mudo/loop) quando houver mp4, senão <img> */
   function makeMedia(t, eager){
     if(!reduce && hasVid(t)){
@@ -289,12 +298,12 @@
       v.muted = true; v.loop = true; v.autoplay = true; v.playsInline = true;
       v.setAttribute('muted',''); v.setAttribute('playsinline',''); v.setAttribute('aria-hidden','true');
       v.preload = eager ? 'auto' : 'metadata';
+      v.addEventListener('error', function(){ var im = imgWithFallback(t, eager); if(v.parentNode){ v.parentNode.replaceChild(im, v); } });
       if(vObs){ vObs.observe(v); }
       else { var p = v.play(); if(p && p.catch){ p.catch(function(){}); } }
       return v;
     }
-    var im = document.createElement('img'); im.src = url(t); im.alt = ''; im.loading = (eager ? 'eager' : 'lazy');
-    return im;
+    return imgWithFallback(t, eager);
   }
 
   function initDeck(){
@@ -550,7 +559,7 @@
         '<div class="rm-tag">A Dai assistiu este conteúdo e já reage no site</div>'+
         '<h3 class="rm-title">'+esc(titulo)+'</h3>'+
         '<div class="rm-body">'+
-          '<div class="rm-video"><video src="'+esc(vurl(slug))+'" poster="'+esc(url(slug))+'" controls playsinline preload="metadata"></video></div>'+
+          '<div class="rm-video"><video src="'+esc(vurl(slug))+'" poster="'+esc(url(slug))+'" controls playsinline preload="metadata" onerror="var i=document.createElement(\'img\');i.src=this.poster||\'assets/reel-placeholder.svg\';i.alt=\'\';i.onerror=function(){i.src=\'assets/reel-placeholder.svg\';};this.replaceWith(i);"></video></div>'+
           '<div class="rm-cols">'+
             '<div class="rm-block"><h4>✨ Resumo</h4>'+resumoHtml+'</div>'+
             recHtml+
