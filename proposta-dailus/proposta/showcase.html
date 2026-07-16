@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<script>
+(function(){var H="2107038ba11e2fb8f85157153c99cdd9540b241a96ab96a871e84d09174ab787",K="dailus_gate_ok";try{if(sessionStorage.getItem(K)==="1")return;}catch(e){}
+var de=document.documentElement;de.style.visibility="hidden";
+function sha(s){return crypto.subtle.digest("SHA-256",new TextEncoder().encode(s)).then(function(b){return Array.from(new Uint8Array(b)).map(function(x){return x.toString(16).padStart(2,"0");}).join("");});}
+function build(){de.style.visibility="";var o=document.createElement("div");o.id="__gate";o.style.cssText="position:fixed;inset:0;z-index:2147483647;background:#0b0b0f;display:flex;align-items:center;justify-content:center;font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif";o.innerHTML='<div style="width:min(92vw,360px);text-align:center;color:#fff"><div style="font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:#E4004B;margin-bottom:8px">Nexia &times; Dailus</div><div style="font-size:20px;font-weight:600;margin-bottom:18px">Acesso restrito</div><input id="__gpw" type="password" placeholder="Senha" style="width:100%;padding:12px 14px;border-radius:10px;border:1px solid #2a2a33;background:#15151c;color:#fff;font-size:15px;outline:none;box-sizing:border-box"><button id="__gbt" style="width:100%;margin-top:10px;padding:12px;border:0;border-radius:10px;background:#E4004B;color:#fff;font-size:15px;font-weight:600;cursor:pointer">Entrar</button><div id="__ger" style="color:#ff6b6b;font-size:13px;height:18px;margin-top:8px"></div></div>';document.body.appendChild(o);var pw=o.querySelector("#__gpw"),bt=o.querySelector("#__gbt"),er=o.querySelector("#__ger");function go(){sha(pw.value).then(function(h){if(h===H){try{sessionStorage.setItem(K,"1");}catch(e){}o.remove();}else{er.textContent="Senha incorreta";pw.value="";pw.focus();}});}bt.addEventListener("click",go);pw.addEventListener("keydown",function(e){if(e.key==="Enter")go();});pw.focus();}
+if(document.body)build();else document.addEventListener("DOMContentLoaded",build);})();
+</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vitrine Dailus · Showcase animado por cores</title>
+<meta name="description" content="Vitrine animada dos produtos Dailus por paleta de cores: showcase futurista feito com as imagens reais do catálogo.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="showcase.css">
+</head>
+<body>
+
+<div class="bg"><span class="blob b1"></span><span class="blob b2"></span><span class="blob b3"></span><span class="grain"></span></div>
+
+<header class="sc-top">
+  <a class="sc-logo" href="index.html"><img src="assets/dailus-logo.png" alt="Dailus"></a>
+  <div class="sc-title">Vitrine <span>· showcase por cores</span></div>
+  <div class="sc-links">
+    <a href="explorer.html">Catálogo</a>
+    <a href="index.html">← Proposta</a>
+  </div>
+</header>
+
+<main class="stage" id="stage"><div class="loading" id="loading">montando a vitrine…</div></main>
+
+<div class="progress" id="progress"><i></i></div>
+
+<div class="hud" id="hud" hidden>
+  <div class="modes" id="modes">
+    <button data-mode="cores" class="on">Por cores</button>
+    <button data-mode="catalogo">Catálogo</button>
+    <button data-mode="paleta">Paletas</button>
+  </div>
+  <div class="controls">
+    <button id="prev" aria-label="Anterior">‹</button>
+    <button id="play" aria-label="Play/Pause">⏸</button>
+    <button id="next" aria-label="Próximo">›</button>
+  </div>
+  <div class="dots" id="dots"></div>
+</div>
+
+<div class="palettes" id="palettes" hidden></div>
+
+<script src="showcase.js"></script>
+</body>
+</html>

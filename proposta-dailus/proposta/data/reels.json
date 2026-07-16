@@ -1,0 +1,165 @@
+{
+  "_nota": "Resumos e recomendacoes curados pela Nexify a partir das transcricoes reais (data/social/instagram/transcripts). A transcricao NAO e duplicada aqui: o modal carrega o arquivo original em runtime. storeBase + handle monta o link do produto.",
+  "storeBase": "https://www.dailus.com.br/products/",
+  "reels": {
+    "babidadailus/DY-A41cvPk_": {
+      "titulo": "Bastidores do estande · Top Glass & Top Chrome",
+      "resumo": "A Babi apresenta o estande da feira com o Top Glass (top coat efeito gel, brilho duradouro) como tema central, mostra os Top Chrome (efeito po cromado sem sujeira), a personalizacao dos vidrinhos de esmalte e o gloss da colecao. Primeiro estande fora do rosa, todo prateado/preto pensado na colecao.",
+      "recomendacao": [
+        {"title": "TOP GLASS – Top Coat Efeito Gel", "handle": "esmalte-top-coat-glass", "price": 15.99, "porque": "Produto-heroi do video: brilho de gel e resistencia que a Babi destaca."},
+        {"title": "Kit Esmaltes Top Chrome – Efeito Po Cromado", "handle": "kit-esmaltes-top-chrome-efeito-po-cromado", "price": 59.96, "porque": "Os 'top crumbs' mostrados: efeito espelhado sem po solto."},
+        {"title": "Óleo Secante 'Falo Nada Só Óleo'", "handle": "falo-nada-so-oleo-oleo-secante", "price": 14.99, "porque": "Fecha o ritual de unha que aparece no conteudo."}
+      ]
+    },
+    "babidadailus/DZqX6Povc4c": {
+      "titulo": "Um dia com a Babi · bastidores e fabrica",
+      "resumo": "Vlog de rotina: academia, chegada na Dailus, ideias de produto para 2027, teste de uma ativacao da Copa e viagem a Curitiba para acompanhar etapas do processo produtivo com o fornecedor, garantindo tudo pronto para o lancamento. Mostra o cuidado e a construcao por tras da marca.",
+      "recomendacao": [
+        {"title": "BRUMA FACIAL FIX TUDO", "handle": "bruma-facial-fix-tudo", "price": 59.99, "porque": "Campea de vendas nascida desse cuidado de produto que a Babi mostra."},
+        {"title": "Blindagem Fix Tudo", "handle": "blindagem-fix-tudo", "price": 69.9, "porque": "Lancamento-icone da marca para conhecer o portfolio."}
+      ]
+    },
+    "babidadailus/DZ0wyWiv0UP": {
+      "titulo": "Lancamento Sweet Skin · a aula das fragrancias",
+      "resumo": "Evento intimista de lancamento da nova linha Sweet Skin na casa de fragrancias Fave. A Babi explica a construcao de cada aroma (cereja, torta de limao, creme de baunilha), com experiencias ligando olfato e paladar e sobremesas que remetem as fragrancias.",
+      "recomendacao": [
+        {"title": "Kit Trio Cookies & Cream (Sabonete + Gelato + Body Splash)", "handle": "kit-trio-cookies-cream-sabonete-esfoliante-crocante-gelato-hidratante-body-splash-em-calda-sweet-skin-ice-cream", "price": 119.9, "porque": "O ritual completo Sweet Skin apresentado no evento."},
+        {"title": "Body Splash em Calda – Creme de Baunilha", "handle": "body-splash-em-calda-creme-de-baunilha-sweet-skin", "price": 59.9, "porque": "Uma das fragrancias-estrela citadas na 'aula'."}
+      ]
+    },
+    "babidadailus/DZ3BEszv1ts": {
+      "titulo": "Qual a fragrancia preferida do time?",
+      "resumo": "O time da Dailus responde qual fragrancia Sweet Skin e a favorita: creme de baunilha (para dormir), torta de limao (citrico refrescante) e sundae de cereja (combina com o look). Conteudo de prova social que ajuda a cliente a escolher o aroma.",
+      "recomendacao": [
+        {"title": "Body Splash em Calda – Creme de Baunilha", "handle": "body-splash-em-calda-creme-de-baunilha-sweet-skin", "price": 59.9, "porque": "A favorita 'para dormir com cheirinho de baunilha'."},
+        {"title": "Body Splash em Calda – Torta de Limao", "handle": "body-splash-em-calda-torta-de-limao-sweet-skin", "price": 59.9, "porque": "A citrica preferida de boa parte do time."},
+        {"title": "Body Splash em Calda – Sundae de Cereja", "handle": "body-splash-em-calda-sundae-de-cereja-sweet-skin", "price": 59.9, "porque": "'Combina com o look' — a escolha da cereja."}
+      ]
+    },
+    "babidadailus/DZ58J__vPZb": {
+      "titulo": "Sweet Skin Ice Cream · o clima da colecao",
+      "resumo": "Clipe visual da linha Sweet Skin Ice Cream, reforcando o conceito 'beauty dessert' de bodycare com aromas de sobremesa.",
+      "recomendacao": [
+        {"title": "Gelato Hidratante – Morango ao Leite", "handle": "gelato-hidratante-morango-ao-leite-sweet-skin-1", "price": 49.9, "porque": "Hidratacao com a assinatura gulosa da colecao."},
+        {"title": "Kit Trio Mousse de Pistache", "handle": "kit-trio-mousse-de-pistache-sabonete-esfoliante-crocante-gelato-hidratante-body-splash-em-calda-sweet-skin-ice-cream", "price": 119.9, "porque": "Ritual completo para experimentar a linha."}
+      ]
+    },
+    "babidadailus/DYxrkSNvJoF": {
+      "titulo": "Evento de K-Beauty em Sao Paulo",
+      "resumo": "A Babi visita o pop-up de K-Beauty da virada cultural coreana, mostra o contato com marcas de skincare fora do mainstream e abre alguns produtos que comprou. Conteudo de tendencia e educacao de skincare.",
+      "recomendacao": [
+        {"title": "Cleansing Balm – Sweet Skin", "handle": "cleasing-balm-sweet-skin", "price": 59.9, "porque": "Limpeza no espirito skincare/K-beauty do video."},
+        {"title": "Óleo Regenerador – Sweet Skin", "handle": "oleo-regenerador-sweet-skin", "price": 59.9, "porque": "Passo de tratamento para completar a rotina."}
+      ]
+    },
+    "babidadailus/DY8ToabvYOm": {
+      "titulo": "Bastidores da montagem do estande",
+      "resumo": "A Babi mostra os bastidores da montagem do estande da Beauty Show: da pre-montagem no galpao ate a finalizacao com produtos nas prateleiras, prometendo dois universos Dailus dentro do stand.",
+      "recomendacao": [
+        {"title": "TOP GLASS – Top Coat Efeito Gel", "handle": "esmalte-top-coat-glass", "price": 15.99, "porque": "Heroi do estande apresentado na feira."},
+        {"title": "Kit Esmaltes Top Chrome – Efeito Po Cromado", "handle": "kit-esmaltes-top-chrome-efeito-po-cromado", "price": 59.96, "porque": "Destaque de unhas do universo do stand."}
+      ]
+    },
+    "babidadailus/DY5jx-APYXP": {
+      "titulo": "Coisas que amo no escritorio da Dailus",
+      "resumo": "Tour pelo escritorio: recepcao com vitrine de lancamentos, paredao de esmaltes, quadro de identidade visual, cantinho do cafe e a sala de P&D com varios produtinhos. Conteudo de cultura e proximidade da marca.",
+      "recomendacao": [
+        {"title": "Kit Esmaltes Top Chrome – Efeito Po Cromado", "handle": "kit-esmaltes-top-chrome-efeito-po-cromado", "price": 59.96, "porque": "O 'paredao de esmaltes' vira desejo de compra."},
+        {"title": "TOP GLASS – Top Coat Efeito Gel", "handle": "esmalte-top-coat-glass", "price": 15.99, "porque": "Best-seller de unhas que aparece na vitrine."}
+      ]
+    },
+    "babidadailus/DY227jTvANl": {
+      "titulo": "POV: voce foi na fabrica da Sweet Skin",
+      "resumo": "Spoiler dos bastidores da fabrica com os tres novos cheiros que serao lancados na linha Sweet Skin. Conteudo de expectativa/lancamento.",
+      "recomendacao": [
+        {"title": "Kit Trio Cookies & Cream", "handle": "kit-trio-cookies-cream-sabonete-esfoliante-crocante-gelato-hidratante-body-splash-em-calda-sweet-skin-ice-cream", "price": 119.9, "porque": "Entra na linha que o spoiler antecipa."},
+        {"title": "Gelato Hidratante – Torta de Limao", "handle": "gelato-hidratante-torta-de-limao-sweet-skin", "price": 49.9, "porque": "Aroma da linha para experimentar ja."}
+      ]
+    },
+    "babidadailus/DY0V1LFvRFC": {
+      "titulo": "Eu quando estou de unhas feitas",
+      "resumo": "Clipe curto e afetivo celebrando a autoestima de estar 'de unhas feitas'. Conteudo leve que conecta unha e sentir-se bem.",
+      "recomendacao": [
+        {"title": "TOP GLASS – Top Coat Efeito Gel", "handle": "esmalte-top-coat-glass", "price": 15.99, "porque": "Brilho de salao para a unha feita durar."},
+        {"title": "Base Unhas de Pedra (Endurecedor) – Fortilon", "handle": "esmalte-fortilon-unhas-de-pedra", "price": 19.99, "porque": "Fortalece a unha para o resultado durar mais."}
+      ]
+    },
+    "babidadailus/DZODjJevm20": {
+      "titulo": "Desafio: expressiva sem dizer uma palavra",
+      "resumo": "Trend/UGC convidando a mostrar o quanto voce e expressiva sem falar — foco em olhar e boca. Conteudo de engajamento que pede uma maquiagem marcante.",
+      "recomendacao": [
+        {"title": "Batom Liquido Matte 12H – Cherry", "handle": "batom-liquido-cherry", "price": 45.9, "porque": "Boca marcante que 'fala' sem palavras."},
+        {"title": "Holo Blush – Holo Rose", "handle": "blush-iluminador-holo-rose", "price": 44.9, "porque": "Da expressao e frescor ao rosto para o desafio."}
+      ]
+    },
+    "babidadailus/DZFuIHRPvWT": {
+      "titulo": "Teaser da marca Dailus",
+      "resumo": "Clipe-assinatura curto da marca Dailus.",
+      "recomendacao": [
+        {"title": "BRUMA FACIAL FIX TUDO", "handle": "bruma-facial-fix-tudo", "price": 59.99, "porque": "Campea de vendas para comecar pelo hit da marca."}
+      ]
+    },
+    "babidadailus/DZDyFxXvU-6": {
+      "titulo": "Lancamento · Óleo e banho premium",
+      "resumo": "Anuncio de lancamento de linha de banho/oleo premium Sweet Skin com condicao promocional. Conteudo focado em oferta e cuidado corporal.",
+      "recomendacao": [
+        {"title": "Óleo Regenerador – Sweet Skin", "handle": "oleo-regenerador-sweet-skin", "price": 59.9, "porque": "O oleo premium destacado no lancamento."},
+        {"title": "Gelato Hidratante – Cookies & Cream", "handle": "gelato-hidratante-cookie-cream-sweet-skin-1", "price": 49.9, "porque": "Sela a hidratacao depois do banho."}
+      ]
+    },
+    "dailus/DavHFwERmVx": {
+      "titulo": "Corrida Dailus · pele blindada",
+      "resumo": "Corredoras encaram provas de 3 a 10 km e, no fim, mostram a pele intacta: a maquiagem resiste ao suor e a hora de corrida. Prova real de fixacao e durabilidade dos produtos Fix Tudo.",
+      "recomendacao": [
+        {"title": "Blindagem Fix Tudo", "handle": "blindagem-fix-tudo", "price": 69.9, "porque": "A 'pele blindada' que aguenta a corrida inteira."},
+        {"title": "Kit Fix Tudo – Blindagem + Bruma", "handle": "kit-fix-tudo-blindagem-bruma", "price": 116.89, "porque": "Prepara e fixa: exatamente o que o teste prova."}
+      ]
+    },
+    "dailus/Dan6x_yRk62": {
+      "titulo": "O segredo da mulher cheirosa (esquete)",
+      "resumo": "Esquete divertida com 'legumes' ensinando a construcao de camadas de perfumacao: esfoliar com o sabonete, hidratar com o gelato que derrete na pele e selar com o body splash em calda para o cheiro grudar e durar.",
+      "recomendacao": [
+        {"title": "Kit Trio Morango ao Leite (Sabonete + Gelato + Body Splash)", "handle": "kit-trio-morango-ao-leite-sabonete-esfoliante-crocante-gelato-hidratante-body-splash-em-calda-sweet-skin-ice-cream", "price": 119.9, "porque": "As tres camadas do video em um kit so."},
+        {"title": "Body Splash em Calda – Mousse de Pistache", "handle": "body-splash-em-calda-mousse-de-pistache-sweet-skin", "price": 59.9, "porque": "O passo que 'gruda e nao solta', para escolher o aroma."}
+      ]
+    },
+    "dailus/DayTKdZBayq": {
+      "titulo": "Backstage do shooting · Gel de sobrancelhas",
+      "resumo": "Bastidores de um ensaio destacando o Gel para Sobrancelhas Fix Tudo dando o acabamento nas sobrancelhas. Conteudo de produto em uso profissional.",
+      "recomendacao": [
+        {"title": "GEL PARA SOBRANCELHAS FIX TUDO", "handle": "gel-sobrancelhas-fix-tudo", "price": 39.9, "porque": "Produto em foco no backstage do shooting."},
+        {"title": "Kit Lapiseira Sobrancelhas Medio + Gel", "handle": "kit-lapiseira-sobrancelhas-medio-gel", "price": 59.8, "porque": "Completa o design de sobrancelha do ensaio."}
+      ]
+    },
+    "dailus/DaiLd7QCxfJ": {
+      "titulo": "Batom Liquido Matte 12h",
+      "resumo": "Clipe de produto do Batom Liquido Matte 12h, destacando acabamento matte e longa duracao.",
+      "recomendacao": [
+        {"title": "Batom Liquido Matte 12H – Cappuccino", "handle": "batom-liquido-cappuccino", "price": 45.9, "porque": "Nude coringa do batom em destaque."},
+        {"title": "Batom Liquido Matte 12H – Cherry", "handle": "batom-liquido-cherry", "price": 45.9, "porque": "Versao marcante para look de impacto."}
+      ]
+    },
+    "dailus/Daa-jdUCXJo": {
+      "titulo": "A diversao comeca agora · Top Glass",
+      "resumo": "Clipe energetico de ativacao apresentando o Top Glass (top coat efeito gel) e o clima de 'recebido que voce merece'.",
+      "recomendacao": [
+        {"title": "TOP GLASS – Top Coat Efeito Gel", "handle": "esmalte-top-coat-glass", "price": 15.99, "porque": "Produto anunciado no clipe de ativacao."}
+      ]
+    },
+    "dailus/DagEunJlDv_": {
+      "titulo": "Clipe · cuidado que nao agride a pele",
+      "resumo": "Clipe curto reforcando produto que 'nao agride a pele' — mensagem de suavidade e cuidado.",
+      "recomendacao": [
+        {"title": "Cleansing Balm – Sweet Skin", "handle": "cleasing-balm-sweet-skin", "price": 59.9, "porque": "Limpeza suave alinhada a promessa do clipe."}
+      ]
+    },
+    "dailus/DadxgqRCGv2": {
+      "titulo": "Dailus na Ikesaki",
+      "resumo": "Presenca da marca no varejo (Ikesaki), reforcando distribuicao e ponto de venda.",
+      "recomendacao": [
+        {"title": "BRUMA FACIAL FIX TUDO", "handle": "bruma-facial-fix-tudo", "price": 59.99, "porque": "Hit para comecar pelo campeao da marca."},
+        {"title": "Holo Blush – Holo Pink", "handle": "blush-iluminador-holo-pink", "price": 44.9, "porque": "Queridinho de rosto para experimentar."}
+      ]
+    }
+  }
+}

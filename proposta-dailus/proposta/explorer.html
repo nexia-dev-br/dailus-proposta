@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<script>
+(function(){var H="2107038ba11e2fb8f85157153c99cdd9540b241a96ab96a871e84d09174ab787",K="dailus_gate_ok";try{if(sessionStorage.getItem(K)==="1")return;}catch(e){}
+var de=document.documentElement;de.style.visibility="hidden";
+function sha(s){return crypto.subtle.digest("SHA-256",new TextEncoder().encode(s)).then(function(b){return Array.from(new Uint8Array(b)).map(function(x){return x.toString(16).padStart(2,"0");}).join("");});}
+function build(){de.style.visibility="";var o=document.createElement("div");o.id="__gate";o.style.cssText="position:fixed;inset:0;z-index:2147483647;background:#0b0b0f;display:flex;align-items:center;justify-content:center;font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif";o.innerHTML='<div style="width:min(92vw,360px);text-align:center;color:#fff"><div style="font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:#E4004B;margin-bottom:8px">Nexia &times; Dailus</div><div style="font-size:20px;font-weight:600;margin-bottom:18px">Acesso restrito</div><input id="__gpw" type="password" placeholder="Senha" style="width:100%;padding:12px 14px;border-radius:10px;border:1px solid #2a2a33;background:#15151c;color:#fff;font-size:15px;outline:none;box-sizing:border-box"><button id="__gbt" style="width:100%;margin-top:10px;padding:12px;border:0;border-radius:10px;background:#E4004B;color:#fff;font-size:15px;font-weight:600;cursor:pointer">Entrar</button><div id="__ger" style="color:#ff6b6b;font-size:13px;height:18px;margin-top:8px"></div></div>';document.body.appendChild(o);var pw=o.querySelector("#__gpw"),bt=o.querySelector("#__gbt"),er=o.querySelector("#__ger");function go(){sha(pw.value).then(function(h){if(h===H){try{sessionStorage.setItem(K,"1");}catch(e){}o.remove();}else{er.textContent="Senha incorreta";pw.value="";pw.focus();}});}bt.addEventListener("click",go);pw.addEventListener("keydown",function(e){if(e.key==="Enter")go();});pw.focus();}
+if(document.body)build();else document.addEventListener("DOMContentLoaded",build);})();
+</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Explorador de Catálogo · Nexia × Dailus</title>
+<meta name="description" content="Explorador do catálogo Dailus com busca, comparativo entre sites e todas as imagens coletadas.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="explorer.css">
+</head>
+<body>
+
+<div class="topbar">
+  <div class="lg">
+    <img class="logo-nexify" src="assets/nexify-white.svg" alt="Nexify">
+    <span class="x">✕</span>
+    <img class="logo-dailus" src="assets/dailus-logo.png" alt="Dailus">
+  </div>
+  <div class="tb-links">
+    <a class="back" href="showcase.html">Vitrine ✨</a>
+    <a class="back" href="index.html">← Voltar à apresentação</a>
+  </div>
+</div>
+
+<header class="head">
+  <div class="wrap">
+    <h1>Não é promessa. <em>É o dado inteiro na sua mão.</em></h1>
+    <p>Todo o catálogo da Dailus que a gente extraiu, com busca por nome, SKU, EAN, linha e categoria, o
+       <b>comparativo de preço nos sites que exploramos</b> (Época Cosméticos e Pague Menos) e
+       <b>todas as imagens</b> encontradas de cada produto em cada site. É a prova de que temos a base completa para a "Dai".</p>
+    <div class="kpis" id="kpis"></div>
+  </div>
+</header>
+
+<div class="toolbar">
+  <div class="wrap">
+    <div class="modebar">
+      <div class="seg" id="modeseg">
+        <button data-mode="dailus" class="on">Dailus</button>
+        <button data-mode="comp">Concorrentes</button>
+        <button data-mode="all">Tudo</button>
+      </div>
+      <button class="btn-toggle" id="rel" hidden><span class="box"></span>Só relacionados à Dailus</button>
+    </div>
+    <div class="toolrow">
+      <div class="search">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+        <input id="q" type="search" placeholder="Buscar por nome, SKU, EAN, cor ou tag…" autocomplete="off">
+      </div>
+      <select id="cat" title="Categoria"></select>
+      <select id="groupby" title="Agrupar por">
+        <option value="">Sem agrupamento</option>
+        <option value="campanha">Agrupar: campanha ativa 🔥</option>
+        <option value="cat">Agrupar: categoria</option>
+        <option value="linha">Agrupar: linha</option>
+        <option value="cor">Agrupar: cor / tom</option>
+        <option value="pop">Agrupar: popularidade</option>
+        <option value="preco">Agrupar: faixa de preço</option>
+        <option value="ocasiao">Agrupar: ocasião</option>
+      </select>
+      <select id="sort" title="Ordenar">
+        <option value="pop">Mais populares</option>
+        <option value="rel">Relevância</option>
+        <option value="price">Preço ↑</option>
+        <option value="price_d">Preço ↓</option>
+        <option value="name">Nome A–Z</option>
+        <option value="imgs">Mais imagens</option>
+      </select>
+      <button class="btn-toggle on" id="collapse"><span class="box"></span>Agrupar cores/tons</button>
+      <button class="btn-toggle" id="best"><span class="box"></span>Best-sellers</button>
+      <button class="btn-toggle" id="cmp"><span class="box"></span>Com comparativo</button>
+      <button class="btn-toggle" id="avail"><span class="box"></span>Em estoque</button>
+    </div>
+    <div class="chips" id="linhas"></div>
+  </div>
+</div>
+
+<main class="wrap">
+  <div class="adv-cta" id="advCta">
+    <div class="adv-txt"><span class="adv-emoji">✨</span>
+      <div><b>Não sabe por onde começar?</b><span>Descreva a ocasião, seu tom de pele, estilo e a imagem que quer passar, e a Dai monta o look e filtra os produtos pra você.</span></div>
+    </div>
+    <button class="adv-btn" id="advOpen">Deixa a Dai me ajudar →</button>
+  </div>
+  <div class="meta"><div class="count" id="count"></div></div>
+  <div class="grid" id="grid"><div class="empty">Carregando catálogo…</div></div>
+</main>
+
+<div class="overlay" id="overlay"><div class="modal" id="modalBody"></div></div>
+<div class="adv-overlay" id="advOverlay"><div class="adv-modal" id="advBody"></div></div>
+
+<!-- sacola simulada + Dai (demonstração de estratégias de venda) -->
+<button class="cartfab" id="cartfab" aria-label="Abrir sacola simulada">
+  <span class="ic">🛍️</span><span class="cc" id="cartcount">0</span>
+</button>
+<div class="cartback" id="cartback"></div>
+<aside class="cartdrawer" id="cartdrawer" aria-label="Sacola simulada"></aside>
+
+<footer class="ftr">© 2026 Nexify · Explorador de catálogo · dados extraídos em 15/07/2026 · catálogo Dailus (APIs Shopify) + Época Cosméticos e Pague Menos (VTEX) · uso interno / confidencial.</footer>
+
+<script src="explorer.js"></script>
+</body>
+</html>
