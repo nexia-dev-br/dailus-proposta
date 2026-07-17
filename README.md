@@ -1,6 +1,6 @@
-# Nexia × Dailus — Proposta + Loja demo (GitHub Pages)
+# Nexify × Dailus — Proposta + Loja demo (GitHub Pages)
 
-Site estático publicado no GitHub Pages para a Dailus navegar no material construído pela Nexia.
+Site estático publicado no GitHub Pages para a Dailus navegar no material construído pela Nexify.
 
 ## O que está incluído
 

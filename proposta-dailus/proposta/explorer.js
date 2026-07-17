@@ -1,5 +1,5 @@
 /* =====================================================================
-   Explorador de Catálogo — Nexia × Dailus
+   Explorador de Catálogo — Nexify × Dailus
    Busca por nome/SKU/EAN/tag, filtros por linha e categoria, comparativo
    de preço entre os sites explorados e TODAS as imagens encontradas.
    Requer servir via HTTP (usa fetch). Caminhos de imagem: prefixo ../../

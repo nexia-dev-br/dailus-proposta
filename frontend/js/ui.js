@@ -103,7 +103,7 @@ export function renderFooter() {
       <div><h4>Ajuda</h4><a href="#/pedidos">Meus pedidos</a><a href="#/pedidos">Rastrear compra</a><a href="#/login">Minha conta</a></div>
       <div><h4>Atendimento</h4><p>Seg a sex, 9h às 18h<br>oi@dailus.com.br</p></div>
     </div>
-    <div class="ftr-bar wrap">Demonstração construída pela <b>Nexia</b> · catálogo real Dailus · usuário e pedidos simulados · ${new Date().getFullYear()}</div>`;
+    <div class="ftr-bar wrap">Demonstração construída pela <b>Nexify</b> · catálogo real Dailus · usuário e pedidos simulados · ${new Date().getFullYear()}</div>`;
 }
 
 /* ---------------- carrinho (drawer) ---------------- */

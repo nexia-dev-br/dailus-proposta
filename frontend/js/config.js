@@ -1,5 +1,5 @@
 /* =====================================================================
-   Configuração da loja demonstrativa Dailus (Nexia)
+   Configuração da loja demonstrativa Dailus (Nexify)
    - Reaproveita o catálogo já existente (catalog.json) e as imagens em /data.
    - Nada é duplicado: apenas referenciamos os arquivos do repositório.
    ===================================================================== */

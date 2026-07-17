@@ -1,5 +1,5 @@
 /* =====================================================================
-   Bootstrap da loja Dailus (demonstração Nexia)
+   Bootstrap da loja Dailus (demonstração Nexify)
    ===================================================================== */
 import * as S from './store.js';
 import * as UI from './ui.js';

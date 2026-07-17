@@ -1,5 +1,5 @@
 /* =====================================================================
-   NEXIA × DAILUS — deck loader + interações
+   NEXIFY × DAILUS — deck loader + interações
    - Cada slide é um arquivo em ./slides/*.html (um slide por arquivo).
    - Este script carrega os slides na ordem de SLIDES, injeta no #deck
      e só então inicializa animações/observadores.
