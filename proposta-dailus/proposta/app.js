@@ -528,7 +528,7 @@
       .catch(function(){ reelsData = {reels:{}, storeBase:''}; });
 
     function close(){
-      back.classList.remove('on'); modal.classList.remove('on');
+      back.classList.remove('on'); modal.classList.remove('on'); document.body.classList.remove('reel-open');
       var v = modal.querySelector('video'); if(v){ try{ v.pause(); }catch(e){} }
     }
 
@@ -567,27 +567,30 @@
 
       modal.innerHTML =
         '<button class="rm-x" aria-label="Fechar">×</button>'+
-        '<div class="rm-tag">A Dai assistiu este conteúdo e já reage no site</div>'+
-        '<h3 class="rm-title">'+esc(titulo)+'</h3>'+
-        '<div class="rm-body">'+
-          '<div class="rm-video"><video src="'+esc(vurl(slug))+'" poster="'+esc(url(slug))+'" controls playsinline preload="metadata"></video></div>'+
-          '<div class="rm-cols">'+
-            '<div class="rm-block"><h4>✨ Resumo</h4>'+resumoHtml+'</div>'+
-            recHtml+
-            '<div class="rm-block rm-trans"><h4>📝 Transcrição</h4>'+transHtml+'</div>'+
+        '<div class="rm-scroll">'+
+          '<div class="rm-tag">A Dai assistiu este conteúdo e já reage no site</div>'+
+          '<h3 class="rm-title">'+esc(titulo)+'</h3>'+
+          '<div class="rm-body">'+
+            '<div class="rm-video"><video src="'+esc(vurl(slug))+'" poster="'+esc(url(slug))+'" controls playsinline preload="metadata"></video></div>'+
+            '<div class="rm-cols">'+
+              '<div class="rm-block"><h4>✨ Resumo</h4>'+resumoHtml+'</div>'+
+              recHtml+
+              '<div class="rm-block rm-trans"><h4>📝 Transcrição</h4>'+transHtml+'</div>'+
+            '</div>'+
           '</div>'+
         '</div>';
       modal.querySelector('.rm-x').onclick = close;
       back.classList.add('on'); modal.classList.add('on');
+      var sc = modal.querySelector('.rm-scroll'); if(sc) sc.scrollTop = 0;
       modal.scrollTop = 0;
     }
 
     function open(slug){
       var info = reelsData && reelsData.reels ? reelsData.reels[slug] : null;
       /* estado de carregamento */
-      modal.innerHTML = '<button class="rm-x" aria-label="Fechar">×</button><div class="rm-loading">Carregando transcrição…</div>';
+      modal.innerHTML = '<button class="rm-x" aria-label="Fechar">×</button><div class="rm-scroll"><div class="rm-loading">Carregando transcrição…</div></div>';
       modal.querySelector('.rm-x').onclick = close;
-      back.classList.add('on'); modal.classList.add('on');
+      back.classList.add('on'); modal.classList.add('on'); document.body.classList.add('reel-open');
 
       var parts = slug.split('/');
       var trUrl = TR_BASE + parts[0] + '/' + parts[1] + '.json';
@@ -640,6 +643,7 @@
       '<button data-act="next" title="Próximo (→ / espaço)">›</button>'+
       '<button data-act="last" title="Fim (End)">⏭</button>'+
       '<span class="sep"></span>'+
+      '<button data-act="nav" title="Navegador de slides (M)">▤</button>'+
       '<button data-act="full" title="Tela cheia (F)">⛶</button>'+
       '<button data-act="exit" title="Sair (Esc)">✕</button>';
     var prog=document.createElement('div'); prog.className='showprog'; prog.innerHTML='<i></i>';
@@ -647,8 +651,112 @@
     document.body.appendChild(bar); document.body.appendChild(prog); document.body.appendChild(tag);
     var countEl=bar.querySelector('.count b'), progI=prog.querySelector('i');
 
+    /* ---- Navegador de slides (miniaturas redimensionáveis, estilo PowerPoint) ---- */
+    var panel=document.createElement('aside'); panel.className='slidenav';
+    panel.setAttribute('aria-label','Navegador de slides');
+    panel.innerHTML=
+      '<div class="slidenav-grip" title="Arraste para redimensionar"></div>'+
+      '<div class="slidenav-head"><span class="sn-title">Slides</span>'+
+        '<button class="sn-x" data-act="nav" aria-label="Fechar navegador">×</button></div>'+
+      '<div class="slidenav-list" id="slidenavList"></div>';
+    document.body.appendChild(panel);
+    var navList=panel.querySelector('.slidenav-list');
+    var navItems=[], navBuilt=false;
+
+    var NAV_KEY='dailus-shownav-w';
+    var savedW=parseInt(localStorage.getItem(NAV_KEY)||'',10);
+    if(savedW>=180 && savedW<=520){ document.documentElement.style.setProperty('--shownav-w', savedW+'px'); }
+
+    function buildThumbs(){
+      if(navBuilt) return; navBuilt=true;
+      navItems=[];
+      slides.forEach(function(sl,i){
+        var item=document.createElement('button'); item.className='slidenav-item';
+        item.setAttribute('aria-label','Ir para o slide '+(i+1));
+        var frame=document.createElement('div'); frame.className='thumb-frame';
+        var scale=document.createElement('div'); scale.className='thumb-scale';
+        /* clone do slide para servir de miniatura; troca vídeos por poster p/ não pesar */
+        var clone=sl.cloneNode(true);
+        clone.removeAttribute('id');
+        clone.querySelectorAll('[id]').forEach(function(n){ n.removeAttribute('id'); });
+        /* garante conteúdo visível na miniatura (ignora animações de reveal) */
+        clone.querySelectorAll('[data-r],.bar').forEach(function(n){ n.classList.add('in'); });
+        clone.querySelectorAll('video').forEach(function(v){
+          var im=document.createElement('img'); im.src=v.getAttribute('poster')||''; im.alt='';
+          im.style.cssText=v.style.cssText+';width:100%;height:100%;object-fit:cover';
+          v.parentNode.replaceChild(im, v);
+        });
+        clone.style.cssText='display:flex;flex-direction:column;justify-content:safe center;overflow:hidden';
+        scale.appendChild(clone);
+        frame.appendChild(scale);
+        var num=document.createElement('span'); num.className='sn-num'; num.textContent=(i+1);
+        var lab=document.createElement('span'); lab.className='sn-lab'; lab.textContent=labelFor(sl);
+        item.appendChild(num); item.appendChild(frame); item.appendChild(lab);
+        item.addEventListener('click', function(){ go(i); });
+        navList.appendChild(item);
+        navItems.push({item:item, frame:frame, scale:scale, clone:clone});
+      });
+      updateThumbs();
+    }
+
+    function updateThumbs(){
+      if(!navBuilt) return;
+      var vw=window.innerWidth, vh=window.innerHeight;
+      navItems.forEach(function(t){
+        var fw=t.frame.clientWidth; if(!fw) return;
+        var s=fw/vw;
+        t.clone.style.width=vw+'px'; t.clone.style.height=vh+'px';
+        t.scale.style.transform='scale('+s+')';
+        t.frame.style.height=(vh*s)+'px';
+      });
+    }
+
+    function updateNavActive(){
+      if(!navBuilt) return;
+      navItems.forEach(function(t,i){ t.item.classList.toggle('on', i===idx); });
+      var cur=navItems[idx]; if(cur){ cur.item.scrollIntoView({block:'nearest'}); }
+    }
+
+    function openNav(){
+      buildThumbs();
+      document.body.classList.add('shownav');
+      bar.querySelector('[data-act=nav]').classList.add('on');
+      requestAnimationFrame(function(){ updateThumbs(); updateNavActive(); });
+    }
+    function closeNav(){
+      document.body.classList.remove('shownav');
+      bar.querySelector('[data-act=nav]').classList.remove('on');
+    }
+    function toggleNav(){ document.body.classList.contains('shownav')?closeNav():openNav(); }
+
+    /* redimensionar o painel arrastando a alça (como no PowerPoint) */
+    var grip=panel.querySelector('.slidenav-grip');
+    grip.addEventListener('pointerdown', function(e){
+      e.preventDefault();
+      document.body.classList.add('snav-resizing');
+      grip.setPointerCapture(e.pointerId);
+      function move(ev){
+        var w=Math.max(180, Math.min(520, window.innerWidth-ev.clientX));
+        document.documentElement.style.setProperty('--shownav-w', w+'px');
+        updateThumbs();
+      }
+      function up(ev){
+        document.body.classList.remove('snav-resizing');
+        grip.removeEventListener('pointermove', move);
+        grip.removeEventListener('pointerup', up);
+        var w=parseInt(getComputedStyle(document.documentElement).getPropertyValue('--shownav-w'),10);
+        if(w) localStorage.setItem(NAV_KEY, w);
+        updateThumbs();
+      }
+      grip.addEventListener('pointermove', move);
+      grip.addEventListener('pointerup', up);
+    });
+
+    window.addEventListener('resize', function(){ if(active) updateThumbs(); });
+
     function update(){
-      deck.style.transform='translateX('+(-idx*100)+'vw)';
+      /* usa a largura útil (--slide-w) para caber o painel de miniaturas quando aberto */
+      deck.style.transform='translateX(calc(var(--slide-w) * '+(-idx)+'))';
       countEl.textContent=(idx+1);
       progI.style.width=(total>1?(idx/(total-1)*100):100)+'%';
       tag.textContent=labelFor(slides[idx]);
@@ -657,6 +765,7 @@
       bar.querySelector('[data-act=next]').disabled=(idx===total-1);
       bar.querySelector('[data-act=last]').disabled=(idx===total-1);
       slides[idx].scrollTop=0;
+      updateNavActive();
     }
     function go(n){ idx=Math.max(0,Math.min(total-1,n)); update(); }
     function next(){ go(idx+1); }
@@ -679,6 +788,7 @@
     }
     function exit(){
       if(!active) return; active=false;
+      closeNav();
       document.body.classList.remove('mode-show');
       deck.style.transform='';
       document.removeEventListener('keydown', onKey);
@@ -696,8 +806,9 @@
         case 'ArrowLeft': case 'PageUp': e.preventDefault(); prev(); break;
         case 'Home': e.preventDefault(); go(0); break;
         case 'End': e.preventDefault(); go(total-1); break;
-        case 'Escape': e.preventDefault(); exit(); break;
+        case 'Escape': e.preventDefault(); if(document.body.classList.contains('shownav')) closeNav(); else exit(); break;
         case 'f': case 'F': e.preventDefault(); toggleFull(); break;
+        case 'm': case 'M': e.preventDefault(); toggleNav(); break;
       }
     }
 
@@ -707,6 +818,10 @@
       if(a==='next') next(); else if(a==='prev') prev();
       else if(a==='first') go(0); else if(a==='last') go(total-1);
       else if(a==='full') toggleFull(); else if(a==='exit') exit();
+      else if(a==='nav') toggleNav();
+    });
+    panel.addEventListener('click', function(e){
+      if(e.target.closest('[data-act=nav]')) closeNav();
     });
 
     /* swipe em telas touch */

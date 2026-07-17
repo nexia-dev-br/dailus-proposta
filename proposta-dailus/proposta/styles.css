@@ -8,6 +8,8 @@
   --grad-soft:linear-gradient(120deg,#FFD9DC,#FFB0BB);
   --maxw:1140px;
   --img:'../../data/social/instagram/media/';
+  --shownav-w:268px;   /* largura do painel de miniaturas (redimensionável) */
+  --slide-w:100vw;     /* largura útil de cada slide no modo apresentação */
 }
 *{box-sizing:border-box;margin:0;padding:0}
 html{scroll-behavior:smooth}
@@ -564,8 +566,10 @@ body.mode-show{overflow:hidden}
 body.mode-show .nav,body.mode-show .progress,body.mode-show .present-fab{display:none}
 body.mode-show #deck{width:100vw;height:100vh;overflow:visible;display:flex;flex-wrap:nowrap;
   transition:transform .55s cubic-bezier(.2,.7,.2,1);will-change:transform}
-body.mode-show #deck>*{flex:0 0 100vw;width:100vw;height:100vh;overflow-y:auto;overflow-x:hidden;
+body.mode-show #deck>*{flex:0 0 var(--slide-w);width:var(--slide-w);height:100vh;overflow-y:auto;overflow-x:hidden;
   display:flex;flex-direction:column;justify-content:safe center}
+/* quando o navegador de slides está aberto, o palco encolhe para caber o painel */
+body.mode-show.shownav{--slide-w:calc(100vw - var(--shownav-w))}
 /* padding compacto p/ caber em tela cheia */
 body.mode-show section{padding:64px 0}
 body.mode-show .hero,body.mode-show .cta{min-height:100vh}
@@ -600,6 +604,53 @@ body.mode-show .showprog{display:block}
   padding:6px 12px;border-radius:100px;border:1px solid rgba(255,255,255,.14)}
 body.mode-show .showtag{display:block}
 
+/* ============ NAVEGADOR DE SLIDES (miniaturas · estilo PowerPoint) ============ */
+.slidenav{position:fixed;top:0;right:0;bottom:0;width:var(--shownav-w);z-index:81;display:none;
+  flex-direction:column;background:rgba(16,7,10,.92);backdrop-filter:blur(16px) saturate(1.2);
+  border-left:1px solid rgba(255,255,255,.14);box-shadow:-30px 0 70px -34px rgba(0,0,0,.8)}
+body.mode-show.shownav .slidenav{display:flex}
+.slidenav-head{flex:0 0 auto;display:flex;align-items:center;justify-content:space-between;gap:8px;
+  padding:14px 16px 12px;border-bottom:1px solid rgba(255,255,255,.1)}
+.slidenav-head .sn-title{font-family:'Poppins',sans-serif;font-size:11px;font-weight:700;letter-spacing:.16em;
+  text-transform:uppercase;color:rgba(255,255,255,.72)}
+.slidenav-head .sn-x{appearance:none;background:transparent;border:0;color:rgba(255,255,255,.7);cursor:pointer;
+  width:28px;height:28px;border-radius:8px;font-size:18px;line-height:1;display:grid;place-items:center;transition:.18s}
+.slidenav-head .sn-x:hover{background:rgba(255,255,255,.14);color:#fff}
+.slidenav-list{flex:1 1 auto;overflow-y:auto;overscroll-behavior:contain;padding:14px 16px 26px;
+  display:flex;flex-direction:column;gap:12px}
+.slidenav-item{display:grid;grid-template-columns:26px 1fr;gap:9px;align-items:start;
+  background:none;border:0;padding:0;cursor:pointer;text-align:left;font-family:inherit}
+.slidenav-item .sn-num{font-family:'Poppins',sans-serif;font-size:12px;font-weight:700;color:rgba(255,255,255,.5);
+  padding-top:4px;transition:color .18s}
+.slidenav-item .thumb-frame{position:relative;width:100%;overflow:hidden;border-radius:9px;
+  background:var(--cream);border:2px solid transparent;box-shadow:0 10px 26px -18px rgba(0,0,0,.9);
+  transition:border-color .18s,transform .18s}
+.slidenav-item .thumb-scale{position:absolute;top:0;left:0;transform-origin:top left;pointer-events:none}
+.slidenav-item .thumb-scale *{animation:none!important;transition:none!important}
+.slidenav-item:hover .thumb-frame{transform:translateY(-2px);border-color:rgba(255,255,255,.4)}
+.slidenav-item:hover .sn-num{color:rgba(255,255,255,.85)}
+.slidenav-item.on .thumb-frame{border-color:var(--cherry);box-shadow:0 0 0 2px rgba(228,0,75,.35),0 14px 30px -16px rgba(228,0,75,.7)}
+.slidenav-item.on .sn-num{color:var(--coral)}
+.slidenav-item .sn-lab{grid-column:2;font-family:'Poppins',sans-serif;font-size:10.5px;font-weight:600;
+  letter-spacing:.02em;color:rgba(255,255,255,.6);margin-top:6px;line-height:1.25}
+.slidenav-item.on .sn-lab{color:rgba(255,255,255,.9)}
+/* alça de redimensionamento (arraste como no PowerPoint) */
+.slidenav-grip{position:absolute;left:-4px;top:0;bottom:0;width:9px;cursor:ew-resize;z-index:2;
+  display:flex;align-items:center;justify-content:center}
+.slidenav-grip::before{content:"";width:3px;height:46px;border-radius:3px;background:rgba(255,255,255,.22);transition:background .18s}
+.slidenav-grip:hover::before,body.snav-resizing .slidenav-grip::before{background:var(--coral)}
+body.snav-resizing{cursor:ew-resize;user-select:none}
+body.snav-resizing #deck{transition:none}
+/* desloca a barra de controle para o centro do palco quando o painel está aberto */
+body.mode-show.shownav .showbar{left:calc(50% - var(--shownav-w)/2)}
+.showbar button[data-act=nav].on{background:var(--grad);color:#fff}
+@media(max-width:720px){
+  body.mode-show.shownav{--slide-w:100vw}
+  .slidenav{width:min(84vw,320px)}
+  .slidenav-grip{display:none}
+  body.mode-show.shownav .showbar{left:50%}
+}
+
 /* ============ REEL MODAL (transcrição + resumo + recomendação) ============ */
 .mtile-reel{cursor:pointer}
 .mtile-reel::after{content:"▶";position:absolute;left:50%;top:50%;transform:translate(-50%,-50%) scale(.9);
@@ -628,6 +679,8 @@ body.mode-show .showtag{display:block}
   color:var(--cherry);margin-bottom:8px}
 .rm-title{font-family:'Poppins',sans-serif;font-weight:600;font-size:clamp(20px,3vw,27px);line-height:1.12;
   letter-spacing:-.01em;color:var(--text);margin:0 0 20px;max-width:92%}
+/* no desktop o wrapper some (o próprio modal rola); no mobile ele vira a área de scroll */
+.rm-scroll{display:contents}
 .rm-body{display:grid;grid-template-columns:300px 1fr;gap:22px;align-items:start}
 @media(max-width:720px){.rm-body{grid-template-columns:1fr}}
 .rm-video{border-radius:16px;overflow:hidden;background:#1a0d12;border:1px solid var(--line);position:sticky;top:0}
@@ -649,6 +702,35 @@ body.mode-show .showtag{display:block}
 .rm-rec-t{font-weight:700;font-size:13.5px;color:var(--text);line-height:1.25}
 .rm-rec-p{font-family:'Poppins',sans-serif;font-weight:700;font-size:14px;color:var(--cherry);white-space:nowrap}
 .rm-rec-w{grid-column:1/-1;font-size:12px;color:var(--muted);line-height:1.4;margin-top:2px}
+
+/* --- REEL MODAL no mobile: bottom sheet com header fixo e um único scroll --- */
+@media(max-width:720px){
+  body.reel-open{overflow:hidden}
+  .reel-modal{
+    left:0;right:0;bottom:0;top:auto;
+    width:100%;max-width:100%;
+    height:92dvh;max-height:92dvh;
+    display:flex;flex-direction:column;
+    transform:translateY(100%);
+    border-radius:20px 20px 0 0;
+    padding:0;overflow:hidden
+  }
+  .reel-modal.on{transform:translateY(0)}
+  /* alça de arraste (visual) */
+  .reel-modal::before{content:"";position:absolute;top:8px;left:50%;transform:translateX(-50%);z-index:4;
+    width:42px;height:4px;border-radius:99px;background:var(--line2)}
+  .reel-modal .rm-x{top:12px;right:12px;z-index:5}
+  /* área rolável única */
+  .rm-scroll{display:block;flex:1 1 auto;min-height:0;
+    overflow-y:auto;-webkit-overflow-scrolling:touch;overscroll-behavior:contain;
+    padding:26px 16px calc(22px + env(safe-area-inset-bottom))}
+  .rm-tag{font-size:10px;margin-bottom:6px;padding-right:44px}
+  .rm-title{font-size:19px;line-height:1.15;max-width:100%;padding-right:44px;margin-bottom:16px}
+  .rm-video{position:static}
+  .rm-video video{max-height:44vh}
+  .rm-trans{max-height:none;overflow:visible}
+  .rm-block{padding:13px 14px}
+}
 
 /* ============ DICAS DE DESCOBERTA (material interativo) ============ */
 /* guia rápido na home */
