@@ -4,6 +4,8 @@
    - Nada é duplicado: apenas referenciamos os arquivos do repositório.
    ===================================================================== */
 
+import { ICON } from './icons.js';
+
 // prefixo até a raiz do repositório (a loja é servida a partir de /frontend)
 export const REPO = '../';
 
@@ -111,11 +113,11 @@ export const DEMO_USER = {
 
 // categorias em destaque na home (buckets reais do catálogo)
 export const CATEGORY_NAV = [
-  { bucket: 'Lábios', icon: '💋', label: 'Lábios' },
-  { bucket: 'Base e rosto', icon: '🧴', label: 'Rosto & Base' },
-  { bucket: 'Olhos', icon: '👁️', label: 'Olhos' },
-  { bucket: 'Blush e bronzer', icon: '🌸', label: 'Blush' },
-  { bucket: 'Sobrancelha', icon: '🖌️', label: 'Sobrancelha' },
-  { bucket: 'Esmaltes e unhas', icon: '💅', label: 'Unhas' },
-  { bucket: 'Corpo e fragrância', icon: '✨', label: 'Corpo' },
+  { bucket: 'Lábios', icon: ICON.lips, label: 'Lábios' },
+  { bucket: 'Base e rosto', icon: ICON.face, label: 'Rosto & Base' },
+  { bucket: 'Olhos', icon: ICON.eye, label: 'Olhos' },
+  { bucket: 'Blush e bronzer', icon: ICON.blush, label: 'Blush' },
+  { bucket: 'Sobrancelha', icon: ICON.brow, label: 'Sobrancelha' },
+  { bucket: 'Esmaltes e unhas', icon: ICON.nails, label: 'Unhas' },
+  { bucket: 'Corpo e fragrância', icon: ICON.body, label: 'Corpo' },
 ];

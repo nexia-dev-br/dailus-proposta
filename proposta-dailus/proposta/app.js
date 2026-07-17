@@ -754,6 +754,18 @@
 
     window.addEventListener('resize', function(){ if(active) updateThumbs(); });
 
+    /* ---- auto-hide: controles + painel somem quando ocioso e voltam no movimento ---- */
+    var idleTimer=null, IDLE_MS=2600;
+    function poke(){
+      if(!active) return;
+      document.body.classList.remove('nav-idle');
+      clearTimeout(idleTimer);
+      idleTimer=setTimeout(function(){ if(active) document.body.classList.add('nav-idle'); }, IDLE_MS);
+    }
+    ['pointermove','pointerdown','wheel','touchstart','keydown'].forEach(function(ev){
+      document.addEventListener(ev, poke, {passive:true});
+    });
+
     function update(){
       /* usa a largura útil (--slide-w) para caber o painel de miniaturas quando aberto */
       deck.style.transform='translateX(calc(var(--slide-w) * '+(-idx)+'))';
@@ -784,12 +796,15 @@
       document.body.classList.add('mode-show');
       idx = (typeof start==='number') ? start : currentScrollSlide();
       deck.style.transition='none'; update(); void deck.offsetWidth; deck.style.transition='';
+      openNav();          /* painel de miniaturas aberto por default */
       document.addEventListener('keydown', onKey);
+      poke();             /* inicia o ciclo de auto-hide dos controles */
     }
     function exit(){
       if(!active) return; active=false;
       closeNav();
-      document.body.classList.remove('mode-show');
+      clearTimeout(idleTimer);
+      document.body.classList.remove('mode-show','nav-idle');
       deck.style.transform='';
       document.removeEventListener('keydown', onKey);
       if(document.fullscreenElement && document.exitFullscreen) document.exitFullscreen().catch(function(){});

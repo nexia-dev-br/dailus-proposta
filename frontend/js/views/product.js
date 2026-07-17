@@ -1,5 +1,6 @@
 /* Detalhe de produto — galeria, variações, compra, comparativo, relacionados */
 import { asset } from '../config.js';
+import { ICON } from '../icons.js';
 import { money, img, esc, toast, openCart } from '../ui.js';
 import * as S from '../store.js';
 import { getProduct } from '../store.js';
@@ -86,9 +87,9 @@ export function renderProduct(app, handle) {
       <button class="btn btn-dark btn-block pdp-buynow" id="pdpBuy">Comprar agora</button>`}
 
       <ul class="pdp-perks">
-        <li>🚚 Frete grátis acima de R$ 150</li>
-        <li>🔒 Pagamento seguro (Pix ou cartão)</li>
-        <li>↩️ 7 dias para troca ou devolução</li>
+        <li><span class="perk-ic">${ICON.truck}</span>Frete grátis acima de R$ 150</li>
+        <li><span class="perk-ic">${ICON.lock}</span>Pagamento seguro (Pix ou cartão)</li>
+        <li><span class="perk-ic">${ICON.returns}</span>7 dias para troca ou devolução</li>
       </ul>
 
       ${pop ? `<div class="pdp-pop">
@@ -96,15 +97,15 @@ export function renderProduct(app, handle) {
         <div class="pdp-pop-bar t-${pop.tier === 'Alta' ? 'alta' : (pop.tier === 'Média' ? 'media' : 'padrao')}"><i style="width:${pop.score || 0}%"></i></div>
         ${(() => {
           const flags = [];
-          if (pop.bestseller_rank) flags.push(`<span class="pf best">🔥 #${pop.bestseller_rank} mais vendido</span>`);
-          if (pop.queridinho) flags.push('<span class="pf queri">💗 queridinho da marca</span>');
+          if (pop.bestseller_rank) flags.push(`<span class="pf best"><span class="pf-ic">${ICON.flame}</span>#${pop.bestseller_rank} mais vendido</span>`);
+          if (pop.queridinho) flags.push(`<span class="pf queri"><span class="pf-ic">${ICON.heart}</span>queridinho da marca</span>`);
           if (comps.length) flags.push(`<span class="pf reach">também no varejo: ${comps.map((r) => esc(SITE_LABEL[r.site] || r.site)).join(' · ')}</span>`);
           return flags.length ? `<div class="pdp-pop-flags">${flags.join('')}</div>` : '';
         })()}
       </div>` : ''}
 
       ${comps.length ? `<div class="pdp-compare ${weWin ? 'win' : ''}">
-        <b>${weWin ? '💚 Melhor preço é aqui na Dailus' : 'Comparativo de preço entre lojas'}</b>
+        <b>${weWin ? `<span class="cmp-ic">${ICON.check}</span>Melhor preço é aqui na Dailus` : 'Comparativo de preço entre lojas'}</b>
         <table>
           <tr class="us"><td>Dailus (oficial)</td><td>${money(p.price)}</td></tr>
           ${comps.map((r) => `<tr><td>${esc(SITE_LABEL[r.site] || r.site)}</td><td>${money(r.preco)}${r.delta_pct ? ` <span class="dim">(+${r.delta_pct}%)</span>` : ''}</td></tr>`).join('')}
@@ -161,21 +162,21 @@ export function renderProduct(app, handle) {
   }
 
   // recomendações
-  document.getElementById('pdpAlso').innerHTML = rail('💗 Quem levou este, levou também', alsoBought);
+  document.getElementById('pdpAlso').innerHTML = rail('Quem levou este, levou também', alsoBought, null, ICON.heart);
   document.getElementById('pdpGoes').innerHTML = goesWith.length ? `
     <section class="rail">
-      <div class="wrap rail-head"><h2>✨ Combina com este — monte o look</h2>
+      <div class="wrap rail-head"><h2><span class="rail-ic">${ICON.sparkles}</span>Combina com este — monte o look</h2>
         <button class="btn btn-primary rail-look" id="pdpAddLook">Adicionar o look à sacola →</button></div>
       <div class="wrap"><div class="rail-track">${goesWith.map(productCard).join('')}</div></div>
     </section>` : '';
-  document.getElementById('pdpSibs').innerHTML = sibs.length > 1 ? rail('🎨 Outras cores e tons desta linha', sibs) : '';
+  document.getElementById('pdpSibs').innerHTML = sibs.length > 1 ? rail('Outras cores e tons desta linha', sibs, null, ICON.palette) : '';
 
   // "na sua região também levam" (simulação) com seletor
   const regionEl = document.getElementById('pdpRegion');
   const renderRegion = (reg) => {
     regionEl.innerHTML = `
       <div class="wrap rail-head">
-        <h2>📍 Na sua região também levam
+        <h2><span class="rail-ic">${ICON.pin}</span>Na sua região também levam
           <select id="pdpRegionSel" class="pdp-regionsel">${Dai.REGIONS.map(([k, l]) => `<option value="${k}"${k === reg ? ' selected' : ''}>${esc(l)}</option>`).join('')}</select>
           <span class="pdp-simtag">simulação</span>
         </h2>

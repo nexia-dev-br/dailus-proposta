@@ -1,5 +1,6 @@
 /* Home — hero de campanhas, categorias, mais vendidos, ofertas, marca */
 import { asset, BANNERS_DIR, LIFESTYLE_DIR, BRAND_DIR, CAMPAIGNS, CATEGORY_NAV } from '../config.js';
+import { ICON } from '../icons.js';
 import { esc } from '../ui.js';
 import * as S from '../store.js';
 import { rail, wireCards } from './card.js';
@@ -30,10 +31,10 @@ export function renderHome(app) {
   </section>
 
   <div class="trust wrap">
-    <div><b>🚚 Frete grátis</b><span>acima de R$ 150</span></div>
-    <div><b>💳 Até 6x sem juros</b><span>no cartão</span></div>
-    <div><b>🔒 Compra segura</b><span>Pix e cartão</span></div>
-    <div><b>↩️ Troca fácil</b><span>7 dias</span></div>
+    <div><b><span class="trust-ic">${ICON.truck}</span>Frete grátis</b><span>acima de R$ 150</span></div>
+    <div><b><span class="trust-ic">${ICON.card}</span>Até 6x sem juros</b><span>no cartão</span></div>
+    <div><b><span class="trust-ic">${ICON.lock}</span>Compra segura</b><span>Pix e cartão</span></div>
+    <div><b><span class="trust-ic">${ICON.returns}</span>Troca fácil</b><span>7 dias</span></div>
   </div>
 
   <section class="cat-nav wrap">
@@ -44,7 +45,7 @@ export function renderHome(app) {
   </section>
 
   <section class="dai-cta wrap" id="daiCta">
-    <div class="dai-cta-ic">💄</div>
+    <div class="dai-cta-ic">${ICON.wand}</div>
     <div class="dai-cta-txt">
       <b>Não sabe por onde começar?</b>
       <span>Conta pra Dai a ocasião, seu tom de pele e o estilo — ela monta o look completo e separa os produtos pra você.</span>
@@ -89,8 +90,8 @@ export function renderHome(app) {
       .map((f) => `<img src="${esc(asset(LIFESTYLE_DIR + f))}" alt="" loading="lazy">`).join('')}
   </section>`;
 
-  document.getElementById('railBest').innerHTML = rail('⭐ Os mais vendidos', best, '#/catalogo?sort=pop');
-  document.getElementById('railSale').innerHTML = rail('🔥 Ofertas Última Chamada', sale, '#/campanha/ultima-chamada');
+  document.getElementById('railBest').innerHTML = rail('Os mais vendidos', best, '#/catalogo?sort=pop', ICON.star);
+  document.getElementById('railSale').innerHTML = rail('Ofertas Última Chamada', sale, '#/campanha/ultima-chamada', ICON.flame);
   wireCards(app);
   document.getElementById('daiCtaBtn').onclick = () => window.dispatchEvent(new Event('dai:advisor'));
   initHero();

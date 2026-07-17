@@ -1,6 +1,7 @@
 /* Card de produto — mesmo modelo validado do catálogo (explorer)
    Comportamento: clique no card abre o produto; "＋ sacola" adiciona ao carrinho. */
 import { money, img, esc, toast, openCart, go } from '../ui.js';
+import { ICON } from '../icons.js';
 import * as S from '../store.js';
 import { getProduct } from '../store.js';
 
@@ -12,8 +13,8 @@ export function productCard(p) {
   const nimg = (p.images && p.images.length) || p.n_imagens || 0;
 
   let badges = '';
-  if (rank) badges += `<span class="tag best">🔥 #${rank} mais vendido</span>`;
-  else if (pop.queridinho || pop.tier === 'Alta') badges += `<span class="tag queri">💗 queridinho</span>`;
+  if (rank) badges += `<span class="tag best"><span class="tag-ic">${ICON.flame}</span>#${rank} mais vendido</span>`;
+  else if (pop.queridinho || pop.tier === 'Alta') badges += `<span class="tag queri"><span class="tag-ic">${ICON.heart}</span>queridinho</span>`;
   if (off > 0) badges += `<span class="tag off">-${off}%</span>`;
   if (p.available === false) badges += `<span class="tag out">esgotado</span>`;
 
@@ -30,7 +31,7 @@ export function productCard(p) {
       <div class="popmeter t-${tierCls}" title="Popularidade ${esc(pop.tier || '—')}"><i style="width:${pop.score || 0}%"></i></div>
       <div class="foot">
         <span class="price">${money(p.price)}${list ? ` <s class="was">${money(list)}</s>` : ''}</span>
-        <span class="imgs">${nimg} 📷</span>
+        <span class="imgs">${nimg}<span class="imgs-ic">${ICON.camera}</span></span>
       </div>
       ${out
         ? '<button class="addbtn out" disabled>esgotado</button>'
@@ -68,12 +69,12 @@ export function grid(products) {
 }
 
 // carrossel horizontal (home / relacionados)
-export function rail(title, products, seeAll) {
+export function rail(title, products, seeAll, icon) {
   if (!products.length) return '';
   return `
   <section class="rail">
     <div class="wrap rail-head">
-      <h2>${esc(title)}</h2>
+      <h2>${icon ? `<span class="rail-ic">${icon}</span>` : ''}${esc(title)}</h2>
       ${seeAll ? `<a class="rail-see" href="${esc(seeAll)}">Ver todos →</a>` : ''}
     </div>
     <div class="wrap"><div class="rail-track">${products.map(productCard).join('')}</div></div>

@@ -2,6 +2,7 @@
    UI — helpers de DOM, formatação, header, footer, carrinho e toasts
    ===================================================================== */
 import { asset, BRAND_DIR, CATEGORY_NAV } from './config.js';
+import { ICON as SVGICON } from './icons.js';
 import * as S from './store.js';
 import { cartTips } from './dai.js';
 
@@ -33,12 +34,18 @@ export function toast(msg, kind = 'ok') {
 }
 
 /* ---------------- header ---------------- */
+const ICON = {
+  user: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M4.5 20a7.5 7.5 0 0 1 15 0"/></svg>',
+  orders: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2.6 3.5 7v10L12 21.4 20.5 17V7L12 2.6z"/><path d="M3.7 7 12 11.4 20.3 7"/><path d="M12 11.4V21.4"/><path d="M16.2 4.7 7.8 9.2"/></svg>',
+  bag: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M6.2 8h11.6l-.9 11.2a1.6 1.6 0 0 1-1.6 1.5H8.7a1.6 1.6 0 0 1-1.6-1.5L6.2 8z"/><path d="M9 8V6.5a3 3 0 0 1 6 0V8"/></svg>',
+};
+
 export function renderHeader() {
   const h = document.getElementById('siteHeader');
   const user = S.getUser();
   const acc = user
-    ? `<a class="hd-acc" href="#/conta"><span class="hd-ic">👤</span><span class="hd-acc-t"><small>Olá,</small><b>${esc(user.firstName)}</b></span></a>`
-    : `<a class="hd-acc" href="#/login"><span class="hd-ic">👤</span><span class="hd-acc-t"><small>Entrar</small><b>Minha conta</b></span></a>`;
+    ? `<a class="hd-acc" href="#/conta"><span class="hd-ic">${ICON.user}</span><span class="hd-acc-t"><small>Olá,</small><b>${esc(user.firstName)}</b></span></a>`
+    : `<a class="hd-acc" href="#/login"><span class="hd-ic">${ICON.user}</span><span class="hd-acc-t"><small>Entrar</small><b>Minha conta</b></span></a>`;
 
   h.innerHTML = `
     <div class="hd-top wrap">
@@ -51,9 +58,9 @@ export function renderHeader() {
       </form>
       <div class="hd-actions">
         ${acc}
-        <a class="hd-acc" href="#/pedidos"><span class="hd-ic">📦</span><span class="hd-acc-t"><small>Acompanhar</small><b>Pedidos</b></span></a>
+        <a class="hd-acc" href="#/pedidos"><span class="hd-ic">${ICON.orders}</span><span class="hd-acc-t"><small>Acompanhar</small><b>Pedidos</b></span></a>
         <button class="hd-cart" id="hdCart" aria-label="Abrir sacola">
-          <span class="hd-ic">🛍️</span><span class="hd-cart-c" id="hdCartCount">0</span>
+          <span class="hd-ic">${ICON.bag}</span><span class="hd-cart-c" id="hdCartCount">0</span>
         </button>
       </div>
     </div>
@@ -62,7 +69,7 @@ export function renderHeader() {
         <a href="#/">Início</a>
         <a href="#/catalogo">Todos os produtos</a>
         ${CATEGORY_NAV.slice(0, 5).map((c) => `<a href="#/catalogo?bucket=${encodeURIComponent(c.bucket)}">${esc(c.label)}</a>`).join('')}
-        <a class="hd-nav-dai" href="#" id="hdNavDai">💄 Provador da Dai</a>
+        <a class="hd-nav-dai" href="#" id="hdNavDai"><span class="hd-nav-dai-ic">${SVGICON.wand}</span>Provador da Dai</a>
         <a class="hd-nav-sale" href="#/campanha/ultima-chamada">Ofertas</a>
       </div>
     </nav>`;
