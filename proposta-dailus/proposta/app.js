@@ -170,7 +170,7 @@
       caso:'Comprou base Dailus → "Cuida das unhas com Fortilon" / "Hidrata com Sweet Skin".',
       dailus:'Um contrato, três marcas; leva o cliente de uma marca para a outra.',
       cliente:'Descobre o portfólio inteiro da casa num só lugar.',
-      base:'Grupo Dailus (Sweet Skin + Fortilon) sob a mesma operação.'},
+      base:'Grupo Dailus D2C: 3 marcas (Dailus + Sweet Skin + Fortilon) sob a mesma operação.'},
     'ocr':{obj:'Melhorar margem',title:'OCR de NF/boletos (back-office)',
       estrategia:'Leitura automática de notas e boletos com classificação, reaproveitando um motor já validado em produção.',
       caso:'Nota de fornecedor chega → dados extraídos e lançados, sem digitação manual.',
