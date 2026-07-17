@@ -2,13 +2,6 @@
 <html lang="pt-BR">
 <head>
 <meta charset="UTF-8">
-<script>
-(function(){var H="2107038ba11e2fb8f85157153c99cdd9540b241a96ab96a871e84d09174ab787",K="dailus_gate_ok";try{if(sessionStorage.getItem(K)==="1")return;}catch(e){}
-var de=document.documentElement;de.style.visibility="hidden";
-function sha(s){return crypto.subtle.digest("SHA-256",new TextEncoder().encode(s)).then(function(b){return Array.from(new Uint8Array(b)).map(function(x){return x.toString(16).padStart(2,"0");}).join("");});}
-function build(){de.style.visibility="";var o=document.createElement("div");o.id="__gate";o.style.cssText="position:fixed;inset:0;z-index:2147483647;background:#0b0b0f;display:flex;align-items:center;justify-content:center;font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif";o.innerHTML='<div style="width:min(92vw,360px);text-align:center;color:#fff"><div style="font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:#E4004B;margin-bottom:8px">Nexia &times; Dailus</div><div style="font-size:20px;font-weight:600;margin-bottom:18px">Acesso restrito</div><input id="__gpw" type="password" placeholder="Senha" style="width:100%;padding:12px 14px;border-radius:10px;border:1px solid #2a2a33;background:#15151c;color:#fff;font-size:15px;outline:none;box-sizing:border-box"><button id="__gbt" style="width:100%;margin-top:10px;padding:12px;border:0;border-radius:10px;background:#E4004B;color:#fff;font-size:15px;font-weight:600;cursor:pointer">Entrar</button><div id="__ger" style="color:#ff6b6b;font-size:13px;height:18px;margin-top:8px"></div></div>';document.body.appendChild(o);var pw=o.querySelector("#__gpw"),bt=o.querySelector("#__gbt"),er=o.querySelector("#__ger");function go(){sha(pw.value).then(function(h){if(h===H){try{sessionStorage.setItem(K,"1");}catch(e){}o.remove();}else{er.textContent="Senha incorreta";pw.value="";pw.focus();}});}bt.addEventListener("click",go);pw.addEventListener("keydown",function(e){if(e.key==="Enter")go();});pw.focus();}
-if(document.body)build();else document.addEventListener("DOMContentLoaded",build);})();
-</script>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>NEXIA × DAILUS · Deal Briefing & Proposta</title>
 <meta name="description" content="Tecnologia para aproximar a Dailus de cada cliente: vender consultando, comunicar 24/7, proteger margem e criar vínculo. Proposta Nexify × Dailus.">
@@ -29,7 +22,11 @@ if(document.body)build();else document.addEventListener("DOMContentLoaded",build
 
 <nav class="nav on-dark" id="nav">
   <a href="#top" class="brand"><span>NEXIA</span><span class="x">✕</span><span class="d">DAILUS</span><span class="dot">.</span></a>
-  <div class="navlinks">
+  <button class="nav-toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="navMenu">
+    <span class="nt-label">Menu</span>
+    <span class="nt-bars"><i></i><i></i><i></i></span>
+  </button>
+  <div class="navlinks" id="navMenu" role="dialog" aria-label="Menu de navegação" aria-modal="true">
     <a href="#dailus">A Dailus</a>
     <a href="#profundidade">A pesquisa</a>
     <a href="#amor">Reputação</a>
@@ -40,6 +37,7 @@ if(document.body)build();else document.addEventListener("DOMContentLoaded",build
     <a href="#voz">Voz</a>
     <a href="#solucoes">Soluções</a>
     <a href="#relacionamento">Clube</a>
+    <a href="#regua">Régua</a>
     <a href="#decisores">Decisores</a>
     <a href="#proposta">A proposta</a>
     <a href="showcase.html" class="nav-cta">Vitrine ✨</a>

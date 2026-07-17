@@ -43,7 +43,51 @@ em{font-style:italic}
 .explore-cta{display:flex;align-items:center;justify-content:space-between;gap:24px;flex-wrap:wrap;
   margin-top:40px;padding:26px 30px;border-radius:20px;background:#fff;border:1px solid var(--line);
   box-shadow:0 20px 50px -30px rgba(138,21,56,.5)}
-@media(max-width:860px){.navlinks{display:none}}
+
+/* ====== MÉTODO (pipeline da pesquisa) ====== */
+.method{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.method .mstep{position:relative;padding:20px 18px;border-radius:16px;background:rgba(255,255,255,.045);border:1px solid rgba(255,255,255,.11)}
+.method .mstep .mn{font-family:'Poppins',sans-serif;font-weight:800;font-size:12px;letter-spacing:.14em;color:var(--coral)}
+.method .mstep h4{font-family:'Poppins',sans-serif;font-size:16px;font-weight:700;margin:9px 0 8px;color:#fff}
+.method .mstep p{font-size:13px;line-height:1.5;color:rgba(255,255,255,.8)}
+.method .mstep .mono{color:#fff}
+@media(max-width:900px){.method{grid-template-columns:1fr 1fr}}
+@media(max-width:520px){.method{grid-template-columns:1fr}}
+
+/* ====== MENU (drawer · funciona em desktop, tablet e mobile) ====== */
+.nav-toggle{display:inline-flex;align-items:center;gap:10px;cursor:pointer;
+  font-family:'Poppins',sans-serif;font-size:12.5px;font-weight:700;letter-spacing:.04em;color:var(--text);
+  background:rgba(255,255,255,.72);border:1px solid var(--line2);border-radius:100px;padding:8px 12px 8px 16px;transition:.2s}
+.nav-toggle .nt-bars{display:inline-flex;flex-direction:column;justify-content:center;gap:4px;width:20px;height:15px}
+.nav-toggle .nt-bars i{display:block;height:2px;width:100%;background:var(--text);border-radius:2px;transition:transform .25s,opacity .2s}
+.nav-toggle:hover{border-color:var(--cherry);color:var(--cherry)}
+.nav-toggle:hover .nt-bars i{background:var(--cherry)}
+.nav.on-dark:not(.scrolled) .nav-toggle{background:rgba(255,255,255,.12);border-color:rgba(255,255,255,.4);color:#fff}
+.nav.on-dark:not(.scrolled) .nav-toggle .nt-bars i{background:#fff}
+.nav-toggle.open .nt-bars i:nth-child(1){transform:translateY(6px) rotate(45deg)}
+.nav-toggle.open .nt-bars i:nth-child(2){opacity:0}
+.nav-toggle.open .nt-bars i:nth-child(3){transform:translateY(-6px) rotate(-45deg)}
+
+.navlinks{position:fixed;top:0;right:0;height:100dvh;width:min(340px,88vw);z-index:75;
+  display:flex;flex-direction:column;align-items:stretch;gap:2px;justify-content:flex-start;
+  background:var(--cream);border-left:1px solid var(--line);box-shadow:-30px 0 70px -30px rgba(138,21,56,.55);
+  padding:84px 18px 26px;overflow-y:auto;overscroll-behavior:contain;
+  transform:translateX(102%);transition:transform .32s cubic-bezier(.2,.7,.2,1);visibility:hidden}
+.navlinks.open{transform:none;visibility:visible}
+.navlinks a{color:var(--text)!important;padding:12px 15px;border-radius:11px;font-size:15px;font-weight:600;transition:.15s}
+.navlinks a:hover{background:var(--blush);color:var(--cherry)!important}
+.navlinks a.nav-cta{background:var(--grad);color:#fff!important;justify-content:center;text-align:center;margin-top:8px;padding:13px 15px;text-shadow:0 1px 2px rgba(107,0,37,.45)}
+.navlinks a.nav-cta:hover{filter:brightness(1.05);color:#fff!important}
+
+/* backdrop + tema claro do header quando o menu está aberto */
+.nav-menu-back{position:fixed;inset:0;z-index:74;background:rgba(26,14,18,.45);backdrop-filter:blur(3px);opacity:0;visibility:hidden;transition:.28s}
+.nav-menu-back.on{opacity:1;visibility:visible}
+body.nav-open{overflow:hidden}
+.nav.menu-open{z-index:76;background:var(--cream);border-color:var(--line)}
+.nav.menu-open .brand,.nav.menu-open .brand span{color:var(--text)!important}
+.nav.menu-open .brand .x,.nav.menu-open .brand .d,.nav.menu-open .brand .dot{color:var(--cherry)!important}
+.nav.menu-open .nav-toggle{color:var(--text)!important;background:transparent!important;border-color:var(--line2)!important}
+.nav.menu-open .nav-toggle .nt-bars i{background:var(--text)!important}
 
 /* generic section */
 section{padding:120px 0;position:relative;z-index:1}
@@ -455,6 +499,51 @@ footer{background:var(--ink);color:#fff;padding:46px 0}
 .tier.t-chrome li::before{color:#d9b8c2}
 @media(max-width:760px){.tier.t-cherry,.tier.t-chrome{transform:none}}
 
+/* ============ régua de relacionamento (cadência automatizada) ============ */
+.regua-rail{margin:6px 0 34px}
+.regua-rail .ticks{display:flex;align-items:flex-start;gap:6px;position:relative}
+.regua-rail .ticks::before{content:"";position:absolute;left:2.5%;right:2.5%;top:7px;height:2px;
+  background:repeating-linear-gradient(90deg,var(--blush2) 0 10px,transparent 10px 16px)}
+.regua-rail .tick{flex:1;text-align:center;position:relative;z-index:1}
+.regua-rail .tick i{display:block;width:14px;height:14px;border-radius:50%;background:var(--grad);
+  margin:0 auto 12px;box-shadow:0 0 0 4px var(--cream)}
+.regua-rail .tick b{display:block;font-family:'Poppins',sans-serif;font-weight:700;font-size:14.5px;color:var(--cherry);line-height:1.05}
+.regua-rail .tick span{display:block;font-size:11px;color:var(--muted);margin-top:5px;line-height:1.3}
+@media(max-width:760px){.regua-rail{display:none}}
+
+.regua{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+@media(max-width:900px){.regua{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:520px){.regua{grid-template-columns:1fr}}
+.rstep{background:var(--paper);border:1px solid var(--line);border-radius:16px;padding:20px 20px 18px;
+  position:relative;box-shadow:0 22px 54px -44px rgba(138,21,56,.4);display:flex;flex-direction:column;gap:8px}
+.rstep .rnum{position:absolute;top:16px;right:18px;font-family:'Poppins',sans-serif;font-weight:700;
+  font-size:26px;line-height:1;color:var(--blush2)}
+.rstep .when{display:inline-block;align-self:flex-start;font-family:'Poppins',sans-serif;font-weight:700;
+  font-size:11px;letter-spacing:.04em;color:#fff;background:var(--grad);padding:4px 11px;border-radius:99px}
+.rstep h4{font-size:16px;font-weight:800;letter-spacing:-.01em;margin:2px 0 0}
+.rstep p{color:var(--muted);font-size:13.5px;line-height:1.5}
+.rstep .mod{margin-top:auto;font-family:'Poppins',sans-serif;font-size:11px;letter-spacing:.04em;
+  color:var(--cherry);border-top:1px solid var(--line);padding-top:10px}
+.rstep .mod code{font-family:'Poppins',sans-serif;background:var(--blush);padding:2px 7px;border-radius:6px;color:var(--wine)}
+
+/* perfil: quem é essa pessoa (personas / segmentação) */
+.personas{margin-bottom:34px}
+.pcard{background:var(--paper);border:1px solid var(--line);border-top:3px solid var(--cherry);border-radius:16px;
+  padding:18px 18px 16px;box-shadow:0 22px 54px -44px rgba(138,21,56,.4);display:flex;flex-direction:column;gap:7px}
+.pcard .pemoji{font-size:26px;line-height:1}
+.pcard .ptag{font-family:'Poppins',sans-serif;font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--cherry);font-weight:700}
+.pcard h4{font-size:16px;font-weight:800;letter-spacing:-.01em;margin:0}
+.pcard p{font-size:12.5px;color:var(--muted);line-height:1.5;margin:0}
+.pcard p b{color:var(--text);font-weight:700}
+.pcard.pc-final{border-top-color:var(--cherry)}
+.pcard.pc-final .ptag{color:var(--cherry)}
+.pcard.pc-revenda{border-top-color:var(--wine)}
+.pcard.pc-revenda .ptag{color:var(--wine)}
+.pcard.pc-pro{border-top-color:var(--rose)}
+.pcard.pc-pro .ptag{color:var(--rose)}
+.pcard.pc-promo{border-top-color:var(--coral)}
+.pcard.pc-promo .ptag{color:#d1476a}
+
 /* deck loader */
 .deck-loading{min-height:60vh;display:grid;place-items:center;color:var(--dim);font-family:'Poppins',sans-serif;font-size:13px;letter-spacing:.1em}
 .slide-error{max-width:var(--maxw);margin:40px auto;padding:20px 24px;border:1px solid var(--line);border-radius:14px;background:var(--paper);color:var(--wine);font-family:'Poppins',sans-serif;font-size:13px}
@@ -560,6 +649,41 @@ body.mode-show .showtag{display:block}
 .rm-rec-t{font-weight:700;font-size:13.5px;color:var(--text);line-height:1.25}
 .rm-rec-p{font-family:'Poppins',sans-serif;font-weight:700;font-size:14px;color:var(--cherry);white-space:nowrap}
 .rm-rec-w{grid-column:1/-1;font-size:12px;color:var(--muted);line-height:1.4;margin-top:2px}
+
+/* ============ DICAS DE DESCOBERTA (material interativo) ============ */
+/* guia rápido na home */
+.hero-guide{display:flex;flex-wrap:wrap;align-items:center;gap:9px;margin-top:30px}
+.hero-guide .hg-label{font-family:'Poppins',sans-serif;font-size:10.5px;font-weight:700;letter-spacing:.16em;
+  text-transform:uppercase;color:var(--coral);display:inline-flex;align-items:center;gap:7px}
+.hero-guide .hg-label::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--coral);
+  box-shadow:0 0 0 0 rgba(255,128,139,.6);animation:pulse 2.4s infinite}
+.hero-guide .hg-item{display:inline-flex;align-items:center;gap:7px;font-size:12px;color:#F3D9DD;
+  border:1px solid rgba(255,255,255,.24);background:rgba(255,255,255,.06);backdrop-filter:blur(6px);
+  padding:7px 13px;border-radius:100px}
+.hero-guide .hg-item b{color:#fff;font-weight:700}
+.hero-guide .hg-ic{font-size:13px;line-height:1}
+@media(max-width:560px){.hero-guide .hg-item{font-size:11.5px;padding:6px 11px}}
+
+/* dica sob o marquee de vídeos (band) */
+.band-hint{display:flex;align-items:center;justify-content:center;gap:9px;flex-wrap:wrap;text-align:center;
+  color:#E7C6CC;font-family:'Poppins',sans-serif;font-size:12.5px;margin:0 auto 18px;padding:0 16px}
+.band-hint b{color:#fff;font-weight:700}
+.band-hint .bh-ic{display:inline-grid;place-items:center;width:24px;height:24px;border-radius:50%;
+  background:var(--grad);color:#fff;font-size:11px;box-shadow:0 8px 18px -10px rgba(228,0,75,.8)}
+
+/* tiles de vídeo: mostrar que são clicáveis (inclusive sem hover / no mobile) */
+.mtile-reel::after{opacity:.92;transform:translate(-50%,-50%) scale(.85)}
+.mtile-reel:hover::after{opacity:1;transform:translate(-50%,-50%) scale(1)}
+@media(hover:none){
+  .mtile-reel::before{opacity:1}          /* rótulo "transcrição + resumo" sempre visível no touch */
+  .mtrack{animation-duration:96s}          /* mais devagar pra dar pra tocar */
+  .mtrack.rev{animation-duration:112s}
+}
+
+/* tags de caso de uso: reforço de "clicável" no touch */
+@media(hover:none){
+  #possTags .t{box-shadow:0 8px 18px -15px rgba(228,0,75,.55)}
+}
 
 /* ============ PRINT / PDF (dossiê offline) ============ */
 @media print{
