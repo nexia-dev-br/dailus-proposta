@@ -113,11 +113,11 @@ export const DEMO_USER = {
 
 // categorias em destaque na home (buckets reais do catálogo)
 export const CATEGORY_NAV = [
+  { bucket: 'Esmaltes e unhas', icon: ICON.nails, label: 'Esmaltes' },
   { bucket: 'Lábios', icon: ICON.lips, label: 'Lábios' },
   { bucket: 'Base e rosto', icon: ICON.face, label: 'Rosto & Base' },
   { bucket: 'Olhos', icon: ICON.eye, label: 'Olhos' },
   { bucket: 'Blush e bronzer', icon: ICON.blush, label: 'Blush' },
   { bucket: 'Sobrancelha', icon: ICON.brow, label: 'Sobrancelha' },
-  { bucket: 'Esmaltes e unhas', icon: ICON.nails, label: 'Unhas' },
   { bucket: 'Corpo e fragrância', icon: ICON.body, label: 'Corpo' },
 ];

@@ -68,7 +68,7 @@ export function renderHeader() {
       <div class="wrap hd-nav-in">
         <a href="#/">Início</a>
         <a href="#/catalogo">Todos os produtos</a>
-        ${CATEGORY_NAV.slice(0, 5).map((c) => `<a href="#/catalogo?bucket=${encodeURIComponent(c.bucket)}">${esc(c.label)}</a>`).join('')}
+        ${CATEGORY_NAV.slice(0, 6).map((c) => `<a href="#/catalogo?bucket=${encodeURIComponent(c.bucket)}">${esc(c.label)}</a>`).join('')}
         <a class="hd-nav-dai" href="#" id="hdNavDai"><span class="hd-nav-dai-ic">${SVGICON.wand}</span>Provador da Dai</a>
         <a class="hd-nav-sale" href="#/campanha/ultima-chamada">Ofertas</a>
       </div>
