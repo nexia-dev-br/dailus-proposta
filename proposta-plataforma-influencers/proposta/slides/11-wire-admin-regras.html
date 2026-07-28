@@ -1,0 +1,183 @@
+<!-- SLIDE 11 · WIREFRAME · ADMIN · REGRAS DE COMISSÃO -->
+<section id="regras" class="wire-slide">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="act-no" data-r>WIREFRAME 07 · O MOTOR</div>
+      <h2 class="title" data-r>A tela mais cara do projeto <em>é a menos bonita.</em></h2>
+      <p class="lead" data-r>Aqui mora o dinheiro de terceiro. Regra de comissão, booster, piso de margem, empilhamento de cupom, janela de aprovação e estorno. Nenhuma dessas linhas é código antes de ser <b>decisão da Dailus</b> — e é por isso que pedimos uma sessão de economia antes de qualquer build.</p>
+    </div>
+
+    <div class="wire-stage st-wide mt2">
+      <div data-r>
+        <div class="surface-tag"><span class="st-ic">🖥️</span> <b>Admin · Vue 3</b> · Regras de comissão</div>
+        <div class="wf-admin">
+          <div class="wf-chrome">
+            <div class="wf-dots"><i></i><i></i><i></i></div>
+            <div class="wf-url">admin.clube.dailus.com.br<b>/regras</b></div>
+          </div>
+          <div class="wf-admin-body">
+            <div class="wf-side">
+              <div class="wr-row" style="padding:2px 8px 10px"><span class="wr-av" style="width:22px;height:22px;font-size:9px;background:var(--wf-accent);color:#fff">D</span><span style="color:#fff;font-size:11px;font-weight:800">Clube D</span></div>
+              <div class="sb">canal</div>
+              <div class="si"><i>▦</i>Painel</div>
+              <div class="si"><i>◷</i>Candidaturas</div>
+              <div class="si"><i>◕</i>Influenciadoras</div>
+              <div class="si"><i>◫</i>Campanhas</div>
+              <div class="sb">dinheiro</div>
+              <div class="si on"><i>%</i>Regras</div>
+              <div class="si"><i>₽</i>Fechamento</div>
+              <div class="si"><i>⚠</i>Antifraude</div>
+              <div class="sb">marca</div>
+              <div class="si"><i>◨</i>Assets</div>
+              <div class="si"><i>≡</i>Auditoria</div>
+            </div>
+
+            <div class="wf-main">
+              <div class="wf-topbar">
+                <div>
+                  <div class="wt-t">Regras de comissão</div>
+                  <div class="wt-s">Versão 4 · vigente desde 01/07 · alterações não afetam ciclos fechados</div>
+                </div>
+                <div class="wt-a"><span class="wr-chip">Ver histórico</span><span class="wr-btn sm blk">Publicar nova versão</span></div>
+              </div>
+
+              <div class="wr-tabs">
+                <span class="tb on">Comissão</span><span class="tb">Boosters</span><span class="tb">Empilhamento</span><span class="tb">Estorno</span><span class="tb">Níveis</span>
+              </div>
+
+              <!-- base -->
+              <div class="wr-g2" id="r-base">
+                <div class="wr-card">
+                  <div class="wr-sec">comissão base</div>
+                  <div class="wr-row"><span class="wr-metric"><span class="v">11,0%</span><span class="k">sobre pedido aprovado</span></span></div>
+                  <span class="wr-p xs">Aplica quando nenhuma regra mais específica bate.</span>
+                </div>
+                <div class="wr-card">
+                  <div class="wr-sec">por categoria — sobrepõe a base</div>
+                  <div class="wr-tbl">
+                    <div class="tr" style="grid-template-columns:1fr 52px"><span>Esmaltes · 133 SKUs</span><span class="num">9%</span></div>
+                    <div class="tr" style="grid-template-columns:1fr 52px"><span>Kits · 61 SKUs</span><span class="num">13%</span></div>
+                    <div class="tr" style="grid-template-columns:1fr 52px"><span>Sweet Skin · 17 SKUs</span><span class="num">12%</span></div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- empilhamento: o coração -->
+              <div class="wr-card" id="r-stack" style="border-color:rgba(228,0,75,.4)">
+                <div class="wr-row between">
+                  <span class="wr-sec" style="color:var(--wf-accent)">⚠ empilhamento de desconto — a decisão que define o canal</span>
+                  <span class="wr-badge bad">requer aprovação do financeiro</span>
+                </div>
+                <div class="wr-col" style="gap:8px">
+                  <div class="wr-row between"><span class="wr-t">Cupom da influenciadora + <b>DAI15 (15% OFF · 223 produtos)</b></span><span class="wr-row" style="gap:7px"><span class="wr-p xs">bloqueado</span><span class="wr-toggle"></span></span></div>
+                  <div class="wr-row between"><span class="wr-t">Cupom da influenciadora + promoção do site</span><span class="wr-row" style="gap:7px"><span class="wr-p xs">bloqueado</span><span class="wr-toggle"></span></span></div>
+                  <div class="wr-row between"><span class="wr-t">Cupom da influenciadora + frete grátis</span><span class="wr-row" style="gap:7px"><span class="wr-p xs">permitido</span><span class="wr-toggle on"></span></span></div>
+                </div>
+                <div class="wr-card flat" style="border-color:rgba(228,0,75,.3);background:#FFF7F8">
+                  <div class="wr-row between">
+                    <div class="wr-col" style="gap:2px">
+                      <span class="wr-t">Simulação do impacto no CAC</span>
+                      <span class="wr-p xs">com empilhamento liberado, o desconto total vai a 26% do GMV</span>
+                    </div>
+                    <div class="wr-row" style="gap:10px">
+                      <span class="wr-metric"><span class="v sm">R$ 43</span><span class="k">bloqueado</span></span>
+                      <span class="wr-p">→</span>
+                      <span class="wr-metric"><span class="v sm" style="color:var(--wf-bad)">R$ 78</span><span class="k">liberado</span></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- piso de margem -->
+              <div class="wr-card" id="r-piso">
+                <div class="wr-sec">piso de margem por SKU</div>
+                <div class="wr-row between">
+                  <span class="wr-t">Não aplicar cupom quando a margem do SKU cair abaixo de</span>
+                  <span class="wr-input filled" style="width:74px;justify-content:center">22%</span>
+                </div>
+                <div class="wr-tbl">
+                  <div class="tr head" style="grid-template-columns:1fr 68px 68px 84px"><span>SKU em risco hoje</span><span class="num">preço</span><span class="num">margem</span><span class="num">ação</span></div>
+                  <div class="tr" style="grid-template-columns:1fr 68px 68px 84px"><span>Esmalte Última Chamada</span><span class="num">R$ 14,99</span><span class="num">18%</span><span class="num"><span class="wr-badge bad">excluído</span></span></div>
+                  <div class="tr" style="grid-template-columns:1fr 68px 68px 84px"><span>Esmalte Good Vibezinha</span><span class="num">R$ 11,99</span><span class="num">16%</span><span class="num"><span class="wr-badge bad">excluído</span></span></div>
+                  <div class="tr" style="grid-template-columns:1fr 68px 68px 84px"><span>Kit Trio Sweet Skin</span><span class="num">R$ 159,70</span><span class="num">34%</span><span class="num"><span class="wr-badge ok">ok</span></span></div>
+                </div>
+              </div>
+
+              <!-- janela e estorno -->
+              <div class="wr-g3" id="r-janela">
+                <div class="wr-card pad-sm">
+                  <div class="wr-sec">janela de aprovação</div>
+                  <div class="wr-row"><span class="wr-input filled" style="width:52px;justify-content:center">30</span><span class="wr-p xs">dias após entrega</span></div>
+                  <span class="wr-p xs">Alinhado à política de troca por defeito da Dailus.</span>
+                </div>
+                <div class="wr-card pad-sm">
+                  <div class="wr-sec">estorno</div>
+                  <div class="wr-row" style="gap:7px"><span class="wr-toggle on"></span><span class="wr-p xs">deduzir de saldo futuro</span></div>
+                  <span class="wr-p xs">Nunca cobrar de volta valor já pago.</span>
+                </div>
+                <div class="wr-card pad-sm">
+                  <div class="wr-sec">autocompra</div>
+                  <div class="wr-row" style="gap:7px"><span class="wr-toggle"></span><span class="wr-p xs">bloquear cupom próprio</span></div>
+                  <span class="wr-p xs">Cruza CPF, telefone e endereço.</span>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="wnotes" data-r data-d="1">
+        <div class="wnotes-head">O que esta tela resolve
+          <small>Passe o mouse em cada anotação para destacar a região correspondente na tela.</small>
+        </div>
+
+        <div class="wn" data-wtarget="#r-stack">
+          <span class="n">1</span>
+          <div>
+            <h4>Uma regra decide se o canal é bom ou ruim</h4>
+            <p>Com empilhamento liberado, o desconto total chega a <b>26% do GMV</b> antes de CMV e frete — e o CAC do canal sai de R$ 43 para R$ 78, acima da mediana de mercado. A simulação ao lado do interruptor existe justamente para que ninguém tome essa decisão sem ver a consequência.</p>
+            <p>É a pergunta que levamos como bloqueador: <b>hoje o cupom da afiliada soma com o DAI15?</b> Se ninguém souber a resposta, essa é a resposta.</p>
+            <div class="whos"><span class="who diego">Diego</span></div>
+          </div>
+        </div>
+
+        <div class="wn" data-wtarget="#r-piso">
+          <span class="n">2</span>
+          <div>
+            <h4>Piso de margem por SKU, não por bom senso</h4>
+            <p>Esmalte é 35% do catálogo e define o piso de preço — mediana R$ 11,99. Comissão sobre item de ticket baixo pode custar mais que a venda vale. O piso resolve isso automaticamente, excluindo o SKU do cupom em vez de proibir a categoria inteira.</p>
+            <div class="whos"><span class="who diego">Diego</span><span class="who luh">Luh</span></div>
+          </div>
+        </div>
+
+        <div class="wn" data-wtarget="#r-base">
+          <span class="n">3</span>
+          <div>
+            <h4>Comissão por categoria dirige o mix, não só o custo</h4>
+            <p>Kit a 13% e esmalte a 9% empurra a creator para vender curadoria em vez de item unitário — o que melhora ticket, margem e chance de recompra ao mesmo tempo. A regra de comissão é uma ferramenta de merchandising, não só uma linha de custo.</p>
+            <div class="whos"><span class="who diego">Diego</span><span class="who babi">Babi</span></div>
+          </div>
+        </div>
+
+        <div class="wn" data-wtarget="#r-janela">
+          <span class="n">4</span>
+          <div>
+            <h4>Janela, estorno e autocompra: as três esquecidas</h4>
+            <p>Janela conversando com a política real da Dailus (7 dias de arrependimento, 30 de defeito). Estorno deduzindo de saldo futuro — nunca cobrando de volta, porque cobrar de volta é o fim da relação. E bloqueio de autocompra, que é a fraude mais comum e a mais fácil de detectar.</p>
+            <div class="whos"><span class="who diego">Diego</span><span class="who luh">Luh</span></div>
+          </div>
+        </div>
+
+        <div class="wn" data-wtarget=".wf-topbar">
+          <span class="n">5</span>
+          <div>
+            <h4>Versionamento: mudar a regra não pode mudar o passado</h4>
+            <p>"Versão 4 · alterações não afetam ciclos fechados." Recalcular retroativamente comissão já apurada é a forma mais rápida de perder a confiança de uma comunidade de creators — e é um erro que quase todo sistema caseiro comete.</p>
+            <div class="whos"><span class="who diego">Diego</span><span class="who creator">Influenciadora</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

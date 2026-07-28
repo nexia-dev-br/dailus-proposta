@@ -1,0 +1,4 @@
+# Material de proposta — uso interno / confidencial.
+# Nao deve aparecer em busca. Copiado para a raiz do Pages pelo scripts/deploy.sh.
+User-agent: *
+Disallow: /

@@ -1,0 +1,178 @@
+<!-- SLIDE 10 · WIREFRAME · ADMIN · DASHBOARD -->
+<section id="admin" class="wire-slide">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="act-no" data-r>WIREFRAME 06 · PAINEL DA MARCA</div>
+      <h2 class="title" data-r>A tela do Diego: <em>o CAC do canal.</em></h2>
+      <p class="lead" data-r>Todo painel de afiliado mostra GMV e comissão. O que falta em todos eles é a única métrica que conecta o programa ao P&amp;L: <b>quanto custa adquirir uma cliente nova por este canal, comparado com mídia paga</b>. É o que transforma o programa de custo de marketing em canal de aquisição defensável.</p>
+    </div>
+
+    <div class="wire-stage st-wide mt2">
+      <div data-r>
+        <div class="surface-tag"><span class="st-ic">🖥️</span> <b>Admin · Vue 3</b> · Nexify Console</div>
+        <div class="wf-admin">
+          <div class="wf-chrome">
+            <div class="wf-dots"><i></i><i></i><i></i></div>
+            <div class="wf-url">admin.clube.dailus.com.br<b>/painel</b></div>
+          </div>
+          <div class="wf-admin-body">
+            <div class="wf-side">
+              <div class="wr-row" style="padding:2px 8px 10px"><span class="wr-av" style="width:22px;height:22px;font-size:9px;background:var(--wf-accent);color:#fff">D</span><span style="color:#fff;font-size:11px;font-weight:800">Clube D</span></div>
+              <div class="sb">canal</div>
+              <div class="si on"><i>▦</i>Painel</div>
+              <div class="si"><i>◷</i>Candidaturas <span style="margin-left:auto;background:var(--wf-accent);color:#fff;border-radius:99px;padding:0 5px;font-size:8px">7</span></div>
+              <div class="si"><i>◕</i>Influenciadoras</div>
+              <div class="si"><i>◫</i>Campanhas</div>
+              <div class="sb">dinheiro</div>
+              <div class="si"><i>%</i>Regras</div>
+              <div class="si"><i>₽</i>Fechamento</div>
+              <div class="si"><i>⚠</i>Antifraude</div>
+              <div class="sb">marca</div>
+              <div class="si"><i>◨</i>Assets</div>
+              <div class="si"><i>≡</i>Auditoria</div>
+            </div>
+
+            <div class="wf-main">
+              <div class="wf-topbar">
+                <div>
+                  <div class="wt-t">Painel do canal</div>
+                  <div class="wt-s">Cenário de referência · 12º mês · Dailus + Sweet Skin + Fortilon</div>
+                </div>
+                <div class="wt-a"><span class="wr-chip">julho 2027 ▾</span><span class="wr-btn sm blk">Exportar</span></div>
+              </div>
+
+              <!-- KPI principal -->
+              <div class="wr-g4" id="a-kpi">
+                <div class="wr-card">
+                  <div class="wr-metric"><span class="k">GMV atribuído</span><span class="v">R$ 308.412</span><span class="d up">▲ 14% vs. mês ant.</span></div>
+                </div>
+                <div class="wr-card">
+                  <div class="wr-metric"><span class="k">Pedidos aprovados</span><span class="v">2.464</span><span class="d up">ticket R$ 125</span></div>
+                </div>
+                <div class="wr-card">
+                  <div class="wr-metric"><span class="k">Clientes novas</span><span class="v">1.355</span><span class="d up">55% dos pedidos</span></div>
+                </div>
+                <div class="wr-card dark">
+                  <div class="wr-metric"><span class="k">CAC do canal</span><span class="v">R$ 43</span><span class="d up">mediana de mercado: R$ 77</span></div>
+                </div>
+              </div>
+
+              <!-- a conta do CAC -->
+              <div class="wr-card" id="a-conta">
+                <div class="wr-row between">
+                  <span class="wr-sec">como o CAC é calculado — auditável linha a linha</span>
+                  <span class="wr-badge ok">✓ conciliado com Shopify</span>
+                </div>
+                <div class="wr-tbl">
+                  <div class="tr head" style="grid-template-columns:1fr 110px 88px"><span>componente</span><span class="num">valor</span><span class="num">% do GMV</span></div>
+                  <div class="tr" style="grid-template-columns:1fr 110px 88px"><span>Comissão paga às influenciadoras</span><span class="num">R$ 33.925</span><span class="num">11,0%</span></div>
+                  <div class="tr" style="grid-template-columns:1fr 110px 88px"><span>Operação do canal (kits e seeding)</span><span class="num">R$ 25.000</span><span class="num">8,1%</span></div>
+                  <div class="tr tot" style="grid-template-columns:1fr 110px 88px"><span>Custo total ÷ 1.355 clientes novas</span><span class="num">R$ 58.925</span><span class="num">R$ 43</span></div>
+                </div>
+              </div>
+
+              <div class="wr-g2">
+                <!-- evolução -->
+                <div class="wr-card" id="a-evol">
+                  <div class="wr-sec">influenciadoras ativas por mês</div>
+                  <div class="wr-bars">
+                    <i style="--h:14%"></i><i style="--h:22%"></i><i style="--h:29%"></i><i style="--h:38%"></i>
+                    <i style="--h:44%"></i><i style="--h:51%"></i><i style="--h:58%" class="mid"></i><i style="--h:66%" class="mid"></i>
+                    <i style="--h:74%" class="mid"></i><i style="--h:82%" class="acc"></i><i style="--h:91%" class="acc"></i><i style="--h:100%" class="acc"></i>
+                  </div>
+                  <div class="wr-axis"><span>ago</span><span>jan</span><span>jul</span></div>
+                  <div class="wr-row between"><span class="wr-p xs">420 ativas de 1.500 aprovadas</span><span class="wr-badge warn">28% de ativação</span></div>
+                </div>
+
+                <!-- alertas -->
+                <div class="wr-card" id="a-alertas">
+                  <div class="wr-sec">precisa da sua atenção</div>
+                  <div class="wr-col" style="gap:7px">
+                    <div class="wr-row"><span class="wr-badge bad">margem</span><span class="wr-p wr-grow">3 SKUs abaixo do piso com cupom empilhado</span></div>
+                    <div class="wr-row"><span class="wr-badge bad">fraude</span><span class="wr-p wr-grow">Cupom <span class="mono">LUIZA15</span> detectado na Cuponomia</span></div>
+                    <div class="wr-row"><span class="wr-badge warn">ativação</span><span class="wr-p wr-grow">42 aprovadas sem 1ª venda há 30 dias</span></div>
+                    <div class="wr-row"><span class="wr-badge warn">churn</span><span class="wr-p wr-grow">18 caíram de nível neste ciclo</span></div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- top -->
+              <div class="wr-card" id="a-top">
+                <div class="wr-sec">top influenciadoras do ciclo</div>
+                <div class="wr-tbl">
+                  <div class="tr head" style="grid-template-columns:24px 1fr 74px 74px 62px"><span></span><span>perfil</span><span class="num">GMV</span><span class="num">novas</span><span class="num">% kit</span></div>
+                  <div class="tr" style="grid-template-columns:24px 1fr 74px 74px 62px"><span class="wr-av" style="width:20px;height:20px;font-size:8px">A</span><span>@amanda · Diferente</span><span class="num">R$ 9.240</span><span class="num">41</span><span class="num">38%</span></div>
+                  <div class="tr" style="grid-template-columns:24px 1fr 74px 74px 62px"><span class="wr-av" style="width:20px;height:20px;font-size:8px">J</span><span>@judias · Democrática</span><span class="num">R$ 7.810</span><span class="num">36</span><span class="num">44%</span></div>
+                  <div class="tr" style="grid-template-columns:24px 1fr 74px 74px 62px"><span class="wr-av" style="width:20px;height:20px;font-size:8px">R</span><span>@resantana · Diferente</span><span class="num">R$ 6.190</span><span class="num">22</span><span class="num">19%</span></div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="wnotes" data-r data-d="1">
+        <div class="wnotes-head">O que esta tela resolve
+          <small>Passe o mouse em cada anotação para destacar a região correspondente na tela.</small>
+        </div>
+
+        <div class="wn" data-wtarget="#a-kpi,#a-conta">
+          <span class="n">1</span>
+          <div>
+            <h4>O CAC do canal, com a conta aberta</h4>
+            <p>A referência brasileira recente aponta CAC mediano de <b>R$ 77</b> no e-commerce e <b>R$ 33</b> no quartil superior. Um canal creator entregando R$ 43 se paga em aquisição — e o painel mostra <b>como chegou nesse número</b>, linha a linha, em vez de pedir fé.</p>
+            <p>Esse é o argumento que tira o programa da conta de marketing e coloca na conta de aquisição.</p>
+            <div class="whos"><span class="who diego">Diego</span></div>
+          </div>
+        </div>
+
+        <div class="wn" data-wtarget="#a-alertas">
+          <span class="n">2</span>
+          <div>
+            <h4>O alerta de margem é o mais valioso da tela</h4>
+            <p>"3 SKUs abaixo do piso com cupom empilhado." Sem isso, comissão de 11% somada ao <b>DAI15</b> — que hoje está ativo em 223 produtos, ~60% do catálogo — dá 26% do GMV antes de CMV e frete, num produto de mediana R$ 33,92 que a Época já vende ~10% mais barato.</p>
+            <p>Nesse cenário, o CAC sairia de R$ 43 para <b>R$ 78</b> e o business case do canal desapareceria. Uma regra decide o veredito.</p>
+            <div class="whos"><span class="who diego">Diego</span></div>
+          </div>
+        </div>
+
+        <div class="wn" data-wtarget="#a-alertas">
+          <span class="n">3</span>
+          <div>
+            <h4>Cupom vazado é margem transferida, não venda</h4>
+            <p>Quando um código aparece em Cuponomia ou Pelando, a marca paga comissão <b>e</b> desconto sobre venda que ia acontecer sozinha. Detectar e bloquear pode pagar boa parte do projeto — e é argumento em linguagem de P&amp;L, não de marketing.</p>
+            <div class="whos"><span class="who diego">Diego</span></div>
+          </div>
+        </div>
+
+        <div class="wn" data-wtarget="#a-evol">
+          <span class="n">4</span>
+          <div>
+            <h4>Ativação é a métrica que denuncia programa doente</h4>
+            <p>1.500 aprovadas e 420 ativas: 28%. Cadastro é vaidade; <b>ativa no mês</b> é o número real. É também a métrica da Luh — e a que diz se o problema é recrutamento, onboarding ou retenção.</p>
+            <div class="whos"><span class="who luh">Luh</span><span class="who babi">Babi</span></div>
+          </div>
+        </div>
+
+        <div class="wn" data-wtarget="#a-top">
+          <span class="n">5</span>
+          <div>
+            <h4>Ranking por cliente nova e por kit, não só por GMV</h4>
+            <p>Duas creators com GMV parecido podem ter valor muito diferente: uma traz cliente nova e vende kit, a outra recicla a mesma base em item unitário. Ordenar por GMV esconde isso — e é como quase todo programa premia errado.</p>
+            <div class="whos"><span class="who diego">Diego</span><span class="who babi">Babi</span></div>
+          </div>
+        </div>
+
+        <div class="wn" data-wtarget=".wf-side">
+          <span class="n">6</span>
+          <div>
+            <h4>Auditoria não é enfeite de governança</h4>
+            <p>Log imutável de quem mudou regra de comissão, quem aprovou lote de pagamento e quando. Barato agora, impagável depois — e é a linguagem que um CFO reconhece na hora.</p>
+            <div class="whos"><span class="who diego">Diego</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

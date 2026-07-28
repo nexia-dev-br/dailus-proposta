@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow, noarchive">
+<title>NEXIFY × DAILUS · Plataforma de Influenciadoras — telas e jornadas</title>
+<meta name="description" content="Wireframes e jornadas da plataforma do programa de afiliadas da Dailus: app Flutter da influenciadora, web pública e painel admin da marca. Proposta Nexify.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<!-- Fonte da marca Dailus: o tema do site usa Poppins. -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="wire.css">
+</head>
+<body>
+<!--
+  NEXIFY × DAILUS — plataforma de influenciadoras · apresentação modular.
+  Mesmo motor do ../../proposta-dailus/proposta/ (loader + modo apresentação).
+  Um slide por arquivo em ./slides/ · ordem definida em app.js → SLIDES.
+  Estilos: styles.css (sistema do deck) + wire.css (kit de wireframe).
+  Requer servir via HTTP (o loader usa fetch): `npm run plataforma`.
+-->
+<div class="progress" id="prog"></div>
+
+<nav class="nav on-dark" id="nav">
+  <a href="#top" class="brand"><span>NEXIFY</span><span class="x">✕</span><span class="d">DAILUS</span><span class="dot">.</span></a>
+  <button class="nav-toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="navMenu">
+    <span class="nt-label">Menu</span>
+    <span class="nt-bars"><i></i><i></i><i></i></span>
+  </button>
+  <div class="navlinks" id="navMenu" role="dialog" aria-label="Menu de navegação" aria-modal="true">
+    <a href="#principio">O princípio</a>
+    <a href="#superficies">3 superfícies</a>
+    <a href="#jornada">Jornada</a>
+    <a href="#web">Web</a>
+    <a href="#mobile">App</a>
+    <a href="#carteira">Carteira</a>
+    <a href="#campanha">Campanha</a>
+    <a href="#vitrine">Vitrine</a>
+    <a href="#admin">Admin</a>
+    <a href="#regras">Regras</a>
+    <a href="#fechamento">Fechamento</a>
+    <a href="#dinheiro">Do saldo ao PIX</a>
+    <a href="#cada-um">Para cada um</a>
+    <a href="#ondas">Ondas</a>
+    <a href="#custo">O custo real</a>
+    <a href="#premissas">Premissas</a>
+    <a href="#consumidor" class="nav-cta">A consumidora ✨</a>
+    <a href="#cliente">Modo cliente</a>
+    <a href="#cta">Próximo passo</a>
+  </div>
+</nav>
+
+<main id="deck"><div class="deck-loading">carregando apresentação…</div></main>
+
+<button id="presentBtn" class="present-fab" title="Modo apresentação">▶ Apresentar <span class="kbd">P</span></button>
+
+<script src="app.js"></script>
+</body>
+</html>

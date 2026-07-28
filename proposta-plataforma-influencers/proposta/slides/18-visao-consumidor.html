@@ -1,0 +1,121 @@
+<!-- SLIDE 18 · A VISÃO · UM APP, DOIS PERFIS -->
+<section id="consumidor">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="act-no" data-r>ONDE ISSO CHEGA</div>
+      <h2 class="title" data-r>Um app. Dois perfis. <em>Toda a base da Dailus no mesmo lugar.</em></h2>
+      <p class="lead" data-r>O que estamos construindo para as influenciadoras é, na prática, <b>a fundação do canal direto com a consumidora final</b>. Mesmo binário, mesmo login, mesmo backend — o que muda é o <b>papel de quem entrou</b>. A afiliada abre e vê carteira e campanha. A cliente abre e vê a loja, o clube e a consultora. E quem é as duas coisas troca de papel dentro do app.</p>
+    </div>
+
+    <!-- o switch -->
+    <div class="roleswitch mt2" data-r>
+      <div class="rs-in">
+        <div class="rs-ic">📲</div>
+        <div>
+          <div class="rs-t">Um login só</div>
+          <div class="rs-s">telefone + código no WhatsApp</div>
+        </div>
+      </div>
+      <div class="rs-arrow">→</div>
+      <div class="rs-out">
+        <div class="rs-card creator">
+          <div class="rs-tag">se o número é de afiliada aprovada</div>
+          <div class="rs-h">Modo Creator</div>
+          <p>Carteira, campanhas, vitrine, assets, níveis. É o que este material inteiro mostrou.</p>
+        </div>
+        <div class="rs-card client">
+          <div class="rs-tag">se não é — ou se ela alternar</div>
+          <div class="rs-h">Modo Cliente</div>
+          <p>Loja, Clube D, consultora "Dai", recompra, rastreio e a vitrine de quem ela segue.</p>
+        </div>
+      </div>
+    </div>
+
+    <p class="wnote-src mt" data-r style="text-align:center">O papel é resolvido na autenticação, no servidor — não é tela escondida no app. Uma pessoa pode ter os dois papéis e alternar; a maioria terá um só e nunca saberá que o outro existe.</p>
+
+    <!-- reuso -->
+    <div class="mt2">
+      <div class="eyebrow" data-r style="margin-bottom:16px">Por que a segunda metade é <b>muito</b> mais barata que a primeira</div>
+      <div class="grid g2" data-r>
+        <div class="card">
+          <div class="k">Já estará de pé na onda 1</div>
+          <h3>A fundação inteira</h3>
+          <ul class="cardlist">
+            <li>Login por telefone + OTP e controle de papéis</li>
+            <li><b>connector-shopify</b>: catálogo, pedidos, rastreio, clientes</li>
+            <li>Motor de campanha, segmento e <b>push</b></li>
+            <li>Motor de níveis — que vira o <b>Clube D</b> da consumidora</li>
+            <li>Vitrine renderizada por perfil — a porta de entrada</li>
+            <li>Biblioteca de mídia e CDN</li>
+            <li>Shell do app Flutter, navegação e design system</li>
+            <li>LGPD, auditoria, observabilidade e multimarca</li>
+          </ul>
+        </div>
+        <div class="card">
+          <div class="k">O que falta — e boa parte já foi prototipada</div>
+          <h3>A experiência da cliente</h3>
+          <ul class="cardlist">
+            <li>Perfil de beleza e recomendação — <b>já existe</b> no provador da Dai</li>
+            <li>Sacola e <b>checkout</b> — <b>já existe</b> na loja demonstrativa</li>
+            <li>Rastreio e conta — <b>já existem</b> na demonstração</li>
+            <li>Clube D: pontos, cashback e resgate — <b>a construir</b></li>
+            <li>Régua de recompra pela cadência de cada produto — <b>a construir</b></li>
+            <li>Portar tudo para Flutter com login, push e vínculo com a creator</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- ja existe navegavel -->
+    <div class="mt2">
+      <div class="eyebrow" data-r style="margin-bottom:16px">E o mais importante: <b>a experiência da cliente já existe em versão navegável</b></div>
+      <div class="builtbox" data-r>
+        <div class="bb-head">
+          <div>
+            <div class="bb-k">Já construído pela Nexify · roda hoje</div>
+            <h3>Uma loja Dailus funcional, em cima do catálogo real</h3>
+            <p>Não é mockup. É uma loja navegável com os <b>375 produtos reais</b> extraídos do Shopify, as <b>7 campanhas</b> da marca virando landings que filtram o catálogo, carrinho, checkout, conta e rastreio de pedido. E dentro dela, a <b>"Dai" consultora</b> funcionando sobre o catálogo verdadeiro.</p>
+          </div>
+          <a class="bb-cta" href="../../frontend/index.html">Abrir a loja demonstrativa →</a>
+        </div>
+        <div class="bb-grid">
+          <div class="bb-item"><b>Home e catálogo</b><span>Hero, 7 categorias reais, busca, filtros e agrupamentos sobre os 375 SKUs</span></div>
+          <div class="bb-item"><b>Campanhas</b><span>Cada banner da marca vira landing: Fix Tudo, Batom Líquido, Sweet Skin, Top Chrome, Pó Translúcido, Quarteto, Última Chamada</span></div>
+          <div class="bb-item"><b>Produto e sacola</b><span>PDP, gaveta de carrinho, persistência e checkout completo</span></div>
+          <div class="bb-item"><b>Conta e rastreio</b><span>Login, dados da cliente, histórico e acompanhamento de pedido</span></div>
+          <div class="bb-item acc"><b>Provador guiado da Dai</b><span><b>11 ocasiões</b> (do dia a dia ao réveillon), <b>5 tons de pele</b> mapeados às bases D1–D12, 5 estilos e 7 imagens — devolve o look montado</span></div>
+          <div class="bb-item acc"><b>Chat consultivo</b><span>Entende a pergunta por regras, recomenda com justificativa e joga no carrinho. Com IA local ligada, a fala é gerada; sem ela, cai nas regras</span></div>
+        </div>
+        <p class="bb-foot">Ou seja: o desenho da experiência da cliente <b>não é suposição nossa</b> — foi construído, testado e está aberto para vocês navegarem. O que o app faz é levar isso para Flutter, com login, push e o vínculo com a creator.</p>
+      </div>
+    </div>
+
+    <!-- as tres portas -->
+    <div class="mt2">
+      <div class="eyebrow" data-r style="margin-bottom:16px">As três razões pelas quais isso interessa — uma para cada pessoa</div>
+      <div class="grid g3" data-r>
+        <div class="card">
+          <div class="k">Para o Diego</div>
+          <h3>Canal próprio no lugar de mídia</h3>
+          <p>App instalado é <b>push em vez de anúncio</b>. Cada cliente que migra da mídia paga para o canal próprio deixa de ter CAC recorrente. E a recompra — esmalte a cada 30–45 dias, base a cada 60–90 — passa a ser acionável sem comprar impressão.</p>
+        </div>
+        <div class="card">
+          <div class="k">Para a Babi</div>
+          <h3>A audiência deixa de ser alugada</h3>
+          <p>Os 2,9 M vivem em plataforma de terceiro, sujeitos a algoritmo. Um app instalado é relação direta, com nome, histórico e preferência — e a cliente chega pela mão de uma creator em quem ela já confia.</p>
+        </div>
+        <div class="card">
+          <div class="k">Para a Luh</div>
+          <h3>O canal fecha o ciclo</h3>
+          <p>A afiliada deixa de ser um cupom e passa a ser <b>origem de cliente</b>. Você vê quem ela trouxe, quanto essa pessoa comprou depois, e qual creator constrói base em vez de só girar desconto.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="disclaimer mt2" data-r>
+      <b>Duas honestidades para esta página não virar problema depois.</b><br>
+      <b>1.</b> Isto é um <b>segundo projeto</b>, com escopo, prazo e preço próprios — não está incluído na onda 1. O que a onda 1 entrega é a fundação que torna o segundo mais rápido e mais barato, e é isso que estamos propondo hoje.<br>
+      <b>2.</b> A Dailus já tem uma loja Shopify que funciona no celular. <b>App de marca que só repete a loja morre por falta de uso</b> — a taxa de desinstalação de app de e-commerce sem motivo de retorno é implacável. O que justifica este app não é a vitrine: é o clube, a recompra na hora certa, a consultora e o vínculo com a creator. Se a decisão for "queremos a loja no app", nossa recomendação é <b>não fazer</b>.
+    </div>
+  </div>
+</section>

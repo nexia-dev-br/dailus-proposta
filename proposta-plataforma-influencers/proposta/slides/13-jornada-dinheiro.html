@@ -1,0 +1,98 @@
+<!-- SLIDE 13 · JORNADA 2 · DO SALDO AO PIX -->
+<section id="dinheiro">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="act-no" data-r>JORNADA 02 · A CONFIANÇA</div>
+      <h2 class="title" data-r>Do saldo ao PIX: <em>menos telas, mais risco.</em></h2>
+      <p class="lead" data-r>Dez passos. Se essa jornada quebrar uma vez, o programa perde a comunidade — e nenhuma campanha bonita recupera. As linhas em destaque não são código antes de serem <b>decisão da Dailus</b>, e por isso são a maior dependência de cronograma do projeto. Maior que o Shopify.</p>
+    </div>
+
+    <div class="jtbl mt2" data-r>
+      <div class="jr head">
+        <span></span><span>passo</span><span>a regra que precisa existir antes</span><span>onde acontece</span>
+      </div>
+      <div class="jr">
+        <span class="rn">1</span>
+        <span class="rt">Pedido entra atribuído</span>
+        <span class="rr">Precedência entre link e cupom; janela de atribuição do clique</span>
+        <span class="wr-badge neu">backend</span>
+      </div>
+      <div class="jr gate">
+        <span class="rn">2</span>
+        <span class="rt">Comissão calculada como <b>prevista</b></span>
+        <span class="rr">% base, por categoria, booster, <b>piso de margem</b> e <b>regra de empilhamento</b></span>
+        <span class="wr-badge bad">decisão</span>
+      </div>
+      <div class="jr gate">
+        <span class="rn">3</span>
+        <span class="rt">Janela de aprovação</span>
+        <span class="rr">Quantos dias? Precisa conversar com os 7 dias de arrependimento e 30 de defeito da Dailus</span>
+        <span class="wr-badge bad">decisão</span>
+      </div>
+      <div class="jr gate">
+        <span class="rn">4</span>
+        <span class="rt">Cancelamento ou devolução → <b>estorno</b></span>
+        <span class="rr">Deduz de saldo futuro ou cobra de volta? (recomendamos deduzir — cobrar encerra a relação)</span>
+        <span class="wr-badge bad">decisão</span>
+      </div>
+      <div class="jr">
+        <span class="rn">5</span>
+        <span class="rt">Comissão vira <b>aprovada</b></span>
+        <span class="rr">Automático quando a janela fecha e não houve devolução</span>
+        <span class="wr-badge neu">backend</span>
+      </div>
+      <div class="jr">
+        <span class="rn">6</span>
+        <span class="rt">Fechamento de ciclo</span>
+        <span class="rr">Data de corte, valor mínimo para saque, tratamento de saldo retido</span>
+        <span class="wr-badge neu">admin</span>
+      </div>
+      <div class="jr gate">
+        <span class="rn">7</span>
+        <span class="rt">Retenções, se for CPF</span>
+        <span class="rr">IRRF, INSS, RPA e DIRF — <b>o jurídico define o instrumento antes do build</b>, não durante</span>
+        <span class="wr-badge bad">decisão</span>
+      </div>
+      <div class="jr">
+        <span class="rn">8</span>
+        <span class="rt">Lote de pagamento</span>
+        <span class="rr">Quem confere, quem libera — duas assinaturas, registradas em auditoria</span>
+        <span class="wr-badge neu">admin</span>
+      </div>
+      <div class="jr">
+        <span class="rn">9</span>
+        <span class="rt">PIX executado, comprovante e recibo disponíveis</span>
+        <span class="rr">Formato do comprovante e do RPA, e onde ela acessa</span>
+        <span class="wr-badge neu">app</span>
+      </div>
+      <div class="jr">
+        <span class="rn">10</span>
+        <span class="rt">Divergência abre chamado</span>
+        <span class="rr">SLA de resposta; chamado chega com pedido, regra aplicada e histórico anexados</span>
+        <span class="wr-badge neu">app + admin</span>
+      </div>
+    </div>
+
+    <div class="grid g3 mt2">
+      <div class="card" data-r data-d="1">
+        <div class="k">Requisito, não desejo</div>
+        <h3>Comissão idempotente</h3>
+        <p>Cálculo reproduzível por <span class="mono">(pedido, influenciadora, regra, versão)</span>. Nenhum valor sobrescrito sem log. É dinheiro de terceiro: um centavo errado repetido 400 vezes é crise de comunidade, não bug.</p>
+      </div>
+      <div class="card" data-r data-d="2">
+        <div class="k">Requisito, não desejo</div>
+        <h3>Regra versionada</h3>
+        <p>Alterar o percentual não pode mudar retroativamente comissão já apurada. Mudança retroativa é a forma mais rápida de perder a confiança de uma base de creators.</p>
+      </div>
+      <div class="card" data-r data-d="3">
+        <div class="k">Requisito, não desejo</div>
+        <h3>Auditoria imutável</h3>
+        <p>Quem alterou regra, quem aprovou lote, quem mudou nível — com data e valor anterior. Governança que fala a língua do CFO e custa pouco se nascer junto.</p>
+      </div>
+    </div>
+
+    <div class="callout mt2" data-r>
+      <p class="q">Quatro dos dez passos são <em>decisão da Dailus, não descoberta nossa.</em> É por isso que o próximo passo do projeto inclui uma sessão específica de economia com o financeiro — sem ela, o motor nasce com dívida.</p>
+    </div>
+  </div>
+</section>

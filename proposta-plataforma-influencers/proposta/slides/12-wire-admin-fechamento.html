@@ -1,0 +1,161 @@
+<!-- SLIDE 12 · WIREFRAME · ADMIN · FECHAMENTO -->
+<section id="fechamento" class="wire-slide">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="act-no" data-r>WIREFRAME 08 · A TELA DA LUH</div>
+      <h2 class="title" data-r>O fechamento do mês <em>sem nenhuma planilha.</em></h2>
+      <p class="lead" data-r>Este é o teste de sucesso do projeto, e ele cabe em uma frase: <b>se ao fim do mês sobrar uma planilha, a plataforma falhou no lugar que mais importa</b>. O app bonito da influenciadora não compensa um fechamento manual.</p>
+    </div>
+
+    <div class="wire-stage st-wide mt2">
+      <div data-r>
+        <div class="surface-tag"><span class="st-ic">🖥️</span> <b>Admin · Vue 3</b> · Fechamento</div>
+        <div class="wf-admin">
+          <div class="wf-chrome">
+            <div class="wf-dots"><i></i><i></i><i></i></div>
+            <div class="wf-url">admin.clube.dailus.com.br<b>/fechamento/2027-07</b></div>
+          </div>
+          <div class="wf-admin-body">
+            <div class="wf-side">
+              <div class="wr-row" style="padding:2px 8px 10px"><span class="wr-av" style="width:22px;height:22px;font-size:9px;background:var(--wf-accent);color:#fff">D</span><span style="color:#fff;font-size:11px;font-weight:800">Clube D</span></div>
+              <div class="sb">canal</div>
+              <div class="si"><i>▦</i>Painel</div>
+              <div class="si"><i>◷</i>Candidaturas</div>
+              <div class="si"><i>◕</i>Influenciadoras</div>
+              <div class="si"><i>◫</i>Campanhas</div>
+              <div class="sb">dinheiro</div>
+              <div class="si"><i>%</i>Regras</div>
+              <div class="si on"><i>₽</i>Fechamento</div>
+              <div class="si"><i>⚠</i>Antifraude</div>
+              <div class="sb">marca</div>
+              <div class="si"><i>◨</i>Assets</div>
+              <div class="si"><i>≡</i>Auditoria</div>
+            </div>
+
+            <div class="wf-main">
+              <div class="wf-topbar">
+                <div>
+                  <div class="wt-t">Ciclo de julho · 2027</div>
+                  <div class="wt-s">Corte 31/07 · pagamento previsto 05/08 · 384 influenciadoras com saldo</div>
+                </div>
+                <div class="wt-a"><span class="wr-chip">Exportar p/ financeiro</span><span class="wr-btn sm pri">Gerar lote de pagamento</span></div>
+              </div>
+
+              <!-- etapas do fechamento -->
+              <div class="wr-card" id="f-etapas">
+                <div class="wr-sec">etapas do fechamento</div>
+                <div class="wr-g4" style="gap:10px">
+                  <div class="wr-col" style="gap:4px"><span class="wr-badge ok">✓ 1</span><span class="wr-t">Conciliar pedidos</span><span class="wr-p xs">2.464 conferidos com Shopify</span></div>
+                  <div class="wr-col" style="gap:4px"><span class="wr-badge ok">✓ 2</span><span class="wr-t">Aplicar estornos</span><span class="wr-p xs">31 devoluções · − R$ 2.870</span></div>
+                  <div class="wr-col" style="gap:4px"><span class="wr-badge warn">◷ 3</span><span class="wr-t">Resolver pendências</span><span class="wr-p xs">6 itens travando o lote</span></div>
+                  <div class="wr-col" style="gap:4px"><span class="wr-badge neu">4</span><span class="wr-t">Aprovar e gerar PIX</span><span class="wr-p xs">exige 2ª aprovação</span></div>
+                </div>
+              </div>
+
+              <!-- pendências -->
+              <div class="wr-card" id="f-pend" style="border-color:rgba(169,106,0,.45)">
+                <div class="wr-row between">
+                  <span class="wr-sec" style="color:var(--wf-warn)">◷ 6 pendências bloqueiam a geração do lote</span>
+                  <span class="wr-btn sm">Resolver todas</span>
+                </div>
+                <div class="wr-tbl">
+                  <div class="tr" style="grid-template-columns:1fr 150px 92px"><span>@carol.makes · chave PIX não validada</span><span class="wr-p xs">saldo R$ 412,80 retido</span><span class="num"><span class="wr-btn sm">Notificar</span></span></div>
+                  <div class="tr" style="grid-template-columns:1fr 150px 92px"><span>@bibi_burns · contrato v3 não aceito</span><span class="wr-p xs">saldo R$ 1.208,10 retido</span><span class="num"><span class="wr-btn sm">Notificar</span></span></div>
+                  <div class="tr" style="grid-template-columns:1fr 150px 92px"><span>@luiza.b · cupom vazado, comissão em revisão</span><span class="wr-p xs">R$ 640,00 em disputa</span><span class="num"><span class="wr-btn sm">Analisar</span></span></div>
+                  <div class="tr" style="grid-template-columns:1fr 150px 92px"><span>@keh · divergência aberta (ticket #2210)</span><span class="wr-p xs">R$ 88,40 contestado</span><span class="num"><span class="wr-btn sm">Abrir</span></span></div>
+                </div>
+              </div>
+
+              <!-- resumo financeiro -->
+              <div class="wr-g2">
+                <div class="wr-card" id="f-resumo">
+                  <div class="wr-sec">resumo do lote</div>
+                  <div class="wr-tbl">
+                    <div class="tr" style="grid-template-columns:1fr 104px"><span>Comissão bruta apurada</span><span class="num">R$ 36.795</span></div>
+                    <div class="tr" style="grid-template-columns:1fr 104px"><span>Estornos do ciclo</span><span class="num">− R$ 2.870</span></div>
+                    <div class="tr" style="grid-template-columns:1fr 104px"><span>Boosters (cliente nova + kit)</span><span class="num">+ R$ 4.120</span></div>
+                    <div class="tr" style="grid-template-columns:1fr 104px"><span>IRRF retido (pagamentos a CPF)</span><span class="num">− R$ 1.986</span></div>
+                    <div class="tr" style="grid-template-columns:1fr 104px"><span>Saldos retidos por pendência</span><span class="num">− R$ 2.349</span></div>
+                    <div class="tr tot" style="grid-template-columns:1fr 104px"><span>Total a pagar · 378 PIX</span><span class="num">R$ 33.710</span></div>
+                  </div>
+                </div>
+
+                <div class="wr-col" style="gap:10px">
+                  <div class="wr-card" id="f-dupla">
+                    <div class="wr-sec">aprovação em duas mãos</div>
+                    <div class="wr-col" style="gap:7px">
+                      <div class="wr-row between"><span class="wr-row"><span class="wr-av" style="width:22px;height:22px;font-size:9px">L</span><span class="wr-t">Luh · conferência</span></span><span class="wr-badge ok">aprovado</span></div>
+                      <div class="wr-row between"><span class="wr-row"><span class="wr-av" style="width:22px;height:22px;font-size:9px">F</span><span class="wr-t">Financeiro · liberação</span></span><span class="wr-badge warn">pendente</span></div>
+                    </div>
+                    <span class="wr-p xs">Nenhum PIX é gerado com uma assinatura só. Tudo registrado na auditoria.</span>
+                  </div>
+                  <div class="wr-card" id="f-hist">
+                    <div class="wr-sec">ciclos anteriores</div>
+                    <div class="wr-tbl">
+                      <div class="tr" style="grid-template-columns:1fr 88px 66px"><span>junho 2027</span><span class="num">R$ 29.840</span><span class="num"><span class="wr-badge ok">pago</span></span></div>
+                      <div class="tr" style="grid-template-columns:1fr 88px 66px"><span>maio 2027</span><span class="num">R$ 26.115</span><span class="num"><span class="wr-badge ok">pago</span></span></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="wnotes" data-r data-d="1">
+        <div class="wnotes-head">O que esta tela resolve
+          <small>Passe o mouse em cada anotação para destacar a região correspondente na tela.</small>
+        </div>
+
+        <div class="wn" data-wtarget="#f-etapas">
+          <span class="n">1</span>
+          <div>
+            <h4>O fechamento vira processo, não maratona</h4>
+            <p>Conciliar, estornar, resolver pendências, aprovar. Hoje isso é planilha, conferência manual e o mês inteiro de medo de errar. Aqui é uma tela com estado — e qualquer pessoa do time consegue retomar de onde parou.</p>
+            <p><b>É o quick win mais visível do projeto para quem opera</b>, e o mais fácil de medir: horas por ciclo, antes e depois.</p>
+            <div class="whos"><span class="who luh">Luh</span></div>
+          </div>
+        </div>
+
+        <div class="wn" data-wtarget="#f-pend">
+          <span class="n">2</span>
+          <div>
+            <h4>A pendência bloqueia o lote — de propósito</h4>
+            <p>PIX para chave não validada, comissão de contrato não aceito e valor em disputa não podem entrar no pagamento. Cada um desses casos, resolvido depois, é retrabalho no financeiro e desgaste com a creator.</p>
+            <p>Note que o saldo fica <b>retido, não perdido</b> — e a influenciadora vê isso na Carteira dela, com o motivo.</p>
+            <div class="whos"><span class="who luh">Luh</span><span class="who creator">Influenciadora</span></div>
+          </div>
+        </div>
+
+        <div class="wn" data-wtarget="#f-resumo">
+          <span class="n">3</span>
+          <div>
+            <h4>O resumo é o mesmo número que ela vê</h4>
+            <p>Bruto, estorno, booster, IRRF e retenções — as mesmas linhas da Carteira da influenciadora, do lado da marca. Uma fonte só de verdade é o que acaba com a discussão "meu cálculo dá outro valor".</p>
+            <div class="whos"><span class="who luh">Luh</span><span class="who diego">Diego</span></div>
+          </div>
+        </div>
+
+        <div class="wn" data-wtarget="#f-dupla">
+          <span class="n">4</span>
+          <div>
+            <h4>Duas assinaturas para mover dinheiro</h4>
+            <p>Conferência da operação e liberação do financeiro, com registro em auditoria. É controle interno básico — e é exatamente o que um CFO com mandato de profissionalização espera encontrar antes de aprovar um canal que paga centenas de pessoas por mês.</p>
+            <div class="whos"><span class="who diego">Diego</span></div>
+          </div>
+        </div>
+
+        <div class="wn" data-wtarget="#f-hist">
+          <span class="n">5</span>
+          <div>
+            <h4>Ciclo fechado é imutável</h4>
+            <p>Depois de pago, o ciclo não se recalcula. Mudança de regra vale do próximo em diante. Sem isso, cada ajuste de comissão reabre discussões antigas e o programa vira negociação permanente.</p>
+            <div class="whos"><span class="who diego">Diego</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
