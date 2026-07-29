@@ -1,0 +1,143 @@
+<!-- SLIDE 24 · ARQUITETURA 5/9 · PROCESSOS, PORTAS E RUNTIME -->
+<section id="arq-deploy" class="arq-slide">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="act-no" data-r>ARQUITETURA · 5 DE 9</div>
+      <h2 class="title" data-r>O desenho, agora <em>em portas e regras de firewall.</em></h2>
+      <p class="lead" data-r>Cada caixa do slide anterior é um processo que escuta — ou deliberadamente não escuta — em uma porta. <b>Está aqui por um motivo: é a página que a área técnica de vocês vai querer rasgar</b>, e é melhor que isso aconteça agora do que depois do contrato assinado.</p>
+    </div>
+
+    <div class="arq mt2" data-r>
+      <div class="arq-layer">
+        <div class="aq-l">Os seis processos<small>Linux LTS em contêiner · um processo por imagem · usuário sem privilégio</small></div>
+        <div class="arq-row c3">
+          <div class="arq-node"><b>web-ssr</b><span>Vue 3 renderizado no servidor · sem estado, N réplicas</span><span class="port">escuta :3000</span></div>
+          <div class="arq-node"><b>api</b><span>Express · Sequelize · JWT curto com renovação</span><span class="port">escuta :3001</span></div>
+          <div class="arq-node key"><b>worker-apuracao</b><span>consome a fila de pedidos e roda o motor de comissão</span><span class="port none">não escuta em porta nenhuma</span></div>
+          <div class="arq-node"><b>worker-sync</b><span>catálogo, pedidos, envio e reconciliação com o Shopify</span><span class="port none">só conexões de saída</span></div>
+          <div class="arq-node"><b>worker-midia</b><span>conversão de vídeo e imagem, geração de miniatura</span><span class="port none">só conexões de saída</span></div>
+          <div class="arq-node"><b>scheduler</b><span>fechamento de ciclo e reconciliação diária · trava distribuída</span><span class="port none">uma instância por vez</span></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="mt2">
+      <div class="eyebrow" data-r style="margin-bottom:14px">A tabela de portas — e o que cada regra de firewall permite</div>
+      <div class="ports" data-r>
+        <div class="ports-row head">
+          <div>origem → destino</div><div>porta</div><div>protocolo</div><div>direção</div><div>quem pode</div>
+        </div>
+        <div class="ports-row">
+          <div class="pt-f">Internet → CDN / WAF</div>
+          <div class="pt-p">443</div>
+          <div class="pt-r">HTTPS · TLS 1.3</div>
+          <div class="pt-d entra">entrada</div>
+          <div class="pt-w">Qualquer origem. É o único endereço que existe do lado de fora.</div>
+        </div>
+        <div class="ports-row">
+          <div class="pt-f">CDN → balanceador</div>
+          <div class="pt-p">443</div>
+          <div class="pt-r">HTTPS</div>
+          <div class="pt-d entra">entrada</div>
+          <div class="pt-w">Só as faixas de IP do CDN. Acesso direto ao balanceador é recusado.</div>
+        </div>
+        <div class="ports-row">
+          <div class="pt-f">Balanceador → web-ssr</div>
+          <div class="pt-p">3000</div>
+          <div class="pt-r">HTTP interno</div>
+          <div class="pt-d priv">privada</div>
+          <div class="pt-w">Só o balanceador. O processo não tem rota para fora da sub-rede.</div>
+        </div>
+        <div class="ports-row">
+          <div class="pt-f">Balanceador → api</div>
+          <div class="pt-p">3001</div>
+          <div class="pt-r">HTTP interno</div>
+          <div class="pt-d priv">privada</div>
+          <div class="pt-w">Só o balanceador, e só nos caminhos que o roteamento declara.</div>
+        </div>
+        <div class="ports-row">
+          <div class="pt-f">Shopify → api <code>/webhooks</code></div>
+          <div class="pt-p">443</div>
+          <div class="pt-r">HTTPS · HMAC SHA-256</div>
+          <div class="pt-d entra">entrada</div>
+          <div class="pt-w">Assinatura conferida antes de qualquer processamento. Corpo inválido é descartado sem enfileirar.</div>
+        </div>
+        <div class="ports-row">
+          <div class="pt-f">Aplicação e workers → PostgreSQL</div>
+          <div class="pt-p">5432</div>
+          <div class="pt-r">TCP + TLS</div>
+          <div class="pt-d priv">privada</div>
+          <div class="pt-w">Só a sub-rede da zona 2, com usuário de banco separado por serviço.</div>
+        </div>
+        <div class="ports-row">
+          <div class="pt-f">Aplicação e workers → Redis</div>
+          <div class="pt-p">6379</div>
+          <div class="pt-r">TCP + TLS + senha</div>
+          <div class="pt-d priv">privada</div>
+          <div class="pt-w">Só a sub-rede da zona 2. Filas, cache e trava do agendador.</div>
+        </div>
+        <div class="ports-row">
+          <div class="pt-f">Workers → sistemas externos</div>
+          <div class="pt-p">443</div>
+          <div class="pt-r">HTTPS · mTLS no PIX</div>
+          <div class="pt-d sai">saída</div>
+          <div class="pt-w">Só destinos na lista de permissão, por NAT com IP fixo — exigência de quem executa pagamento.</div>
+        </div>
+        <div class="ports-row">
+          <div class="pt-f">Operação humana → qualquer zona</div>
+          <div class="pt-p">—</div>
+          <div class="pt-r">túnel com MFA</div>
+          <div class="pt-d priv">administrativa</div>
+          <div class="pt-w">Sem SSH exposto, sem porta administrativa aberta. Acesso nominal, com prazo e registro em log.</div>
+        </div>
+        <div class="ports-row deny">
+          <div class="pt-f">Internet → PostgreSQL ou Redis</div>
+          <div class="pt-p">5432 · 6379</div>
+          <div class="pt-r">—</div>
+          <div class="pt-d">bloqueado</div>
+          <div class="pt-w"><b>Não existe rota.</b> Nem para a internet, nem para a rede da Nexify. Banco de dados financeiro não fica a uma senha de distância da internet.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="mt2">
+      <div class="eyebrow" data-r style="margin-bottom:14px">Como os serviços conversam entre si — três modos, e só três</div>
+      <div class="scal" data-r>
+        <div class="sc">
+          <div class="sc-t">Modo 1 · síncrono</div>
+          <h4>HTTP interno, no caminho da requisição</h4>
+          <p>Balanceador → <b>web-ssr</b> ou <b>api</b>. Tempo limite curto, sem repetição automática: se falhar, o usuário vê erro e tenta de novo.</p>
+          <div class="sc-w">Usado só onde alguém está esperando a tela responder. <b>Nada de dinheiro passa por aqui.</b></div>
+        </div>
+        <div class="sc peak">
+          <div class="sc-t">Modo 2 · assíncrono</div>
+          <h4>Fila, com entrega garantida ao menos uma vez</h4>
+          <p>A <b>api</b> publica, os <b>workers</b> consomem via BullMQ sobre Redis. Espera progressiva entre tentativas, e fila morta depois de N falhas.</p>
+          <div class="sc-w">Entrega ao menos uma vez significa que <b>o consumidor precisa ser idempotente</b> — é a mesma invariante do slide do fluxo, agora vista pelo lado da infraestrutura.</div>
+        </div>
+        <div class="sc">
+          <div class="sc-t">Modo 3 · agendado</div>
+          <h4>Tarefa periódica com trava distribuída</h4>
+          <p>Fechamento de ciclo, reconciliação diária e sincronização de catálogo. A trava no Redis garante que <b>só uma réplica executa</b>, mesmo com seis no ar.</p>
+          <div class="sc-w">Sem a trava, subir uma segunda réplica <b>apura o mês duas vezes.</b> É a falha de infraestrutura mais cara que este sistema admite.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="mt2">
+      <div class="eyebrow" data-r style="margin-bottom:14px">Sistema operacional, runtime e publicação</div>
+      <div class="nots c3" data-r>
+        <div class="not"><b>Sistema operacional</b><span>Linux de distribuição LTS, em imagem de contêiner mínima. Sem shell e sem gerenciador de pacotes na imagem de produção.</span></div>
+        <div class="not"><b>Runtime</b><span>Node.js na linha LTS. Um processo por contêiner — quem reinicia é o orquestrador, não um supervisor dentro da imagem.</span></div>
+        <div class="not"><b>Processo</b><span>Usuário sem privilégio, sistema de arquivos montado somente leitura, apenas <code>/tmp</code> gravável. Sem capacidade de rede bruta.</span></div>
+        <div class="not"><b>Segredos</b><span>Injetados como variável de ambiente a partir do cofre, no momento de subir. Nunca na imagem, nunca no repositório, nunca em log.</span></div>
+        <div class="not"><b>Publicação</b><span>Imagem imutável marcada pelo commit. Subida gradual com sonda de prontidão; voltar atrás é apontar para a marca anterior.</span></div>
+        <div class="not"><b>Estado</b><span>Nenhum processo guarda estado em disco local. Sessão no Redis, arquivo no armazenamento de objetos — por isso escalar é só somar réplica.</span></div>
+      </div>
+    </div>
+
+    <div class="disclaimer mt2" data-r>
+      <b>Esta é a topologia de referência, não uma exigência de fornecedor.</b> O desenho não depende de nuvem específica: precisa de um balanceador com TLS, três sub-redes com regras de rede entre elas, um orquestrador de contêiner, PostgreSQL e Redis gerenciados, e saída por IP fixo. <b>Se a Dailus já tem nuvem, time de infraestrutura ou padrão corporativo, o desenho se ajusta a ele</b> — é a segunda checagem técnica que pedimos, junto com a do Shopify.
+    </div>
+  </div>
+</section>

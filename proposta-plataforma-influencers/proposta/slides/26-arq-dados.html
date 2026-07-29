@@ -1,0 +1,107 @@
+<!-- SLIDE 26 · ARQUITETURA 7/9 · DADOS, FONTE DA VERDADE E DEPENDÊNCIAS -->
+<section id="arq-dados" class="arq-slide">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="act-no" data-r>ARQUITETURA · 7 DE 9</div>
+      <h2 class="title" data-r>Quem é dono de qual dado — <em>e o risco de ninguém ser.</em></h2>
+      <p class="lead" data-r>A maior parte dos problemas de integração não é técnica: é <b>dois sistemas achando que são donos do mesmo número</b>. Esta é a divisão de fonte da verdade que propomos. Onde o Shopify manda, nós espelhamos e conferimos. Onde o dinheiro é apurado, mandamos nós — e mais ninguém escreve.</p>
+    </div>
+
+    <div class="own mt2" data-r>
+      <div class="own-row head">
+        <div>o dado</div><div>fonte da verdade</div><div>o que fazemos com ele</div>
+      </div>
+      <div class="own-row">
+        <div class="ow-d">Catálogo, preço e coleções</div>
+        <div><span class="own-src ext">Shopify</span></div>
+        <div class="ow-r">Espelhamos e enriquecemos com <b>margem por SKU</b> — o dado que o Shopify não tem e sem o qual não existe piso de margem.</div>
+      </div>
+      <div class="own-row">
+        <div class="ow-d">Pedido, pagamento e devolução</div>
+        <div><span class="own-src ext">Shopify</span></div>
+        <div class="ow-r">Espelhamos o essencial por webhook. <b>Reconciliação diária</b> compara os dois lados: divergência vira alerta no dia, não surpresa no fechamento.</div>
+      </div>
+      <div class="own-row">
+        <div class="ow-d">Estoque e envio do kit</div>
+        <div><span class="own-src ext">Shopify</span></div>
+        <div class="ow-r">Só leitura. O rastreio aparece no app dela — mata a mensagem número um de qualquer seeding.</div>
+      </div>
+      <div class="own-row open">
+        <div class="ow-d">Clique, cupom e atribuição da venda</div>
+        <div><span class="own-src open">a definir</span></div>
+        <div class="ow-r"><b>A linha em aberto do projeto.</b> Ou o app de afiliado da loja é a fonte e nós consumimos, ou a fonte somos nós. Muda esforço, prazo e onde mora o risco de correção financeira.</div>
+      </div>
+      <div class="own-row">
+        <div class="ow-d">Cadastro, nível, contrato e aceite</div>
+        <div><span class="own-src us">nós</span></div>
+        <div class="ow-r">Fonte única. Contrato versionado com data e versão aceita — pré-requisito jurídico para pagar comissão.</div>
+      </div>
+      <div class="own-row">
+        <div class="ow-d">Regra de comissão e sua versão</div>
+        <div><span class="own-src us">nós</span></div>
+        <div class="ow-r">Fonte única e <b>imutável depois de apurar</b>. Alterar o percentual cria versão nova; o que já foi apurado continua valendo pela versão antiga.</div>
+      </div>
+      <div class="own-row">
+        <div class="ow-d">Comissão, ciclo e saldo</div>
+        <div><span class="own-src us">nós</span></div>
+        <div class="ow-r">Fonte única, <b>só acrescenta linha</b>, e nenhum outro sistema escreve aqui. É o número que ela vê no app e o que o financeiro paga — têm que ser o mesmo.</div>
+      </div>
+      <div class="own-row">
+        <div class="ow-d">CPF, dados fiscais e chave PIX</div>
+        <div><span class="own-src us">nós, sob LGPD</span></div>
+        <div class="ow-r">Base legal declarada, prazo de retenção definido, exclusão e exportação atendidas. <b>Pedidos só na primeira solicitação de saque</b> — antes disso, é atrito que derruba cadastro.</div>
+      </div>
+      <div class="own-row">
+        <div class="ow-d">PIX executado e comprovante</div>
+        <div><span class="own-src ext">meio de pagamento</span></div>
+        <div class="ow-r">Guardamos o comprovante e conciliamos remessa por remessa. Lote pago tem que bater com lote aprovado, item a item.</div>
+      </div>
+    </div>
+
+    <div class="mt2">
+      <div class="eyebrow" data-r style="margin-bottom:14px">O núcleo do modelo de dados, agrupado por assunto</div>
+      <div class="ents" data-r>
+        <div class="ent">
+          <div class="en-t">Pessoas e vínculo</div>
+          <div class="en-l"><i>afiliada</i><i>candidatura</i><i>contrato aceito</i><i>nível</i><i>consentimento</i><i>dados fiscais</i></div>
+        </div>
+        <div class="ent">
+          <div class="en-t">Atribuição</div>
+          <div class="en-l"><i>link rastreado</i><i>cupom</i><i>clique</i><i>atribuição</i><i>janela</i></div>
+        </div>
+        <div class="ent">
+          <div class="en-t">Comércio (espelho)</div>
+          <div class="en-l"><i>pedido</i><i>item</i><i>SKU</i><i>margem por SKU</i><i>devolução</i><i>envio</i></div>
+        </div>
+        <div class="ent key">
+          <div class="en-t">Dinheiro · o coração</div>
+          <div class="en-l"><i>regra + versão</i><i>booster</i><i>lançamento</i><i>ciclo</i><i>retenção</i><i>lote</i><i>pagamento</i><i>comprovante</i></div>
+        </div>
+        <div class="ent">
+          <div class="en-t">Operação</div>
+          <div class="en-l"><i>campanha</i><i>briefing</i><i>claim</i><i>asset</i><i>entrega</i><i>vitrine</i></div>
+        </div>
+        <div class="ent">
+          <div class="en-t">Governança</div>
+          <div class="en-l"><i>evento de auditoria</i><i>alerta de fraude</i><i>exportação LGPD</i></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="mt2">
+      <div class="eyebrow" data-r style="margin-bottom:14px">As seis dependências externas — e o risco que cada uma carrega</div>
+      <div class="nots c3" data-r>
+        <div class="not"><b>Shopify · limites de API</b><span>Se o plano não tiver folga de chamadas, muda a estratégia de sincronização e de criação de cupom em volume.</span></div>
+        <div class="not"><b>Camada de atribuição</b><span>Caixa fechada vira motor próprio. É o único item que sozinho reescreve o cronograma.</span></div>
+        <div class="not"><b>Meio de pagamento · PIX em lote</b><span>Nem todo provedor faz remessa em lote com conciliação item a item. Sem isso, o fechamento volta a ser manual.</span></div>
+        <div class="not"><b>Push das lojas</b><span>Entrega não é garantida. Todo aviso que envolve dinheiro precisa existir também dentro do app.</span></div>
+        <div class="not"><b>WhatsApp oficial</b><span>Modelo de mensagem passa por aprovação e tem custo por conversa. Não é canal grátis.</span></div>
+        <div class="not"><b>Obrigações fiscais de pessoa física</b><span>Comissão recorrente a CPF gera retenção e declaração. Isso é desenho jurídico, não campo de formulário.</span></div>
+      </div>
+    </div>
+
+    <div class="disclaimer mt2" data-r>
+      <b>A linha em aberto na tabela é a mesma premissa P4 do slide de premissas.</b> Enquanto ela não for respondida, a arquitetura tem duas versões possíveis — e só uma delas cabe no prazo que uma primeira onda costuma ter. É a primeira checagem técnica que pedimos.
+    </div>
+  </div>
+</section>

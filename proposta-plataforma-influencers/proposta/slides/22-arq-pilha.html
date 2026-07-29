@@ -1,0 +1,91 @@
+<!-- SLIDE 22 · ARQUITETURA 3/9 · A PILHA TÉCNICA -->
+<section id="arq-pilha" class="arq-slide">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="act-no" data-r>ARQUITETURA · 3 DE 9</div>
+      <h2 class="title" data-r>A pilha, sem mistério: <em>tecnologia escolhida por ser chata.</em></h2>
+      <p class="lead" data-r>Nada aqui é aposta. Toda peça desta lista tem mais de dez anos de estrada, comunidade grande e gente disponível no mercado — <b>e isso é um requisito, não uma preferência</b>. Uma plataforma que calcula pagamento não pode depender de uma biblioteca que some no ano que vem, nem de um profissional raro que ninguém consegue contratar de novo.</p>
+    </div>
+
+    <div class="stack mt2">
+      <div class="stk" data-r data-d="1">
+        <div class="sk-t">Superfícies · o que a pessoa toca</div>
+        <div class="sk-l">
+          <div class="tech"><span class="tc" style="--b:#02569B"><i class="gl gl-flutter"></i></span>
+            <span><b>Flutter</b><i>App iOS e Android com uma base de código só</i></span></div>
+          <div class="tech"><span class="tc" style="--b:#41B883"><i class="gl gl-vue"></i></span>
+            <span><b>Vue 3</b><i>Web pública, portal da afiliada e painel da marca</i></span></div>
+          <div class="tech"><span class="tc" style="--b:#3178C6"><span class="tt">TS</span></span>
+            <span><b>TypeScript</b><i>Tipagem em toda a base — erro de contrato aparece antes de rodar</i></span></div>
+          <div class="tech"><span class="tc" style="--b:#8B5CF6"><i class="gl gl-vite"></i></span>
+            <span><b>Vite</b><i>Empacotamento e ambiente de desenvolvimento</i></span></div>
+        </div>
+        <div class="sk-f">Por que Flutter e não duas equipes nativas: <b>um time entrega as duas lojas</b>, e o app da creator não é o produto onde a diferença nativa aparece.</div>
+      </div>
+
+      <div class="stk" data-r data-d="2">
+        <div class="sk-t">Serviços · onde mora a regra</div>
+        <div class="sk-l">
+          <div class="tech"><span class="tc" style="--b:#5FA04E"><i class="gl gl-node"></i></span>
+            <span><b>Node.js</b><i>Runtime de todos os serviços, na linha de suporte longo</i></span></div>
+          <div class="tech"><span class="tc" style="--b:#303030"><span class="tt">ex</span></span>
+            <span><b>Express</b><i>Camada HTTP da API — fina de propósito</i></span></div>
+          <div class="tech"><span class="tc" style="--b:#52B0E7"><span class="tt">Sq</span></span>
+            <span><b>Sequelize</b><i>Acesso ao banco com migração versionada e reversível</i></span></div>
+          <div class="tech"><span class="tc" style="--b:#B02A37"><span class="tt">MQ</span></span>
+            <span><b>BullMQ</b><i>Filas e tarefas agendadas — tudo que é dinheiro passa por aqui</i></span></div>
+        </div>
+        <div class="sk-f">Mesma linguagem na API, nos workers e no servidor da web: <b>uma regra de comissão, uma implementação</b> — não duas que precisam concordar.</div>
+      </div>
+
+      <div class="stk" data-r data-d="3">
+        <div class="sk-t">Dados e infraestrutura</div>
+        <div class="sk-l">
+          <div class="tech"><span class="tc" style="--b:#336791"><i class="gl gl-postgres"></i></span>
+            <span><b>PostgreSQL</b><i>Banco transacional — a fonte da verdade do dinheiro</i></span></div>
+          <div class="tech"><span class="tc" style="--b:#FF4438"><i class="gl gl-redis"></i></span>
+            <span><b>Redis</b><i>Filas, cache da vitrine e trava do agendador</i></span></div>
+          <div class="tech"><span class="tc" style="--b:#2496ED"><i class="gl gl-docker"></i></span>
+            <span><b>Docker</b><i>Imagem imutável por commit — voltar atrás é trocar a marca</i></span></div>
+          <div class="tech"><span class="tc" style="--b:#1B1B1B"><i class="gl gl-linux"></i></span>
+            <span><b>Linux LTS + nginx</b><i>Sistema dos contêineres e proxy que encerra o TLS</i></span></div>
+        </div>
+        <div class="sk-f">PostgreSQL porque transação e integridade referencial <b>não são opcionais quando o registro é um pagamento</b>. Banco sem transação aqui seria escolha errada de graça.</div>
+      </div>
+
+      <div class="stk" data-r data-d="4">
+        <div class="sk-t">Integrações · o que não construímos</div>
+        <div class="sk-l">
+          <div class="tech"><span class="tc" style="--b:#95BF47"><i class="gl gl-shopify"></i></span>
+            <span><b>Shopify</b><i>Catálogo, pedidos, cupons, envio e checkout</i></span></div>
+          <div class="tech"><span class="tc" style="--b:#32BCAD"><i class="gl gl-pix"></i></span>
+            <span><b>Pix</b><i>Pagamento das comissões em lote, com comprovante</i></span></div>
+          <div class="tech"><span class="tc" style="--b:#FFA000"><i class="gl gl-firebase"></i></span>
+            <span><b>Firebase (FCM)</b><i>Push no Android</i></span></div>
+          <div class="tech"><span class="tc" style="--b:#111111"><i class="gl gl-apple"></i></span>
+            <span><b>APNs</b><i>Push no iOS</i></span></div>
+          <div class="tech"><span class="tc" style="--b:#25D366"><i class="gl gl-whatsapp"></i></span>
+            <span><b>WhatsApp</b><i>Convite, aviso de campanha e confirmação de pagamento</i></span></div>
+        </div>
+        <div class="sk-f">Cinco sistemas que <b>não controlamos e não queremos controlar</b>. Cada um é uma dependência declarada no slide de dados — e um risco de cronograma que não é nosso.</div>
+      </div>
+    </div>
+
+    <div class="grid g2 mt2">
+      <div class="card" data-r data-d="1">
+        <div class="k">O critério por trás de cada escolha</div>
+        <h3>Tecnologia entediante é uma decisão de risco</h3>
+        <p>Cada item acima passou por três perguntas: <b>existe há tempo suficiente para ter os erros conhecidos?</b> <b>Dá para contratar quem saiba, no Brasil, sem pagar prêmio de raridade?</b> <b>Se a Nexify sair, outra equipe assume?</b> Nada nesta lista responde "não" a nenhuma das três — e é por isso que ela é curta e sem novidade.</p>
+      </div>
+      <div class="card" data-r data-d="2">
+        <div class="k">O que deliberadamente não está aqui</div>
+        <h3>Sem microserviços, sem Kubernetes, sem multi-nuvem</h3>
+        <p>Um programa de afiliadas com centenas de creators não tem o volume que justifica malha de serviços, orquestração complexa ou banco distribuído. <b>Complexidade de infraestrutura sem escala que a exija é custo puro</b> — e custo que aparece todo mês, não só no projeto. Se o volume crescer a ponto de pedir, o desenho comporta a mudança; não vamos pagar por ela antes.</p>
+      </div>
+    </div>
+
+    <div class="disclaimer mt2" data-r>
+      As marcas acima são de seus respectivos donos e aparecem aqui só para identificar a tecnologia proposta. <b>Nenhuma implica parceria, certificação ou patrocínio</b> — Shopify, Pix, Firebase, Apple e WhatsApp são integrações de mercado, contratadas ou usadas sob os termos públicos de cada um.
+    </div>
+  </div>
+</section>

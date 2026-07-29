@@ -1,0 +1,116 @@
+<!-- SLIDE 21 · ARQUITETURA 2/9 · MAPA DE COMPONENTES -->
+<section id="arq-componentes" class="arq-slide">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="act-no" data-r>ARQUITETURA · 2 DE 9</div>
+      <h2 class="title" data-r>O mapa inteiro: <em>quatro superfícies, doze serviços, seis sistemas de fora.</em></h2>
+      <p class="lead" data-r>Este é o desenho de tudo o que precisa existir para as telas dos slides anteriores funcionarem. <b>Cada caixa é código que alguém escreve, testa, monitora e mantém no ar.</b> As telas são a segunda linha de cima para baixo — o resto ninguém vê, e é o resto que faz o programa fechar o mês certo.</p>
+    </div>
+
+    <div class="arq mt2" data-r>
+      <div class="arq-layer actors">
+        <div class="aq-l">Quem usa<small>quatro públicos, três com login</small></div>
+        <div class="arq-row">
+          <div class="arq-node"><b>A influenciadora</b><span>todo dia, no celular</span></div>
+          <div class="arq-node"><b>A consumidora</b><span>sem login, chega pela vitrine</span></div>
+          <div class="arq-node"><b>O time da marca</b><span>Luh e Babi</span></div>
+          <div class="arq-node"><b>Financeiro e jurídico</b><span>fecham e auditam</span></div>
+        </div>
+      </div>
+
+      <div class="arq-tie"><i></i></div>
+
+      <div class="arq-layer">
+        <div class="aq-l">Superfícies<small>o que aparece na tela</small></div>
+        <div class="arq-row">
+          <div class="arq-node"><b>Web pública</b><span>Vue 3 · renderizada no servidor · landing, candidatura, vitrine /@handle</span></div>
+          <div class="arq-node"><b>Portal da afiliada</b><span>Vue 3 · mínimo, para ela ganhar antes de instalar o app</span></div>
+          <div class="arq-node"><b>App da influenciadora</b><span>Flutter · iOS e Android · a superfície de hábito</span></div>
+          <div class="arq-node"><b>Painel da marca</b><span>Vue 3 · a sala de comando: regras, campanha, fechamento</span></div>
+        </div>
+      </div>
+
+      <div class="arq-tie"><i></i></div>
+
+      <div class="arq-layer">
+        <div class="aq-l">Borda<small>o que toda requisição atravessa</small></div>
+        <div class="arq-row">
+          <div class="arq-node"><b>API única</b><span>um contrato para as quatro superfícies</span></div>
+          <div class="arq-node"><b>Autenticação e permissão</b><span>código por telefone · 4 papéis de acesso</span></div>
+          <div class="arq-node"><b>CDN e cache da vitrine</b><span>o que segura o pico de live</span></div>
+          <div class="arq-node"><b>Limite de uso e proteção</b><span>abuso, robô, raspagem de cupom</span></div>
+        </div>
+      </div>
+
+      <div class="arq-tie"><i></i></div>
+
+      <div class="arq-layer">
+        <div class="aq-l">Domínio<small>onde mora a regra do negócio — e o custo real</small></div>
+        <!-- 4 colunas: os doze serviços fecham três fileiras cheias -->
+        <div class="arq-row c4">
+          <div class="arq-node key"><b>Motor de comissão</b><span>regra versionada, booster, piso de margem, empilhamento, estorno</span></div>
+          <div class="arq-node key"><b>Fechamento e pagamento</b><span>ciclo, retenções, lote, PIX, comprovante</span></div>
+          <div class="arq-node acc"><b>Atribuição</b><span>de quem foi a venda: link, cupom, janela</span></div>
+          <div class="arq-node acc"><b>Antifraude</b><span>autocompra, cupom vazado, audiência anômala</span></div>
+          <div class="arq-node"><b>Livro-razão</b><span>lançamentos, saldos, histórico que não se apaga</span></div>
+          <div class="arq-node"><b>Afiliada e nível</b><span>cadastro, contrato, faixa, benefícios</span></div>
+          <div class="arq-node"><b>Campanha e briefing</b><span>claims, entregáveis, prazo, público-alvo</span></div>
+          <div class="arq-node"><b>Catálogo e curadoria</b><span>o que pode ser divulgado, com que margem</span></div>
+          <div class="arq-node"><b>Vitrine</b><span>uma página por afiliada, com cache e preview de link</span></div>
+          <div class="arq-node"><b>Mídia e assets</b><span>upload, conversão, liberação por campanha</span></div>
+          <div class="arq-node"><b>Notificação</b><span>push, e-mail e WhatsApp, por evento</span></div>
+          <div class="arq-node"><b>Auditoria e LGPD</b><span>log imutável, consentimento, exclusão, exportação</span></div>
+        </div>
+      </div>
+
+      <div class="arq-tie"><i></i></div>
+
+      <div class="arq-layer">
+        <div class="aq-l">Plataforma<small>o que sustenta os doze acima</small></div>
+        <div class="arq-row c3">
+          <div class="arq-node"><b>Banco transacional</b><span>PostgreSQL · multi-marca, dados isolados por marca</span></div>
+          <div class="arq-node"><b>Filas e agendamentos</b><span>Redis + BullMQ · apuração, sync, fechamento, reconciliação</span></div>
+          <div class="arq-node"><b>Armazenamento de mídia</b><span>vídeos e imagens das campanhas, servidos por CDN</span></div>
+          <div class="arq-node"><b>Observabilidade</b><span>métricas, alertas e rastreio de requisição</span></div>
+          <div class="arq-node"><b>Cofre de segredos</b><span>chaves de API, credenciais de pagamento</span></div>
+          <div class="arq-node"><b>Ambientes e publicação</b><span>desenvolvimento, homologação e produção</span></div>
+        </div>
+      </div>
+
+      <div class="arq-tie"><i></i></div>
+
+      <div class="arq-layer ext">
+        <div class="aq-l">Fora do nosso perímetro<small>seis dependências que não controlamos</small></div>
+        <div class="arq-row c3">
+          <div class="arq-node"><b>Shopify</b><span>catálogo, pedidos, envio, clientes, cupons</span></div>
+          <div class="arq-node"><b>Camada de atribuição</b><span>app de afiliado da loja — ou motor próprio</span></div>
+          <div class="arq-node"><b>Meio de pagamento</b><span>execução do PIX em lote e comprovante</span></div>
+          <div class="arq-node"><b>Push das lojas</b><span>Google e Apple entregam a notificação</span></div>
+          <div class="arq-node"><b>WhatsApp</b><span>provedor oficial, com modelo de mensagem aprovado</span></div>
+          <div class="arq-node"><b>E-mail transacional</b><span>candidatura, link mágico, comprovante</span></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="arq-count mt2" data-r>
+      <div class="ac"><b>4</b><span>superfícies com código próprio</span></div>
+      <div class="ac"><b>12</b><span>serviços de domínio no backend</span></div>
+      <div class="ac"><b>6</b><span>sistemas de fora para integrar</span></div>
+      <div class="ac"><b>4</b><span>papéis de acesso distintos</span></div>
+      <div class="ac"><b>3</b><span>marcas como inquilinos: Dailus, Sweet&nbsp;Skin, Fortilon</span></div>
+    </div>
+
+    <div class="grid g2 mt2">
+      <div class="card" data-r data-d="1">
+        <div class="k">A caixa que decide o cronograma</div>
+        <h3>Atribuição: adaptador ou motor próprio</h3>
+        <p>Se a loja tiver um app de afiliado com API e webhooks decentes, essa caixa é um adaptador de porte médio. Se for caixa fechada — ou se não existir nenhum — vira <b>motor de atribuição próprio</b>: muito mais esforço e risco de correção financeira. <b>Nenhuma estimativa de prazo é honesta antes dessa resposta</b> (premissa P4, no slide de premissas).</p>
+      </div>
+      <div class="card" data-r data-d="2">
+        <div class="k">O que o mapa não mostra</div>
+        <h3>Existe trabalho que não vira caixinha</h3>
+        <p>Migração da base atual, massa de teste com dinheiro fictício, três ambientes, publicação nas duas lojas de app, revisão da Apple, manual de operação, plantão do primeiro fechamento e o retrabalho que toda integração alheia cobra. <b>É real, é caro e não aparece em nenhum diagrama</b> — inclusive neste.</p>
+      </div>
+    </div>
+  </div>
+</section>

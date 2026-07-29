@@ -1,0 +1,76 @@
+<!-- SLIDE 27 · ARQUITETURA 8/9 · SEGURANÇA, ANTIFRAUDE E AUDITORIA -->
+<section id="arq-seguranca" class="arq-slide">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="act-no" data-r>ARQUITETURA · 8 DE 9</div>
+      <h2 class="title" data-r>Dinheiro de terceiro <em>muda o que significa "pronto".</em></h2>
+      <p class="lead" data-r>No momento em que o sistema calcula quanto uma pessoa física vai receber, ele deixa de ser um aplicativo e passa a ser um <b>sistema financeiro pequeno</b>. Isso não é retórica de engenharia: muda a lista do que precisa existir antes de ir ao ar. Nenhum item desta página aparece numa demonstração. Todos aparecem numa auditoria.</p>
+    </div>
+
+    <div class="guard mt2">
+      <div class="gcard" data-r data-d="1">
+        <div class="g-h"><span class="g-ic">🔑</span><h4>Perímetro e acesso</h4></div>
+        <ul>
+          <li><b>Entrada por código no telefone</b>, sem senha — senha é atrito fatal nesse público</li>
+          <li><b>Quatro papéis</b> com permissões diferentes: afiliada, operação, financeiro e jurídico</li>
+          <li><b>Segundo fator obrigatório</b> no papel financeiro</li>
+          <li><b>Duas mãos para liberar lote</b> — quem monta o pagamento não é quem aprova</li>
+          <li>Sessão curta no painel e registro de cada acesso</li>
+        </ul>
+        <div class="g-f">Sem separação de papéis, "acesso ao painel" vira acesso a pagar dinheiro. É o controle mais barato de implantar e o mais caro de não ter.</div>
+      </div>
+
+      <div class="gcard acc" data-r data-d="2">
+        <div class="g-h"><span class="g-ic">⚖️</span><h4>Correção financeira</h4></div>
+        <ul>
+          <li><b>Cada pedido conta uma vez só</b>, mesmo que a loja avise três vezes</li>
+          <li><b>Recálculo reproduzível</b>: refazer a apuração de um mês inteiro dá exatamente o mesmo resultado</li>
+          <li><b>Nenhum valor é sobrescrito</b> — corrigir é lançar contra, com data, autor e motivo</li>
+          <li><b>Mudar o percentual não mexe no passado</b>: cria versão nova, o apurado fica na versão antiga</li>
+          <li>O saldo que ela vê no app e o valor que o financeiro paga saem da mesma fonte</li>
+        </ul>
+        <div class="g-f">Um centavo errado repetido quatrocentas vezes não é um bug de arredondamento — é uma crise de confiança com a comunidade inteira, e ela acontece em público.</div>
+      </div>
+
+      <div class="gcard" data-r data-d="3">
+        <div class="g-h"><span class="g-ic">🛡️</span><h4>Antifraude</h4></div>
+        <ul>
+          <li><b>Autocompra</b> — mesmo CPF, telefone ou endereço da afiliada: segura a comissão e avisa a operação</li>
+          <li><b>Cupom vazado</b> — código aparecendo em agregador de desconto, uso muito acima da audiência dela: limita e troca o código</li>
+          <li><b>Audiência anômala</b> — crescimento de seguidores incompatível com o engajamento: revisão manual antes de subir de nível</li>
+          <li>Link rastreado como atribuição principal; cupom com uso limitado</li>
+        </ul>
+        <div class="g-f">Cupom vazado não é venda incremental: é margem transferida para quem não trouxe ninguém. A margem recuperada aqui pode pagar boa parte do projeto.</div>
+      </div>
+
+      <div class="gcard" data-r data-d="4">
+        <div class="g-h"><span class="g-ic">📜</span><h4>Auditoria e LGPD</h4></div>
+        <ul>
+          <li><b>Log imutável</b> de quem mudou regra, aprovou pagamento, alterou nível e liberou lote</li>
+          <li>Qualquer valor pago se explica de trás para frente: lote → lançamento → pedido → regra e versão</li>
+          <li><b>CPF e chave PIX</b> com base legal declarada, prazo de retenção e exclusão atendida</li>
+          <li>Exportação dos dados pessoais a pedido da titular</li>
+          <li>Retenção fiscal calculada e demonstrada no extrato dela: bruto, retenções, líquido</li>
+        </ul>
+        <div class="g-f">É esta caixa que faz o CFO assinar. Programa de afiliadas que não consegue explicar um pagamento vira passivo, não canal.</div>
+      </div>
+    </div>
+
+    <div class="grid g2 mt2">
+      <div class="card" data-r data-d="1">
+        <div class="k">Por que isso é requisito, e não desejo</div>
+        <h3>Quatro dessas linhas são obrigação legal</h3>
+        <p>Comissão recorrente a pessoa física gera retenção, declaração e obrigação acessória. Dado de CPF e chave bancária em volume é dado pessoal sensível sob a LGPD. <b>Não são itens que se corta para caber no prazo</b> — são itens que, se cortados, transformam o programa num problema jurídico da Dailus, não da Nexify.</p>
+      </div>
+      <div class="card" data-r data-d="2">
+        <div class="k">A decisão que ainda não é nossa</div>
+        <h3>CPF ou CNPJ muda esta página inteira</h3>
+        <p>Aceitar CPF destrava a nano e a micro creator que a concorrência perde ao exigir CNPJ — e é aí que está o volume. Mas traz IRRF, INSS, RPA e DIRF, e muda o extrato dela, que passa a precisar mostrar bruto, retenções e líquido. <b>Isso se desenha antes do build, com o jurídico de vocês na sala.</b></p>
+      </div>
+    </div>
+
+    <div class="disclaimer mt2" data-r>
+      <b>Onde esta página é frágil:</b> a lista de obrigações fiscais acima reflete o desenho usual de pagamento a pessoa física, mas o instrumento exato — RPA, contrato de afiliação, plataforma intermediária — é definição do jurídico e do contábil da Dailus. Escrevemos o que a arquitetura precisa suportar, não o que vocês devem escolher.
+    </div>
+  </div>
+</section>

@@ -1,0 +1,126 @@
+<!-- SLIDE 20 · ARQUITETURA 1/9 · ARQUITETURA DE NEGÓCIO -->
+<section id="arq-negocio" class="arq-slide">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="act-no" data-r>ARQUITETURA · 1 DE 9</div>
+      <h2 class="title" data-r>Antes de ser software, é <em>uma máquina de quatro capacidades.</em></h2>
+      <p class="lead" data-r>Capacidade não é tela. É algo que o negócio precisa saber fazer todo dia, sem depender de quem está de plantão. A plataforma existe para automatizar quatro delas — e cada uma tem dono, métrica e <b>uma decisão da Dailus que precisa vir antes do código</b>.</p>
+    </div>
+
+    <div class="caps mt2">
+      <div class="cap" data-r data-d="1">
+        <div class="cp-n">C1 · aquisição</div>
+        <h3>Transformar creator em afiliada ativa</h3>
+        <p class="cp-q">"Como alguém que viu um story vira afiliada vendendo, sem ninguém no WhatsApp?"</p>
+        <ul>
+          <li><b>Porta pública</b> e candidatura sem login</li>
+          <li><b>Curadoria</b> e aprovação com critério</li>
+          <li>Contrato e <b>aceite versionado</b></li>
+          <li>Onboarding guiado até a primeira venda</li>
+        </ul>
+        <div class="cp-foot">
+          <span>Dono: <b>Babi</b> (marca) + <b>Luh</b> (operação)</span>
+          <span>Métrica: <b>% que faz a 1ª venda em 14 dias</b></span>
+          <span>Decisão antes do código: <b>quem entra e quem não entra</b></span>
+        </div>
+      </div>
+
+      <div class="cap" data-r data-d="2">
+        <div class="cp-n">C2 · operação</div>
+        <h3>Colocar a marca na mão dela</h3>
+        <p class="cp-q">"Como a marca briefa 400 pessoas com a mesma clareza que briefa uma?"</p>
+        <ul>
+          <li>Campanha, <b>briefing e claims aprovados</b></li>
+          <li>Seeding e rastreio de kit</li>
+          <li>Biblioteca de assets liberada por campanha</li>
+          <li>Curadoria de catálogo: o que pode divulgar</li>
+        </ul>
+        <div class="cp-foot">
+          <span>Dono: <b>Luh</b></span>
+          <span>Métrica: <b>campanhas por mês sem aumentar o time</b></span>
+          <span>Decisão antes do código: <b>o que é claim aprovado</b></span>
+        </div>
+      </div>
+
+      <div class="cap key" data-r data-d="3">
+        <div class="cp-n">C3 · dinheiro</div>
+        <h3>Virar venda em pagamento correto</h3>
+        <p class="cp-q">"De quem foi essa venda, quanto ela vale, e quando o dinheiro sai — provado, não estimado."</p>
+        <ul>
+          <li><b>Atribuição</b> da venda a uma pessoa</li>
+          <li><b>Apuração</b> de comissão, booster e piso de margem</li>
+          <li>Ciclo, retenções e estorno</li>
+          <li>Lote de pagamento, PIX e comprovante</li>
+        </ul>
+        <div class="cp-foot">
+          <span>Dono: <b>Diego</b> + financeiro</span>
+          <span>Métrica: <b>zero divergência no fechamento</b></span>
+          <span>Decisão antes do código: <b>empilhamento, estorno e retenções</b></span>
+        </div>
+      </div>
+
+      <div class="cap" data-r data-d="4">
+        <div class="cp-n">C4 · governança</div>
+        <h3>Provar que está certo</h3>
+        <p class="cp-q">"Se o CFO perguntar por que essa pessoa recebeu isso, em quanto tempo se responde?"</p>
+        <ul>
+          <li>Regras <b>versionadas</b>, sem efeito retroativo</li>
+          <li>Antifraude: autocompra, cupom vazado, audiência</li>
+          <li><b>Trilha de auditoria imutável</b></li>
+          <li>LGPD e obrigações fiscais de pessoa física</li>
+        </ul>
+        <div class="cp-foot">
+          <span>Dono: <b>Diego</b> + jurídico</span>
+          <span>Métrica: <b>fechamento auditável sem planilha paralela</b></span>
+          <span>Decisão antes do código: <b>CPF é aceito? com qual instrumento?</b></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="mt2">
+      <div class="eyebrow" data-r style="margin-bottom:14px">Capacidade não é tela — cada uma aparece em vários lugares</div>
+      <div class="mtx" data-r>
+        <div class="mtx-row head">
+          <div>capacidade</div>
+          <div>web pública</div>
+          <div>app da influenciadora</div>
+          <div>painel da marca</div>
+          <div>backend</div>
+        </div>
+        <div class="mtx-row">
+          <div class="mx-c">C1 · aquisição</div>
+          <div class="mtx-cell on" data-s="web">landing, candidatura, status</div>
+          <div class="mtx-cell" data-s="app">onboarding, primeiro cupom</div>
+          <div class="mtx-cell" data-s="painel">fila de aprovação, critérios</div>
+          <div class="mtx-cell" data-s="backend">contrato versionado, níveis</div>
+        </div>
+        <div class="mtx-row">
+          <div class="mx-c">C2 · operação</div>
+          <div class="mtx-cell off" data-s="web">—</div>
+          <div class="mtx-cell on" data-s="app">briefing, assets, kit</div>
+          <div class="mtx-cell on" data-s="painel">campanha, seeding, curadoria</div>
+          <div class="mtx-cell" data-s="backend">mídia, notificação, catálogo</div>
+        </div>
+        <div class="mtx-row">
+          <div class="mx-c">C3 · dinheiro</div>
+          <div class="mtx-cell" data-s="web">vitrine que gera a venda</div>
+          <div class="mtx-cell on" data-s="app">carteira, extrato, saque</div>
+          <div class="mtx-cell on" data-s="painel">regras, fechamento, lote</div>
+          <div class="mtx-cell on" data-s="backend">atribuição, motor, ledger, payout</div>
+        </div>
+        <div class="mtx-row">
+          <div class="mx-c">C4 · governança</div>
+          <div class="mtx-cell" data-s="web">termos e consentimento</div>
+          <div class="mtx-cell" data-s="app">dados fiscais, privacidade</div>
+          <div class="mtx-cell on" data-s="painel">auditoria, alertas de fraude</div>
+          <div class="mtx-cell on" data-s="backend">log imutável, versionamento, LGPD</div>
+        </div>
+      </div>
+      <p class="wnote-src mt" data-r style="margin-top:12px">Leitura da matriz: onde a célula está destacada, <b>é ali que a capacidade se decide</b> — o resto é reflexo. É por isso que o painel admin não é "a versão desktop do app": ele carrega metade das decisões do sistema.</p>
+    </div>
+
+    <div class="callout mt2" data-r>
+      <p class="q">Nenhuma das quatro é opcional. <em>Cortar governança não deixa o projeto mais barato</em> — deixa o primeiro erro de centavo virar crise pública com a comunidade.</p>
+    </div>
+  </div>
+</section>

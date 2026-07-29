@@ -1,0 +1,224 @@
+<!-- SLIDE 23 · ARQUITETURA 4/9 · O DESENHO DA ARQUITETURA -->
+<section id="arq-desenho" class="arq-slide">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="act-no" data-r>ARQUITETURA · 4 DE 9</div>
+      <h2 class="title" data-r>O sistema inteiro <em>em um desenho só.</em></h2>
+      <p class="lead" data-r>Quem entra por onde, o que fala com o quê, e em que direção. As caixas tracejadas são zonas de rede: <b>o que está dentro da nuvem não tem endereço público</b>, e o que está na faixa de baixo não é nosso. A linha vermelha é o caminho do dinheiro.</p>
+    </div>
+
+    <div class="dgm mt2" data-r>
+      <svg viewBox="0 0 1240 660" role="img" aria-label="Diagrama da arquitetura: atores, borda, aplicação, fila, serviços de domínio, dados e sistemas externos.">
+        <defs>
+          <marker id="dg-ah" viewBox="0 0 10 10" refX="9.5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+            <path d="M0 0 10 5 0 10z" fill="#6B5A61"/>
+          </marker>
+          <marker id="dg-ah-hot" viewBox="0 0 10 10" refX="9.5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+            <path d="M0 0 10 5 0 10z" fill="#E4004B"/>
+          </marker>
+          <marker id="dg-ah-soft" viewBox="0 0 10 10" refX="9.5" refY="5" markerWidth="5.5" markerHeight="5.5" orient="auto-start-reverse">
+            <path d="M0 0 10 5 0 10z" fill="#9A8A90"/>
+          </marker>
+        </defs>
+
+        <!-- ============ ATORES (fora de tudo) ============ -->
+        <rect class="dg-box" x="8" y="98" width="112" height="76" rx="12"/>
+        <use href="#lg-globe" x="54" y="110" width="20" height="20" fill="#8A6169"/>
+        <text class="dg-t" x="64" y="150" text-anchor="middle">Consumidora</text>
+        <text class="dg-s" x="64" y="164" text-anchor="middle">navegador</text>
+
+        <rect class="dg-box" x="8" y="190" width="112" height="76" rx="12"/>
+        <use href="#lg-phone" x="54" y="202" width="20" height="20" fill="#8A6169"/>
+        <text class="dg-t" x="64" y="242" text-anchor="middle">Influenciadora</text>
+        <text class="dg-s" x="64" y="256" text-anchor="middle">app Flutter</text>
+
+        <rect class="dg-box" x="8" y="282" width="112" height="76" rx="12"/>
+        <use href="#lg-desktop" x="54" y="294" width="20" height="20" fill="#8A6169"/>
+        <text class="dg-t" x="64" y="334" text-anchor="middle">Time da marca</text>
+        <text class="dg-s" x="64" y="348" text-anchor="middle">painel admin</text>
+
+        <!-- ============ NUVEM ============ -->
+        <rect class="dg-cloud" x="148" y="22" width="1082" height="414" rx="18"/>
+        <text class="dg-ct" x="168" y="48">Nuvem · rede privada · sem endereço público da zona 2 para dentro</text>
+
+        <!-- grupo BORDA -->
+        <rect class="dg-grp" x="168" y="64" width="140" height="218" rx="12"/>
+        <text class="dg-gt" x="178" y="84">Borda</text>
+        <rect class="dg-box" x="180" y="98" width="116" height="76" rx="10"/>
+        <use href="#lg-shield" x="192" y="110" width="18" height="18" fill="#8A6169"/>
+        <text class="dg-t" x="238" y="140" text-anchor="middle">CDN + WAF</text>
+        <text class="dg-s" x="238" y="156" text-anchor="middle">cache da vitrine</text>
+        <rect class="dg-box" x="180" y="190" width="116" height="76" rx="10"/>
+        <text class="dg-t" x="238" y="218" text-anchor="middle">nginx</text>
+        <text class="dg-s" x="238" y="234" text-anchor="middle">encerra o TLS</text>
+        <text class="dg-p" x="238" y="252" text-anchor="middle">:443</text>
+
+        <!-- grupo APLICAÇÃO -->
+        <rect class="dg-grp" x="330" y="64" width="170" height="218" rx="12"/>
+        <text class="dg-gt" x="340" y="84">Aplicação · sem estado</text>
+        <rect class="dg-box" x="342" y="98" width="146" height="76" rx="10"/>
+        <use href="#lg-vue" x="356" y="112" width="17" height="17" fill="#41B883"/>
+        <text class="dg-t" x="381" y="126">web-ssr</text>
+        <text class="dg-s" x="356" y="146">Vue 3 no servidor</text>
+        <text class="dg-p" x="356" y="163">Node · escuta :3000</text>
+        <rect class="dg-box" x="342" y="190" width="146" height="76" rx="10"/>
+        <use href="#lg-node" x="356" y="204" width="17" height="17" fill="#5FA04E"/>
+        <text class="dg-t" x="381" y="218">api</text>
+        <text class="dg-s" x="356" y="238">Express · JWT · RBAC</text>
+        <text class="dg-p" x="356" y="255">Node · escuta :3001</text>
+
+        <!-- HUB de filas -->
+        <circle class="dg-box acc" cx="596" cy="182" r="38"/>
+        <use href="#lg-redis" x="586" y="164" width="20" height="20" fill="#E4004B"/>
+        <text class="dg-t hot" x="596" y="200" text-anchor="middle">filas</text>
+        <text class="dg-s" x="596" y="240" text-anchor="middle">BullMQ sobre Redis</text>
+        <text class="dg-s" x="596" y="254" text-anchor="middle">entrega ao menos 1×</text>
+
+        <!-- grupo DOMÍNIO -->
+        <rect class="dg-grp" x="692" y="64" width="272" height="346" rx="12"/>
+        <text class="dg-gt" x="702" y="84">Serviços de domínio · workers</text>
+        <rect class="dg-box ink" x="704" y="98" width="248" height="70" rx="10"/>
+        <text class="dg-t on" x="720" y="126">motor de comissão</text>
+        <text class="dg-s on" x="720" y="146">regra versionada · piso de margem</text>
+        <rect class="dg-box ink" x="704" y="176" width="248" height="70" rx="10"/>
+        <text class="dg-t on" x="720" y="204">fechamento e pagamento</text>
+        <text class="dg-s on" x="720" y="224">ciclo · retenções · lote · comprovante</text>
+        <rect class="dg-box acc" x="704" y="254" width="248" height="70" rx="10"/>
+        <text class="dg-t hot" x="720" y="282">atribuição</text>
+        <text class="dg-s" x="720" y="302">de quem foi a venda: link · cupom · janela</text>
+        <rect class="dg-box acc" x="704" y="332" width="248" height="70" rx="10"/>
+        <text class="dg-t hot" x="720" y="360">antifraude</text>
+        <text class="dg-s" x="720" y="380">autocompra · cupom vazado · audiência</text>
+
+        <!-- grupo DADOS -->
+        <rect class="dg-grp" x="986" y="64" width="220" height="346" rx="12"/>
+        <text class="dg-gt" x="996" y="84">Dados · zona isolada</text>
+        <rect class="dg-box" x="998" y="98" width="196" height="88" rx="10"/>
+        <use href="#lg-postgres" x="1012" y="112" width="20" height="20" fill="#336791"/>
+        <text class="dg-t" x="1040" y="128">PostgreSQL</text>
+        <text class="dg-s" x="1012" y="150">livro-razão · regras · cadastro</text>
+        <text class="dg-p" x="1012" y="170">:5432 · TLS · réplica</text>
+        <rect class="dg-box" x="998" y="202" width="196" height="88" rx="10"/>
+        <use href="#lg-redis" x="1012" y="216" width="20" height="20" fill="#FF4438"/>
+        <text class="dg-t" x="1040" y="232">Redis</text>
+        <text class="dg-s" x="1012" y="254">filas · cache · trava do agendador</text>
+        <text class="dg-p" x="1012" y="274">:6379 · TLS + senha</text>
+        <rect class="dg-box" x="998" y="306" width="196" height="88" rx="10"/>
+        <use href="#lg-bucket" x="1012" y="320" width="20" height="20" fill="#8A6169"/>
+        <text class="dg-t" x="1040" y="336">Armazenamento</text>
+        <text class="dg-s" x="1012" y="358">assets, vídeo e imagem</text>
+        <text class="dg-p" x="1012" y="378">URL assinada e temporária</text>
+
+        <!-- ============ EXTERNOS ============ -->
+        <rect class="dg-grp out" x="148" y="470" width="1082" height="170" rx="18"/>
+        <text class="dg-gt" x="168" y="496">Fora do nosso perímetro · saída por NAT com IP fixo</text>
+
+        <rect class="dg-box ext" x="170" y="510" width="196" height="92" rx="10"/>
+        <use href="#lg-shopify" x="186" y="526" width="20" height="20" fill="#95BF47"/>
+        <text class="dg-t" x="214" y="542">Shopify</text>
+        <text class="dg-s" x="186" y="564">catálogo · pedidos · cupons · envio</text>
+        <text class="dg-p" x="186" y="584">webhook entra · API sai</text>
+
+        <rect class="dg-box ext" x="382" y="510" width="196" height="92" rx="10"/>
+        <use href="#lg-pix" x="398" y="526" width="20" height="20" fill="#32BCAD"/>
+        <text class="dg-t" x="426" y="542">Pix</text>
+        <text class="dg-s" x="398" y="564">remessa em lote e comprovante</text>
+        <text class="dg-p" x="398" y="584">:443 + mTLS · IP fixo exigido</text>
+
+        <rect class="dg-box ext" x="594" y="510" width="196" height="92" rx="10"/>
+        <use href="#lg-firebase" x="610" y="526" width="20" height="20" fill="#FFA000"/>
+        <text class="dg-t" x="638" y="542">FCM</text>
+        <text class="dg-s" x="610" y="564">push no Android</text>
+        <text class="dg-p" x="610" y="584">:443</text>
+
+        <rect class="dg-box ext" x="806" y="510" width="196" height="92" rx="10"/>
+        <use href="#lg-apple" x="822" y="526" width="20" height="20" fill="#111111"/>
+        <text class="dg-t" x="850" y="542">APNs</text>
+        <text class="dg-s" x="822" y="564">push no iOS</text>
+        <text class="dg-p" x="822" y="584">:443</text>
+
+        <rect class="dg-box ext" x="1018" y="510" width="196" height="92" rx="10"/>
+        <use href="#lg-whatsapp" x="1034" y="526" width="20" height="20" fill="#25D366"/>
+        <text class="dg-t" x="1062" y="542">WhatsApp</text>
+        <text class="dg-s" x="1034" y="564">convite e aviso de campanha</text>
+        <text class="dg-p" x="1034" y="584">:443 · modelo aprovado</text>
+
+        <!-- ============ LIGAÇÕES ============ -->
+        <!-- atores → borda -->
+        <path class="dg-line" d="M120 136H176" marker-end="url(#dg-ah)"/>
+        <path class="dg-line" d="M120 228H176" marker-end="url(#dg-ah)"/>
+        <path class="dg-line" d="M120 320H150V240H176" marker-end="url(#dg-ah)"/>
+        <text class="dg-el" x="130" y="128">:443</text>
+
+        <!-- CDN → nginx -->
+        <path class="dg-line" d="M238 174V186" marker-end="url(#dg-ah)"/>
+
+        <!-- borda → aplicação -->
+        <path class="dg-line" d="M296 228H314V136H338" marker-end="url(#dg-ah)"/>
+        <path class="dg-line" d="M296 228H338" marker-end="url(#dg-ah)"/>
+        <text class="dg-el" x="302" y="220">:3000 · :3001</text>
+
+        <!-- api → filas -->
+        <path class="dg-line hot" d="M488 228H524V182H554" marker-end="url(#dg-ah-hot)"/>
+        <text class="dg-el hot" x="497" y="176">publica</text>
+
+        <!-- filas → domínio -->
+        <path class="dg-line hot" d="M634 182H666V133H700" marker-end="url(#dg-ah-hot)"/>
+        <path class="dg-line hot" d="M634 182H666V211H700" marker-end="url(#dg-ah-hot)"/>
+        <path class="dg-line hot" d="M634 182H666V289H700" marker-end="url(#dg-ah-hot)"/>
+        <path class="dg-line hot" d="M634 182H666V367H700" marker-end="url(#dg-ah-hot)"/>
+        <text class="dg-el hot" x="640" y="174">consome</text>
+
+        <!-- domínio → dados -->
+        <path class="dg-line" d="M952 133H972"/>
+        <path class="dg-line" d="M952 211H972"/>
+        <path class="dg-line" d="M952 289H972"/>
+        <path class="dg-line" d="M952 367H972"/>
+        <path class="dg-line" d="M972 133V367"/>
+        <path class="dg-line" d="M972 142H994" marker-end="url(#dg-ah)"/>
+        <path class="dg-line" d="M972 246H994" marker-end="url(#dg-ah)"/>
+        <path class="dg-line" d="M972 350H994" marker-end="url(#dg-ah)"/>
+
+        <!-- api lê o banco direto (extrato, carteira) -->
+        <path class="dg-line soft" d="M415 266V424H1218V142H1198" marker-end="url(#dg-ah-soft)"/>
+        <text class="dg-el" x="430" y="418">leitura direta: extrato e carteira</text>
+
+        <!-- domínio → barramento de saída -->
+        <path class="dg-line" d="M828 410V450"/>
+        <path class="dg-line" d="M268 450H1116"/>
+        <path class="dg-line" d="M276 450V506" marker-end="url(#dg-ah)"/>
+        <path class="dg-line hot" d="M260 506V450" marker-end="url(#dg-ah-hot)"/>
+        <path class="dg-line hot" d="M480 450V506" marker-end="url(#dg-ah-hot)"/>
+        <path class="dg-line" d="M692 450V506" marker-end="url(#dg-ah)"/>
+        <path class="dg-line" d="M904 450V506" marker-end="url(#dg-ah)"/>
+        <path class="dg-line" d="M1116 450V506" marker-end="url(#dg-ah)"/>
+        <text class="dg-el hot" x="250" y="458" text-anchor="end">webhook de pedido entra por aqui</text>
+      </svg>
+
+      <div class="dgm-key">
+        <span><i class="hot"></i> caminho do dinheiro: pedido, atribuição, apuração, pagamento</span>
+        <span><i></i> tráfego comum</span>
+        <span><i class="soft"></i> leitura direta, sem passar pela fila</span>
+        <span><i class="sq"></i> zona de rede — regra de firewall na fronteira</span>
+      </div>
+    </div>
+
+    <div class="grid g3 mt2">
+      <div class="card" data-r data-d="1">
+        <div class="k">A leitura em uma frase</div>
+        <h3>Tudo entra por um lugar só</h3>
+        <p>Há <b>um único endereço público</b>: o CDN. Nenhum processo de aplicação, nenhum banco e nenhuma fila tem rota de fora. Quem quiser atacar o cálculo de comissão precisa primeiro atravessar borda, aplicação e fila — três fronteiras com regra própria.</p>
+      </div>
+      <div class="card" data-r data-d="2">
+        <div class="k">Por que a fila fica no meio do desenho</div>
+        <h3>O motor nunca é chamado por uma tela</h3>
+        <p>Repare que <b>não existe seta direta da API para o motor de comissão</b>. Toda apuração passa pela fila. É o que permite reprocessar um mês inteiro, segurar um lançamento suspeito e sobreviver a um pico de live sem perder venda.</p>
+      </div>
+      <div class="card" data-r data-d="3">
+        <div class="k">O que este desenho ainda não decide</div>
+        <h3>A caixa da atribuição pode dobrar</h3>
+        <p>Se o app de afiliado do Shopify não tiver API e webhooks utilizáveis, a caixa <b>atribuição</b> deixa de ser um adaptador e vira motor próprio — mais código, mais estado no banco e mais risco de correção financeira. <b>É a premissa P4</b>, e ela muda este desenho.</p>
+      </div>
+    </div>
+  </div>
+</section>

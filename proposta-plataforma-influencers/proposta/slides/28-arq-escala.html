@@ -1,0 +1,77 @@
+<!-- SLIDE 28 · ARQUITETURA 9/9 · ESCALA E OPERAÇÃO -->
+<section id="arq-escala" class="arq-slide">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="act-no" data-r>ARQUITETURA · 9 DE 9</div>
+      <h2 class="title" data-r>O sistema precisa aguentar <em>o dia em que der certo.</em></h2>
+      <p class="lead" data-r>O TikTok da Dailus tem picos acima de 250 mil visualizações. O pior momento para a vitrine sair do ar é exatamente o melhor momento comercial do mês. Estes seis requisitos existem por causa disso — e a rotina de operação que os sustenta é o que separa <b>plataforma</b> de <b>projeto entregue</b>.</p>
+    </div>
+
+    <div class="scal mt2">
+      <div class="sc peak" data-r data-d="1">
+        <div class="sc-t">Exigência 1 · pico</div>
+        <h4>Vitrine e atribuição não podem cair na hora da live</h4>
+        <p>Página montada no servidor com <b>cache por afiliada</b> e entregue por CDN. O registro do clique é gravado em fila e nunca bloqueia a navegação da consumidora.</p>
+        <div class="sc-w">Degradação graciosa: <b>se o motor estiver lento, a venda acontece do mesmo jeito</b> e a comissão apura depois. O que nunca pode faltar é o registro de quem trouxe.</div>
+      </div>
+
+      <div class="sc" data-r data-d="2">
+        <div class="sc-t">Exigência 2 · confiabilidade</div>
+        <h4>Tudo que é dinheiro roda em fila e pode ser refeito</h4>
+        <p>Sincronização de catálogo, apuração, fechamento e reconciliação passam por filas com repescagem, espera progressiva e uma fila de casos que falharam.</p>
+        <div class="sc-w">Um webhook perdido não vira <b>comissão perdida</b>: vira item numa fila que alguém vê e reprocessa.</div>
+      </div>
+
+      <div class="sc" data-r data-d="3">
+        <div class="sc-t">Exigência 3 · conferência</div>
+        <h4>Reconciliação diária, não mensal</h4>
+        <p>Todo dia o sistema compara os pedidos da loja com os lançamentos apurados do nosso lado, item a item.</p>
+        <div class="sc-w">Divergência vira <b>alerta no mesmo dia</b> — em vez de descoberta na véspera do pagamento, que é quando ela custa caro.</div>
+      </div>
+
+      <div class="sc" data-r data-d="4">
+        <div class="sc-t">Exigência 4 · operação</div>
+        <h4>Alerta que fala de negócio, não de servidor</h4>
+        <p>O sistema avisa quando a atribuição cai fora da faixa esperada, quando a apuração atrasa e quando a fila cresce sem parar.</p>
+        <div class="sc-w">Métrica técnica ninguém lê. <b>"A atribuição caiu 30% hoje"</b> alguém lê — e age antes de virar reclamação de creator.</div>
+      </div>
+
+      <div class="sc" data-r data-d="5">
+        <div class="sc-t">Exigência 5 · realidade dela</div>
+        <h4>O app precisa funcionar mal conectado</h4>
+        <p>Extrato e briefing legíveis sem rede; ações ficam na fila e sobem quando o sinal volta.</p>
+        <div class="sc-w">Creator grava conteúdo em estúdio, elevador e rua. <b>App que só funciona com wi-fi bom é app que ela não abre.</b></div>
+      </div>
+
+      <div class="sc" data-r data-d="6">
+        <div class="sc-t">Exigência 6 · desempenho</div>
+        <h4>Vitrine abaixo de 2 segundos em 4G</h4>
+        <p>Meta de desempenho tratada como requisito e medida em produção, não como ajuste depois do lançamento.</p>
+        <div class="sc-w">A cauda longa de nano creator — que é onde está o volume — usa <b>aparelho intermediário e rede irregular</b>. É para esse aparelho que se otimiza.</div>
+      </div>
+    </div>
+
+    <div class="grid g2 mt2">
+      <div class="card" data-r data-d="1">
+        <div class="k">O que sustenta tudo depois do lançamento</div>
+        <h3>Entregar não é acabar</h3>
+        <ul class="cardlist">
+          <li><b>Manual de operação</b> — o que fazer quando o Shopify muda a API, quando o lote falha no meio, quando um cupom vaza</li>
+          <li><b>Plantão no primeiro fechamento</b> — o mês 1 é onde toda regra mal especificada aparece</li>
+          <li><b>Massa de teste com dinheiro fictício</b> — testar apuração em produção é como se testa uma vez só</li>
+          <li><b>Três ambientes</b> e publicação nas duas lojas de app, com o tempo de revisão da Apple no cronograma</li>
+        </ul>
+      </div>
+      <div class="card" data-r data-d="2">
+        <div class="k">Como isso cresce sem virar outro projeto</div>
+        <h3>Multi-marca desde o desenho</h3>
+        <p>Dailus, Sweet Skin e Fortilon entram como marcas separadas na mesma plataforma: <b>dados isolados, regras de comissão próprias, identidade visual própria</b> — sem duplicar código nem operação.</p>
+        <p>Decidir isso na arquitetura custa pouco agora. Decidir depois, com uma base de afiliadas já em produção, é migração — e migração de dado financeiro é a categoria mais cara que existe.</p>
+      </div>
+    </div>
+
+    <div class="callout mt2" data-r>
+      <p class="q">Nove slides de arquitetura e nenhum deles é uma tela. <em>É por isso que o próximo bloco corta o projeto em ondas</em> — e por isso que o orçamento não pode ser dimensionado pelo que se vê.</p>
+    </div>
+  </div>
+</section>

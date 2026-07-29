@@ -29,28 +29,119 @@
     '17-jornada-5-vitrine',
     '18-jornada-6-mes-do-admin',
     '19-para-cada-um',
-    '20-ondas',
-    '21-custo-real',
-    '22-premissas',
-    '23-visao-consumidor',
-    '24-wire-consumidora',
-    '25-cta',
-    '26-footer'
+    '20-arq-negocio',
+    '21-arq-componentes',
+    '22-arq-pilha',
+    '23-arq-desenho',
+    '24-arq-deploy',
+    '25-arq-fluxo',
+    '26-arq-dados',
+    '27-arq-seguranca',
+    '28-arq-escala',
+    '29-ondas',
+    '30-custo-real',
+    '31-premissas',
+    '32-mapa',
+    '33-visao-consumidor',
+    '34-wire-consumidora',
+    '35-cta',
+    '36-footer'
   ];
+
+  /* ---------------------------------------------------------------
+     TRILHA PRINCIPAL x APROFUNDAMENTOS
+     No modo apresentação as setas percorrem só a trilha principal.
+     Os slides abaixo saem da linha reta e viram ramos, alcançáveis
+     pelo slide-mapa (32) ou pelas miniaturas. Dentro de um ramo a
+     seta anda de tela em tela e, no fim, volta para o mapa.
+     Rolando a página ou no PDF nada é pulado — a ordem é a natural.
+     Para mover um slide entre trilha e ramo: só editar este objeto.
+     --------------------------------------------------------------- */
+  var HUB = '32-mapa';
+  var DEEP = {
+    '04-wire-web-landing'   : 'telas',
+    '06-wire-mobile-carteira': 'telas',
+    '07-wire-mobile-campanha': 'telas',
+    '08-wire-mobile-vitrine' : 'telas',
+    '10-wire-admin-regras'   : 'telas',
+    '14-jornada-2-semana'    : 'jornadas',
+    '15-jornada-3-campanha'  : 'jornadas',
+    '17-jornada-5-vitrine'   : 'jornadas',
+    '18-jornada-6-mes-do-admin': 'jornadas',
+    '21-arq-componentes'     : 'arquitetura',
+    '22-arq-pilha'           : 'arquitetura',
+    '24-arq-deploy'          : 'arquitetura',
+    '26-arq-dados'           : 'arquitetura',
+    '27-arq-seguranca'       : 'arquitetura',
+    '28-arq-escala'          : 'arquitetura',
+    '33-visao-consumidor'    : 'segundo projeto',
+    '34-wire-consumidora'    : 'segundo projeto'
+  };
 
   var deck = document.getElementById('deck');
   var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion:reduce)').matches;
+  var SLIDE_EL = {};   /* nome do arquivo → elemento do slide */
+
+  /* O live-server injeta seu script de auto-reload antes de CADA </svg> do
+     arquivo servido (é o suporte dele a arquivos .svg). Nos slides que têm
+     diagrama ou ícone em SVG isso cai no meio do markup e destrói o resto
+     do fragmento. Só acontece em desenvolvimento — no Pages e no build do
+     PDF (python -m http.server) não existe injeção. Removemos aqui.
+     Nenhum slide contém <script> legítimo, então tirar todo bloco de script
+     é seguro e cobre qualquer variação do injetor. */
+  function clean(html){
+    return html
+      .replace(/<script\b[\s\S]*?<\/script\s*>/gi, '')
+      .replace(/<!--\s*Code injected by live-server\s*-->/gi, '');
+  }
 
   function loadSlides(){
     return Promise.all(SLIDES.map(function(name){
       return fetch('slides/' + name + '.html', {cache:'no-cache'})
         .then(function(r){ if(!r.ok) throw new Error(r.status+' '+name); return r.text(); })
-        .then(function(html){ return {name:name, html:html}; })
+        .then(function(html){ return {name:name, html:clean(html)}; })
         .catch(function(err){
           return {name:name, html:'<div class="slide-error">Falha ao carregar slide <b>'+name+'</b> ('+err.message+'). Sirva a pasta via HTTP: <span class="mono">npm run plataforma</span></div>'};
         });
     })).then(function(parts){
-      deck.innerHTML = parts.map(function(p){ return p.html; }).join('\n');
+      /* Cada slide é parseado ISOLADO, não concatenado numa string única.
+         Motivo: o live-server injeta seu script de auto-reload dentro do
+         primeiro <svg> de cada fragmento; num innerHTML concatenado esse
+         script entra em conteúdo estrangeiro (SVG) e engole o slide
+         seguinte inteiro. Isolando o parse, um fragmento nunca contamina
+         o outro — e de quebra o deck fica imune a qualquer tag mal fechada
+         em um slide. Os <script> injetados pelo servidor são removidos. */
+      deck.innerHTML = '';
+      parts.forEach(function(p){
+        var tpl = document.createElement('template');
+        tpl.innerHTML = p.html;
+        Array.prototype.forEach.call(tpl.content.querySelectorAll('script'), function(s){
+          s.parentNode.removeChild(s);
+        });
+        /* guarda o elemento do slide antes de mover o fragmento */
+        SLIDE_EL[p.name] = tpl.content.firstElementChild || null;
+        deck.appendChild(tpl.content);
+      });
+      decorateDeep();
+    });
+  }
+
+  /* Marca cada slide de ramo com a etiqueta e o atalho de volta ao mapa.
+     Feito em código para não repetir o mesmo bloco em dezessete arquivos —
+     mover um slide entre trilha e ramo continua sendo uma linha no DEEP. */
+  function decorateDeep(){
+    var hubEl = SLIDE_EL[HUB];
+    var hubId = hubEl ? hubEl.id : '';
+    Object.keys(DEEP).forEach(function(name){
+      var el = SLIDE_EL[name];
+      if(!el) return;
+      var host = el.querySelector('.section-head') || el.querySelector('.wrap');
+      if(!host) return;
+      var bar = document.createElement('div');
+      bar.className = 'deepbar';
+      bar.innerHTML = '<span class="dp-tag">aprofundamento · ' + DEEP[name] + '</span>' +
+        (hubId ? '<a class="dp-back" href="#' + hubId + '">voltar ao mapa</a>' : '');
+      host.insertBefore(bar, host.firstChild);
     });
   }
 
@@ -178,6 +269,22 @@
     if(!slides.length) return;
     var total = slides.length, idx = 0, active = false;
 
+    /* ---- índices da trilha principal e dos ramos ---- */
+    var groupOfIdx = {};      /* índice → nome do ramo */
+    var groupIdx = {};        /* nome do ramo → [índices, em ordem] */
+    var flow = [];            /* índices da trilha principal */
+    var hubIdx = -1;
+    Object.keys(DEEP).forEach(function(name){
+      var el = SLIDE_EL[name]; if(!el) return;
+      var i = slides.indexOf(el); if(i < 0) return;
+      groupOfIdx[i] = DEEP[name];
+      (groupIdx[DEEP[name]] = groupIdx[DEEP[name]] || []).push(i);
+    });
+    Object.keys(groupIdx).forEach(function(g){ groupIdx[g].sort(function(a,b){return a-b;}); });
+    if(SLIDE_EL[HUB]) hubIdx = slides.indexOf(SLIDE_EL[HUB]);
+    slides.forEach(function(el,i){ if(!(i in groupOfIdx)) flow.push(i); });
+    function isDeep(i){ return (i in groupOfIdx); }
+
     function labelFor(el){
       var a=el.querySelector('.act-no'); if(a) return a.textContent.trim();
       if(el.tagName==='HEADER') return 'Capa';
@@ -195,6 +302,7 @@
       '<button data-act="next" title="Próximo (→ / espaço)">›</button>'+
       '<button data-act="last" title="Fim (End)">⏭</button>'+
       '<span class="sep"></span>'+
+      '<button data-act="hub" class="tohub" title="Voltar ao mapa (H)" hidden>↩ mapa</button>'+
       '<button data-act="nav" title="Navegador de slides (M)">▤</button>'+
       '<button data-act="full" title="Tela cheia (F)">⛶</button>'+
       '<button data-act="exit" title="Sair (Esc)">✕</button>';
@@ -321,19 +429,51 @@
     function update(){
       /* usa a largura útil (--slide-w) para caber o painel de miniaturas quando aberto */
       deck.style.transform='translateX(calc(var(--slide-w) * '+(-idx)+'))';
-      countEl.textContent=(idx+1);
-      progI.style.width=(total>1?(idx/(total-1)*100):100)+'%';
+      /* O contador fala da trilha, não do arquivo: na trilha principal mostra
+         a posição entre os slides da trilha; dentro de um ramo, a posição no
+         ramo. Quem apresenta precisa saber quanto falta do caminho que está
+         percorrendo — não quantos arquivos existem na pasta. */
+      var g = groupOfIdx[idx];
+      if(g){
+        var arr = groupIdx[g];
+        countEl.textContent = '↳ ' + (arr.indexOf(idx)+1);
+        bar.querySelector('.count').lastChild.nodeValue = ' / ' + arr.length + ' · ' + g;
+        if(hubIdx >= 0 && flow.length > 1) progI.style.width=(flow.indexOf(hubIdx)/(flow.length-1)*100)+'%';
+      } else {
+        var f = flow.indexOf(idx);
+        countEl.textContent = (f+1);
+        bar.querySelector('.count').lastChild.nodeValue = ' / ' + flow.length;
+        progI.style.width=(flow.length>1?(f/(flow.length-1)*100):100)+'%';
+      }
       tag.textContent=labelFor(slides[idx]);
+      document.body.classList.toggle('in-deep', !!g);
       bar.querySelector('[data-act=prev]').disabled=(idx===0);
       bar.querySelector('[data-act=first]').disabled=(idx===0);
       bar.querySelector('[data-act=next]').disabled=(idx===total-1);
       bar.querySelector('[data-act=last]').disabled=(idx===total-1);
+      /* atalho de volta ao mapa, visível só dentro de um ramo */
+      bar.querySelector('[data-act=hub]').hidden = !g || hubIdx < 0;
       slides[idx].scrollTop=0;
       updateNavActive();
     }
     function go(n){ idx=Math.max(0,Math.min(total-1,n)); update(); }
-    function next(){ go(idx+1); }
-    function prev(){ go(idx-1); }
+
+    /* Navegação com trilha: na trilha principal as setas pulam os ramos.
+       Dentro de um ramo elas andam pelo ramo e, ao esgotá-lo, voltam ao mapa. */
+    function step(dir){
+      var g = groupOfIdx[idx];
+      if(g){
+        var arr = groupIdx[g], pos = arr.indexOf(idx) + dir;
+        if(pos >= 0 && pos < arr.length) return go(arr[pos]);
+        return go(hubIdx >= 0 ? hubIdx : idx);   /* fim do ramo → mapa */
+      }
+      var n = idx + dir;
+      while(n > 0 && n < total-1 && isDeep(n)) n += dir;
+      if(isDeep(n)) return;                       /* nada de trilha nessa direção */
+      go(n);
+    }
+    function next(){ step(1); }
+    function prev(){ step(-1); }
 
     function currentScrollSlide(){
       var mid=window.innerHeight/2, best=0, bd=1e9;
@@ -376,6 +516,7 @@
         case 'Escape': e.preventDefault(); if(document.body.classList.contains('shownav')) closeNav(); else exit(); break;
         case 'f': case 'F': e.preventDefault(); toggleFull(); break;
         case 'm': case 'M': e.preventDefault(); toggleNav(); break;
+        case 'h': case 'H': if(hubIdx>=0){ e.preventDefault(); go(hubIdx); } break;
       }
     }
 
@@ -386,6 +527,23 @@
       else if(a==='first') go(0); else if(a==='last') go(total-1);
       else if(a==='full') toggleFull(); else if(a==='exit') exit();
       else if(a==='nav') toggleNav();
+      else if(a==='hub' && hubIdx>=0) go(hubIdx);
+    });
+
+    /* Links internos viram salto de slide quando a apresentação está ativa —
+       é o que faz os botões do mapa e o "voltar ao mapa" funcionarem sem sair
+       do modo apresentação. Fora dele, o navegador rola a página normalmente. */
+    deck.addEventListener('click', function(e){
+      if(!active) return;
+      var a = e.target.closest && e.target.closest('a[href^="#"]');
+      if(!a) return;
+      var t = document.getElementById(a.getAttribute('href').slice(1));
+      if(!t) return;
+      var i = slides.indexOf(t);
+      if(i < 0) i = slides.indexOf(t.closest('section, header, footer'));
+      if(i < 0) return;
+      e.preventDefault();
+      go(i);
     });
     panel.addEventListener('click', function(e){
       if(e.target.closest('[data-act=nav]')) closeNav();

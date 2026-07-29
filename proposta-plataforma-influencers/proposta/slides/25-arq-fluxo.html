@@ -1,0 +1,168 @@
+<!-- SLIDE 25 · ARQUITETURA 6/9 · FLUXO DE COMUNICAÇÃO -->
+<section id="arq-fluxo" class="arq-slide">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="act-no" data-r>ARQUITETURA · 6 DE 9</div>
+      <h2 class="title" data-r>Uma venda de R$ 89: <em>catorze passos, dois deles são tela.</em></h2>
+      <p class="lead" data-r>Este é o caminho completo de <b>um único pedido</b>, do toque no link até o PIX na conta dela. É o slide que responde "por que isso não é um app de telas". A coluna da direita marca o que é imediato, o que roda em fila e o que precisa ser reversível <b>sem apagar histórico</b>.</p>
+    </div>
+
+    <div class="seq mt2" data-r>
+      <div class="seq-row head">
+        <div>#</div><div>quem age</div><div>o que acontece</div><div>componente</div><div>natureza</div>
+      </div>
+
+      <div class="seq-row ui">
+        <div class="sq-n">1</div>
+        <div class="sq-w">A consumidora</div>
+        <div class="sq-t">Toca no link da vitrine <b>/@babi</b> no story
+          <small>Página montada no servidor, com a seleção da influenciadora e o cupom já visível.</small></div>
+        <div class="sq-c">vitrine · CDN</div>
+        <div class="sq-k">tela · menos de 2 s</div>
+      </div>
+
+      <div class="seq-row">
+        <div class="sq-n">2</div>
+        <div class="sq-w">O sistema</div>
+        <div class="sq-t">Carimba a atribuição antes de qualquer compra existir
+          <small>Identificador da afiliada gravado no próprio domínio, mais o parâmetro no link. É o que sobrevive quando o cupom não é usado.</small></div>
+        <div class="sq-c">atribuição</div>
+        <div class="sq-k">imediato</div>
+      </div>
+
+      <div class="seq-row out">
+        <div class="sq-n">3</div>
+        <div class="sq-w">A consumidora</div>
+        <div class="sq-t">Vai para a loja com o carrinho montado e o cupom aplicado
+          <small>Link profundo para o Shopify, usando um código provisionado pelo nosso lado.</small></div>
+        <div class="sq-c">link profundo</div>
+        <div class="sq-k">fora do perímetro</div>
+      </div>
+
+      <div class="seq-row out">
+        <div class="sq-n">4</div>
+        <div class="sq-w">Shopify</div>
+        <div class="sq-t">Checkout, pagamento e antifraude de cartão
+          <small>Não tocamos em dado de cartão. É deliberado: checkout próprio traria PCI, tributário e conciliação.</small></div>
+        <div class="sq-c">loja</div>
+        <div class="sq-k">fora do perímetro</div>
+      </div>
+
+      <div class="seq-row">
+        <div class="sq-n">5</div>
+        <div class="sq-w">Shopify → nós</div>
+        <div class="sq-t">A loja avisa que existe um pedido novo
+          <small>Webhook de pedido criado. Pode chegar duas vezes, pode chegar fora de ordem, pode não chegar.</small></div>
+        <div class="sq-c">conector Shopify</div>
+        <div class="sq-k">webhook · com repescagem</div>
+      </div>
+
+      <div class="seq-row">
+        <div class="sq-n">6</div>
+        <div class="sq-w">O sistema</div>
+        <div class="sq-t">Enfileira o pedido descartando duplicatas
+          <small>Chave de deduplicação pelo identificador do pedido. Recebido duas vezes, apurado uma só.</small></div>
+        <div class="sq-c">filas</div>
+        <div class="sq-k">fila · à prova de repetição</div>
+      </div>
+
+      <div class="seq-row">
+        <div class="sq-n">7</div>
+        <div class="sq-w">O sistema</div>
+        <div class="sq-t">Normaliza pedido, itens e a margem de cada SKU
+          <small>Sem margem por item não existe piso de margem — e sem piso, o desconto come a comissão em silêncio.</small></div>
+        <div class="sq-c">conector Shopify</div>
+        <div class="sq-k">fila</div>
+      </div>
+
+      <div class="seq-row money">
+        <div class="sq-n">8</div>
+        <div class="sq-w">O sistema</div>
+        <div class="sq-t">Decide de quem é a venda
+          <small>Ordem de precedência: link rastreado primeiro, cupom depois, janela de atribuição por último. Quando duas afiliadas têm direito, a regra precisa estar escrita antes — não decidida no suporte.</small></div>
+        <div class="sq-c">atribuição</div>
+        <div class="sq-k">fila · regra de negócio</div>
+      </div>
+
+      <div class="seq-row money">
+        <div class="sq-n">9</div>
+        <div class="sq-w">O sistema</div>
+        <div class="sq-t">Avalia risco antes de reconhecer a comissão
+          <small>Mesmo CPF, telefone ou endereço da afiliada; cupom aparecendo em site agregador; volume incompatível com a audiência.</small></div>
+        <div class="sq-c">antifraude</div>
+        <div class="sq-k">fila · pode segurar</div>
+      </div>
+
+      <div class="seq-row money">
+        <div class="sq-n">10</div>
+        <div class="sq-w">O sistema</div>
+        <div class="sq-t"><b>Apura a comissão</b>
+          <small>Regra na versão vigente naquela data, booster da campanha, piso de margem e a regra de empilhamento de cupom. Gravado uma única vez por pedido, afiliada, regra e versão — reprocessar não duplica valor.</small></div>
+        <div class="sq-c">motor de comissão</div>
+        <div class="sq-k">fila · valor único e refazível</div>
+      </div>
+
+      <div class="seq-row money">
+        <div class="sq-n">11</div>
+        <div class="sq-w">O sistema</div>
+        <div class="sq-t">Registra o lançamento pendente e o evento na trilha
+          <small>O livro-razão só recebe linha nova. Nada é sobrescrito, nem por correção — correção vira contra-lançamento.</small></div>
+        <div class="sq-c">livro-razão · auditoria</div>
+        <div class="sq-k">só acrescenta</div>
+      </div>
+
+      <div class="seq-row ui">
+        <div class="sq-n">12</div>
+        <div class="sq-w">A influenciadora</div>
+        <div class="sq-t">Recebe o push: "você vendeu R$ 89"
+          <small>Menos de um minuto depois da compra. É o único passo dos catorze que ela percebe — e é o que sustenta o hábito de voltar no app.</small></div>
+        <div class="sq-c">notificação</div>
+        <div class="sq-k">tela · menos de 60 s</div>
+      </div>
+
+      <div class="seq-row">
+        <div class="sq-n">13</div>
+        <div class="sq-w">O sistema</div>
+        <div class="sq-t">Janela de estorno: devolução vira contra-lançamento
+          <small>Se a consumidora devolve, a comissão é revertida com data e motivo — o extrato dela mostra o estorno em vez de um saldo que encolheu sozinho.</small></div>
+        <div class="sq-c">motor de comissão</div>
+        <div class="sq-k">reversível e rastreável</div>
+      </div>
+
+      <div class="seq-row money">
+        <div class="sq-n">14</div>
+        <div class="sq-w">Fechamento</div>
+        <div class="sq-t">Ciclo fecha, retenções calculadas, lote aprovado em duas mãos, PIX executado
+          <small>Pendente vira disponível, IRRF e INSS aplicados quando for o caso, o lote exige dois aprovadores, e o comprovante volta para a carteira dela.</small></div>
+        <div class="sq-c">fechamento · pagamento</div>
+        <div class="sq-k">agendado + aprovação humana</div>
+      </div>
+    </div>
+
+    <div class="grid g3 mt2">
+      <div class="card" data-r data-d="1">
+        <div class="k">A proporção que interessa</div>
+        <h3>2 passos de tela, 12 de motor</h3>
+        <p>O toque na vitrine e o push são a parte que aparece. Os outros doze acontecem sem ninguém olhando — e são exatamente os que não podem errar, porque erro ali é <b>dinheiro de outra pessoa</b>.</p>
+      </div>
+      <div class="card" data-r data-d="2">
+        <div class="k">Três invariantes, não três funcionalidades</div>
+        <h3>O que o desenho promete</h3>
+        <ul class="cardlist">
+          <li><b>Repetir não duplica</b> — o mesmo pedido reprocessado dá o mesmo valor</li>
+          <li><b>Nada é sobrescrito</b> — corrigir é lançar contra, não editar</li>
+          <li><b>Regra tem versão</b> — mudar o % hoje não mexe no que já foi apurado</li>
+        </ul>
+      </div>
+      <div class="card" data-r data-d="3">
+        <div class="k">O que quebra sem isso</div>
+        <h3>Um centavo errado, 400 vezes</h3>
+        <p>Um webhook duplicado sem deduplicação paga a comissão duas vezes. Uma regra alterada sem versão muda retroativamente o que a creator já viu na tela. <b>Os dois casos viram print no grupo do WhatsApp antes de virarem ticket.</b></p>
+      </div>
+    </div>
+
+    <div class="callout mt2" data-r>
+      <p class="q">O que a influenciadora sente é uma notificação. <em>O que sustenta essa notificação são doze passos que ninguém vê</em> — e é neles que mora o projeto.</p>
+    </div>
+  </div>
+</section>
