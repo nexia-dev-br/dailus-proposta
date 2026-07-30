@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow, noarchive">
+<title>NEXIFY × DAILUS · Laboratório de Dados — formação aplicada com ativos que ficam</title>
+<meta name="description" content="Programa individual e aplicado de formação em Análise de Dados, Ciência de Dados e IA para a profissional do time de dados da Dailus — construindo dashboards, modelos e ativos durante a formação. Proposta Nexify.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<!-- Fonte da marca Dailus: o tema do site usa Poppins. -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="wire.css">
+<link rel="stylesheet" href="lab.css">
+</head>
+<body>
+<!--
+  NEXIFY × DAILUS — Laboratório de Dados · apresentação modular.
+  Mesmo motor do ../../proposta-plataforma-influencers/proposta/ (loader + modo apresentação).
+  Um slide por arquivo em ./slides/ · ordem definida em app.js → SLIDES.
+  Estilos: styles.css (sistema do deck) + wire.css (kit de blocos) + lab.css (blocos deste deck).
+  Requer servir via HTTP (o loader usa fetch): `npm run lab`.
+-->
+
+<div class="progress" id="prog"></div>
+
+<nav class="nav on-dark" id="nav">
+  <a href="#top" class="brand"><span>NEXIFY</span><span class="x">✕</span><span class="d">DAILUS</span><span class="dot">.</span></a>
+  <button class="nav-toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="navMenu">
+    <span class="nt-label">Menu</span>
+    <span class="nt-bars"><i></i><i></i><i></i></span>
+  </button>
+  <div class="navlinks" id="navMenu" role="dialog" aria-label="Menu de navegação" aria-modal="true">
+    <a href="#tese">Os 3 caminhos</a>
+    <a href="#objetivos">Os 3 objetivos</a>
+    <a href="#ativos">O que fica</a>
+    <a href="#faseamento" class="nav-cta">A escada 🪜</a>
+    <a href="#fase-0">Fase 0 · diagnóstico</a>
+    <a href="#piloto">Fase 1 · piloto</a>
+    <a href="#trilha">A trilha completa</a>
+    <a href="#dinheiro">O investimento</a>
+    <a href="#comparativo">O comparativo</a>
+    <a href="#retorno">O retorno</a>
+    <a href="#medidores">Os 3 medidores</a>
+    <a href="#riscos">Os riscos</a>
+    <a href="#certificacao">Certificação</a>
+    <a href="#perguntas" class="nav-cta">As perguntas ❓</a>
+    <a href="#mapa" class="nav-cta">O mapa 🧭</a>
+    <a href="#ativos-fundacao">↳ Fundação de dados</a>
+    <a href="#ativos-clientes">↳ Clientes e CRM</a>
+    <a href="#ativos-ia">↳ Marketing e IA</a>
+    <a href="#fase-2">↳ Fase 2 · Análise</a>
+    <a href="#fase-3">↳ Fase 3 · Ciência de Dados</a>
+    <a href="#fase-4">↳ Fase 4 · Transferência</a>
+    <a href="#perg-objetivo">↳ Perguntas 1–12</a>
+    <a href="#perg-dados">↳ Perguntas 13–26</a>
+    <a href="#perg-entregas">↳ Perguntas 27–38</a>
+    <a href="#perg-investimento">↳ Perguntas 39–50</a>
+    <a href="#cta">Próximo passo</a>
+  </div>
+</nav>
+
+<main id="deck"><div class="deck-loading">carregando apresentação…</div></main>
+
+<button id="presentBtn" class="present-fab" title="Modo apresentação">▶ Apresentar <span class="kbd">P</span></button>
+
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,202 @@
+/* =====================================================================
+   LAB.CSS · blocos exclusivos do deck do Laboratório de Dados Dailus
+   Carregado DEPOIS de styles.css e wire.css (herda variáveis e tipografia).
+
+   Este deck reaproveita quase tudo do kit já existente — .waves, .caps,
+   .rank, .prems, .lenses, .cad, .jtbl, .ptable, .stats, .hub, .mtx.
+   Aqui mora só o que não tinha equivalente: a escada de exposição
+   financeira, os ajustes na tabela de preço (linha vencedora e total),
+   o banco das 50 perguntas e a etiqueta de recomendação nos caminhos.
+   ===================================================================== */
+
+/* ============ CAMINHOS (as três opções da Dailus) ============ */
+/* Reusa .waves/.wave. Só acrescenta o rodapé de preço e a etiqueta de
+   recomendação — o resto do visual (destaque escuro na .w1) já existe. */
+
+.wave{ position:relative; }
+.wave .wv-price{
+  margin-top:auto; padding-top:12px; border-top:1px solid var(--line);
+  display:flex; flex-direction:column; gap:3px;
+}
+.wave .wv-price b{
+  font-family:'Poppins',sans-serif; font-weight:700; font-size:17px;
+  color:var(--cherry); letter-spacing:-.01em; line-height:1.1;
+}
+.wave .wv-price span{ font-size:11px; color:var(--dim); line-height:1.4; }
+.wave.w1 .wv-price{ border-color:rgba(255,255,255,.16); }
+.wave.w1 .wv-price b{ color:var(--coral); }
+.wave.w1 .wv-price span{ color:rgba(255,255,255,.62); }
+
+/* etiqueta "recomendado" no canto do caminho escolhido */
+.wave .wv-flag{
+  position:absolute; top:-9px; right:16px;
+  font-size:9px; font-weight:800; letter-spacing:.12em; text-transform:uppercase;
+  color:#fff; background:var(--grad); padding:4px 11px; border-radius:99px;
+  box-shadow:0 8px 20px -10px rgba(228,0,75,.8);
+}
+
+/* ============ ESCADA DE EXPOSIÇÃO (o slide de faseamento) ============ */
+/* Cinco degraus horizontais. Cada um mostra o valor ACUMULADO — porque a
+   pergunta do CFO nunca é "quanto custa a fase", é "quanto eu já gastei se
+   isso der errado aqui". Os degraus com gate têm a moldura de decisão. */
+
+.gates{ display:grid; grid-template-columns:repeat(5,1fr); gap:11px; align-items:stretch; }
+@media (max-width:1000px){ .gates{ grid-template-columns:repeat(2,1fr); } }
+@media (max-width:560px){ .gates{ grid-template-columns:1fr; } }
+
+.gt{
+  position:relative; border:1px solid var(--line); border-radius:15px; padding:18px 16px 16px;
+  background:#fff; display:flex; flex-direction:column; gap:7px;
+  box-shadow:0 22px 54px -46px rgba(138,21,56,.45);
+}
+.gt .gt-n{ font-size:9.5px; font-weight:800; letter-spacing:.13em; text-transform:uppercase; color:var(--muted); }
+.gt h4{ font-size:14.5px; font-weight:700; margin:0; color:var(--text); line-height:1.25; letter-spacing:-.01em; }
+.gt .gt-h{ font-size:11px; color:var(--dim); }
+.gt .gt-v{
+  margin-top:6px; font-family:'Poppins',sans-serif; font-weight:600;
+  font-size:clamp(21px,2.3vw,27px); line-height:1; letter-spacing:-.02em; color:var(--cherry);
+}
+.gt .gt-vl{ font-size:10px; color:var(--muted); margin-top:4px; letter-spacing:.02em; }
+.gt .gt-gate{
+  margin-top:auto; padding-top:11px; border-top:1px dashed var(--line2);
+  font-size:11px; line-height:1.4; color:var(--dim);
+}
+.gt .gt-gate b{ display:block; font-size:9.5px; font-weight:800; letter-spacing:.1em;
+                text-transform:uppercase; color:var(--wine); margin-bottom:3px; }
+
+/* o degrau onde a decisão de hoje mora */
+.gt.now{ background:#241318; border-color:transparent; box-shadow:0 34px 74px -44px rgba(228,0,75,.7); }
+.gt.now .gt-n{ color:var(--coral); }
+.gt.now h4{ color:#fff; }
+.gt.now .gt-h{ color:rgba(255,255,255,.66); }
+.gt.now .gt-v{ color:#fff; }
+.gt.now .gt-vl{ color:rgba(255,255,255,.55); }
+.gt.now .gt-gate{ border-color:rgba(255,255,255,.2); color:rgba(255,255,255,.72); }
+.gt.now .gt-gate b{ color:var(--coral); }
+/* os degraus posteriores são hipótese, não pedido — ficam recuados de tom */
+.gt.later{ background:#FAF7F8; box-shadow:none; }
+.gt.later .gt-v{ color:var(--dim); }
+
+/* seta entre degraus (só no desktop, onde a fileira é uma linha só) */
+.gates .gt + .gt::before{
+  content:"›"; position:absolute; left:-9px; top:50%; transform:translateY(-50%);
+  font-size:18px; line-height:1; color:var(--line2); font-weight:700;
+}
+@media (max-width:1000px){ .gates .gt + .gt::before{ display:none; } }
+
+/* ============ TABELA FINANCEIRA ============ */
+/* .ptable já existe em styles.css. Faltavam a linha de total, a linha
+   vencedora do comparativo e o alinhamento numérico. */
+
+.ptable td.r,.ptable th.r{ text-align:right; }
+.ptable td.n{ font-family:'Poppins',sans-serif; color:var(--text); font-weight:600; white-space:nowrap; }
+.ptable tr.tot td{ background:var(--blush); font-weight:800; color:var(--text); border-top:2px solid var(--line2); }
+.ptable tr.tot td:last-child{ color:var(--cherry); }
+.ptable tr.sub td{ font-size:12.5px; color:var(--dim); background:#FCFAFB; }
+.ptable tr.sub td:last-child{ color:var(--dim); font-weight:600; }
+
+/* a linha da nossa proposta no comparativo de alternativas */
+.ptable tr.win td{ background:#FFF0F3; font-weight:700; color:var(--wine); }
+.ptable tr.win td:first-child{ box-shadow:inset 3px 0 0 var(--wf-accent); }
+.ptable tr.win td:last-child{ color:var(--cherry); }
+.ptable .pt-note{ display:block; font-size:11px; font-weight:400; color:var(--dim); margin-top:3px; }
+
+/* Layout fixo nas tabelas largas. Sem isso a tabela financeira (5 colunas, com
+   `white-space:nowrap` herdado do styles.css na última coluna) fica mais larga
+   que o .wrap de 1140px e as duas últimas colunas somem — no navegador dá
+   scroll horizontal, no PDF são cortadas de vez. Com table-layout:fixed a
+   tabela não pode transbordar, então no desktop o wrapper não precisa rolar. */
+.ptable.fin{ table-layout:fixed; }
+.ptable.fin th:first-child,.ptable.fin td:first-child{ width:31%; }
+.ptable.fin th:not(:first-child),.ptable.fin td:not(:first-child){ width:17.25%; }
+.ptable.fin td:last-child,.ptable.fin td.n{ white-space:normal; }
+
+.ptable.cmp{ table-layout:fixed; }
+.ptable.cmp th:nth-child(1),.ptable.cmp td:nth-child(1){ width:23%; }
+.ptable.cmp th:nth-child(2),.ptable.cmp td:nth-child(2){ width:26%; }
+.ptable.cmp th:nth-child(3),.ptable.cmp td:nth-child(3){ width:26%; }
+.ptable.cmp th:nth-child(4),.ptable.cmp td:nth-child(4){ width:25%; }
+.ptable.cmp td:last-child{ white-space:normal; }
+
+/* rola só quando a tela é estreita demais para as colunas caberem */
+.ptable-wrap{ overflow-x:visible; }
+@media (max-width:900px){
+  .ptable-wrap{ overflow-x:auto; -webkit-overflow-scrolling:touch; }
+  .ptable-wrap .ptable{ min-width:660px; }
+}
+
+/* ============ BANCO DAS 50 PERGUNTAS (ramo de aprofundamento) ============ */
+/* Duas colunas de grupos temáticos. Perguntas numeradas continuando a
+   contagem do documento original — o número é a referência que a Dailus
+   vai usar para responder por escrito. */
+
+.qbank{ display:grid; grid-template-columns:1fr 1fr; gap:14px; align-items:start; }
+@media (max-width:860px){ .qbank{ grid-template-columns:1fr; } }
+
+.qgrp{ border:1px solid var(--line); border-radius:15px; background:#fff; padding:18px 20px 16px; }
+.qgrp .qg-t{ display:flex; align-items:baseline; gap:9px; margin-bottom:4px; }
+.qgrp .qg-t b{ font-size:14.5px; font-weight:700; color:var(--text); letter-spacing:-.01em; }
+.qgrp .qg-t span{ font-size:9.5px; font-weight:800; letter-spacing:.1em; text-transform:uppercase;
+                  color:var(--muted); background:var(--wf-skel); border-radius:99px; padding:3px 8px; }
+.qgrp .qg-w{ font-size:11.5px; line-height:1.45; color:var(--muted); margin:0 0 11px; }
+.qgrp .qg-w b{ color:var(--text); }
+.qgrp ol{ margin:0; padding:0; list-style:none; display:flex; flex-direction:column; gap:7px; }
+.qgrp ol li{
+  display:grid; grid-template-columns:26px minmax(0,1fr); gap:9px;
+  font-size:12.5px; line-height:1.45; color:var(--dim);
+}
+.qgrp ol li b{ color:var(--text); font-weight:600; }
+.qgrp ol li::before{
+  content:attr(data-q); font-family:'Poppins',sans-serif; font-size:10.5px; font-weight:800;
+  color:var(--wf-ink2); background:var(--wf-skel); border-radius:6px;
+  display:grid; place-items:center; height:19px; margin-top:1px;
+}
+/* pergunta que trava a proposta definitiva */
+.qgrp ol li.blk::before{ background:var(--wf-accent); color:#fff; }
+.qgrp ol li.blk{ color:var(--text); }
+
+/* ============ LENTES DESTE DECK ============ */
+/* .lens vem do wire.css com três variantes de cor nomeadas pelas pessoas do
+   outro projeto (luh/diego/babi). Aqui os avaliadores são outros, então
+   ganham nomes próprios em vez de reaproveitar classe com nome errado. */
+
+.lens.part  .lav{ background:#FCE4E6; color:#8A1538; }   /* a participante */
+.lens.areas .lav{ background:#E4F1EA; color:#14654A; }   /* as áreas de negócio */
+.lens.cfo   .lav{ background:#E6ECF8; color:#1B3E7A; }   /* Diego · P&L */
+
+/* ============ MATRIZ DE COMPETÊNCIAS ============ */
+/* .mtx (matriz do outro deck) é 5 colunas fixas. Aqui são 4 fases + o
+   nome da competência, e as células dizem "quando isso é atacado". */
+
+.mtx.mx4 .mtx-row{ grid-template-columns:minmax(0,1.15fr) repeat(4,minmax(0,1fr)); }
+@media (max-width:900px){
+  .mtx.mx4 .mtx-row{ grid-template-columns:minmax(0,1fr); }
+  .mtx.mx4 .mtx-row.head{ display:none; }
+  .mtx.mx4 .mx-c{ font-weight:800; }
+}
+
+/* ============ UTILITÁRIOS DESTE DECK ============ */
+
+/* nota de fonte/ressalva sob um bloco pesado */
+.srcnote{ font-size:11.5px; line-height:1.55; color:var(--muted); margin-top:12px; }
+.srcnote b{ color:var(--text); }
+
+/* par de números grandes lado a lado (usa .bench, mas com rótulo em cima).
+   Dois nomes de classe do .bcard colidem com blocos do wire.css: .cap (bloco de
+   capacidades) e .who (chip de pessoa, que injeta um ponto via ::before e vira
+   pílula em caixa alta). Como wire.css carrega depois de styles.css, as
+   propriedades que styles.css não declara vazam de lá. Aqui os dois voltam a
+   ser o que o sistema do deck espera, escopados dentro de .bcard. */
+.bcard .cap{ display:block; font-size:10px; font-weight:800; letter-spacing:.13em;
+             text-transform:uppercase; color:var(--muted); margin-bottom:8px;
+             border:0; padding:0; background:none; }
+.bcard .who{ display:block; font-size:15px; letter-spacing:0; text-transform:none;
+             padding:0; border-radius:0; background:none; color:var(--text); white-space:normal; }
+.bcard .who::before{ content:none; display:none; }
+
+/* lista de checagem enxuta dentro de card */
+.chk{ list-style:none; margin:10px 0 0; padding:0; display:flex; flex-direction:column; gap:7px; }
+.chk li{ position:relative; padding-left:20px; font-size:13px; line-height:1.45; color:var(--dim); }
+.chk li::before{ content:"✓"; position:absolute; left:0; top:0; font-size:11px; font-weight:800; color:var(--cherry); }
+.chk li b{ color:var(--text); }
+.sec-dark .chk li{ color:#C9A9AF; } .sec-dark .chk li b{ color:var(--cream); }
