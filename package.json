@@ -1,0 +1,10 @@
+{
+  "name": "daillus-proposta",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node --env-file=.env server.js",
+    "stop": "lsof -ti tcp:${PORT:-3107} -sTCP:LISTEN | xargs kill 2>/dev/null || true",
+    "dev": "node --env-file=.env --watch server.js"
+  }
+}
